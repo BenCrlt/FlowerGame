@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Source\\FlowerGame\\FlowerGame.Build.cs",
+		"D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Source\\FlowerGame.Target.cs",
+		"D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Source\\FlowerGameEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.2"
+}
