@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FlowerGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{287066BB-3E9A-4965-A806-9B397701D0AB}</UniqueIdentifier>
+      <UniqueIdentifier>{53CBA358-0631-4AD4-A2AF-95A46D1F41A5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FlowerGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{47373AED-CD83-46F9-9740-CA1812A086FB}</UniqueIdentifier>
+      <UniqueIdentifier>{6C4365DE-CADB-45AD-8B70-0C42FFBA26B3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FlowerGame">
-      <UniqueIdentifier>{531DE15D-1A13-4786-854E-CB0F09933288}</UniqueIdentifier>
+      <UniqueIdentifier>{513FEC2D-73A4-4136-9FA6-7A2E1FADC1CF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FlowerGame\FlowerGame.Build.cs">
       <Filter>Source\FlowerGame</Filter>
@@ -41,5 +41,39 @@
     <ClInclude Include="..\..\Source\FlowerGame\FlowerGameGameModeBase.h">
       <Filter>Source\FlowerGame</Filter>
     </ClInclude>
+    <Filter Include="Source\FlowerGame\Private">
+      <UniqueIdentifier>{F0921F71-2193-4EC8-B4CD-BD9609392416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FlowerGame\Private\Model">
+      <UniqueIdentifier>{2EE78308-3F56-4182-AF5D-FFA5B8A6807E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FlowerGame\Private\Model\Cases">
+      <UniqueIdentifier>{A1232067-4BF6-4BA5-A22E-476ACE037024}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Cases\CaseDefault.cpp">
+      <Filter>Source\FlowerGame\Private\Model\Cases</Filter>
+    </ClCompile>
+    <Filter Include="Source\FlowerGame\Public">
+      <UniqueIdentifier>{69774C66-7965-45C9-900A-71EB581B2BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FlowerGame\Public\Model">
+      <UniqueIdentifier>{F46E5F8A-945E-4491-BC81-DA4013CFE668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FlowerGame\Public\Model\Cases">
+      <UniqueIdentifier>{490E79A9-5E2C-433D-A0C8-8BF3A55C8078}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Cases\CaseDefault.h">
+      <Filter>Source\FlowerGame\Public\Model\Cases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Cases\CaseMagasin.h">
+      <Filter>Source\FlowerGame\Public\Model\Cases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Cases\CaseMagasin.cpp">
+      <Filter>Source\FlowerGame\Private\Model\Cases</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
