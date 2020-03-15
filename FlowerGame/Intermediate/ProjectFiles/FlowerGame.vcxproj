@@ -365,7 +365,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Cases\CaseMagasin.cpp" />
+    <ClCompile Include="..\..\Source\FlowerGame\Private\Pawn\MainViewPawn.cpp" />
     <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Cases\CaseMagasin.h" />
+    <ClInclude Include="..\..\Source\FlowerGame\Public\Pawn\MainViewPawn.h" />
     <None Include="..\..\FlowerGame.uproject" />
     <None Include="..\..\Source\FlowerGame.Target.cs" />
     <None Include="..\..\Source\FlowerGameEditor.Target.cs" />

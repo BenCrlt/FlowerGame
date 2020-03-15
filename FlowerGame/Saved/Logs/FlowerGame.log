@@ -760,3 +760,417 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.15-14.33.41:996][871]LogEditorActor: Deleted Actor: CaseMagasin
 [2020.03.15-14.33.42:040][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
 [2020.03.15-14.33.42:040][871]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2020.03.15-14.35.01:169][540]MapCheck: New page: Map Check
+[2020.03.15-14.35.01:582][540]Cmd: MAP REBUILD ALLVISIBLE
+[2020.03.15-14.35.01:586][540]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.03.15-14.35.01:826][540]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=false
+[2020.03.15-14.35.02:008][540]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.03.15-14.35.02:136][540]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.15-14.35.02:605][540]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.03.15-14.35.12:248][540]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.03.15-14.35.12:248][540]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.03.15-14.35.12:248][540]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.03.15-14.35.12:248][540]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.03.15-14.35.12:248][540]TextureStreamingBuild: Display: Compiling optional shaders took 10.177 seconds.
+[2020.03.15-14.35.12:606][540]LogLevel: Display: Export Material TexCoord Scales took 0.357 seconds.
+[2020.03.15-14.35.12:726][540]TextureStreamingBuild: Display: Build Texture Streaming took 0.120 seconds.
+[2020.03.15-14.35.12:765][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.03.15-14.35.13:468][540]LightingResults: New page: Lighting Build - 15 mars 2020 à 16:35:13
+[2020.03.15-14.35.13:931][540]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.03.15-14.35.14:646][540]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.03.15-14.35.14:671][540]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.03.15-14.35.16:203][540]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.03.15-14.35.16:203][540]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8480
+[2020.03.15-14.35.19:401][540]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.03.15-14.35.19:461][540]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.03.15-14.35.19:461][540]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.03.15-14.35.19:461][540]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.03.15-14.35.19:461][540]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.03.15-14.35.19:461][540]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.03.15-14.35.20:363][540]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.03.15-14.35.20:363][540]MapCheck: New page: MainMap - 15 mars 2020 à 16:35:20
+[2020.03.15-14.35.20:442][540]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2020.03.15-14.35.20:855][540]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 491,623ms to complete.
+[2020.03.15-14.35.20:863][540]LogEditorBuildUtils: Build time 0:19
+[2020.03.15-14.35.21:543][540]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.03.15-14.35.21:602][540]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.03.15-14.35.21:602][540]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2020.03.15-14.35.21:603][540]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2020.03.15-14.35.22:161][540]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.03.15-14.35.22:297][541]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_PolygonWestern_01_A, compiling. 
+[2020.03.15-14.35.22:351][541]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.03.15-14.35.22:351][541]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Mat_PolygonWestern_01_A, compiling. 
+[2020.03.15-14.35.22:460][542]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.03.15-14.35.22:509][542]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2020.03.15-14.35.24:769][544]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.03.15-14.35.24:769][544]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.03.15-14.35.24:769][544]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2020.03.15-14.35.24:769][544]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.03.15-14.35.25:652][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.03.15-14.35.28:617][592]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-14.35.28:621][592]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-14.35.30:277][675]Job is a success!
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.118s
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:      Bricks at depth
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:          0: 1.0% covering 100.0% of volume
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:          1: 8.9% covering 14.1% of volume
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:          2: 90.1% covering 2.2% of volume
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:      Bricks in each level
+[2020.03.15-14.35.30:665][676]LogVolumetricLightmapImport:          MainMap 			 101 bricks 	 100.0% (Persistent Level)
+[2020.03.15-14.35.31:143][676]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2020.03.15-14.35.31:143][676]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2020.03.15-14.35.31:143][676]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.03.15-14.35.31:143][676]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.03.15-14.35.31:202][676]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64)
+[2020.03.15-14.35.31:203][676]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2020.03.15-14.35.31:203][676]Lightmass on DESKTOP-KKCI3RH: 2.67 sec total, 253 ms importing, 37 ms setup, 217 ms photons, 2.01 sec processing, 0 ms extra exporting [2/2 mappings]. Threads: 8.01 sec total, 368 ms processing.
+[2020.03.15-14.35.31:203][676]LogStaticLightingSystem: MainMap_BuiltData storing lightmap data for 2 meshes in 2 LightmapResourceClusters (1.0 Meshes per cluster).
+[2020.03.15-14.35.31:265][676]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.03.15-14.35.31:318][676]LogStaticLightingSystem: Illumination: 17.8 sec (212 ms encoding lightmaps, 9 ms encoding shadowmaps)
+[2020.03.15-14.35.31:319][676]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.03.15-14.35.31:319][676]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.03.15-14.35.32:391][676]DumpUnbuiltLightIteractions
+[2020.03.15-14.35.32:391][676]Lights with unbuilt interactions: 0
+[2020.03.15-14.35.32:391][676]
+[2020.03.15-14.35.32:391][676]Primitives with unbuilt interactions: 0
+[2020.03.15-14.35.32:497][677]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.03.15-14.35.32:498][677]MapCheck: New page: MainMap - 15 mars 2020 à 16:35:32
+[2020.03.15-14.35.32:498][677]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,351ms to complete.
+[2020.03.15-14.35.32:761][692]LogEditorViewport: Clicking Background
+[2020.03.15-14.37.42:771][697]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.03.15-14.37.42:771][697]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.03.15-14.37.42:886][697]LogSlate: Took 0.034142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.15-14.37.45:598][821]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.03.15-14.39.16:879][131]Candidate modules for hot reload:
+[2020.03.15-14.39.16:879][131]  FlowerGame
+[2020.03.15-14.39.16:879][131]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,8903 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-14.46.52:623][131]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 16:46:52
+[2020.03.15-14.46.52:657][131]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-14.46.52:657][131]CompilerResultsLog: Invalidating makefile for FlowerGameEditor (directory added)
+[2020.03.15-14.46.52:657][131]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-14.46.52:657][131]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-14.46.52:657][131]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 106,1441775 seconds
+[2020.03.15-14.46.52:657][131]CompilerResultsLog: Building FlowerGameEditor...
+[2020.03.15-14.46.52:657][131]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.15-14.46.52:657][131]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.03.15-14.46.52:658][131]CompilerResultsLog:   [1/6] MainViewPawn.cpp
+[2020.03.15-14.46.52:658][131]CompilerResultsLog:   D:\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Private\Pawn\MainViewPawn.cpp(4): fatal error C1083: Impossible d'ouvrir le fichier include?: 'MainViewPawn.h'?: No such file or directory
+[2020.03.15-14.46.52:658][131]CompilerResultsLog:   [2/6] FlowerGame.init.gen.cpp
+[2020.03.15-14.46.52:658][131]CompilerResultsLog:   [3/6] MainViewPawn.gen.cpp
+[2020.03.15-14.46.52:687][131]LogMainFrame: MainFrame: Module compiling took 456.105 seconds
+[2020.03.15-14.46.52:767][131]Warning: HotReload failed, recompile failed
+[2020.03.15-14.46.52:952][131]Warning: RebindPackages failed because compilation failed.
+[2020.03.15-14.50.27:891][131]LogSlate: Window 'Message' being destroyed
+[2020.03.15-14.50.28:039][131]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.03.15-14.50.28:455][131]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.15-14.50.28:455][131]LogSlate: Took 0.086761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.03.15-14.50.28:983][148]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.03.15-14.50.30:635][246]LogSlate: Window 'Output Log' being destroyed
+[2020.03.15-14.50.30:640][246]LogSlate: Window 'Output Log' being destroyed
+[2020.03.15-14.50.57:116][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.03.15-14.50.57:547][730]LogSavePackage: Moving '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/MainMap_Auto15128C8864916B0DE4D2511B6B895E26F.tmp' to '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/Autosaves/Game/MobileStarterContent/Maps/MainMap_Auto1.umap'
+[2020.03.15-14.50.57:624][730]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/MainMap' took 0.541
+[2020.03.15-14.50.57:624][730]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.541
+[2020.03.15-14.55.02:283][459]LogTemp: Resetting audio stream to device id 
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: Is Default: Yes
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: Channel Order:
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.15-14.55.02:309][459]LogAudioMixer: Display: 1: FrontRight
+[2020.03.15-16.29.10:401][477]LogTemp: Resetting audio stream to device id 
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: Is Default: Yes
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: Channel Order:
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.15-16.29.13:962][477]LogAudioMixer: Display: 1: FrontRight
+[2020.03.15-16.29.15:308][478]LogTemp: Resetting audio stream to device id 
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: Is Default: Yes
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: Channel Order:
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.15-16.29.16:138][478]LogAudioMixer: Display: 1: FrontRight
+[2020.03.15-16.29.18:026][479]LogTemp: Resetting audio stream to device id 
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: Is Default: Yes
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: Channel Order:
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.15-16.29.18:077][479]LogAudioMixer: Display: 1: FrontRight
+[2020.03.15-16.29.20:973][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.03.15-16.29.20:976][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/MainMap' took 0.034
+[2020.03.15-16.39.21:489][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.03.15-16.39.21:490][340]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/MainMap' took 0.059
+[2020.03.15-16.40.55:375][679]Candidate modules for hot reload:
+[2020.03.15-16.40.55:375][679]  FlowerGame
+[2020.03.15-16.40.55:375][679]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,7915 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-16.40.55:558][679]Warning: Starting HotReload took  0.3s.
+[2020.03.15-16.41.58:217][420]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 18:41:58
+[2020.03.15-16.41.58:217][420]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-16.41.58:217][420]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-16.41.58:217][420]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-16.41.58:217][420]CompilerResultsLog: Error: D:/Documents/GitHub/FlowerGame/FlowerGame/Source/FlowerGame/Public/Pawn/MainViewPawn.h(33)  : LogCompile: Error: Unknown variable specifier 'BlueprinReadOnly'
+[2020.03.15-16.41.58:217][420]CompilerResultsLog: Error: D:/Documents/GitHub/FlowerGame/FlowerGame/Source/FlowerGame/Public/Pawn/MainViewPawn.h(37)  : Error: Unexpected end of Global scope in 'Class' block
+[2020.03.15-16.41.58:217][420]LogMainFrame: MainFrame: Module compiling took 62.851 seconds
+[2020.03.15-16.41.58:217][420]Warning: HotReload failed, recompile failed
+[2020.03.15-16.44.50:329][531]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-16.44.50:335][531]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-16.44.51:089][574]Candidate modules for hot reload:
+[2020.03.15-16.44.51:089][574]  FlowerGame
+[2020.03.15-16.44.51:090][574]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,22 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-16.44.51:129][574]Warning: Starting HotReload took  0.1s.
+[2020.03.15-16.45.03:980][310]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 18:45:03
+[2020.03.15-16.45.03:980][310]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-16.45.03:980][310]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-16.45.03:980][310]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-16.45.03:980][310]CompilerResultsLog: Error: D:/Documents/GitHub/FlowerGame/FlowerGame/Source/FlowerGame/Public/Pawn/MainViewPawn.h(37)  : Error: Unexpected end of Global scope in 'Class' block
+[2020.03.15-16.45.03:980][310]LogMainFrame: MainFrame: Module compiling took 12.900 seconds
+[2020.03.15-16.45.03:981][310]Warning: HotReload failed, recompile failed
+[2020.03.15-16.45.30:537][893]LogVSAccessor: Warning: Couldn't goto line number '37' in 'D:/Documents/GitHub/FlowerGame/FlowerGame/Source/FlowerGame/Public/Pawn/MainViewPawn.h'
+[2020.03.15-16.45.54:308][ 69]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-16.45.54:317][ 69]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-16.45.55:084][106]Candidate modules for hot reload:
+[2020.03.15-16.45.55:084][106]  FlowerGame
+[2020.03.15-16.45.55:084][106]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,4497 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-16.45.55:095][106]Warning: Starting HotReload took  0.1s.
+[2020.03.15-16.49.15:536][413]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 18:49:15
+[2020.03.15-16.49.15:536][413]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-16.49.15:536][413]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-16.49.15:536][413]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-16.49.15:536][413]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 13,1569057 seconds
+[2020.03.15-16.49.15:536][413]CompilerResultsLog: Building FlowerGameEditor...
+[2020.03.15-16.49.15:536][413]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.15-16.49.15:536][413]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.03.15-16.49.15:536][413]CompilerResultsLog:   [1/6] FlowerGame.init.gen.cpp
+[2020.03.15-16.49.15:536][413]CompilerResultsLog:   [2/6] MainViewPawn.cpp
+[2020.03.15-16.49.15:536][413]CompilerResultsLog:   [3/6] MainViewPawn.gen.cpp
+[2020.03.15-16.49.15:536][413]CompilerResultsLog:   [4/6] UE4Editor-FlowerGame-4497.lib
+[2020.03.15-16.49.15:536][413]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4497.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4497.exp
+[2020.03.15-16.49.15:536][413]CompilerResultsLog:   [5/6] UE4Editor-FlowerGame-4497.dll
+[2020.03.15-16.49.15:537][413]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4497.suppressed.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4497.suppressed.exp
+[2020.03.15-16.49.15:537][413]CompilerResultsLog:   [6/6] FlowerGameEditor.target
+[2020.03.15-16.49.15:537][413]CompilerResultsLog: Total time in Parallel executor: 184,44 seconds
+[2020.03.15-16.49.15:537][413]CompilerResultsLog: Total execution time: 199,97 seconds
+[2020.03.15-16.49.15:537][413]LogMainFrame: MainFrame: Module compiling took 200.503 seconds
+[2020.03.15-16.49.15:569][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.03.15-16.49.15:798][413]LogClass: Could not find existing class MainViewPawn in package /Script/FlowerGame for HotReload, assuming new class
+[2020.03.15-16.49.15:921][413]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0633 seconds. Added 4 classes and 6 folders.
+[2020.03.15-16.49.15:924][413]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.15-16.49.18:027][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.03.15-16.49.18:307][413]LogContentBrowser: Native class hierarchy populated in 0.0882 seconds. Added 3021 classes and 726 folders.
+[2020.03.15-16.49.18:370][413]Display: HotReload took 203.3s.
+[2020.03.15-16.49.22:135][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.03.15-16.49.22:135][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/MainMap' took 0.026
+[2020.03.15-16.58.17:899][149]Candidate modules for hot reload:
+[2020.03.15-16.58.17:899][149]  FlowerGame
+[2020.03.15-16.58.17:899][149]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,3731 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-16.58.18:102][149]Warning: Starting HotReload took  0.3s.
+[2020.03.15-16.59.21:202][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.03.15-16.59.21:297][863]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/MainMap' took 0.126
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 19:01:08
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 26,115498 seconds
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog: Building FlowerGameEditor...
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog:   [1/5] MainViewPawn.cpp
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog:    D:\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Private\Pawn\MainViewPawn.cpp(21) : error C3867: 'ConstructorHelpers::FObjectFinder<UStaticMesh>::Succeeded'?: syntaxe non-standard?; utilisez '&' pour cr?er un pointeur vers un membre
+[2020.03.15-17.01.08:719][ 43]CompilerResultsLog:   [2/5] MainViewPawn.gen.cpp
+[2020.03.15-17.01.08:720][ 43]LogMainFrame: MainFrame: Module compiling took 170.833 seconds
+[2020.03.15-17.01.08:720][ 43]Warning: HotReload failed, recompile failed
+[2020.03.15-17.01.44:399][152]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-17.01.44:406][152]LogSlate: Window 'Message Log' being destroyed
+[2020.03.15-17.01.53:284][219]LogTemp: Resetting audio stream to device id 
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: Is Default: Yes
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: Channel Order:
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.15-17.01.53:311][219]LogAudioMixer: Display: 1: FrontRight
+[2020.03.15-17.02.09:005][240]LogTemp: Resetting audio stream to device id 
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: Is Default: Yes
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: Channel Order:
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.15-17.02.09:032][240]LogAudioMixer: Display: 1: FrontRight
+[2020.03.15-17.03.28:645][529]Candidate modules for hot reload:
+[2020.03.15-17.03.28:645][529]  FlowerGame
+[2020.03.15-17.03.28:645][529]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,4415 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-17.03.28:732][529]Warning: Starting HotReload took  0.1s.
+[2020.03.15-17.03.48:825][632]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 19:03:48
+[2020.03.15-17.03.48:825][632]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-17.03.48:825][632]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-17.03.48:825][632]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-17.03.48:825][632]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 8,8511621 seconds
+[2020.03.15-17.03.48:825][632]CompilerResultsLog: Building FlowerGameEditor...
+[2020.03.15-17.03.48:826][632]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.15-17.03.48:826][632]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.03.15-17.03.48:826][632]CompilerResultsLog:   [1/4] MainViewPawn.cpp
+[2020.03.15-17.03.48:826][632]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-4415.lib
+[2020.03.15-17.03.48:826][632]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4415.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4415.exp
+[2020.03.15-17.03.48:826][632]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-4415.dll
+[2020.03.15-17.03.48:826][632]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4415.suppressed.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-4415.suppressed.exp
+[2020.03.15-17.03.48:826][632]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.03.15-17.03.48:826][632]CompilerResultsLog: Total time in Parallel executor: 9,29 seconds
+[2020.03.15-17.03.48:827][632]CompilerResultsLog: Total execution time: 19,91 seconds
+[2020.03.15-17.03.48:827][632]LogMainFrame: MainFrame: Module compiling took 20.191 seconds
+[2020.03.15-17.03.48:879][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.03.15-17.03.50:107][632]LogHotReload: Re-instancing MainViewPawn after hot-reload.
+[2020.03.15-17.03.50:306][632]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0006 seconds. Added 4 classes and 6 folders.
+[2020.03.15-17.03.50:309][632]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.15-17.03.50:410][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.03.15-17.03.50:443][632]LogContentBrowser: Native class hierarchy populated in 0.0280 seconds. Added 3021 classes and 726 folders.
+[2020.03.15-17.03.50:443][632]Display: HotReload took 21.8s.
+[2020.03.15-17.04.13:411][960]LogEditor: Attempting to add actor of class 'MainViewPawn' to level at -880.00,1100.00,-150.00
+[2020.03.15-17.04.16:214][ 14]LogEditor: Attempting to add actor of class 'MainViewPawn' to level at -1160.00,970.00,-160.00
+[2020.03.15-17.04.57:727][422]Cmd: DELETE
+[2020.03.15-17.04.57:736][422]Cmd: ACTOR DELETE
+[2020.03.15-17.04.58:079][422]LogEditorActor: Deleted Actor: MainViewPawn
+[2020.03.15-17.04.58:358][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.03.15-17.04.58:380][422]LogEditorActor: Deleted 1 Actors (0.350 secs)
+[2020.03.15-17.05.42:767][796]Candidate modules for hot reload:
+[2020.03.15-17.05.42:767][796]  FlowerGame
+[2020.03.15-17.05.42:767][796]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,8790 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-17.05.42:797][796]Warning: Starting HotReload took  0.1s.
+[2020.03.15-17.06.00:248][816]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 19:06:00
+[2020.03.15-17.06.00:248][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-17.06.00:248][816]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-17.06.00:248][816]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-17.06.00:249][816]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 10,555238 seconds
+[2020.03.15-17.06.00:249][816]CompilerResultsLog: Building FlowerGameEditor...
+[2020.03.15-17.06.00:249][816]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.15-17.06.00:249][816]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.03.15-17.06.00:249][816]CompilerResultsLog:   [1/4] MainViewPawn.cpp
+[2020.03.15-17.06.00:249][816]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-8790.lib
+[2020.03.15-17.06.00:249][816]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8790.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8790.exp
+[2020.03.15-17.06.00:249][816]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-8790.dll
+[2020.03.15-17.06.00:249][816]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8790.suppressed.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8790.suppressed.exp
+[2020.03.15-17.06.00:249][816]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.03.15-17.06.00:249][816]CompilerResultsLog: Total time in Parallel executor: 4,77 seconds
+[2020.03.15-17.06.00:249][816]CompilerResultsLog: Total execution time: 17,30 seconds
+[2020.03.15-17.06.00:249][816]LogMainFrame: MainFrame: Module compiling took 17.492 seconds
+[2020.03.15-17.06.00:278][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.03.15-17.06.00:316][816]LogHotReload: Re-instancing MainViewPawn after hot-reload.
+[2020.03.15-17.06.00:587][816]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0005 seconds. Added 4 classes and 6 folders.
+[2020.03.15-17.06.00:589][816]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.15-17.06.00:665][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.03.15-17.06.00:681][816]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3021 classes and 726 folders.
+[2020.03.15-17.06.00:681][816]Display: HotReload took 17.9s.
+[2020.03.15-17.06.17:735][822]LogEditor: Attempting to add actor of class 'MainViewPawn' to level at -1510.00,520.00,-180.00
+[2020.03.15-17.06.18:453][860]LogEditor: Attempting to add actor of class 'MainViewPawn' to level at -1270.00,880.00,-170.00
+[2020.03.15-17.06.21:686][ 41]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.15-17.06.22:082][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.15-17.06.22:104][ 41]PIE: New page: PIE session: MainMap (15 mars 2020 à 19:06:22)
+[2020.03.15-17.06.22:461][ 41]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.15-17.06.22:463][ 41]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.15-17.06.22:504][ 41]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap
+[2020.03.15-17.06.22:611][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106570s)
+[2020.03.15-17.06.22:913][ 41]LogAIModule: Creating AISystem for world MainMap
+[2020.03.15-17.06.22:952][ 41]LogPlayLevel: PIE: World Init took: (0.341310s)
+[2020.03.15-17.06.22:952][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/MainMap.MainMap to /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap.MainMap (0.448412s)
+[2020.03.15-17.06.23:005][ 41]LogUObjectHash: Compacting FUObjectHashTables data took  12.05ms
+[2020.03.15-17.06.23:049][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.15-17.06.23:049][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.15-17.06.23:049][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.15-17.06.23:049][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.15-17.06.23:049][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.15-17.06.23:049][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.15-17.06.23:049][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.15-17.06.23:049][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.15-17.06.23:049][ 41]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.15-17.06.23:050][ 41]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: Is Default: Yes
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: Channel Order:
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.15-17.06.23:064][ 41]LogAudioMixer: Display: 1: FrontRight
+[2020.03.15-17.06.23:196][ 41]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2020.03.15-17.06.23:275][ 41]LogInit: FAudioDevice initialized.
+[2020.03.15-17.06.23:757][ 41]LogLoad: Game class is 'GameModeBase'
+[2020.03.15-17.06.24:198][ 41]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2020.03.15-18.06.24
+[2020.03.15-17.06.24:321][ 41]LogWorld: Bringing up level for play took: 0.151316
+[2020.03.15-17.06.24:337][ 41]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.03.15-17.06.24:697][ 41]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.03.15-17.06.24:850][ 41]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap 2,814
+[2020.03.15-17.06.29:217][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.15-17.06.29:217][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.15-17.06.29:300][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.15-17.06.29:300][236]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap
+[2020.03.15-17.06.29:319][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.15-17.06.29:337][236]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.15-17.06.29:337][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.15-17.06.29:358][236]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.15-17.06.29:418][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.15-17.06.29:494][236]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.15-17.06.29:503][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.15-17.06.29:755][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.03.15-17.06.29:796][237]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.03.15-17.06.33:787][468]LogEditorViewport: Clicking on Actor (LMB): MainViewPawn (MainViewPawn3)
+[2020.03.15-17.06.38:263][713]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.15-17.07.43:107][543]LogEditorViewport: Clicking on Actor (LMB): MainViewPawn (MainViewPawn3)
+[2020.03.15-17.07.49:622][930]LogEditorViewport: Clicking on Actor (LMB): MainViewPawn (MainViewPawn3)
+[2020.03.15-17.09.42:771][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.03.15-17.09.42:883][848]LogSavePackage: Moving '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/MainMap_Auto270ED3432460B0B4626F114880D71022F.tmp' to '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/Autosaves/Game/MobileStarterContent/Maps/MainMap_Auto2.umap'
+[2020.03.15-17.09.42:887][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/MainMap' took 0.145
+[2020.03.15-17.09.42:887][848]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.145
+[2020.03.15-17.10.10:707][413]LogSlate: Took 0.090424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.15-17.11.31:764][208]Cmd: TRANSACTION UNDO
+[2020.03.15-17.11.31:765][208]LogEditorTransaction: Undo Move Components
+[2020.03.15-17.11.42:596][783]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.03.15-17.11.49:683][184]Candidate modules for hot reload:
+[2020.03.15-17.11.49:683][184]  FlowerGame
+[2020.03.15-17.11.49:683][184]Launching UnrealBuildTool... [D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,3989 Win64 Development -TargetType=Editor -Project="D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "D:/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.03.15-17.11.49:693][184]Warning: Starting HotReload took  0.0s.
+[2020.03.15-17.12.05:381][921]CompilerResultsLog: New page: Compilation - 15 mars 2020 à 19:12:05
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.03.15-17.12.05:382][921]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 10,9735157 seconds
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Building FlowerGameEditor...
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.03.15-17.12.05:382][921]CompilerResultsLog:   [1/4] MainViewPawn.cpp
+[2020.03.15-17.12.05:382][921]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-3989.lib
+[2020.03.15-17.12.05:382][921]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-3989.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-3989.exp
+[2020.03.15-17.12.05:382][921]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-3989.dll
+[2020.03.15-17.12.05:382][921]CompilerResultsLog:      Cr?ation de la biblioth?que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-3989.suppressed.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-3989.suppressed.exp
+[2020.03.15-17.12.05:382][921]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Total time in Parallel executor: 2,43 seconds
+[2020.03.15-17.12.05:382][921]CompilerResultsLog: Total execution time: 15,38 seconds
+[2020.03.15-17.12.05:382][921]LogMainFrame: MainFrame: Module compiling took 15.711 seconds
+[2020.03.15-17.12.05:438][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.03.15-17.12.05:506][921]LogHotReload: Re-instancing MainViewPawn after hot-reload.
+[2020.03.15-17.12.05:651][921]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0006 seconds. Added 4 classes and 6 folders.
+[2020.03.15-17.12.05:655][921]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.15-17.12.05:732][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.03.15-17.12.05:748][921]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3021 classes and 726 folders.
+[2020.03.15-17.12.05:748][921]Display: HotReload took 16.1s.

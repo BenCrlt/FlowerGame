@@ -70,10 +70,24 @@
     <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Cases\CaseMagasin.h">
       <Filter>Source\FlowerGame\Public\Model\Cases</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FlowerGame\Public\Pawn\MainViewPawn.h">
+      <Filter>Source\FlowerGame\Public\Pawn</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Cases\CaseMagasin.cpp">
       <Filter>Source\FlowerGame\Private\Model\Cases</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FlowerGame\Private\Pawn\MainViewPawn.cpp">
+      <Filter>Source\FlowerGame\Private\Pawn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\FlowerGame\Public\Pawn">
+      <UniqueIdentifier>{ead82b4d-90c3-4586-b0fc-109f3ad28aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FlowerGame\Private\Pawn">
+      <UniqueIdentifier>{5105a045-16e9-409c-b5e5-b9d8dc96fc8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
