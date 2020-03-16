@@ -6,4 +6,10 @@ D:\ProgramFiles\Fortnite\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramew
 D:\ProgramFiles\Fortnite\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 D:\ProgramFiles\Fortnite\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\ProgramFiles\Fortnite\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Public\Pawn/MainViewPawn.h
+D:\ProgramFiles\Fortnite\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\ProgramFiles\Fortnite\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+D:\ProgramFiles\Fortnite\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\ProgramFiles\Fortnite\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\MainViewPawn.generated.h
 D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\FlowerGameGameModeBase.generated.h

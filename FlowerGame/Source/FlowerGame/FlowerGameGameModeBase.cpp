@@ -3,3 +3,8 @@
 
 #include "FlowerGameGameModeBase.h"
 
+
+AFlowerGameGameModeBase::AFlowerGameGameModeBase() {
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter"));
+	DefaultPawnClass = PlayerPawnBPClass.Class;
+}
