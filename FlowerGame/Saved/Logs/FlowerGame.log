@@ -1,4 +1,4 @@
-﻿Log file open, 03/16/20 19:03:41
+﻿Log file open, 03/16/20 21:24:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FlowerGame
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.188949
+LogStats: Stats thread started at 0.112763
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -130,7 +130,7 @@ LogInit: Compiled (64-bit): Jan 24 2020 02:05:53
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
-LogInit: Command Line:  -EpicPortal -epicusername="DTG Nexus" -epicuserid=2e1d950de67a42a9ac87a75ef67e2d84 -epiclocale=fr
+LogInit: Command Line: 
 LogInit: Base Directory: D:/ProgramFiles/Fortnite/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
@@ -163,562 +163,686 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2020.03.16-18.03.41:487][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2020.03.16-18.03.41:488][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
-[2020.03.16-18.03.41:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.16-18.03.41:489][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
-[2020.03.16-18.03.41:489][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
-[2020.03.16-18.03.41:493][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.16-18.03.41:493][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.16-18.03.41:494][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.16-18.03.41:495][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.16-18.03.41:495][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.16-18.03.41:495][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.16-18.03.41:498][  0]LogHAL: Display: Platform has ~ 8 GB [8484323328 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.16-18.03.41:498][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.16-18.03.41:498][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.16-18.03.41:498][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.16-18.03.41:499][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.16-18.03.41:500][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.16-18.03.41:500][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.16-18.03.41:500][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.16-18.03.41:500][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
-[2020.03.16-18.03.41:500][  0]LogInit: Computer: DESKTOP-KKCI3RH
-[2020.03.16-18.03.41:500][  0]LogInit: User: Benoit
-[2020.03.16-18.03.41:500][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.03.16-18.03.41:500][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.16-18.03.41:500][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.03.16-18.03.41:500][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.16-18.03.41:500][  0]LogMemory: Process Physical Memory: 104.77 MB used, 104.78 MB peak
-[2020.03.16-18.03.41:500][  0]LogMemory: Process Virtual Memory: 99.88 MB used, 99.88 MB peak
-[2020.03.16-18.03.41:500][  0]LogMemory: Physical Memory: 6736.73 MB used,  1354.55 MB free, 8091.28 MB total
-[2020.03.16-18.03.41:500][  0]LogMemory: Virtual Memory: 5121.15 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.03.16-18.03.41:503][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.16-18.03.41:531][  0]LogInit: Using OS detected language (fr-FR).
-[2020.03.16-18.03.41:531][  0]LogInit: Using OS detected locale (fr-FR).
-[2020.03.16-18.03.41:532][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
-[2020.03.16-18.03.41:532][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
-[2020.03.16-18.03.41:532][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
-[2020.03.16-18.03.41:532][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
-[2020.03.16-18.03.41:532][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
-[2020.03.16-18.03.41:532][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
-[2020.03.16-18.03.41:532][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
-[2020.03.16-18.03.41:533][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
-[2020.03.16-18.03.41:534][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.16-18.03.41:571][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.16-18.03.41:571][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.16-18.03.41:878][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.16-18.03.41:878][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.03.16-18.03.41:878][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.03.16-18.03.41:878][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.16-18.03.41:946][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2020.03.16-18.03.41:946][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.03.16-18.03.41:978][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.03.16-18.03.41:978][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.03.16-18.03.41:981][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.16-18.03.41:981][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.16-18.03.41:985][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.16-18.03.41:985][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.16-18.03.41:985][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.16-18.03.42:053][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.16-18.03.42:054][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2020.03.16-18.03.42:054][  0]LogWindows: EnumDisplayDevices:
-[2020.03.16-18.03.42:054][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.03.16-18.03.42:054][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.03.16-18.03.42:055][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.03.16-18.03.42:055][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:1)
-[2020.03.16-18.03.42:056][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.03.16-18.03.42:056][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2020.03.16-18.03.42:056][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.03.16-18.03.42:056][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.03.16-18.03.42:056][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
-[2020.03.16-18.03.42:166][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.03.16-18.03.42:166][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.16-18.03.42:180][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.03.16-18.03.42:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.03.16-18.03.42:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.03.16-18.03.42:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.03.16-18.03.42:641][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.03.16-18.03.42:641][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.03.16-18.03.42:650][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.16-18.03.42:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.03.16-18.03.42:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.03.16-18.03.42:677][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.03.16-18.03.42:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.03.16-18.03.42:694][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.03.16-18.03.42:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.03.16-18.03.42:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.03.16-18.03.42:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.03.16-18.03.42:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.03.16-18.03.42:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.16-18.03.42:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.03.16-18.03.42:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.03.16-18.03.42:772][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.03.16-18.03.42:772][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.16-18.03.42:776][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.16-18.03.42:800][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Intermediate/Shaders/WorkingDirectory/18168/).
-[2020.03.16-18.03.42:800][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/TEMP/UnrealShaderWorkingDir/FBFAB40449D2203D9033349B82CD5238/'.
-[2020.03.16-18.03.42:801][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.16-18.03.42:801][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.16-18.03.42:801][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.16-18.03.43:767][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.16-18.03.43:861][  0]LogDerivedDataCache: Loaded boot cache 0.09s 82MB C:/Users/Benoit/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.16-18.03.43:861][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Benoit/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.03.16-18.03.43:861][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/FlowerGame/FlowerGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.16-18.03.43:861][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.16-18.03.43:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/FlowerGame/FlowerGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.16-18.03.43:862][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.16-18.03.43:875][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.16-18.03.43:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.16-18.03.43:875][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.16-18.03.43:877][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Benoit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.16-18.03.43:877][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.16-18.03.43:877][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.16-18.03.43:916][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.16-18.03.43:919][  0]LogSlate: Using FreeType 2.10.0
-[2020.03.16-18.03.43:920][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.16-18.03.44:003][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2020.03.16-18.03.44:392][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.16-18.03.44:608][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.16-18.03.44:608][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.16-18.03.44:608][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.16-18.03.44:608][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.16-18.03.44:608][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.16-18.03.44:626][  0]LogNetVersion: FlowerGame 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1154599133)
-[2020.03.16-18.03.46:220][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.106968 seconds
-[2020.03.16-18.03.46:229][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.03.16-18.03.46:229][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.03.16-18.03.46:229][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.16-18.03.46:748][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.16-18.03.46:752][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.16-18.03.46:882][  0]SourceControl: Source control is disabled
-[2020.03.16-18.03.46:882][  0]SourceControl: Source control is disabled
-[2020.03.16-18.03.46:883][  0]SourceControl: Source control is disabled
-[2020.03.16-18.03.46:884][  0]SourceControl: Source control is disabled
-[2020.03.16-18.03.46:885][  0]SourceControl: Source control is disabled
-[2020.03.16-18.03.46:988][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.16-18.03.47:000][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.16-18.03.47:000][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.16-18.03.47:110][  0]LogOcInput: OculusInput pre-init called
-[2020.03.16-18.03.47:120][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.03.16-18.03.47:120][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.03.16-18.03.47:209][  0]LogEngine: Initializing Engine...
-[2020.03.16-18.03.47:211][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.03.16-18.03.47:212][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.03.16-18.03.47:672][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.16-18.03.47:681][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.16-18.03.47:712][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.16-18.03.47:712][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.16-18.03.47:712][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.16-18.03.47:712][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.16-18.03.47:712][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.16-18.03.47:712][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.16-18.03.47:712][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.16-18.03.47:712][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.16-18.03.47:713][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.16-18.03.47:714][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: Channel Order:
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.16-18.03.47:751][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.03.16-18.03.48:179][  0]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
-[2020.03.16-18.03.48:187][  0]LogInit: FAudioDevice initialized.
-[2020.03.16-18.03.48:187][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.16-18.03.48:419][  0]LogDerivedDataCache: Saved boot cache 0.23s 82MB C:/Users/Benoit/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.16-18.03.48:425][  0]LogInit: Texture streaming: Enabled
-[2020.03.16-18.03.48:439][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.16-18.03.48:440][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.16-18.03.48:442][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.16-18.03.48:499][  0]LogInit: Transaction tracking system initialized
-[2020.03.16-18.03.48:512][  0]BlueprintLog: New page: Editor Load
-[2020.03.16-18.03.48:547][  0]LocalizationService: Localization service is disabled
-[2020.03.16-18.03.48:595][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/TopDownOverview': Can't find file.
-[2020.03.16-18.03.48:595][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/TopDownOverview': Can't find file.
-[2020.03.16-18.03.48:595][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownCPP/TopDownOverview.TopDownOverview_C'
-[2020.03.16-18.03.48:889][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.16-18.03.48:890][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.16-18.03.48:989][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Content/' took 0.01s
-[2020.03.16-18.03.49:923][  0]SourceControl: Source control is disabled
-[2020.03.16-18.03.49:923][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.16-18.03.49:924][  0]LightingResults: New page: Lighting Build
-[2020.03.16-18.03.49:924][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.16-18.03.49:925][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.16-18.03.49:925][  0]MapCheck: New page: Map Check
-[2020.03.16-18.03.49:925][  0]LightingResults: New page: Lighting Build
-[2020.03.16-18.03.49:955][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
-[2020.03.16-18.03.50:159][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2020.03.16-18.03.50:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.16-18.03.50:202][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
-[2020.03.16-18.03.50:202][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.16-18.03.50:202][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,185ms to complete.
-[2020.03.16-18.03.50:202][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.278
-[2020.03.16-18.03.50:361][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.16-18.03.50:371][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.16-18.03.50:381][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.16-18.03.50:391][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.16-18.03.50:399][  0]LogCollectionManager: Loaded 0 collections in 0.002417 seconds
-[2020.03.16-18.03.50:420][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Collections/' took 0.00s
-[2020.03.16-18.03.50:420][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Content/Developers/Benoit/Collections/' took 0.00s
-[2020.03.16-18.03.50:420][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Content/Collections/' took 0.00s
-[2020.03.16-18.03.50:420][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 3020 classes and 724 folders.
-[2020.03.16-18.03.50:423][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.03.16-18.03.50:517][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.03.16-18.03.50:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
-[2020.03.16-18.03.50:629][  0]LogSlate: Took 0.000397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.16-18.03.50:632][  0]LogSlate: Took 0.001130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.16-18.03.50:640][  0]LogSlate: Took 0.000527 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.16-18.03.50:758][  0]LogRenderer: Reallocating scene render targets to support 1028x456 Format 10 NumSamples 1 (Frame:1).
-[2020.03.16-18.03.50:904][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.03.16-18.03.50:904][  0]LogLoad: (Engine Initialization) Total time: 11.47 seconds
-[2020.03.16-18.03.50:904][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.16-18.03.50:971][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.16-18.03.51:001][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.16-18.03.51:031][  1]LogAssetRegistry: Asset discovery search completed in 7.0298 seconds
-[2020.03.16-18.03.51:035][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
-[2020.03.16-18.04.19:736][686]LogSlate: Took 0.002301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2020.03.16-18.04.40:596][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
-[2020.03.16-18.04.42:303][768]LogSlate: Window 'Delete Assets' being destroyed
-[2020.03.16-18.04.42:316][768]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.16-18.04.42:561][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2020.03.16-18.04.42:604][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
-[2020.03.16-18.04.42:633][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.03.16-20.24.39:894][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.03.16-20.24.39:895][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.03.16-20.24.39:896][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.16-20.24.39:896][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.03.16-20.24.39:896][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.03.16-20.24.39:901][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.16-20.24.39:901][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.16-20.24.39:902][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.16-20.24.39:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.16-20.24.39:903][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.16-20.24.39:903][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.16-20.24.39:907][  0]LogHAL: Display: Platform has ~ 8 GB [8484323328 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.16-20.24.39:907][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.16-20.24.39:907][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.16-20.24.39:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.16-20.24.39:908][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.16-20.24.39:909][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.16-20.24.39:910][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.03.16-20.24.39:910][  0]LogInit: Computer: DESKTOP-KKCI3RH
+[2020.03.16-20.24.39:910][  0]LogInit: User: Benoit
+[2020.03.16-20.24.39:910][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.16-20.24.39:910][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.16-20.24.39:910][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.03.16-20.24.39:910][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.16-20.24.39:910][  0]LogMemory: Process Physical Memory: 105.01 MB used, 105.01 MB peak
+[2020.03.16-20.24.39:910][  0]LogMemory: Process Virtual Memory: 99.94 MB used, 99.94 MB peak
+[2020.03.16-20.24.39:910][  0]LogMemory: Physical Memory: 5795.35 MB used,  2295.93 MB free, 8091.28 MB total
+[2020.03.16-20.24.39:910][  0]LogMemory: Virtual Memory: 5121.15 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.03.16-20.24.39:914][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.16-20.24.39:943][  0]LogInit: Using OS detected language (fr-FR).
+[2020.03.16-20.24.39:943][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.03.16-20.24.39:944][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.03.16-20.24.39:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.03.16-20.24.39:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.03.16-20.24.39:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.03.16-20.24.39:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.03.16-20.24.39:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.03.16-20.24.39:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.03.16-20.24.39:945][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.03.16-20.24.39:946][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.16-20.24.39:983][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.16-20.24.39:984][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.16-20.24.40:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.16-20.24.40:303][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.16-20.24.40:303][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.16-20.24.40:303][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.16-20.24.40:367][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.03.16-20.24.40:367][  0]LogD3D11RHI:       2019/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.03.16-20.24.40:375][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.03.16-20.24.40:375][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.03.16-20.24.40:379][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.16-20.24.40:379][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.16-20.24.40:382][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.16-20.24.40:382][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.16-20.24.40:382][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.16-20.24.40:445][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.16-20.24.40:445][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.03.16-20.24.40:445][  0]LogWindows: EnumDisplayDevices:
+[2020.03.16-20.24.40:445][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.03.16-20.24.40:445][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.03.16-20.24.40:446][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.03.16-20.24.40:447][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:1)
+[2020.03.16-20.24.40:447][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.03.16-20.24.40:447][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.03.16-20.24.40:447][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.03.16-20.24.40:447][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.03.16-20.24.40:447][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2020.03.16-20.24.40:484][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.03.16-20.24.40:484][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.16-20.24.40:498][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.03.16-20.24.40:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.16-20.24.41:006][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.16-20.24.41:033][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.16-20.24.41:033][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.16-20.24.41:043][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.16-20.24.41:053][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.16-20.24.41:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.16-20.24.41:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.16-20.24.41:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.16-20.24.41:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.16-20.24.41:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.16-20.24.41:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.16-20.24.41:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.16-20.24.41:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.16-20.24.41:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.16-20.24.41:164][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.16-20.24.41:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.16-20.24.41:185][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.16-20.24.41:185][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.16-20.24.41:189][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.16-20.24.41:214][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Intermediate/Shaders/WorkingDirectory/7112/).
+[2020.03.16-20.24.41:215][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/TEMP/UnrealShaderWorkingDir/ACC7C1BE42C9F2E32759F99B634AB7BD/'.
+[2020.03.16-20.24.41:215][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.16-20.24.41:215][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.16-20.24.41:215][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.16-20.24.42:225][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.16-20.24.42:301][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/Benoit/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.16-20.24.42:301][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Benoit/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.16-20.24.42:301][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/FlowerGame/FlowerGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.16-20.24.42:301][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.16-20.24.42:301][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/FlowerGame/FlowerGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.16-20.24.42:301][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.16-20.24.42:316][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.16-20.24.42:316][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.16-20.24.42:316][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.16-20.24.42:318][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Benoit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.16-20.24.42:318][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.16-20.24.42:318][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.16-20.24.42:350][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.16-20.24.42:353][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.16-20.24.42:354][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.16-20.24.42:438][  0]LogAssetRegistry: FAssetRegistry took 0.0031 seconds to start up
+[2020.03.16-20.24.42:837][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.16-20.24.43:047][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.16-20.24.43:047][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.16-20.24.43:047][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.16-20.24.43:047][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.16-20.24.43:047][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.16-20.24.43:064][  0]LogNetVersion: FlowerGame 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1154599133)
+[2020.03.16-20.24.44:623][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.074613 seconds
+[2020.03.16-20.24.44:632][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.16-20.24.44:632][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.16-20.24.44:632][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.16-20.24.45:170][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.16-20.24.45:173][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.16-20.24.45:651][  0]LogLinker: Warning: While loading '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset' failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:651][  0]LogLinker: Warning: While loading '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset' failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:652][  0]LogLinker: Warning: While loading '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset' failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:652][  0]LogLinker: Warning: While loading '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset' failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:653][  0]LogLinker: Warning: Failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:653][  0]LogLinker: Warning: Failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:653][  0]LogLinker: Warning: Failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:653][  0]LogLinker: Warning: Failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:654][  0]LogLinker: Warning: While loading '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset' failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:654][  0]LoadErrors: Failed to load /Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by CharacterMesh0
+[2020.03.16-20.24.45:654][  0]LogLinker: Warning: While loading '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset' failed to load '/Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP': Can't find file.
+[2020.03.16-20.24.45:654][  0]LoadErrors: Failed to load /Game/PolygonWestern/Meshes/Characters/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by CharacterMesh0
+[2020.03.16-20.24.45:850][  0]SourceControl: Source control is disabled
+[2020.03.16-20.24.45:850][  0]SourceControl: Source control is disabled
+[2020.03.16-20.24.45:853][  0]SourceControl: Source control is disabled
+[2020.03.16-20.24.45:854][  0]SourceControl: Source control is disabled
+[2020.03.16-20.24.45:854][  0]SourceControl: Source control is disabled
+[2020.03.16-20.24.45:957][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.16-20.24.45:969][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.16-20.24.45:969][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.16-20.24.46:082][  0]LogOcInput: OculusInput pre-init called
+[2020.03.16-20.24.46:090][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.16-20.24.46:090][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.16-20.24.46:182][  0]LogEngine: Initializing Engine...
+[2020.03.16-20.24.46:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.16-20.24.46:185][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.16-20.24.46:648][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.16-20.24.46:655][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.16-20.24.46:685][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.16-20.24.46:686][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.16-20.24.46:686][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.16-20.24.46:686][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.16-20.24.46:686][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.16-20.24.46:686][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.16-20.24.46:686][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.16-20.24.46:686][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.16-20.24.46:686][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.16-20.24.46:686][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.16-20.24.46:728][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.16-20.24.46:886][  0]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2020.03.16-20.24.46:893][  0]LogInit: FAudioDevice initialized.
+[2020.03.16-20.24.46:894][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.16-20.24.47:130][  0]LogDerivedDataCache: Saved boot cache 0.24s 79MB C:/Users/Benoit/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.16-20.24.47:130][  0]LogInit: Texture streaming: Enabled
+[2020.03.16-20.24.47:142][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.16-20.24.47:142][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.16-20.24.47:146][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.16-20.24.47:236][  0]LogInit: Transaction tracking system initialized
+[2020.03.16-20.24.47:248][  0]BlueprintLog: New page: Editor Load
+[2020.03.16-20.24.47:299][  0]LocalizationService: Localization service is disabled
+[2020.03.16-20.24.47:347][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/TopDownOverview': Can't find file.
+[2020.03.16-20.24.47:348][  0]LogLinker: Warning: Failed to load '/Game/TopDownCPP/TopDownOverview': Can't find file.
+[2020.03.16-20.24.47:348][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownCPP/TopDownOverview.TopDownOverview_C'
+[2020.03.16-20.24.47:698][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.16-20.24.47:698][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.16-20.24.47:801][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Content/' took 0.03s
+[2020.03.16-20.24.48:801][  0]SourceControl: Source control is disabled
+[2020.03.16-20.24.48:969][  0]LogSlate: Took 0.000529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.16-20.25.05:279][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.03.16-20.25.05:280][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.16-20.25.05:284][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.16-20.25.09:522][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.03.16-20.25.09:524][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.16-20.25.09:527][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.03.16-20.25.09:562][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.03.16-20.25.09:600][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.03.16-20.25.09:684][  0]LoadErrors: New page: Loading package: /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter
+[2020.03.16-20.25.09:692][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.16-20.25.09:735][  0]LightingResults: New page: Lighting Build
+[2020.03.16-20.25.09:736][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.25.09:736][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.25.09:736][  0]MapCheck: New page: Map Check
+[2020.03.16-20.25.09:736][  0]LightingResults: New page: Lighting Build
+[2020.03.16-20.25.09:771][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.03.16-20.25.10:616][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.03.16-20.25.10:649][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.16-20.25.10:699][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2020.03.16-20.25.10:700][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.16-20.25.10:700][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,174ms to complete.
+[2020.03.16-20.25.10:700][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.008
+[2020.03.16-20.25.11:098][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.16-20.25.11:107][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.16-20.25.11:117][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.16-20.25.11:127][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.16-20.25.11:158][  0]LogCollectionManager: Loaded 0 collections in 0.002666 seconds
+[2020.03.16-20.25.11:277][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Saved/Collections/' took 0.00s
+[2020.03.16-20.25.11:277][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Content/Developers/Benoit/Collections/' took 0.00s
+[2020.03.16-20.25.11:277][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/FlowerGame/FlowerGame/Content/Collections/' took 0.00s
+[2020.03.16-20.25.11:278][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 3020 classes and 724 folders.
+[2020.03.16-20.25.11:330][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.03.16-20.25.12:517][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.03.16-20.25.12:573][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.03.16-20.25.13:227][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.16-20.25.13:280][  0]LogSlate: Took 0.043469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.16-20.25.13:581][  0]LogRenderer: Reallocating scene render targets to support 1232x572 Format 10 NumSamples 1 (Frame:1).
+[2020.03.16-20.25.13:951][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.03.16-20.25.13:951][  0]LogLoad: (Engine Initialization) Total time: 36.49 seconds
+[2020.03.16-20.25.13:951][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.16-20.25.14:107][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.16-20.25.14:149][  0]LogSlate: Took 0.039316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.03.16-20.25.14:818][  7]LogAssetRegistry: Asset discovery search completed in 32.3810 seconds
+[2020.03.16-20.25.14:823][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2020.03.16-20.25.15:298][ 12]LogSlate: Took 0.274764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.16-20.25.18:189][173]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.16-20.25.52:986][201]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/PolygonWestern/Meshes/Characters/Animations/Anim_PlayerCharacter.Anim_PlayerCharacter
+[2020.03.16-20.25.53:117][201]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.03.16-20.25.53:722][201]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.03.16-20.25.53:724][201]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2020.03.16-20.25.54:181][201]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2020.03.16-20.25.55:469][201]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.03.16-20.25.55:951][201]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.03.16-20.25.56:348][202]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.16-20.26.59:634][295]LogAIModule: Creating AISystem for world MainMap
+[2020.03.16-20.26.59:656][295]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MobileStarterContent/Maps/MainMap.MainMap
+[2020.03.16-20.26.59:750][295]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2020.03.16-20.27.01:702][295]LogSlate: Window 'Save Content' being destroyed
+[2020.03.16-20.27.01:826][295]LogSavePackage: Moving '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/Anim_PlayerCharacterFE7BFE2E41705BCD3BBE38BCCA67BF63.tmp' to '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/PolygonWestern/Meshes/Characters/Animations/Anim_PlayerCharacter.uasset'
+[2020.03.16-20.27.01:831][295]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Maps/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.16-20.27.01:832][295]LightingResults: New page: Lighting Build
+[2020.03.16-20.27.01:832][295]LoadErrors: New page: Loading map: MainMap.umap
+[2020.03.16-20.27.01:833][295]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.27.01:833][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.27.01:833][295]MapCheck: New page: Map Check
+[2020.03.16-20.27.01:833][295]LightingResults: New page: Lighting Build
+[2020.03.16-20.27.01:881][295]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2020.03.16-20.27.02:309][295]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.16-20.27.02:358][295]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.03.16-20.27.02:379][295]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.16-20.27.02:379][295]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,09ms to complete.
+[2020.03.16-20.27.02:379][295]LogFileHelpers: Loading map 'MainMap' took 0.549
+[2020.03.16-20.27.02:453][295]AssetCheck: New page: Asset Save: Anim_PlayerCharacter
+[2020.03.16-20.27.02:453][295]LogContentValidation: Display: Validating AnimBlueprint /Game/PolygonWestern/Meshes/Characters/Animations/Anim_PlayerCharacter.Anim_PlayerCharacter
+[2020.03.16-20.31.37:533][652]LogSavePackage: Moving '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/Anim_PlayerCharacter15C127BD4E8C8E4BADE1B5899C4E344A.tmp' to '../../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/PolygonWestern/Meshes/Characters/Animations/Anim_PlayerCharacter.uasset'
+[2020.03.16-20.31.37:557][652]AssetCheck: New page: Asset Save: Anim_PlayerCharacter
+[2020.03.16-20.31.37:557][652]LogContentValidation: Display: Validating AnimBlueprint /Game/PolygonWestern/Meshes/Characters/Animations/Anim_PlayerCharacter.Anim_PlayerCharacter
+[2020.03.16-20.31.42:403][719]BlueprintLog: New page: Compile Anim_PlayerCharacter
+[2020.03.16-20.31.42:696][719]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2020.03.16-20.31.46:162][829]LogSlate: Window 'Anim_PlayerCharacter' being destroyed
+[2020.03.16-20.31.46:176][829]LogSlate: Window 'Anim_PlayerCharacter' being destroyed
+[2020.03.16-20.31.46:206][829]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.31.46:206][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.31.46:213][829]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.31.46:213][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.31.46:330][829]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.31.46:330][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.31.51:988][ 35]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.03.16-20.31.55:101][ 91]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.03.16-20.31.55:131][ 91]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.31.55:132][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.31.55:251][ 91]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.03.16-20.32.02:469][178]LogRenderer: Reallocating scene render targets to support 1256x712 Format 10 NumSamples 1 (Frame:1).
+[2020.03.16-20.32.31:765][ 34]BlueprintLog: New page: Compile BP_FlowerGameCharacter
+[2020.03.16-20.32.32:135][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.03.16-20.32.45:778][229]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.03.16-20.32.45:790][229]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.03.16-20.32.45:791][229]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.32.45:791][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.32.47:021][284]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.16-20.32.47:036][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MobileStarterContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.03.16-20.32.47:079][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.16-20.32.47:093][284]PIE: New page: PIE session: MainMap (16 mars 2020 à 22:32:47)
+[2020.03.16-20.32.47:105][284]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.16-20.32.47:116][284]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.16-20.32.47:133][284]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap
+[2020.03.16-20.32.47:175][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041331s)
+[2020.03.16-20.32.47:176][284]LogAIModule: Creating AISystem for world MainMap
+[2020.03.16-20.32.47:176][284]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2020.03.16-20.32.47:176][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/MainMap.MainMap to /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap.MainMap (0.042957s)
+[2020.03.16-20.32.47:220][284]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.03.16-20.32.47:239][284]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.16-20.32.47:239][284]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.16-20.32.47:239][284]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.16-20.32.47:239][284]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.16-20.32.47:239][284]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.16-20.32.47:239][284]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.16-20.32.47:239][284]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.16-20.32.47:239][284]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.16-20.32.47:240][284]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.16-20.32.47:240][284]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: Name: Speakers (Conexant SmartAudio HD)
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: Is Default: Yes
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: Channel Order:
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.16-20.32.47:257][284]LogAudioMixer: Display: 1: FrontRight
+[2020.03.16-20.32.47:407][284]LogAudioMixer: Display: Using Audio Device Speakers (Conexant SmartAudio HD)
+[2020.03.16-20.32.47:409][284]LogInit: FAudioDevice initialized.
+[2020.03.16-20.32.47:442][284]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.03.16-20.32.47:454][284]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2020.03.16-21.32.47
+[2020.03.16-20.32.47:454][284]LogWorld: Bringing up level for play took: 0.000691
+[2020.03.16-20.32.47:456][284]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.03.16-20.32.47:634][284]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.03.16-20.32.47:673][284]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap 0,779
+[2020.03.16-20.32.47:673][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MobileStarterContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.03.16-20.32.54:405][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.16-20.32.54:405][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.16-20.32.54:405][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MobileStarterContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.03.16-20.32.54:406][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.16-20.32.54:406][629]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_MainMap
+[2020.03.16-20.32.54:406][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.16-20.32.54:406][629]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.16-20.32.54:406][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.32.54:419][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.16-20.32.54:419][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MobileStarterContent/Maps/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.03.16-20.32.54:427][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.16-20.32.54:471][629]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.16-20.32.54:476][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.16-20.32.54:525][629]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.03.16-20.32.54:552][630]LogPlayLevel: Display: Destroying online subsystem :Context_13
