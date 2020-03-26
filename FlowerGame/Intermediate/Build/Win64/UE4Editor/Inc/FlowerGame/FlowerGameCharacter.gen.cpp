@@ -67,8 +67,10 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_CameraPlayer_MetaData[] = {
 		{ "Category", "FlowerGameCharacter" },
+		{ "Comment", "// Called to bind functionality to input\n//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
+		{ "ToolTip", "Called to bind functionality to input\nvirtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_CameraPlayer = { "CameraPlayer", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameCharacter, CameraPlayer), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_CameraPlayer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_CameraPlayer_MetaData)) };
@@ -103,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameCharacter, 613720782);
+	IMPLEMENT_CLASS(AFlowerGameCharacter, 956050288);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameCharacter>()
 	{
 		return AFlowerGameCharacter::StaticClass();

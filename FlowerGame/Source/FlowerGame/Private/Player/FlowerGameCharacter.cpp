@@ -10,8 +10,13 @@ AFlowerGameCharacter::AFlowerGameCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+
 	GetCharacterMovement()->bOrientRotationToMovement = true;
-	GetCharacterMovement()->RotationRate = FRotator(0.f, 640.f, 0.f);
+	GetCharacterMovement()->RotationRate.Yaw = 640.f;
+	GetCharacterMovement()->bUseControllerDesiredRotation = true;
 	GetCharacterMovement()->bConstrainToPlane = true;
 	GetCharacterMovement()->bSnapToPlaneAtStart = true;
 
@@ -38,13 +43,6 @@ void AFlowerGameCharacter::BeginPlay()
 void AFlowerGameCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-}
-
-// Called to bind functionality to input
-void AFlowerGameCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
 

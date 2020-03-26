@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FlowerGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{50977F00-FBB9-4E61-92C9-9A80752196EB}</UniqueIdentifier>
+      <UniqueIdentifier>{AF2395DB-847E-4B8D-924F-04720E7FEA3A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FlowerGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8BF96B76-2DD1-42D2-A221-5DA5F7551C1E}</UniqueIdentifier>
+      <UniqueIdentifier>{181A5129-F58F-4BB3-8955-8D496B9F7C18}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FlowerGame">
-      <UniqueIdentifier>{0184986A-9F7D-4C8E-AFAD-27021985E181}</UniqueIdentifier>
+      <UniqueIdentifier>{99C333E4-F51E-4D55-AB8E-0A7ADB3F785A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FlowerGame\FlowerGame.Build.cs">
       <Filter>Source\FlowerGame</Filter>
@@ -45,13 +45,13 @@
       <Filter>Source\FlowerGame</Filter>
     </ClInclude>
     <Filter Include="Source\FlowerGame\Private">
-      <UniqueIdentifier>{6E23E9B1-18F2-45BA-AAB4-05B833B66F46}</UniqueIdentifier>
+      <UniqueIdentifier>{7C9CD1A4-179D-4AFA-8B47-344B1DC9A03B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FlowerGame\Private\Model">
-      <UniqueIdentifier>{DD6B1D4B-A0EA-45D9-AA6A-335EF8058E15}</UniqueIdentifier>
+      <UniqueIdentifier>{A819FBF5-3305-4484-AB74-7536F8149807}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FlowerGame\Private\Model\Cases">
-      <UniqueIdentifier>{A37499DC-95E5-4719-9DD9-1E83584BBD9C}</UniqueIdentifier>
+      <UniqueIdentifier>{00A31680-405F-4148-B0E4-52A5B401031A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Cases\CaseDefault.cpp">
       <Filter>Source\FlowerGame\Private\Model\Cases</Filter>
@@ -60,25 +60,28 @@
       <Filter>Source\FlowerGame\Private\Model\Cases</Filter>
     </ClCompile>
     <Filter Include="Source\FlowerGame\Private\Pawn">
-      <UniqueIdentifier>{697EF4D5-0744-424E-BF36-E5B016845314}</UniqueIdentifier>
+      <UniqueIdentifier>{8828E9C3-42F8-4BF2-A98B-1DEDC845FA4F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Pawn\MainViewPawn.cpp">
       <Filter>Source\FlowerGame\Private\Pawn</Filter>
     </ClCompile>
     <Filter Include="Source\FlowerGame\Private\Player">
-      <UniqueIdentifier>{1C8A58E0-6720-422E-BE7A-24FE1B7DE08A}</UniqueIdentifier>
+      <UniqueIdentifier>{1EF2590A-57C4-4D5D-95E9-79287E0BAD28}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Player\FlowerGameCharacter.cpp">
       <Filter>Source\FlowerGame\Private\Player</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FlowerGame\Private\Player\FlowerGamePlayerController.cpp">
+      <Filter>Source\FlowerGame\Private\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\FlowerGame\Public">
-      <UniqueIdentifier>{902F26C9-3EFD-41C1-B16D-EBE9A55825AE}</UniqueIdentifier>
+      <UniqueIdentifier>{C54F6906-F509-4A7C-BCC9-CFCBD4996548}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FlowerGame\Public\Model">
-      <UniqueIdentifier>{D5800180-4AE5-44A6-989F-0C6D655ACAC9}</UniqueIdentifier>
+      <UniqueIdentifier>{827ADCA1-5CCB-4D10-AF95-5D18C4AA5AC7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FlowerGame\Public\Model\Cases">
-      <UniqueIdentifier>{465C7781-B5B7-4E58-AF4F-577C7EA30AE5}</UniqueIdentifier>
+      <UniqueIdentifier>{ED7B8ED3-C51B-4EC0-981B-0D54A0485CB8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Cases\CaseDefault.h">
       <Filter>Source\FlowerGame\Public\Model\Cases</Filter>
@@ -87,40 +90,19 @@
       <Filter>Source\FlowerGame\Public\Model\Cases</Filter>
     </ClInclude>
     <Filter Include="Source\FlowerGame\Public\Pawn">
-      <UniqueIdentifier>{996AE803-BA63-4566-AE6F-A6B8030842B5}</UniqueIdentifier>
+      <UniqueIdentifier>{49B3B925-7F0B-40A9-8910-67912D811812}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FlowerGame\Public\Pawn\MainViewPawn.h">
       <Filter>Source\FlowerGame\Public\Pawn</Filter>
     </ClInclude>
     <Filter Include="Source\FlowerGame\Public\Player">
-      <UniqueIdentifier>{88EDE900-3E17-42C0-9FD8-57A6276D89C9}</UniqueIdentifier>
+      <UniqueIdentifier>{9D1630A2-D557-4B75-AC9D-4B9A0ED12EED}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FlowerGame\Public\Player\FlowerGameCharacter.h">
       <Filter>Source\FlowerGame\Public\Player</Filter>
     </ClInclude>
-    <Filter Include="Source\FlowerGame\TP_TopDown">
-      <UniqueIdentifier>{C070193E-1C67-4D37-8435-C73D168DFD4B}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\FlowerGame\TP_TopDown\TP_TopDown.h">
-      <Filter>Source\FlowerGame\TP_TopDown</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FlowerGame\TP_TopDown\TP_TopDownCharacter.cpp">
-      <Filter>Source\FlowerGame\TP_TopDown</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FlowerGame\TP_TopDown\TP_TopDownCharacter.h">
-      <Filter>Source\FlowerGame\TP_TopDown</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FlowerGame\TP_TopDown\TP_TopDownGameMode.cpp">
-      <Filter>Source\FlowerGame\TP_TopDown</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FlowerGame\TP_TopDown\TP_TopDownGameMode.h">
-      <Filter>Source\FlowerGame\TP_TopDown</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\FlowerGame\TP_TopDown\TP_TopDownPlayerController.cpp">
-      <Filter>Source\FlowerGame\TP_TopDown</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\FlowerGame\TP_TopDown\TP_TopDownPlayerController.h">
-      <Filter>Source\FlowerGame\TP_TopDown</Filter>
+    <ClInclude Include="..\..\Source\FlowerGame\Public\Player\FlowerGamePlayerController.h">
+      <Filter>Source\FlowerGame\Public\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x5B773C3A,
-				0xD25D01A8,
+				0x6CFB9C95,
+				0xDC5EA200,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
