@@ -5,6 +5,7 @@
 #include "Player/FlowerGameCharacter.h"
 #include "Blueprint/AIBlueprintHelperLibrary.h"
 #include "Engine.h"
+#include "DrawDebugHelpers.h"
 #include "Engine/World.h"
 
 AFlowerGamePlayerController::AFlowerGamePlayerController() {
@@ -31,8 +32,13 @@ void AFlowerGamePlayerController::MoveToTouchLocation(const ETouchIndex::Type Fi
 	GetHitResultAtScreenPosition(ScreenSpaceLocation, ECC_Visibility, true, HitResult);
 	if (HitResult.bBlockingHit)
 	{
-		// We hit something, move there
-		SetNewMoveDestination(HitResult.ImpactPoint);
+		// We hit something, move here
+		AActor* test = HitResult.GetActor();
+		FVector Origin;
+		FVector BoundsExtend;
+		//Go to the center of the actor
+		test->GetActorBounds(false, Origin, BoundsExtend);
+		SetNewMoveDestination(Origin);
 	}
 }
 

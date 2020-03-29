@@ -23,7 +23,7 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 	SpringArmPlayer = CreateDefaultSubobject<USpringArmComponent>("SpringArmPlayer");
 	SpringArmPlayer->SetupAttachment(RootComponent);
 	SpringArmPlayer->SetUsingAbsoluteRotation(true); // Don't want arm to rotate when character does
-	SpringArmPlayer->TargetArmLength = 1000;
+	SpringArmPlayer->TargetArmLength = 2000;
 	SpringArmPlayer->RelativeRotation.Pitch = -50;
 	SpringArmPlayer->bDoCollisionTest = false;
 
