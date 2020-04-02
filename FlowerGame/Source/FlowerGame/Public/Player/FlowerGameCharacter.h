@@ -3,12 +3,18 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Model/Cases/CaseDefault.h"
 #include "GameFramework/Character.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "UObject/ConstructorHelpers.h"
+#include "GameFramework/PlayerController.h"
+#include "Blueprint/AIBlueprintHelperLibrary.h"
+#include "Engine.h"
 #include "FlowerGameCharacter.generated.h"
 
 UCLASS()
@@ -27,7 +33,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	virtual void SetupPlayerInputComponent(class UInputComponent* inputComponent) override;
 	// Called to bind functionality to input
 	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
@@ -35,5 +41,20 @@ public:
 		UCameraComponent* CameraPlayer;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		USpringArmComponent* SpringArmPlayer;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		UCapsuleComponent* TriggerCapsule;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		FString Position;
 	
+	/** Navigate player to the current touch location. */
+	void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
+
+	/** Navigate player to the given world location. */
+	void SetNewMoveDestination(const FVector DestLocation);
+
+	UFUNCTION()
+		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	// declare overlap end function
+	UFUNCTION()
+		void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 };

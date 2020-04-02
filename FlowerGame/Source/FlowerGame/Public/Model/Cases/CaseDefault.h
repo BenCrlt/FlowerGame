@@ -5,14 +5,22 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
+#include "EngineUtils.h"
 #include "CaseDefault.generated.h"
+
+UENUM()
+enum ECases
+{
+	CASE_DEFAULT UMETA(DisplayName = "Default"),
+	CASE_STORE UMETA(DisplayName = "Store")
+};
 
 UCLASS()
 class FLOWERGAME_API ACaseDefault : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ACaseDefault();
 
@@ -20,7 +28,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -28,8 +36,7 @@ public:
 		USceneComponent* Root;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UStaticMeshComponent* CaseMesh;
-	UPROPERTY(VisibleAnywhere, BluePrintReadOnly)
-		int ID_Case;
-	UFUNCTION()
-		int getIDCase();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
+		TEnumAsByte<ECases> name_Case;
 };

@@ -1,29 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Documents\GitHub\FlowerGame).
-  Creating makefile for FlowerGameEditor (no existing makefile)
   Parsing headers for FlowerGameEditor
     Running UnrealHeaderTool "D:\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for FlowerGameEditor in 10,2001842 seconds
+  Reflection code generated for FlowerGameEditor in 18,4154517 seconds
   Building FlowerGameEditor...
   Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 17 actions with 4 processes...
-    [1/17] Default.rc2
-    [2/17] SharedPCH.Engine.ShadowErrors.cpp
-    [3/17] FlowerGame.cpp
-    [4/17] MainViewPawn.cpp
-    [5/17] CaseMagasin.cpp
-    [6/17] CaseDefault.cpp
-    [7/17] CaseDefault.gen.cpp
-    [8/17] FlowerGame.init.gen.cpp
-    [9/17] FlowerGameCharacter.cpp
-    [10/17] FlowerGameCharacter.gen.cpp
-    [11/17] MainViewPawn.gen.cpp
-    [12/17] FlowerGameGameModeBase.gen.cpp
-    [13/17] CaseMagasin.gen.cpp
-    [14/17] FlowerGameGameModeBase.cpp
-    [15/17] UE4Editor-FlowerGame.lib
+  Building 4 actions with 4 processes...
+    [1/4] CaseDefault.cpp
+    [2/4] UE4Editor-FlowerGame.lib
        Cr�ation de la biblioth�que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame.exp
-    [16/17] UE4Editor-FlowerGame.dll
+    [3/4] UE4Editor-FlowerGame.dll
        Cr�ation de la biblioth�que D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame.suppressed.lib et de l'objet D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame.suppressed.exp
-    [17/17] FlowerGameEditor.target
-  Total time in Parallel executor: 44,26 seconds
-  Total execution time: 75,59 seconds
+    [4/4] FlowerGameEditor.target
+  Total time in Parallel executor: 488,88 seconds
+  Total execution time: 510,25 seconds

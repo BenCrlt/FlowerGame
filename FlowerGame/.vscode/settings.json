@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Documents/GitHub/FlowerGame/FlowerGame/.vs": true,
+		"D:/Documents/GitHub/FlowerGame/FlowerGame/.vscode": true,
+		"D:/Documents/GitHub/FlowerGame/FlowerGame/Content": true,
+		"D:/Documents/GitHub/FlowerGame/FlowerGame/Intermediate": true,
+		"D:/Documents/GitHub/FlowerGame/FlowerGame/Saved": true
+	}
+}

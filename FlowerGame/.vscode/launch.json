@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "FlowerGame (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGame Win64 Debug Build",
+			"program": "D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlowerGame (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGame Win64 DebugGame Build",
+			"program": "D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlowerGame (Development)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGame Win64 Development Build",
+			"program": "D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlowerGame (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGame Win64 Shipping Build",
+			"program": "D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlowerGame (Test)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGame Win64 Test Build",
+			"program": "D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlowerGameEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGameEditor Win64 Debug Build",
+			"program": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject"
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlowerGameEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGameEditor Win64 DebugGame Build",
+			"program": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject"
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "FlowerGameEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "FlowerGameEditor Win64 Development Build",
+			"program": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject"
+			],
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\ProgramFiles\\Fortnite\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\ProgramFiles\\Fortnite\\UE_4.24"
+		}
+	]
+}

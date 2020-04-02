@@ -11,6 +11,7 @@ ACaseMagasin::ACaseMagasin()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	name_Case = ECases::CASE_STORE;
 }
 
 // Called when the game starts or when spawned

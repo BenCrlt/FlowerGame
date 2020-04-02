@@ -9,6 +9,5 @@
 AFlowerGameGameModeBase::AFlowerGameGameModeBase() {
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter"));
 
-	PlayerControllerClass = AFlowerGamePlayerController::StaticClass();
 	DefaultPawnClass = PlayerPawnBPClass.Class;
 }

@@ -8,6 +8,9 @@
 #include "DrawDebugHelpers.h"
 #include "Engine/World.h"
 
+#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green,text)
+#define printFString(text, fstring) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT(text), fstring))
+
 AFlowerGamePlayerController::AFlowerGamePlayerController() {
 	bShowMouseCursor = true;
 }
@@ -25,6 +28,7 @@ void AFlowerGamePlayerController::PlayerTick(float DeltaTime) {
 
 void AFlowerGamePlayerController::MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location)
 {
+	static ConstructorHelpers::FObjectFinder<APawn> PlayerPawnBP(TEXT("/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter"));
 	FVector2D ScreenSpaceLocation(Location);
 
 	// Trace to see what is under the touch location
@@ -33,11 +37,11 @@ void AFlowerGamePlayerController::MoveToTouchLocation(const ETouchIndex::Type Fi
 	if (HitResult.bBlockingHit)
 	{
 		// We hit something, move here
-		AActor* test = HitResult.GetActor();
-		FVector Origin;
+		AActor* caseSelected = HitResult.GetActor();
+;		FVector Origin;
 		FVector BoundsExtend;
 		//Go to the center of the actor
-		test->GetActorBounds(false, Origin, BoundsExtend);
+		caseSelected->GetActorBounds(false, Origin, BoundsExtend);
 		SetNewMoveDestination(Origin);
 	}
 }
