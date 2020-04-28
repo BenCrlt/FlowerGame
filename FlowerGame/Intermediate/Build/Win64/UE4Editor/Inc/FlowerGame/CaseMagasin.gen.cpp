@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeCaseMagasin() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACaseMagasin, 2767730718);
+	IMPLEMENT_CLASS(ACaseMagasin, 3416270259);
 	template<> FLOWERGAME_API UClass* StaticClass<ACaseMagasin>()
 	{
 		return ACaseMagasin::StaticClass();

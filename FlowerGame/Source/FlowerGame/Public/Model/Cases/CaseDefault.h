@@ -33,10 +33,23 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		USceneComponent* Root;
+	USceneComponent* Root;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		UStaticMeshComponent* CaseMesh;
-
+	UStaticMeshComponent* CaseMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
-		TEnumAsByte<ECases> name_Case;
+	TEnumAsByte<ECases> name_Case;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
+	ACaseDefault* caseRight;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
+	ACaseDefault* caseLeft;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
+	ACaseDefault* caseUp;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
+	ACaseDefault* caseDown;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
+	bool bListenTouchEvent;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
+	int32 ID_Case;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Info Case")
+	TArray<int32> Coordonnees;
 };

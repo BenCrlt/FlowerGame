@@ -15,7 +15,18 @@
 #include "GameFramework/PlayerController.h"
 #include "Blueprint/AIBlueprintHelperLibrary.h"
 #include "Engine.h"
+#include "FlowerGame/FlowerGameGameModeBase.h"
 #include "FlowerGameCharacter.generated.h"
+
+UENUM()
+enum EDirection 
+{
+	DIRECTION_UNKNOWN UMETA(DisplayName = "Unknown direction"),
+	DIRECTION_UP UMETA(DisplayName = "Up"),
+	DIRECTION_DOWN UMETA(DisplayName = "Down"),
+	DIRECTION_RIGHT UMETA(DisplayName = "Right"),
+	DIRECTION_LEFT UMETA(DisplayName = "Left")
+};
 
 UCLASS()
 class FLOWERGAME_API AFlowerGameCharacter : public ACharacter
@@ -44,8 +55,27 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		UCapsuleComponent* TriggerCapsule;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		FString Position;
+		ACaseDefault* Position;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		TEnumAsByte<EDirection> Direction;
+	UPROPERTY()
+		int32 MovementPoint;
+	UPROPERTY()
+		bool bWaitChoiceUser;
+	UPROPERTY()
+		int32 Tour;
 	
+	UFUNCTION()
+		void MoveWithDice();
+	UFUNCTION()
+		ACaseDefault* GoToNextCase(ACaseDefault* caseSelected, TEnumAsByte<EDirection> DirectionSelected);
+	UFUNCTION()
+		TArray<TEnumAsByte<EDirection>> CheckWaysAvailable(ACaseDefault* caseSelected);
+	UFUNCTION()
+		void ManageCaseChoice(ACaseDefault* caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable);
+	UFUNCTION()
+		TEnumAsByte<EDirection> getDirection(ACaseDefault* caseDestination);
+
 	/** Navigate player to the current touch location. */
 	void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
 

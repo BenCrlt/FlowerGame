@@ -25,10 +25,16 @@ ACaseDefault::ACaseDefault()
 
 	if (CaseAsset.Succeeded()) {
 		CaseMesh->SetStaticMesh(CaseAsset.Object);
-		FVector newRelativeScale = CaseMesh->GetRelativeScale3D();
-		newRelativeScale.Y = 0.75;
-		CaseMesh->SetRelativeScale3D(newRelativeScale);
 	}
+	caseUp = nullptr;
+	caseDown = nullptr;
+	caseRight = nullptr;
+	caseLeft = nullptr;
+
+	bListenTouchEvent = false;
+
+	ID_Case = -1;
+	Coordonnees.Init(0,2);
 }
 
 // Called when the game starts or when spawned

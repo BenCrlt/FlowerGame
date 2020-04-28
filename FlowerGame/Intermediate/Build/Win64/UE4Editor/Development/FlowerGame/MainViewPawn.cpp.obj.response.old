@@ -232,6 +232,8 @@
 /I D:\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame
 /I D:\Documents\GitHub\FlowerGame\FlowerGame\Source
 /I D:\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
