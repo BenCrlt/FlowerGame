@@ -13,15 +13,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FLOWERGAME_FlowerGameGameModeBase_generated_h
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_28_GENERATED_BODY \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_31_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLines_Statics; \
 	FLOWERGAME_API static class UScriptStruct* StaticStruct();
 
 
 template<> FLOWERGAME_API UScriptStruct* StaticStruct<struct FLines>();
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_SPARSE_DATA
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_RPC_WRAPPERS \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_SPARSE_DATA
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execLaunchDice) \
 	{ \
@@ -41,7 +41,7 @@ template<> FLOWERGAME_API UScriptStruct* StaticStruct<struct FLines>();
 	}
 
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execLaunchDice) \
 	{ \
@@ -61,7 +61,7 @@ template<> FLOWERGAME_API UScriptStruct* StaticStruct<struct FLines>();
 	}
 
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_INCLASS_NO_PURE_DECLS \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFlowerGameGameModeBase(); \
 	friend struct Z_Construct_UClass_AFlowerGameGameModeBase_Statics; \
@@ -70,7 +70,7 @@ public: \
 	DECLARE_SERIALIZER(AFlowerGameGameModeBase)
 
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_INCLASS \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_INCLASS \
 private: \
 	static void StaticRegisterNativesAFlowerGameGameModeBase(); \
 	friend struct Z_Construct_UClass_AFlowerGameGameModeBase_Statics; \
@@ -79,7 +79,7 @@ public: \
 	DECLARE_SERIALIZER(AFlowerGameGameModeBase)
 
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_STANDARD_CONSTRUCTORS \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFlowerGameGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFlowerGameGameModeBase) \
@@ -92,7 +92,7 @@ private: \
 public:
 
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_ENHANCED_CONSTRUCTORS \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFlowerGameGameModeBase(AFlowerGameGameModeBase&&); \
@@ -103,28 +103,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFlowerGameGameModeBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFlowerGameGameModeBase)
 
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_PRIVATE_PROPERTY_OFFSET
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_33_PROLOG
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_GENERATED_BODY_LEGACY \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_PRIVATE_PROPERTY_OFFSET
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_PROLOG
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_RPC_WRAPPERS \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_INCLASS \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_STANDARD_CONSTRUCTORS \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_SPARSE_DATA \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_RPC_WRAPPERS \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_INCLASS \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_GENERATED_BODY \
+#define FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_INCLASS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_36_ENHANCED_CONSTRUCTORS \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_SPARSE_DATA \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_RPC_WRAPPERS_NO_PURE_DECLS \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_INCLASS_NO_PURE_DECLS \
+	FlowerGame_Source_FlowerGame_FlowerGameGameModeBase_h_39_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

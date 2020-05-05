@@ -31,25 +31,28 @@ protected:
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	bool equalsPosition(ACaseDefault *otherCase);
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	USceneComponent* Root;
+	USceneComponent *Root;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	UStaticMeshComponent* CaseMesh;
+	UStaticMeshComponent *CaseMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
 	TEnumAsByte<ECases> name_Case;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
-	ACaseDefault* caseRight;
+	ACaseDefault *caseRight;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
-	ACaseDefault* caseLeft;
+	ACaseDefault *caseLeft;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
-	ACaseDefault* caseUp;
+	ACaseDefault *caseUp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
-	ACaseDefault* caseDown;
+	ACaseDefault *caseDown;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
 	bool bListenTouchEvent;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
 	int32 ID_Case;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Info Case")
 	TArray<int32> Coordonnees;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Info Case")
+	bool bEnableSpawnPlayer;
 };

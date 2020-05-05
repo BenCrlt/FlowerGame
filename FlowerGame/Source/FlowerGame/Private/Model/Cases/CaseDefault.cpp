@@ -1,13 +1,16 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
-#include "FlowerGame/Public/Model/Cases/CaseDefault.h"
+#include "Model/Cases/CaseDefault.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Engine.h"
 #include "DrawDebugHelpers.h"
 
-#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green,text)
-#define printFString(text, fstring) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT(text), fstring))
+#define print(text) \
+	if (GEngine)    \
+	GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, text)
+#define printFString(text, fstring) \
+	if (GEngine)                    \
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT(text), fstring))
 
 // Sets default values
 ACaseDefault::ACaseDefault()
@@ -23,7 +26,8 @@ ACaseDefault::ACaseDefault()
 	CaseMesh = CreateDefaultSubobject<UStaticMeshComponent>("CaseMesh");
 	CaseMesh->SetupAttachment(Root);
 
-	if (CaseAsset.Succeeded()) {
+	if (CaseAsset.Succeeded())
+	{
 		CaseMesh->SetStaticMesh(CaseAsset.Object);
 	}
 	caseUp = nullptr;
@@ -34,7 +38,8 @@ ACaseDefault::ACaseDefault()
 	bListenTouchEvent = false;
 
 	ID_Case = -1;
-	Coordonnees.Init(0,2);
+	Coordonnees.Init(0, 2);
+	bEnableSpawnPlayer = false;
 }
 
 // Called when the game starts or when spawned
@@ -47,4 +52,16 @@ void ACaseDefault::BeginPlay()
 void ACaseDefault::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+bool ACaseDefault::equalsPosition(ACaseDefault *otherCase)
+{
+	if (Coordonnees[0] == otherCase->Coordonnees[0] && Coordonnees[1] == otherCase->Coordonnees[1])
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
 }

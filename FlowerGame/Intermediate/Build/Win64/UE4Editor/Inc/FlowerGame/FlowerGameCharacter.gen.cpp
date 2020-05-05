@@ -191,9 +191,12 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		{
 			ACaseDefault* caseSelected;
 			TEnumAsByte<EDirection> DirectionSelected;
+			bool bChangeDirection;
 			ACaseDefault* ReturnValue;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static void NewProp_bChangeDirection_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bChangeDirection;
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_DirectionSelected;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_caseSelected;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -203,10 +206,16 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventGoToNextCase_Parms, ReturnValue), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_bChangeDirection_SetBit(void* Obj)
+	{
+		((FlowerGameCharacter_eventGoToNextCase_Parms*)Obj)->bChangeDirection = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_bChangeDirection = { "bChangeDirection", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FlowerGameCharacter_eventGoToNextCase_Parms), &Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_bChangeDirection_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_DirectionSelected = { "DirectionSelected", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventGoToNextCase_Parms, DirectionSelected), Z_Construct_UEnum_FlowerGame_EDirection, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_caseSelected = { "caseSelected", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventGoToNextCase_Parms, caseSelected), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_bChangeDirection,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_DirectionSelected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase_Statics::NewProp_caseSelected,
 	};
@@ -450,6 +459,11 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isTouch_MetaData[];
+#endif
+		static void NewProp_isTouch_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isTouch;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Tour_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Tour;
@@ -493,7 +507,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFlowerGameCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_CheckWaysAvailable, "CheckWaysAvailable" }, // 201375224
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_getDirection, "getDirection" }, // 4139781112
-		{ &Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase, "GoToNextCase" }, // 4284355359
+		{ &Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase, "GoToNextCase" }, // 554192241
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_ManageCaseChoice, "ManageCaseChoice" }, // 2337361785
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_MoveWithDice, "MoveWithDice" }, // 989706650
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 2151840323
@@ -506,6 +520,16 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_SetBit(void* Obj)
+	{
+		((AFlowerGameCharacter*)Obj)->isTouch = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch = { "isTouch", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AFlowerGameCharacter), &Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_Tour_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
@@ -569,6 +593,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_CameraPlayer = { "CameraPlayer", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameCharacter, CameraPlayer), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_CameraPlayer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_CameraPlayer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFlowerGameCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_Tour,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bWaitChoiceUser,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_MovementPoint,
@@ -605,7 +630,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameCharacter, 3278588804);
+	IMPLEMENT_CLASS(AFlowerGameCharacter, 1920227423);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameCharacter>()
 	{
 		return AFlowerGameCharacter::StaticClass();

@@ -1,15 +1,21 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
-
 #include "FlowerGameGameModeBase.h"
 
-#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green,text)
-#define printFString(text, fstring) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT(text), fstring))
+#define print(text) \
+	if (GEngine)    \
+	GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, text)
+#define printFString(text, fstring) \
+	if (GEngine)                    \
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT(text), fstring))
 
-AFlowerGameGameModeBase::AFlowerGameGameModeBase() {
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter"));
+AFlowerGameGameModeBase::AFlowerGameGameModeBase()
+{
+	static ConstructorHelpers::FClassFinder<AFlowerGameCharacter> PlayerPawnBPClass(TEXT("/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter"));
 
-	DefaultPawnClass = PlayerPawnBPClass.Class;
+	classPlayer = PlayerPawnBPClass.Class;
+	nbPlayers = 1;
+	//DefaultPawnClass = PlayerPawnBPClass.Class;
 	HUDClass = AUI_PlayingGame::StaticClass();
 
 	BOARD_SIZE = 7;
@@ -18,7 +24,7 @@ AFlowerGameGameModeBase::AFlowerGameGameModeBase() {
 void AFlowerGameGameModeBase::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 	SetCurrentState(EGamePlayState::EBegin);
 }
 
@@ -37,35 +43,36 @@ void AFlowerGameGameModeBase::HandleNewState(EGamePlayState NewState)
 {
 	switch (NewState)
 	{
-		case EGamePlayState::EBegin:
-		{
-			print("BeginState");
-			InitBoard();
-			SetCurrentState(EGamePlayState::EPlaying);
-		}
-		break;
-		case EGamePlayState::EPlaying:
-		{
-			print("PlayingState");
-		}
-		break;
-		// Unknown/default state
-		case EGamePlayState::EGameFinish:
-		{
-			//UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
-		}
-		break;
-		// Unknown/default state
-		default:
-		case EGamePlayState::EUnknown:
-		{
-			// do nothing
-		}
-		break;
+	case EGamePlayState::EBegin:
+	{
+		print("BeginState");
+		InitBoard();
+		SetCurrentState(EGamePlayState::EPlaying);
+	}
+	break;
+	case EGamePlayState::EPlaying:
+	{
+		print("PlayingState");
+	}
+	break;
+	// Unknown/default state
+	case EGamePlayState::EGameFinish:
+	{
+		//UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+	}
+	break;
+	// Unknown/default state
+	default:
+	case EGamePlayState::EUnknown:
+	{
+		// do nothing
+	}
+	break;
 	}
 }
 
-void AFlowerGameGameModeBase::InitBoard() {
+void AFlowerGameGameModeBase::InitBoard()
+{
 	//Init Board 2D Array
 	FLines emptyLine;
 	emptyLine.Rows.Init(nullptr, BOARD_SIZE);
@@ -73,20 +80,17 @@ void AFlowerGameGameModeBase::InitBoard() {
 	FillBoard();
 }
 
-void AFlowerGameGameModeBase::FillBoard() {
+void AFlowerGameGameModeBase::FillBoard()
+{
 	//Récupère toutes les cases spawn dans le world
-	TArray<AActor*> FoundActors;
+	TArray<AActor *> FoundActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACaseDefault::StaticClass(), FoundActors);
 
-	FString linePositionString, rowPositionString;
-	int32 linePosition, rowPosition;
 	for (int i = 0; i < FoundActors.Num(); i++)
 	{
-		if(ACaseDefault* caseFound = Cast<ACaseDefault>(FoundActors[i])) {
-			caseFound->GetActorLabel().Split(";", &linePositionString, &rowPositionString);
-			FDefaultValueHelper::ParseInt(linePositionString, linePosition);
-			FDefaultValueHelper::ParseInt(rowPositionString, rowPosition);
-			Board[linePosition-1].Rows[rowPosition-1] = caseFound;
+		if (ACaseDefault *caseFound = Cast<ACaseDefault>(FoundActors[i]))
+		{
+			Board[caseFound->Coordonnees[0] - 1].Rows[caseFound->Coordonnees[1] - 1] = caseFound;
 		}
 	}
 
@@ -97,65 +101,72 @@ void AFlowerGameGameModeBase::FillBoard() {
 	{
 		for (int row = 0; row < BOARD_SIZE; row++)
 		{
-			if (Board[line].Rows[row] != nullptr) {
+			if (Board[line].Rows[row] != nullptr)
+			{
 				InitCase(Board[line].Rows[row], line, row, ID);
 				ID++;
 			}
 		}
 	}
-
-	for (int line = 0; line < BOARD_SIZE; line++)
-	{
-		for (int row = 0; row < BOARD_SIZE; row++)
-		{
-			if (Board[line].Rows[row] != nullptr) {
-				FString nameCase = Board[line].Rows[row]->GetName();
-				UE_LOG(LogTemp, Warning, TEXT("%s"), *nameCase);
-				if (Board[line].Rows[row]->caseDown != nullptr) {
-					UE_LOG(LogTemp, Warning, TEXT("Case Down"));
-				}
-				if (Board[line].Rows[row]->caseUp != nullptr) {
-					UE_LOG(LogTemp, Warning, TEXT("Case Up"));
-				}
-				if (Board[line].Rows[row]->caseRight != nullptr) {
-					UE_LOG(LogTemp, Warning, TEXT("Case Right"));
-				}
-				if (Board[line].Rows[row]->caseLeft != nullptr) {
-					UE_LOG(LogTemp, Warning, TEXT("Case Left"));
-				}
-			}
-		}
-	}
-
-	Player1 = Cast<AFlowerGameCharacter>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
-	Player1->Position = Board[0].Rows[0];
 }
 
-void AFlowerGameGameModeBase::InitCase(ACaseDefault* caseSelected, int32 line, int32 row, int32 ID) {
+void AFlowerGameGameModeBase::InitCase(ACaseDefault *caseSelected, int32 line, int32 row, int32 ID)
+{
 	caseSelected->ID_Case = ID;
-	if (line != 0) {
-		if (Board[line-1].Rows[row] != nullptr) {
-			caseSelected->caseUp = Board[line-1].Rows[row];
+	if (line != 0)
+	{
+		if (Board[line - 1].Rows[row] != nullptr)
+		{
+			caseSelected->caseUp = Board[line - 1].Rows[row];
 		}
 	}
-	if (line != BOARD_SIZE-1) {
-		if (Board[line+1].Rows[row] != nullptr) {
-			caseSelected->caseDown = Board[line+1].Rows[row];
+	if (line != BOARD_SIZE - 1)
+	{
+		if (Board[line + 1].Rows[row] != nullptr)
+		{
+			caseSelected->caseDown = Board[line + 1].Rows[row];
 		}
 	}
-	if (row != 0) {
-		if (Board[line].Rows[row-1] != nullptr) {
-			caseSelected->caseLeft = Board[line].Rows[row-1];
+	if (row != 0)
+	{
+		if (Board[line].Rows[row - 1] != nullptr)
+		{
+			caseSelected->caseLeft = Board[line].Rows[row - 1];
 		}
 	}
-	if (row != BOARD_SIZE-1) {
-		if (Board[line].Rows[row+1] != nullptr) {
-			caseSelected->caseRight = Board[line].Rows[row+1];
+	if (row != BOARD_SIZE - 1)
+	{
+		if (Board[line].Rows[row + 1] != nullptr)
+		{
+			caseSelected->caseRight = Board[line].Rows[row + 1];
 		}
 	}
 }
 
-void AFlowerGameGameModeBase::LaunchDice(int32 numDice) {
-	Player1->MovementPoint = numDice;
-	Player1->MoveWithDice();
+void AFlowerGameGameModeBase::InitPlayer()
+{
+	UWorld *world = GetWorld();
+	FVector Origin;
+	FVector BoundsExtend;
+
+	FActorSpawnParameters SpawnParams;
+	SpawnParams.Owner = this;
+	SpawnParams.Instigator = Instigator;
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	for (int32 i = 0; i < nbPlayers; i++)
+	{
+		Board[0].Rows[0]->GetActorBounds(false, Origin, BoundsExtend);
+		Players[i] = world->SpawnActor<AFlowerGameCharacter>(classPlayer, Origin, FRotator(0, 0, 0), SpawnParams);
+		Players[i]->Position = Board[0].Rows[0];
+	}
+
+	PlayerSelected = Players[0];
+	world->GetFirstPlayerController()->Possess(PlayerSelected);
+}
+
+void AFlowerGameGameModeBase::LaunchDice(int32 numDice)
+{
+	PlayerSelected->MovementPoint = numDice;
+	PlayerSelected->MoveWithDice();
 }

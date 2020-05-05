@@ -1,16 +1,19 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Player/FlowerGameCharacter.h"
 
-#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green,text)
-#define printFString(text, fstring) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT(text), fstring))
+#define print(text) \
+	if (GEngine)    \
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, text)
+#define printFString(text, fstring) \
+	if (GEngine)                    \
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT(text), fstring))
 
 // Sets default values
 AFlowerGameCharacter::AFlowerGameCharacter()
 {
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> MeshToUse(TEXT("/Game/PolygonWestern/Meshes/Characters/SK_Character_Sheriff_01"));
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	bUseControllerRotationPitch = false;
@@ -47,30 +50,51 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 
 	bWaitChoiceUser = false;
 	Tour = 0;
+
+	isTouch = false;
 }
 
 // Called when the game starts or when spawned
 void AFlowerGameCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void AFlowerGameCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
-void AFlowerGameCharacter::SetupPlayerInputComponent(class UInputComponent* inputComponent) {
+void AFlowerGameCharacter::SetupPlayerInputComponent(class UInputComponent *inputComponent)
+{
 	Super::SetupPlayerInputComponent(inputComponent);
 
-	inputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AFlowerGameCharacter::MoveToTouchLocation);
-	//inputComponent->BindTouch(EInputEvent::IE_Released, this, &AFlowerGameCharacter::MoveToTouchLocation);
+	inputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AFlowerGameCharacter::OnPressed);
+	inputComponent->BindTouch(EInputEvent::IE_Released, this, &AFlowerGameCharacter::OnReleased);
 }
 
-void AFlowerGameCharacter::MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location)
+void AFlowerGameCharacter::OnPressed(const ETouchIndex::Type FingerIndex, const FVector Location)
+{
+	if (!isTouch)
+	{
+		isTouch = true;
+		if (bWaitChoiceUser)
+		{
+			MoveToTouchLocation(Location);
+		}
+	}
+}
+
+void AFlowerGameCharacter::OnReleased(const ETouchIndex::Type FingerIndex, const FVector Location)
+{
+	if (isTouch)
+	{
+		isTouch = false;
+	}
+}
+
+void AFlowerGameCharacter::MoveToTouchLocation(const FVector Location)
 {
 	FVector2D ScreenSpaceLocation(Location);
 
@@ -80,13 +104,15 @@ void AFlowerGameCharacter::MoveToTouchLocation(const ETouchIndex::Type FingerInd
 	if (HitResult.bBlockingHit)
 	{
 		// We hit something, move here
-		ACaseDefault* caseSelected = Cast<ACaseDefault>(HitResult.GetActor());
-		if (caseSelected != nullptr) {
-			if (caseSelected->bListenTouchEvent) {
+		ACaseDefault *caseSelected = Cast<ACaseDefault>(HitResult.GetActor());
+		if (caseSelected != nullptr)
+		{
+			if (caseSelected->bListenTouchEvent)
+			{
+				print(Position->GetName());
 				bWaitChoiceUser = false;
-				Tour++;
 				ManageCaseChoice(Position, CheckWaysAvailable(Position), false);
-				Position = GoToNextCase(Position, getDirection(caseSelected));
+				Position = GoToNextCase(Position, getDirection(caseSelected), true);
 				MovementPoint--;
 				MoveWithDice();
 			}
@@ -104,15 +130,18 @@ void AFlowerGameCharacter::SetNewMoveDestination(const FVector DestLocation)
 	}
 }
 
-void AFlowerGameCharacter::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void AFlowerGameCharacter::OnOverlapBegin(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &SweepResult)
 {
 	if (OtherActor && (OtherActor != this) && OtherComp)
 	{
-		ACaseDefault* caseOverlaped = Cast<ACaseDefault>(OtherActor);
-		if (caseOverlaped != nullptr) {
-			if (caseOverlaped->GetName().Equals(Position->GetName())) {
-				if (MovementPoint == 0) {
-					print(Position->GetName());
+		ACaseDefault *caseOverlaped = Cast<ACaseDefault>(OtherActor);
+		if (caseOverlaped != nullptr)
+		{
+			if (Position->equalsPosition(caseOverlaped))
+			{
+				print(Position->GetName());
+				if (MovementPoint == 0)
+				{
 					switch (caseOverlaped->name_Case)
 					{
 					case ECases::CASE_DEFAULT:
@@ -124,71 +153,50 @@ void AFlowerGameCharacter::OnOverlapBegin(class UPrimitiveComponent* OverlappedC
 					default:
 						break;
 					}
-				} else {
-					ManageCaseChoice(Position, CheckWaysAvailable(Position), true);	
+				}
+				else
+				{
+					ManageCaseChoice(Position, CheckWaysAvailable(Position), true);
 				}
 			}
 		}
 	}
 }
 
-void AFlowerGameCharacter::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+void AFlowerGameCharacter::OnOverlapEnd(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex)
 {
-	if (OtherActor && (OtherActor != this) && OtherComp)
-	{
-	}
 }
 
-void AFlowerGameCharacter::MoveWithDice() {
+void AFlowerGameCharacter::MoveWithDice()
+{
 	TArray<TEnumAsByte<EDirection>> waysAvailable;
-	if (CheckWaysAvailable(Position).Num() > 1) {
+	if (CheckWaysAvailable(Position).Num() > 1)
+	{
 		bWaitChoiceUser = false;
 		ManageCaseChoice(Position, CheckWaysAvailable(Position), true);
 	}
-	
-	for (MovementPoint; MovementPoint > 0; MovementPoint--) {
+
+	for (MovementPoint; MovementPoint > 0; MovementPoint--)
+	{
 		waysAvailable = CheckWaysAvailable(Position);
-		if (waysAvailable.Num() == 1) {
-			Position = GoToNextCase(Position, waysAvailable[0]);
-		} else {
-			if (waysAvailable.Num() > 1) {
+		if (waysAvailable.Num() == 1)
+		{
+			Position = GoToNextCase(Position, waysAvailable[0], true);
+		}
+		else
+		{
+			if (waysAvailable.Num() > 1)
+			{
 				bWaitChoiceUser = true;
 				break;
-			} else {
-				print("Error");
 			}
-		}
-		switch (Direction)
-		{
-		case EDirection::DIRECTION_UP:
-			print("up");
-			break;
-		case EDirection::DIRECTION_DOWN:
-			print("down");
-			break;
-		case EDirection::DIRECTION_RIGHT:
-			print("right");
-			break;
-		case EDirection::DIRECTION_LEFT:
-			print("left");
-			break;
-		default:
-			break;
+			else
+			{
+				print("Error");
+				break;
+			}
 		}
 	}
-	/*while(MovementPoint != 0 && bWaitChoiceUser == false) {
-		waysAvailable = CheckWaysAvailable(Position);
-		if (waysAvailable.Num() == 1) {
-			Position = GoToNextCase(Position, waysAvailable[0]);
-			MovementPoint--;
-		} else {
-			if (waysAvailable.Num() > 1) {
-				bWaitChoiceUser = true;
-			} else {
-				print("Error");
-			}
-		}
-	}*/
 
 	FVector Origin;
 	FVector BoundsExtend;
@@ -196,77 +204,95 @@ void AFlowerGameCharacter::MoveWithDice() {
 	SetNewMoveDestination(Origin);
 }
 
-TArray<TEnumAsByte<EDirection>> AFlowerGameCharacter::CheckWaysAvailable(ACaseDefault* caseSelected) {
+TArray<TEnumAsByte<EDirection>> AFlowerGameCharacter::CheckWaysAvailable(ACaseDefault *caseSelected)
+{
 	TArray<TEnumAsByte<EDirection>> Ways;
-	if (caseSelected->caseUp != nullptr && Direction != EDirection::DIRECTION_DOWN) {
+	if (caseSelected->caseUp != nullptr && Direction != EDirection::DIRECTION_DOWN)
+	{
 		Ways.Add(EDirection::DIRECTION_UP);
 	}
-	if (caseSelected->caseDown != nullptr && Direction != EDirection::DIRECTION_UP) {
+	if (caseSelected->caseDown != nullptr && Direction != EDirection::DIRECTION_UP)
+	{
 		Ways.Add(EDirection::DIRECTION_DOWN);
 	}
-	if (caseSelected->caseRight != nullptr && Direction != EDirection::DIRECTION_LEFT) {
+	if (caseSelected->caseRight != nullptr && Direction != EDirection::DIRECTION_LEFT)
+	{
 		Ways.Add(EDirection::DIRECTION_RIGHT);
 	}
-	if(caseSelected->caseLeft != nullptr && Direction != EDirection::DIRECTION_RIGHT) {
+	if (caseSelected->caseLeft != nullptr && Direction != EDirection::DIRECTION_RIGHT)
+	{
 		Ways.Add(EDirection::DIRECTION_LEFT);
 	}
 	return Ways;
 }
 
-ACaseDefault* AFlowerGameCharacter::GoToNextCase(ACaseDefault* caseSelected, TEnumAsByte<EDirection> DirectionSelected) {
-	ACaseDefault* nextCase = nullptr;
+ACaseDefault *AFlowerGameCharacter::GoToNextCase(ACaseDefault *caseSelected, TEnumAsByte<EDirection> DirectionSelected, bool bChangeDirection)
+{
+	ACaseDefault *nextCase = nullptr;
 	switch (DirectionSelected)
 	{
-		case EDirection::DIRECTION_UP:
-			nextCase = caseSelected->caseUp;
-			break;
-		case EDirection::DIRECTION_DOWN:
-			nextCase = caseSelected->caseDown;
-			break;
-		case EDirection::DIRECTION_LEFT:
-			nextCase = caseSelected->caseLeft;
-			break;
-		case EDirection::DIRECTION_RIGHT:
-			nextCase = caseSelected->caseRight;
-			break;
-		case EDirection::DIRECTION_UNKNOWN:
-			nextCase = Position;
-			print("Unknown");
-			break;
-		default:
-			print("Default");
-			break;
+	case EDirection::DIRECTION_UP:
+		nextCase = caseSelected->caseUp;
+		break;
+	case EDirection::DIRECTION_DOWN:
+		nextCase = caseSelected->caseDown;
+		break;
+	case EDirection::DIRECTION_LEFT:
+		nextCase = caseSelected->caseLeft;
+		break;
+	case EDirection::DIRECTION_RIGHT:
+		nextCase = caseSelected->caseRight;
+		break;
+	case EDirection::DIRECTION_UNKNOWN:
+		nextCase = Position;
+		print("Unknown");
+		break;
+	default:
+		print("Default");
+		break;
 	}
-	Direction = DirectionSelected;
-	if (nextCase == nullptr) {
+
+	if (bChangeDirection)
+	{
+		Direction = DirectionSelected;
+	}
+
+	if (nextCase == nullptr)
+	{
 		print("C'est un nullptr OMG");
 		nextCase = Position;
 	}
 	return nextCase;
 }
 
-void AFlowerGameCharacter::ManageCaseChoice(ACaseDefault* caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable) {
-	ACaseDefault* caseToChoice;
-	for (int i = 0; i < waysAvailable.Num(); i++) {
-		caseToChoice = GoToNextCase(caseSelected, waysAvailable[i]);
-		if (isEnable) {
+void AFlowerGameCharacter::ManageCaseChoice(ACaseDefault *caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable)
+{
+	ACaseDefault *caseToChoice;
+	for (int i = 0; i < waysAvailable.Num(); i++)
+	{
+		caseToChoice = GoToNextCase(caseSelected, waysAvailable[i], false);
+		if (isEnable)
+		{
 			caseToChoice->bListenTouchEvent = true;
 			caseToChoice->CaseMesh->SetRenderCustomDepth(true);
-
-		} else {
+		}
+		else
+		{
 			caseToChoice->bListenTouchEvent = false;
 			caseToChoice->CaseMesh->SetRenderCustomDepth(false);
 		}
 	}
 }
 
-TEnumAsByte<EDirection> AFlowerGameCharacter::getDirection(ACaseDefault* caseDestination) {
+TEnumAsByte<EDirection> AFlowerGameCharacter::getDirection(ACaseDefault *caseDestination)
+{
 	TEnumAsByte<EDirection> DirectionDestination = EDirection::DIRECTION_UNKNOWN;
 	TArray<TEnumAsByte<EDirection>> waysAvailable;
 	waysAvailable = CheckWaysAvailable(Position);
 	for (int32 i = 0; i < waysAvailable.Num(); i++)
 	{
-		if (GoToNextCase(Position, waysAvailable[i])->ID_Case == caseDestination->ID_Case) {
+		if (GoToNextCase(Position, waysAvailable[i], false)->ID_Case == caseDestination->ID_Case)
+		{
 			DirectionDestination = waysAvailable[i];
 		}
 	}

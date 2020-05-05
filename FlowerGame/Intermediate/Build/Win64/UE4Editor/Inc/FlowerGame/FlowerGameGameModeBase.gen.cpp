@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	FLOWERGAME_API UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_GetCurrentState();
 	FLOWERGAME_API UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchDice();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FLOWERGAME_API UClass* Z_Construct_UClass_AFlowerGameCharacter_NoRegister();
 // End Cross Module References
 	static UEnum* EGamePlayState_StaticEnum()
@@ -237,9 +238,13 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Player1_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_classPlayer_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Player1;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_classPlayer;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerSelected_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerSelected;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Board_MetaData[];
 #endif
@@ -270,11 +275,17 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Player1_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_classPlayer_MetaData[] = {
 		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Player1 = { "Player1", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, Player1), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Player1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Player1_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_classPlayer = { "classPlayer", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, classPlayer), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_classPlayer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_classPlayer_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_PlayerSelected_MetaData[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_PlayerSelected = { "PlayerSelected", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, PlayerSelected), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_PlayerSelected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_PlayerSelected_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Board_MetaData[] = {
 		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
@@ -289,7 +300,8 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE = { "BOARD_SIZE", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, BOARD_SIZE), METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFlowerGameGameModeBase_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Player1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_classPlayer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_PlayerSelected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Board,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_Board_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE,
@@ -321,7 +333,7 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameGameModeBase, 251941353);
+	IMPLEMENT_CLASS(AFlowerGameGameModeBase, 669729765);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameGameModeBase>()
 	{
 		return AFlowerGameGameModeBase::StaticClass();

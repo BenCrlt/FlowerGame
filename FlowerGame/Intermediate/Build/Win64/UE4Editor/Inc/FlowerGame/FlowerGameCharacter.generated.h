@@ -79,9 +79,10 @@ class ACaseDefault;
 	{ \
 		P_GET_OBJECT(ACaseDefault,Z_Param_caseSelected); \
 		P_GET_PROPERTY(UByteProperty,Z_Param_DirectionSelected); \
+		P_GET_UBOOL(Z_Param_bChangeDirection); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(ACaseDefault**)Z_Param__Result=P_THIS->GoToNextCase(Z_Param_caseSelected,EDirection(Z_Param_DirectionSelected)); \
+		*(ACaseDefault**)Z_Param__Result=P_THIS->GoToNextCase(Z_Param_caseSelected,EDirection(Z_Param_DirectionSelected),Z_Param_bChangeDirection); \
 		P_NATIVE_END; \
 	} \
  \
@@ -155,9 +156,10 @@ class ACaseDefault;
 	{ \
 		P_GET_OBJECT(ACaseDefault,Z_Param_caseSelected); \
 		P_GET_PROPERTY(UByteProperty,Z_Param_DirectionSelected); \
+		P_GET_UBOOL(Z_Param_bChangeDirection); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(ACaseDefault**)Z_Param__Result=P_THIS->GoToNextCase(Z_Param_caseSelected,EDirection(Z_Param_DirectionSelected)); \
+		*(ACaseDefault**)Z_Param__Result=P_THIS->GoToNextCase(Z_Param_caseSelected,EDirection(Z_Param_DirectionSelected),Z_Param_bChangeDirection); \
 		P_NATIVE_END; \
 	} \
  \

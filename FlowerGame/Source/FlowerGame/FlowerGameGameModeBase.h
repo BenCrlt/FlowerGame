@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "UObject/ConstructorHelpers.h"
+#include "UObject/UObjectGlobals.h"
 #include "Player/UI_PlayingGame.h"
 #include "Model/Cases/CaseDefault.h"
 #include "Kismet/GameplayStatics.h"
@@ -15,7 +16,8 @@
 #include "FlowerGameGameModeBase.generated.h"
 
 UENUM()
-enum EGamePlayState {
+enum EGamePlayState
+{
 	EBegin,
 	EPlaying,
 	EGameFinish,
@@ -24,17 +26,18 @@ enum EGamePlayState {
 };
 
 USTRUCT()
-struct FLines {
+struct FLines
+{
 	GENERATED_USTRUCT_BODY()
-	public:
-		TArray<ACaseDefault*> Rows; 
+public:
+	TArray<ACaseDefault *> Rows;
 };
 
 UCLASS()
 class FLOWERGAME_API AFlowerGameGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
 public:
 	AFlowerGameGameModeBase();
 
@@ -46,7 +49,7 @@ public:
 	/** Sets a new playing state */
 	void SetCurrentState(EGamePlayState NewState);
 
-private: 
+private:
 	/**Keeps track of the current playing state */
 	EGamePlayState CurrentState;
 
@@ -55,7 +58,8 @@ private:
 
 	void FillBoard();
 	void InitBoard();
-	void InitCase(ACaseDefault* caseSelected, int32 line, int32 row, int32 ID);
+	void InitCase(ACaseDefault *caseSelected, int32 line, int32 row, int32 ID);
+	void InitPlayer();
 
 public:
 	UPROPERTY()
@@ -63,7 +67,13 @@ public:
 	UPROPERTY()
 	TArray<FLines> Board;
 	UPROPERTY()
-	class AFlowerGameCharacter* Player1;
+	class AFlowerGameCharacter *PlayerSelected;
+	UPROPERTY()
+	TArray<AFlowerGameCharacter *> Players;
+	UPROPERTY()
+	int32 nbPlayers;
+	UPROPERTY()
+	TSubclassOf<class AFlowerGameCharacter> classPlayer;
 
 	UFUNCTION(BlueprintCallable)
 	void LaunchDice(int32 numDice);

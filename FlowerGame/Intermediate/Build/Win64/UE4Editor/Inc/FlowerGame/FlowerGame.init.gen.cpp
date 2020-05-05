@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xCEEFB3BA,
+				0x1375A70C,
 				0xD5462D84,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -19,7 +19,7 @@
 #include "FlowerGameCharacter.generated.h"
 
 UENUM()
-enum EDirection 
+enum EDirection
 {
 	DIRECTION_UNKNOWN UMETA(DisplayName = "Unknown direction"),
 	DIRECTION_UP UMETA(DisplayName = "Up"),
@@ -41,50 +41,56 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-	virtual void SetupPlayerInputComponent(class UInputComponent* inputComponent) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent *inputComponent) override;
+
+	void OnPressed(const ETouchIndex::Type FingerIndex, const FVector Location);
+	void OnReleased(const ETouchIndex::Type FingerIndex, const FVector Location);
+
 	// Called to bind functionality to input
 	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		UCameraComponent* CameraPlayer;
+	UCameraComponent *CameraPlayer;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		USpringArmComponent* SpringArmPlayer;
+	USpringArmComponent *SpringArmPlayer;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		UCapsuleComponent* TriggerCapsule;
+	UCapsuleComponent *TriggerCapsule;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		ACaseDefault* Position;
+	ACaseDefault *Position;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		TEnumAsByte<EDirection> Direction;
+	TEnumAsByte<EDirection> Direction;
 	UPROPERTY()
-		int32 MovementPoint;
+	int32 MovementPoint;
 	UPROPERTY()
-		bool bWaitChoiceUser;
+	bool bWaitChoiceUser;
 	UPROPERTY()
-		int32 Tour;
-	
+	int32 Tour;
+	UPROPERTY()
+	bool isTouch;
+
 	UFUNCTION()
-		void MoveWithDice();
+	void MoveWithDice();
 	UFUNCTION()
-		ACaseDefault* GoToNextCase(ACaseDefault* caseSelected, TEnumAsByte<EDirection> DirectionSelected);
+	ACaseDefault *GoToNextCase(ACaseDefault *caseSelected, TEnumAsByte<EDirection> DirectionSelected, bool bChangeDirection);
 	UFUNCTION()
-		TArray<TEnumAsByte<EDirection>> CheckWaysAvailable(ACaseDefault* caseSelected);
+	TArray<TEnumAsByte<EDirection>> CheckWaysAvailable(ACaseDefault *caseSelected);
 	UFUNCTION()
-		void ManageCaseChoice(ACaseDefault* caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable);
+	void ManageCaseChoice(ACaseDefault *caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable);
 	UFUNCTION()
-		TEnumAsByte<EDirection> getDirection(ACaseDefault* caseDestination);
+	TEnumAsByte<EDirection> getDirection(ACaseDefault *caseDestination);
 
 	/** Navigate player to the current touch location. */
-	void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
+	void MoveToTouchLocation(const FVector Location);
 
 	/** Navigate player to the given world location. */
 	void SetNewMoveDestination(const FVector DestLocation);
 
 	UFUNCTION()
-		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	void OnOverlapBegin(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &SweepResult);
 	// declare overlap end function
 	UFUNCTION()
-		void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	void OnOverlapEnd(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex);
 };

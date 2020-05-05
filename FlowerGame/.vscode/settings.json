@@ -1,9 +1,8 @@
 {
 	"files.exclude": {
-		"D:/Documents/GitHub/FlowerGame/FlowerGame/.vs": true,
-		"D:/Documents/GitHub/FlowerGame/FlowerGame/.vscode": true,
-		"D:/Documents/GitHub/FlowerGame/FlowerGame/Content": true,
-		"D:/Documents/GitHub/FlowerGame/FlowerGame/Intermediate": true,
-		"D:/Documents/GitHub/FlowerGame/FlowerGame/Saved": true
+		"C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/.vscode": true,
+		"C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Content": true,
+		"C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Intermediate": true,
+		"C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved": true
 	}
 }
