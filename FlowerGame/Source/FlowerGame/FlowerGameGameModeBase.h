@@ -8,7 +8,9 @@
 #include "UObject/UObjectGlobals.h"
 #include "Player/UI_PlayingGame.h"
 #include "Model/Cases/CaseDefault.h"
+#include "Model/Cases/CaseSpawn.h"
 #include "Kismet/GameplayStatics.h"
+#include "Math/UnrealMathUtility.h"
 #include "Engine.h"
 #include "Misc/DefaultValueHelper.h"
 #include "Player/FlowerGameCharacter.h"
@@ -74,7 +76,15 @@ public:
 	int32 nbPlayers;
 	UPROPERTY()
 	TSubclassOf<class AFlowerGameCharacter> classPlayer;
+	UPROPERTY()
+	TArray<ACaseSpawn *> ListSpawns;
 
 	UFUNCTION(BlueprintCallable)
 	void LaunchDice(int32 numDice);
+	UFUNCTION(BlueprintCallable)
+	bool GetVisibilityNextPlayer();
+	UFUNCTION()
+	void ChangePlayer();
+	UFUNCTION(BlueprintCallable)
+	void TurnFinished();
 };

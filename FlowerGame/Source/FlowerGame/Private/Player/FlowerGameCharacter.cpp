@@ -29,8 +29,8 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 	SpringArmPlayer = CreateDefaultSubobject<USpringArmComponent>("SpringArmPlayer");
 	SpringArmPlayer->SetupAttachment(RootComponent);
 	SpringArmPlayer->SetUsingAbsoluteRotation(true); // Don't want arm to rotate when character does
-	SpringArmPlayer->TargetArmLength = 2000;
-	SpringArmPlayer->RelativeRotation.Pitch = -50;
+	SpringArmPlayer->TargetArmLength = 5000;
+	SpringArmPlayer->SetRelativeRotation(FRotator(-50, 0, 0));
 	SpringArmPlayer->bDoCollisionTest = false;
 
 	CameraPlayer = CreateDefaultSubobject<UCameraComponent>("CameraPlayer");
@@ -40,18 +40,20 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 	// declare trigger capsule
 	TriggerCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Trigger Capsule"));
 	TriggerCapsule->InitCapsuleSize(55.f, 96.0f);
+	TriggerCapsule->SetCollisionProfileName(TEXT("Trigger"));
 	TriggerCapsule->SetupAttachment(RootComponent);
 
 	TriggerCapsule->OnComponentBeginOverlap.AddDynamic(this, &AFlowerGameCharacter::OnOverlapBegin);
 	TriggerCapsule->OnComponentEndOverlap.AddDynamic(this, &AFlowerGameCharacter::OnOverlapEnd);
 
 	Position = nullptr;
-	Direction = EDirection::DIRECTION_DOWN;
+	Direction = EDirection::DIRECTION_UNKNOWN;
 
 	bWaitChoiceUser = false;
 	Tour = 0;
 
 	isTouch = false;
+	bTurnFinished = false;
 }
 
 // Called when the game starts or when spawned
@@ -72,6 +74,16 @@ void AFlowerGameCharacter::SetupPlayerInputComponent(class UInputComponent *inpu
 
 	inputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AFlowerGameCharacter::OnPressed);
 	inputComponent->BindTouch(EInputEvent::IE_Released, this, &AFlowerGameCharacter::OnReleased);
+}
+
+void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit)
+{
+	Position = caseInit;
+	TArray<TEnumAsByte<EDirection>> ways = CheckWaysAvailable(Position);
+	if (ways.Num() > 0)
+	{
+		Direction = getDirection(GoToNextCase(Position, ways[0], false));
+	}
 }
 
 void AFlowerGameCharacter::OnPressed(const ETouchIndex::Type FingerIndex, const FVector Location)
@@ -109,7 +121,6 @@ void AFlowerGameCharacter::MoveToTouchLocation(const FVector Location)
 		{
 			if (caseSelected->bListenTouchEvent)
 			{
-				print(Position->GetName());
 				bWaitChoiceUser = false;
 				ManageCaseChoice(Position, CheckWaysAvailable(Position), false);
 				Position = GoToNextCase(Position, getDirection(caseSelected), true);
@@ -137,9 +148,8 @@ void AFlowerGameCharacter::OnOverlapBegin(class UPrimitiveComponent *OverlappedC
 		ACaseDefault *caseOverlaped = Cast<ACaseDefault>(OtherActor);
 		if (caseOverlaped != nullptr)
 		{
-			if (Position->equalsPosition(caseOverlaped))
+			if (Position->ID_Case == caseOverlaped->ID_Case)
 			{
-				print(Position->GetName());
 				if (MovementPoint == 0)
 				{
 					switch (caseOverlaped->name_Case)
@@ -153,6 +163,7 @@ void AFlowerGameCharacter::OnOverlapBegin(class UPrimitiveComponent *OverlappedC
 					default:
 						break;
 					}
+					bTurnFinished = true;
 				}
 				else
 				{

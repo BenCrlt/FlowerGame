@@ -92,6 +92,15 @@ class ACaseDefault;
 		P_NATIVE_BEGIN; \
 		P_THIS->MoveWithDice(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execInitPlayer) \
+	{ \
+		P_GET_OBJECT(ACaseDefault,Z_Param_caseInit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InitPlayer(Z_Param_caseInit); \
+		P_NATIVE_END; \
 	}
 
 
@@ -168,6 +177,15 @@ class ACaseDefault;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->MoveWithDice(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execInitPlayer) \
+	{ \
+		P_GET_OBJECT(ACaseDefault,Z_Param_caseInit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->InitPlayer(Z_Param_caseInit); \
 		P_NATIVE_END; \
 	}
 

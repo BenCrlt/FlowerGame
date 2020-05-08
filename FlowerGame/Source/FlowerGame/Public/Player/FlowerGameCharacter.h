@@ -70,7 +70,11 @@ public:
 	int32 Tour;
 	UPROPERTY()
 	bool isTouch;
+	UPROPERTY()
+	bool bTurnFinished;
 
+	UFUNCTION()
+	void InitPlayer(ACaseDefault *caseInit);
 	UFUNCTION()
 	void MoveWithDice();
 	UFUNCTION()

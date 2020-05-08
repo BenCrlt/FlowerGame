@@ -140,6 +140,8 @@ C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Public\Model/Cases/CaseDefault.h
 C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineUtils.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\CaseDefault.generated.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Public\Model/Cases/CaseSpawn.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\CaseSpawn.generated.h
 C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h

@@ -12,7 +12,8 @@ UENUM()
 enum ECases
 {
 	CASE_DEFAULT UMETA(DisplayName = "Default"),
-	CASE_STORE UMETA(DisplayName = "Store")
+	CASE_STORE UMETA(DisplayName = "Store"),
+	CASE_SPAWN UMETA(DisplayName = "Spawn")
 };
 
 UCLASS()
@@ -37,6 +38,7 @@ public:
 	USceneComponent *Root;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UStaticMeshComponent *CaseMesh;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
 	TEnumAsByte<ECases> name_Case;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Info Case")
@@ -53,6 +55,4 @@ public:
 	int32 ID_Case;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Info Case")
 	TArray<int32> Coordonnees;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Info Case")
-	bool bEnableSpawnPlayer;
 };

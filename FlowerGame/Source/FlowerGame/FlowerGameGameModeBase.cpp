@@ -14,9 +14,10 @@ AFlowerGameGameModeBase::AFlowerGameGameModeBase()
 	static ConstructorHelpers::FClassFinder<AFlowerGameCharacter> PlayerPawnBPClass(TEXT("/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter"));
 
 	classPlayer = PlayerPawnBPClass.Class;
-	nbPlayers = 1;
-	//DefaultPawnClass = PlayerPawnBPClass.Class;
+	nbPlayers = 3;
 	HUDClass = AUI_PlayingGame::StaticClass();
+
+	PlayerSelected = nullptr;
 
 	BOARD_SIZE = 7;
 }
@@ -45,14 +46,13 @@ void AFlowerGameGameModeBase::HandleNewState(EGamePlayState NewState)
 	{
 	case EGamePlayState::EBegin:
 	{
-		print("BeginState");
 		InitBoard();
+		InitPlayer();
 		SetCurrentState(EGamePlayState::EPlaying);
 	}
 	break;
 	case EGamePlayState::EPlaying:
 	{
-		print("PlayingState");
 	}
 	break;
 	// Unknown/default state
@@ -91,6 +91,11 @@ void AFlowerGameGameModeBase::FillBoard()
 		if (ACaseDefault *caseFound = Cast<ACaseDefault>(FoundActors[i]))
 		{
 			Board[caseFound->Coordonnees[0] - 1].Rows[caseFound->Coordonnees[1] - 1] = caseFound;
+
+			if (ACaseSpawn *spawnFound = Cast<ACaseSpawn>(caseFound))
+			{
+				ListSpawns.Add(spawnFound);
+			}
 		}
 	}
 
@@ -145,28 +150,69 @@ void AFlowerGameGameModeBase::InitCase(ACaseDefault *caseSelected, int32 line, i
 
 void AFlowerGameGameModeBase::InitPlayer()
 {
-	UWorld *world = GetWorld();
-	FVector Origin;
-	FVector BoundsExtend;
-
-	FActorSpawnParameters SpawnParams;
-	SpawnParams.Owner = this;
-	SpawnParams.Instigator = Instigator;
-	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-
-	for (int32 i = 0; i < nbPlayers; i++)
+	if (nbPlayers >= 0 && ListSpawns.Num() > 0 && ListSpawns.Num() >= nbPlayers)
 	{
-		Board[0].Rows[0]->GetActorBounds(false, Origin, BoundsExtend);
-		Players[i] = world->SpawnActor<AFlowerGameCharacter>(classPlayer, Origin, FRotator(0, 0, 0), SpawnParams);
-		Players[i]->Position = Board[0].Rows[0];
-	}
+		UWorld *world = GetWorld();
 
-	PlayerSelected = Players[0];
-	world->GetFirstPlayerController()->Possess(PlayerSelected);
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		SpawnParams.Instigator = Instigator;
+		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+		int32 randInt;
+		for (int32 i = 0; i < nbPlayers; i++)
+		{
+			randInt = FMath::RandRange(0, ListSpawns.Num() - 1);
+			Players.Add(world->SpawnActor<AFlowerGameCharacter>(classPlayer, ListSpawns[randInt]->GetLocation(), FRotator(0, 0, 0), SpawnParams));
+			Players[i]->InitPlayer(ListSpawns[randInt]);
+			world->GetFirstPlayerController()->Possess(Players[i]);
+			ListSpawns.RemoveAt(randInt);
+		}
+
+		PlayerSelected = Players[0];
+		world->GetFirstPlayerController()->Possess(PlayerSelected);
+	}
+	else
+	{
+		print("FATAL ERROR in INIT PLAYER");
+	}
 }
 
 void AFlowerGameGameModeBase::LaunchDice(int32 numDice)
 {
 	PlayerSelected->MovementPoint = numDice;
 	PlayerSelected->MoveWithDice();
+}
+
+void AFlowerGameGameModeBase::ChangePlayer()
+{
+	UWorld *world = GetWorld();
+	int32 indexPlayer = Players.Find(PlayerSelected);
+	if (indexPlayer == Players.Num() - 1)
+	{
+		indexPlayer = 0;
+		print("Tour suivant");
+	}
+	else
+	{
+		indexPlayer++;
+	}
+	PlayerSelected = Players[indexPlayer];
+	PlayerSelected->bTurnFinished = false;
+	world->GetFirstPlayerController()->Possess(PlayerSelected);
+}
+
+void AFlowerGameGameModeBase::TurnFinished()
+{
+	ChangePlayer();
+}
+
+bool AFlowerGameGameModeBase::GetVisibilityNextPlayer()
+{
+	bool bVisibility = false;
+	if (PlayerSelected != nullptr)
+	{
+		bVisibility = PlayerSelected->bTurnFinished;
+	}
+	return bVisibility;
 }

@@ -1,0 +1,1611 @@
+﻿Log file open, 05/08/20 14:36:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FlowerGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.114949
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1709) (), CPU: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -EpicPortal -epicusername="DTG Nexus" -epicuserid=2e1d950de67a42a9ac87a75ef67e2d84 -epiclocale=fr
+LogInit: Base Directory: C:/Users/a021694/Desktop/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.05.08-12.36.10:281][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.05.08-12.36.10:282][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.05.08-12.36.10:283][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.08-12.36.10:283][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.05.08-12.36.10:283][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.05.08-12.36.10:286][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.08-12.36.10:286][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.08-12.36.10:287][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.08-12.36.10:287][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.08-12.36.10:287][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.08-12.36.10:290][  0]LogHAL: Display: Platform has ~ 32 GB [34234515456 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.08-12.36.10:290][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.08-12.36.10:290][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.08-12.36.10:290][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.08-12.36.10:290][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.08-12.36.10:290][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.08-12.36.10:291][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Scalability.ini]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.08-12.36.10:292][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Config/Windows/Engine.ini]
+[2020.05.08-12.36.10:292][  0]LogInit: Computer: FRLH133527
+[2020.05.08-12.36.10:292][  0]LogInit: User: a021694
+[2020.05.08-12.36.10:292][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.05.08-12.36.10:292][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2020.05.08-12.36.10:292][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.05.08-12.36.10:292][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.08-12.36.10:293][  0]LogMemory: Process Physical Memory: 105.50 MB used, 105.50 MB peak
+[2020.05.08-12.36.10:293][  0]LogMemory: Process Virtual Memory: 99.86 MB used, 99.86 MB peak
+[2020.05.08-12.36.10:293][  0]LogMemory: Physical Memory: 5221.94 MB used,  27426.64 MB free, 32648.58 MB total
+[2020.05.08-12.36.10:293][  0]LogMemory: Virtual Memory: 1044.13 MB used,  134216680.00 MB free, 134217728.00 MB total
+[2020.05.08-12.36.10:299][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.08-12.36.10:338][  0]LogInit: Using OS detected language (fr-FR).
+[2020.05.08-12.36.10:338][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.05.08-12.36.10:339][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.05.08-12.36.10:340][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.05.08-12.36.10:340][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.05.08-12.36.10:341][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.05.08-12.36.10:341][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.05.08-12.36.10:341][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.05.08-12.36.10:341][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.05.08-12.36.10:342][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.05.08-12.36.10:343][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.08-12.36.10:438][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.08-12.36.10:438][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.08-12.36.10:672][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.08-12.36.10:672][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.08-12.36.10:672][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.08-12.36.10:672][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.08-12.36.10:735][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2020.05.08-12.36.10:735][  0]LogD3D11RHI:       128/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.05.08-12.36.10:739][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.08-12.36.10:739][  0]LogD3D11RHI:       0/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.08-12.36.10:739][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.08-12.36.10:750][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.08-12.36.10:750][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.08-12.36.10:750][  0]LogWindows: EnumDisplayDevices:
+[2020.05.08-12.36.10:750][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2020.05.08-12.36.10:751][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.05.08-12.36.10:751][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.05.08-12.36.10:751][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.05.08-12.36.10:751][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2020.05.08-12.36.10:751][  0]LogD3D11RHI:   Driver Version: 26.20.100.6888 (internal:26.20.100.6888, unified:26.20.100.6888)
+[2020.05.08-12.36.10:751][  0]LogD3D11RHI:      Driver Date: 5-16-2019
+[2020.05.08-12.36.10:751][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.05.08-12.36.10:845][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.08-12.36.10:845][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.05.08-12.36.10:845][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.08-12.36.10:856][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.05.08-12.36.11:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.08-12.36.11:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.08-12.36.11:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.08-12.36.11:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.08-12.36.11:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.08-12.36.11:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.08-12.36.11:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.08-12.36.11:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.08-12.36.11:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.08-12.36.11:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.08-12.36.11:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.08-12.36.11:473][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.08-12.36.11:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.08-12.36.11:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.08-12.36.11:511][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.08-12.36.11:529][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.08-12.36.11:529][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.08-12.36.11:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.08-12.36.11:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.08-12.36.11:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.08-12.36.11:571][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.08-12.36.11:571][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.08-12.36.11:576][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.08-12.36.11:616][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../Documents/GitHub/FlowerGame/FlowerGame/Intermediate/Shaders/WorkingDirectory/4456/).
+[2020.05.08-12.36.11:617][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a021694/AppData/Local/Temp/UnrealShaderWorkingDir/33331E0D44A7C90471D088882B375D8E/'.
+[2020.05.08-12.36.11:618][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.08-12.36.11:618][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.08-12.36.11:618][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.08-12.36.12:611][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.08-12.36.12:667][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/a021694/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.08-12.36.12:667][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/a021694/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.08-12.36.12:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Documents/GitHub/FlowerGame/FlowerGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.08-12.36.12:667][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.08-12.36.12:667][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Documents/GitHub/FlowerGame/FlowerGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.08-12.36.12:667][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.08-12.36.12:680][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.08-12.36.12:680][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.08-12.36.12:680][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.08-12.36.12:681][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a021694/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.08-12.36.12:681][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.08-12.36.12:681][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.08-12.36.12:712][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.08-12.36.12:715][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.08-12.36.12:715][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.08-12.36.12:776][  0]LogAssetRegistry: FAssetRegistry took 0.0036 seconds to start up
+[2020.05.08-12.36.13:217][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.08-12.36.13:464][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.08-12.36.13:464][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.08-12.36.13:464][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.08-12.36.13:464][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.08-12.36.13:464][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.08-12.36.13:484][  0]LogNetVersion: FlowerGame 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1154599133)
+[2020.05.08-12.36.14:915][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.106782 seconds
+[2020.05.08-12.36.14:926][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.08-12.36.14:926][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.08-12.36.14:926][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.08-12.36.15:558][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.08-12.36.15:562][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.08-12.36.16:423][  0]SourceControl: Source control is disabled
+[2020.05.08-12.36.16:423][  0]SourceControl: Source control is disabled
+[2020.05.08-12.36.16:426][  0]SourceControl: Source control is disabled
+[2020.05.08-12.36.16:427][  0]SourceControl: Source control is disabled
+[2020.05.08-12.36.16:429][  0]SourceControl: Source control is disabled
+[2020.05.08-12.36.16:531][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.08-12.36.16:546][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.08-12.36.16:546][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.08-12.36.16:712][  0]LogOcInput: OculusInput pre-init called
+[2020.05.08-12.36.16:726][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.08-12.36.16:727][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.08-12.36.16:888][  0]LogEngine: Initializing Engine...
+[2020.05.08-12.36.16:889][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.08-12.36.16:891][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.08-12.36.17:396][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.08-12.36.17:408][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.08-12.36.17:417][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-12.36.17:417][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-12.36.17:417][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-12.36.17:417][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-12.36.17:417][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-12.36.17:417][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-12.36.17:417][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-12.36.17:417][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-12.36.17:418][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-12.36.17:418][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-12.36.17:442][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-12.36.17:596][  0]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.36.17:607][  0]LogInit: FAudioDevice initialized.
+[2020.05.08-12.36.17:608][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.08-12.36.17:792][  0]LogDerivedDataCache: Saved boot cache 0.18s 79MB C:/Users/a021694/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.08-12.36.17:809][  0]LogInit: Texture streaming: Enabled
+[2020.05.08-12.36.17:827][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.08-12.36.17:827][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.08-12.36.17:829][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.08-12.36.23:529][  0]LogMaterial: Verifying Global Shaders for PCD3D_ES31
+[2020.05.08-12.36.23:534][  0]LogInit: Transaction tracking system initialized
+[2020.05.08-12.36.23:556][  0]BlueprintLog: New page: Editor Load
+[2020.05.08-12.36.23:614][  0]LocalizationService: Localization service is disabled
+[2020.05.08-12.36.24:506][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Content/' took 0.05s
+[2020.05.08-12.36.24:506][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.08-12.36.24:506][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.08-12.36.25:577][  0]SourceControl: Source control is disabled
+[2020.05.08-12.36.25:577][  0]Cmd: MAP LOAD FILE="../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.08-12.36.25:578][  0]LightingResults: New page: Lighting Build
+[2020.05.08-12.36.25:579][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-12.36.25:579][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-12.36.25:579][  0]MapCheck: New page: Map Check
+[2020.05.08-12.36.25:579][  0]LightingResults: New page: Lighting Build
+[2020.05.08-12.36.25:615][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.05.08-12.36.26:287][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-12.36.26:886][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.08-12.36.26:924][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.05.08-12.36.26:924][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.08-12.36.26:925][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,157ms to complete.
+[2020.05.08-12.36.26:925][  0]LogFileHelpers: Loading map 'TestMap' took 1.348
+[2020.05.08-12.36.27:015][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.08-12.36.27:015][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.08-12.36.27:204][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.36.27:215][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.36.27:224][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.36.27:236][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.36.27:257][  0]LogCollectionManager: Loaded 0 collections in 0.003506 seconds
+[2020.05.08-12.36.27:361][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Saved/Collections/' took 0.00s
+[2020.05.08-12.36.27:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Content/Developers/a021694/Collections/' took 0.00s
+[2020.05.08-12.36.27:362][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/Content/Collections/' took 0.00s
+[2020.05.08-12.36.27:362][  0]LogContentBrowser: Native class hierarchy populated in 0.0486 seconds. Added 3023 classes and 724 folders.
+[2020.05.08-12.36.27:386][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2020.05.08-12.36.28:560][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.05.08-12.36.28:581][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 2 classes and 3 folders.
+[2020.05.08-12.36.29:177][  0]LogSlate: Took 0.000438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.08-12.36.29:181][  0]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.08-12.36.29:207][  0]LogSlate: Took 0.014431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.08-12.36.29:875][  0]LogRenderer: Reallocating scene render targets to support 932x432 Format 10 NumSamples 1 (Frame:1).
+[2020.05.08-12.36.30:449][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.05.08-12.36.30:449][  0]LogLoad: (Engine Initialization) Total time: 22.06 seconds
+[2020.05.08-12.36.30:449][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.08-12.36.30:551][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.08-12.36.30:599][  0]LogSlate: Took 0.037540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.05.08-12.36.30:703][  0]LogSlate: Took 0.024305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.08-12.36.31:422][  9]LogAssetRegistry: Asset discovery search completed in 18.6473 seconds
+[2020.05.08-12.36.31:431][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2020.05.08-12.49.22:710][345]Candidate modules for hot reload:
+[2020.05.08-12.49.22:710][345]  FlowerGame
+[2020.05.08-12.49.22:710][345]Launching UnrealBuildTool... [C:/Users/a021694/Desktop/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,1623 Win64 Development -TargetType=Editor -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.08-12.49.22:726][345]Warning: Starting HotReload took  0.0s.
+[2020.05.08-12.50.47:091][413]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.05.08-12.50.47:248][413]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2020.05.08-12.51.18:839][298]CompilerResultsLog: New page: Compilation - 8 mai 2020 à 16:51:18
+[2020.05.08-12.51.18:840][298]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.08-12.51.18:840][298]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.08-12.51.18:840][298]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.08-12.51.18:840][298]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.05.08-12.51.18:840][298]CompilerResultsLog:   [1/5] CaseDefault.cpp
+[2020.05.08-12.51.18:840][298]CompilerResultsLog:   [2/5] FlowerGameCharacter.cpp
+[2020.05.08-12.51.18:840][298]CompilerResultsLog:   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Private\Player\FlowerGameCharacter.cpp(33): warning C4996: 'USceneComponent::RelativeRotation': This member will be made private. Please use GetRelativeRotation or SetRelativeRotation. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.05.08-12.51.18:840][298]CompilerResultsLog:   C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(159): note: voir la d?claration de 'USceneComponent::RelativeRotation'
+[2020.05.08-12.51.18:841][298]CompilerResultsLog:   [3/5] UE4Editor-FlowerGame-1623.lib
+[2020.05.08-12.51.18:841][298]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1623.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1623.exp
+[2020.05.08-12.51.18:841][298]CompilerResultsLog:   [4/5] UE4Editor-FlowerGame-1623.dll
+[2020.05.08-12.51.18:841][298]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1623.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1623.suppressed.exp
+[2020.05.08-12.51.18:841][298]CompilerResultsLog:   [5/5] FlowerGameEditor.target
+[2020.05.08-12.51.18:841][298]CompilerResultsLog: Total time in Parallel executor: 106,41 seconds
+[2020.05.08-12.51.18:841][298]CompilerResultsLog: Total execution time: 115,87 seconds
+[2020.05.08-12.51.18:841][298]LogMainFrame: MainFrame: Module compiling took 116.138 seconds
+[2020.05.08-12.51.18:907][298]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2020.05.08-12.51.18:964][298]LogClass: ECases HotReload.
+[2020.05.08-12.51.18:965][298]LogClass: EDirection HotReload.
+[2020.05.08-12.51.18:965][298]LogClass: EGamePlayState HotReload.
+[2020.05.08-12.51.18:965][298]LogClass: Lines HotReload.
+[2020.05.08-12.51.18:970][298]LogHotReload: Re-instancing CaseDefault after hot-reload.
+[2020.05.08-12.51.19:189][298]LogHotReload: Re-instancing CaseMagasin after hot-reload.
+[2020.05.08-12.51.19:345][298]LogHotReload: Re-instancing CaseSpawn after hot-reload.
+[2020.05.08-12.51.19:493][298]LogHotReload: Re-instancing FlowerGameCharacter after hot-reload.
+[2020.05.08-12.51.19:629][298]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0004 seconds. Added 8 classes and 7 folders.
+[2020.05.08-12.51.19:633][298]Display: HotReload successful (12 functions remapped  1 scriptstructs remapped)
+[2020.05.08-12.51.19:751][298]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.05.08-12.51.19:767][298]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3025 classes and 727 folders.
+[2020.05.08-12.51.19:768][298]Display: HotReload took 117.1s.
+[2020.05.08-12.51.25:249][572]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-12.51.25:297][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.51.25:297][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-12.51.25:297][572]PIE: New page: PIE session: TestMap (8 mai 2020 à 16:51:25)
+[2020.05.08-12.51.25:299][572]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.08-12.51.25:301][572]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.08-12.51.25:301][572]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-12.51.25:670][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.368634s)
+[2020.05.08-12.51.25:671][572]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-12.51.25:671][572]LogPlayLevel: PIE: World Init took: (0.001496s)
+[2020.05.08-12.51.25:672][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.370533s)
+[2020.05.08-12.51.25:698][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.05.08-12.51.25:699][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-12.51.25:699][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-12.51.25:699][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-12.51.25:699][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-12.51.25:699][572]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-12.51.25:699][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-12.51.25:699][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-12.51.25:699][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-12.51.25:699][572]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-12.51.25:700][572]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: Channel Order:
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-12.51.25:705][572]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-12.51.25:712][572]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.51.25:714][572]LogInit: FAudioDevice initialized.
+[2020.05.08-12.51.25:731][572]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-12.51.25:735][572]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-14.51.25
+[2020.05.08-12.51.25:736][572]LogWorld: Bringing up level for play took: 0.004037
+[2020.05.08-12.51.25:737][572]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.05.08-12.51.25:774][572]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.05.08-12.51.25:788][572]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-12.51.25:793][572]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap 1,159
+[2020.05.08-12.51.25:793][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.51.34:513][946]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.51.34:513][946]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.51.34:513][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.51.34:514][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.51.34:514][946]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-12.51.34:515][946]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.51.34:515][946]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-12.51.34:516][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-12.51.34:560][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-12.51.34:560][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.51.34:565][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-12.51.34:612][946]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.51.34:615][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.51.34:625][946]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.05.08-12.51.34:667][947]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.05.08-12.51.51:148][ 39]LogSlate: Took 0.004989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.08-12.53.32:006][388]Candidate modules for hot reload:
+[2020.05.08-12.53.32:006][388]  FlowerGame
+[2020.05.08-12.53.32:006][388]Launching UnrealBuildTool... [C:/Users/a021694/Desktop/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,1240 Win64 Development -TargetType=Editor -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.08-12.53.32:027][388]Warning: Starting HotReload took  0.0s.
+[2020.05.08-12.54.20:506][105]CompilerResultsLog: New page: Compilation - 8 mai 2020 à 16:54:20
+[2020.05.08-12.54.20:506][105]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.08-12.54.20:506][105]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.08-12.54.20:506][105]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.08-12.54.20:506][105]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.08-12.54.20:506][105]CompilerResultsLog:   [1/4] CaseDefault.cpp
+[2020.05.08-12.54.20:506][105]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-1240.lib
+[2020.05.08-12.54.20:506][105]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1240.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1240.exp
+[2020.05.08-12.54.20:506][105]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-1240.dll
+[2020.05.08-12.54.20:506][105]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1240.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-1240.suppressed.exp
+[2020.05.08-12.54.20:506][105]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.05.08-12.54.20:506][105]CompilerResultsLog: Total time in Parallel executor: 44,19 seconds
+[2020.05.08-12.54.20:507][105]CompilerResultsLog: Total execution time: 48,29 seconds
+[2020.05.08-12.54.20:507][105]LogMainFrame: MainFrame: Module compiling took 48.525 seconds
+[2020.05.08-12.54.20:566][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.05.08-12.54.20:627][105]LogClass: ECases HotReload.
+[2020.05.08-12.54.20:627][105]LogClass: EDirection HotReload.
+[2020.05.08-12.54.20:627][105]LogClass: EGamePlayState HotReload.
+[2020.05.08-12.54.20:627][105]LogClass: Lines HotReload.
+[2020.05.08-12.54.20:632][105]LogHotReload: Re-instancing CaseDefault after hot-reload.
+[2020.05.08-12.54.20:843][105]LogHotReload: Re-instancing CaseMagasin after hot-reload.
+[2020.05.08-12.54.21:003][105]LogHotReload: Re-instancing CaseSpawn after hot-reload.
+[2020.05.08-12.54.21:171][105]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0005 seconds. Added 8 classes and 7 folders.
+[2020.05.08-12.54.21:176][105]Display: HotReload successful (12 functions remapped  1 scriptstructs remapped)
+[2020.05.08-12.54.21:288][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2020.05.08-12.54.21:303][105]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 3025 classes and 727 folders.
+[2020.05.08-12.54.21:303][105]Display: HotReload took 49.3s.
+[2020.05.08-12.54.26:040][269]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-12.54.26:091][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.54.26:091][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-12.54.26:091][269]PIE: New page: PIE session: TestMap (8 mai 2020 à 16:54:26)
+[2020.05.08-12.54.26:091][269]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-12.54.26:326][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.234519s)
+[2020.05.08-12.54.26:328][269]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-12.54.26:328][269]LogPlayLevel: PIE: World Init took: (0.002128s)
+[2020.05.08-12.54.26:328][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.236884s)
+[2020.05.08-12.54.26:361][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.05.08-12.54.26:361][269]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-12.54.26:361][269]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-12.54.26:361][269]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-12.54.26:361][269]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-12.54.26:361][269]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-12.54.26:361][269]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-12.54.26:361][269]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-12.54.26:361][269]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-12.54.26:362][269]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-12.54.26:362][269]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-12.54.26:368][269]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-12.54.26:368][269]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.54.26:368][269]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-12.54.26:368][269]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-12.54.26:368][269]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-12.54.26:368][269]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-12.54.26:368][269]LogAudioMixer: Display: Channel Order:
+[2020.05.08-12.54.26:369][269]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-12.54.26:369][269]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-12.54.26:376][269]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.54.26:378][269]LogInit: FAudioDevice initialized.
+[2020.05.08-12.54.26:390][269]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-12.54.26:395][269]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-14.54.26
+[2020.05.08-12.54.26:395][269]LogWorld: Bringing up level for play took: 0.004491
+[2020.05.08-12.54.26:395][269]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.05.08-12.54.26:401][269]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-12.54.26:402][269]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap -0,232
+[2020.05.08-12.54.26:403][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.57.48:324][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.57.48:324][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.57.48:324][469]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.57.48:324][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.57.48:324][469]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-12.57.48:326][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.57.48:326][469]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-12.57.48:327][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-12.57.48:358][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-12.57.48:358][469]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.57.48:361][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-12.57.48:386][469]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.57.48:389][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.57.48:394][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.05.08-12.57.48:418][471]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.05.08-12.57.49:414][523]Candidate modules for hot reload:
+[2020.05.08-12.57.49:414][523]  FlowerGame
+[2020.05.08-12.57.49:414][523]Launching UnrealBuildTool... [C:/Users/a021694/Desktop/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,8547 Win64 Development -TargetType=Editor -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.08-12.57.49:430][523]Warning: Starting HotReload took  0.0s.
+[2020.05.08-12.58.33:237][ 38]CompilerResultsLog: New page: Compilation - 8 mai 2020 à 16:58:33
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog:   [1/4] CaseDefault.cpp
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-8547.lib
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8547.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8547.exp
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-8547.dll
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8547.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8547.suppressed.exp
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog: Total time in Parallel executor: 40,45 seconds
+[2020.05.08-12.58.33:238][ 38]CompilerResultsLog: Total execution time: 43,63 seconds
+[2020.05.08-12.58.33:238][ 38]LogMainFrame: MainFrame: Module compiling took 43.829 seconds
+[2020.05.08-12.58.33:299][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.05.08-12.58.33:357][ 38]LogClass: ECases HotReload.
+[2020.05.08-12.58.33:357][ 38]LogClass: EDirection HotReload.
+[2020.05.08-12.58.33:357][ 38]LogClass: EGamePlayState HotReload.
+[2020.05.08-12.58.33:357][ 38]LogClass: Lines HotReload.
+[2020.05.08-12.58.33:360][ 38]LogHotReload: Re-instancing CaseDefault after hot-reload.
+[2020.05.08-12.58.33:553][ 38]LogHotReload: Re-instancing CaseMagasin after hot-reload.
+[2020.05.08-12.58.33:707][ 38]LogHotReload: Re-instancing CaseSpawn after hot-reload.
+[2020.05.08-12.58.33:852][ 38]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0006 seconds. Added 8 classes and 7 folders.
+[2020.05.08-12.58.33:855][ 38]Display: HotReload successful (12 functions remapped  1 scriptstructs remapped)
+[2020.05.08-12.58.33:969][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.05.08-12.58.33:989][ 38]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 3025 classes and 727 folders.
+[2020.05.08-12.58.33:989][ 38]Display: HotReload took 44.6s.
+[2020.05.08-12.58.37:939][307]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-12.58.37:981][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.58.37:981][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-12.58.37:981][307]PIE: New page: PIE session: TestMap (8 mai 2020 à 16:58:37)
+[2020.05.08-12.58.37:981][307]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-12.58.38:194][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.213111s)
+[2020.05.08-12.58.38:196][307]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-12.58.38:196][307]LogPlayLevel: PIE: World Init took: (0.001742s)
+[2020.05.08-12.58.38:196][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.215233s)
+[2020.05.08-12.58.38:226][307]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.05.08-12.58.38:226][307]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-12.58.38:226][307]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-12.58.38:226][307]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-12.58.38:226][307]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-12.58.38:226][307]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-12.58.38:226][307]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-12.58.38:226][307]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-12.58.38:226][307]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-12.58.38:227][307]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-12.58.38:227][307]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-12.58.38:233][307]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-12.58.38:233][307]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.58.38:233][307]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-12.58.38:234][307]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-12.58.38:234][307]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-12.58.38:234][307]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-12.58.38:234][307]LogAudioMixer: Display: Channel Order:
+[2020.05.08-12.58.38:234][307]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-12.58.38:234][307]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-12.58.38:241][307]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-12.58.38:243][307]LogInit: FAudioDevice initialized.
+[2020.05.08-12.58.38:251][307]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-12.58.38:256][307]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-14.58.38
+[2020.05.08-12.58.38:256][307]LogWorld: Bringing up level for play took: 0.004512
+[2020.05.08-12.58.38:256][307]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.08-12.58.38:264][307]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-12.58.38:266][307]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap -0,368
+[2020.05.08-12.58.38:266][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.58.44:967][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.58.44:967][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.58.44:967][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.58.44:968][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.58.44:968][539]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-12.58.44:968][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.58.44:968][539]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-12.58.44:969][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-12.58.45:024][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-12.58.45:024][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-12.58.45:029][539]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-12.58.45:067][539]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-12.58.45:071][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-12.58.45:080][539]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.05.08-12.58.45:116][540]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.08-13.00.34:572][967]Candidate modules for hot reload:
+[2020.05.08-13.00.34:572][967]  FlowerGame
+[2020.05.08-13.00.34:573][967]Launching UnrealBuildTool... [C:/Users/a021694/Desktop/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,5486 Win64 Development -TargetType=Editor -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.08-13.00.34:592][967]Warning: Starting HotReload took  0.0s.
+[2020.05.08-13.00.51:812][202]CompilerResultsLog: New page: Compilation - 8 mai 2020 à 17:00:51
+[2020.05.08-13.00.51:812][202]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.08-13.00.51:812][202]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.08-13.00.51:812][202]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.08-13.00.51:812][202]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.08-13.00.51:812][202]CompilerResultsLog:   [1/4] CaseDefault.cpp
+[2020.05.08-13.00.51:812][202]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-5486.lib
+[2020.05.08-13.00.51:812][202]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5486.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5486.exp
+[2020.05.08-13.00.51:812][202]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-5486.dll
+[2020.05.08-13.00.51:812][202]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5486.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5486.suppressed.exp
+[2020.05.08-13.00.51:812][202]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.05.08-13.00.51:812][202]CompilerResultsLog: Total time in Parallel executor: 13,27 seconds
+[2020.05.08-13.00.51:812][202]CompilerResultsLog: Total execution time: 16,83 seconds
+[2020.05.08-13.00.51:812][202]LogMainFrame: MainFrame: Module compiling took 17.264 seconds
+[2020.05.08-13.00.51:857][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.05.08-13.00.51:902][202]LogClass: ECases HotReload.
+[2020.05.08-13.00.51:902][202]LogClass: EDirection HotReload.
+[2020.05.08-13.00.51:902][202]LogClass: EGamePlayState HotReload.
+[2020.05.08-13.00.51:902][202]LogClass: Lines HotReload.
+[2020.05.08-13.00.51:905][202]LogHotReload: Re-instancing CaseDefault after hot-reload.
+[2020.05.08-13.00.52:043][202]LogHotReload: Re-instancing CaseMagasin after hot-reload.
+[2020.05.08-13.00.52:177][202]LogHotReload: Re-instancing CaseSpawn after hot-reload.
+[2020.05.08-13.00.52:490][202]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0004 seconds. Added 8 classes and 7 folders.
+[2020.05.08-13.00.52:493][202]Display: HotReload successful (12 functions remapped  1 scriptstructs remapped)
+[2020.05.08-13.00.52:621][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.05.08-13.00.52:642][202]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 3025 classes and 727 folders.
+[2020.05.08-13.00.52:642][202]Display: HotReload took 18.1s.
+[2020.05.08-13.01.10:049][300]Candidate modules for hot reload:
+[2020.05.08-13.01.10:050][300]  FlowerGame
+[2020.05.08-13.01.10:050][300]Launching UnrealBuildTool... [C:/Users/a021694/Desktop/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,8392 Win64 Development -TargetType=Editor -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.08-13.01.10:069][300]Warning: Starting HotReload took  0.0s.
+[2020.05.08-13.02.24:100][ 41]CompilerResultsLog: New page: Compilation - 8 mai 2020 à 17:02:24
+[2020.05.08-13.02.24:100][ 41]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.08-13.02.24:100][ 41]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:   [1/4] FlowerGameCharacter.cpp
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Private\Player\FlowerGameCharacter.cpp(33): warning C4996: 'USceneComponent::RelativeRotation': This member will be made private. Please use GetRelativeRotation or SetRelativeRotation. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:   C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(159): note: voir la d?claration de 'USceneComponent::RelativeRotation'
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-8392.lib
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8392.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8392.exp
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-8392.dll
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8392.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8392.suppressed.exp
+[2020.05.08-13.02.24:101][ 41]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.05.08-13.02.24:102][ 41]CompilerResultsLog: Total time in Parallel executor: 69,56 seconds
+[2020.05.08-13.02.24:102][ 41]CompilerResultsLog: Total execution time: 73,86 seconds
+[2020.05.08-13.02.24:102][ 41]LogMainFrame: MainFrame: Module compiling took 74.076 seconds
+[2020.05.08-13.02.24:157][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.05.08-13.02.24:216][ 41]LogClass: ECases HotReload.
+[2020.05.08-13.02.24:216][ 41]LogClass: EDirection HotReload.
+[2020.05.08-13.02.24:216][ 41]LogClass: EGamePlayState HotReload.
+[2020.05.08-13.02.24:216][ 41]LogClass: Lines HotReload.
+[2020.05.08-13.02.24:220][ 41]LogHotReload: Re-instancing CaseDefault after hot-reload.
+[2020.05.08-13.02.24:434][ 41]LogHotReload: Re-instancing CaseMagasin after hot-reload.
+[2020.05.08-13.02.24:598][ 41]LogHotReload: Re-instancing CaseSpawn after hot-reload.
+[2020.05.08-13.02.24:756][ 41]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0005 seconds. Added 8 classes and 7 folders.
+[2020.05.08-13.02.24:759][ 41]Display: HotReload successful (12 functions remapped  1 scriptstructs remapped)
+[2020.05.08-13.02.24:890][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.05.08-13.02.24:909][ 41]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 3025 classes and 727 folders.
+[2020.05.08-13.02.24:909][ 41]Display: HotReload took 74.9s.
+[2020.05.08-13.02.44:472][809]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.02.44:525][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.02.44:525][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-13.02.44:525][809]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:02:44)
+[2020.05.08-13.02.44:525][809]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.02.44:778][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.252473s)
+[2020.05.08-13.02.44:779][809]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.02.44:780][809]LogPlayLevel: PIE: World Init took: (0.002033s)
+[2020.05.08-13.02.44:780][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.254773s)
+[2020.05.08-13.02.44:814][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.05.08-13.02.44:814][809]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.02.44:814][809]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.02.44:814][809]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.02.44:814][809]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.02.44:814][809]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.02.44:814][809]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.02.44:814][809]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.02.44:814][809]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.02.44:815][809]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.02.44:815][809]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.02.44:821][809]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.02.44:830][809]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.02.44:832][809]LogInit: FAudioDevice initialized.
+[2020.05.08-13.02.44:847][809]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.02.44:852][809]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.02.44
+[2020.05.08-13.02.44:852][809]LogWorld: Bringing up level for play took: 0.004651
+[2020.05.08-13.02.44:852][809]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.05.08-13.02.44:859][809]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-13.02.44:861][809]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap 0,227
+[2020.05.08-13.02.44:861][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.02.52:850][ 90]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.02.52:850][ 90]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.02.52:850][ 90]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.02.52:851][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.02.52:851][ 90]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.02.52:851][ 90]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.02.52:852][ 90]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.02.52:854][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.02.52:910][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-13.02.52:910][ 90]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.02.52:917][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.02.52:969][ 90]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.02.52:973][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.02.52:981][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.05.08-13.02.52:999][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.05.08-13.02.54:447][134]LogEditorViewport: Clicking on Actor (LMB): CaseSpawn (CaseSpawn3)
+[2020.05.08-13.02.58:751][251]LogEditorViewport: Clicking on Actor (LMB): CaseDefault (1;2)
+[2020.05.08-13.03.01:470][328]Cmd: DELETE
+[2020.05.08-13.03.01:470][328]Cmd: ACTOR DELETE
+[2020.05.08-13.03.01:514][328]LogEditorActor: Deleted Actor: CaseDefault
+[2020.05.08-13.03.01:558][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.05.08-13.03.01:559][328]LogEditorActor: Deleted 1 Actors (0.086 secs)
+[2020.05.08-13.03.17:087][731]LogEditor: Attempting to add actor of class 'CaseDefault' to level at -705.00,-2070.00,220.00
+[2020.05.08-13.03.18:340][764]LogEditor: Attempting to add actor of class 'CaseDefault' to level at 1330.00,-1780.00,225.00
+[2020.05.08-13.03.29:307][ 62]LogEditorViewport: Clicking on Actor (LMB): CaseSpawn (CaseSpawn1)
+[2020.05.08-13.03.32:081][149]LogEditorViewport: Clicking on Actor (LMB): CaseDefault (CaseDefault71)
+[2020.05.08-13.03.37:827][314]LogEditorViewport: Clicking on Actor (LMB): CaseSpawn (CaseSpawn1)
+[2020.05.08-13.03.39:009][348]LogEditorViewport: Clicking on Actor (LMB): NavModifierVolume (NavModifierVolume)
+[2020.05.08-13.03.40:782][403]LogEditorViewport: Clicking on Actor (LMB): CaseDefault (2;1)
+[2020.05.08-13.03.42:628][459]LogEditorViewport: Clicking on Actor (LMB): CaseDefault (1;3)
+[2020.05.08-13.04.12:919][424]LogEditorViewport: Clicking on Actor (LMB): CaseDefault (CaseDefault71)
+[2020.05.08-13.04.19:249][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Sand_Ground_06)
+[2020.05.08-13.04.22:588][711]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.04.22:628][711]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.04.22:628][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-13.04.22:628][711]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:04:22)
+[2020.05.08-13.04.22:628][711]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.04.22:825][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.196563s)
+[2020.05.08-13.04.22:826][711]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.04.22:827][711]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2020.05.08-13.04.22:827][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.198668s)
+[2020.05.08-13.04.22:860][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.05.08-13.04.22:861][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.04.22:861][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.04.22:861][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.04.22:861][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.04.22:861][711]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.04.22:861][711]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.04.22:862][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.04.22:862][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.04.22:862][711]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.04.22:862][711]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.04.22:867][711]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.04.22:875][711]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.04.22:877][711]LogInit: FAudioDevice initialized.
+[2020.05.08-13.04.22:891][711]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.04.22:894][711]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.04.22
+[2020.05.08-13.04.22:895][711]LogWorld: Bringing up level for play took: 0.003692
+[2020.05.08-13.04.22:895][711]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.05.08-13.04.22:900][711]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-13.04.22:902][711]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap 0,267
+[2020.05.08-13.04.22:902][711]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.04.30:041][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.04.30:041][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.04.30:041][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.04.30:042][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.04.30:042][ 11]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.04.30:042][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.04.30:043][ 11]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.04.30:044][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.04.30:090][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-13.04.30:091][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.04.30:095][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.04.30:137][ 11]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.04.30:140][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.04.30:150][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2020.05.08-13.04.30:183][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.05.08-13.04.33:422][130]LogEditorViewport: Clicking on Actor (LMB): CaseDefault (CaseDefault71)
+[2020.05.08-13.04.40:833][377]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.04.40:872][377]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.04.40:872][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-13.04.40:872][377]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:04:40)
+[2020.05.08-13.04.40:872][377]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.04.41:071][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.198922s)
+[2020.05.08-13.04.41:073][377]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.04.41:073][377]LogPlayLevel: PIE: World Init took: (0.001704s)
+[2020.05.08-13.04.41:073][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.200896s)
+[2020.05.08-13.04.41:104][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.05.08-13.04.41:105][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.04.41:105][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.04.41:105][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.04.41:105][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.04.41:105][377]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.04.41:105][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.04.41:105][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.04.41:105][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.04.41:106][377]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.04.41:106][377]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.04.41:111][377]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.04.41:118][377]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.04.41:120][377]LogInit: FAudioDevice initialized.
+[2020.05.08-13.04.41:131][377]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.04.41:134][377]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.04.41
+[2020.05.08-13.04.41:135][377]LogWorld: Bringing up level for play took: 0.003577
+[2020.05.08-13.04.41:135][377]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.05.08-13.04.41:140][377]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-13.04.41:142][377]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap 0,508
+[2020.05.08-13.04.41:142][377]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.04.50:753][784]LogEditorViewport: Clicking on Actor (LMB): CaseDefault (CaseDefault71)
+[2020.05.08-13.07.25:188][728]Cmd: SELECT NONE
+[2020.05.08-13.07.29:153][988]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.07.29:153][988]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.07.29:153][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.07.29:154][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.07.29:154][988]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.07.29:155][988]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.07.29:155][988]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.07.29:156][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.07.29:188][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-13.07.29:189][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.07.29:192][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.07.29:214][988]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.07.29:217][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.07.29:225][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.05.08-13.07.29:254][990]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.05.08-13.07.35:794][231]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.07.36:186][231]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.05.08-13.07.39:685][317]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.07.39:706][317]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.07.39:706][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.07.39:771][317]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.07.40:274][317]LogSlate: Took 0.006580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.08-13.07.42:376][387]LogSlate: Took 0.010271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.08-13.07.52:867][736]LogRenderer: Reallocating scene render targets to support 932x684 Format 10 NumSamples 1 (Frame:1).
+[2020.05.08-13.08.02:966][929]BlueprintLog: New page: Compile BP_FlowerGameCharacter
+[2020.05.08-13.08.03:338][929]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.05.08-13.08.05:524][984]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.08.05:534][984]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.08.05:535][984]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.08.05:535][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.08.07:641][136]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.08.07:675][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.08.07:676][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-13.08.07:676][136]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:08:07)
+[2020.05.08-13.08.07:676][136]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.08.07:864][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187808s)
+[2020.05.08-13.08.07:865][136]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.08.07:865][136]LogPlayLevel: PIE: World Init took: (0.001656s)
+[2020.05.08-13.08.07:866][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.189681s)
+[2020.05.08-13.08.07:910][136]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.08.07:912][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.08.07:912][136]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.08.07:912][136]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.08.07:917][136]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.08.07:917][136]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.08.07:918][136]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.08.07:918][136]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.08.07:918][136]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.08.07:918][136]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.08.07:918][136]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.08.07:918][136]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.08.07:918][136]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.08.07:925][136]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.08.07:927][136]LogInit: FAudioDevice initialized.
+[2020.05.08-13.08.07:935][136]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.08.07:939][136]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.08.07
+[2020.05.08-13.08.07:939][136]LogWorld: Bringing up level for play took: 0.003757
+[2020.05.08-13.08.07:939][136]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.05.08-13.08.07:944][136]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-13.08.07:946][136]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap -0,688
+[2020.05.08-13.08.07:946][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.08.11:359][286]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.08.11:359][286]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.08.11:359][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.08.11:360][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.08.11:360][286]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.08.11:360][286]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.08.11:360][286]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.08.11:363][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.08.11:408][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-13.08.11:409][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.08.11:415][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.08.11:471][286]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.08.11:474][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.08.11:484][286]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.05.08-13.08.11:517][287]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.05.08-13.08.13:997][363]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.08.53:976][166]BlueprintLog: New page: Compile BP_FlowerGameCharacter
+[2020.05.08-13.08.54:391][166]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.05.08-13.08.56:253][207]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.08.56:325][207]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.08.56:325][207]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.08.56:326][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.08.58:518][281]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.08.58:556][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.08.58:556][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-13.08.58:557][281]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:08:58)
+[2020.05.08-13.08.58:557][281]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.08.58:750][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.193464s)
+[2020.05.08-13.08.58:752][281]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.08.58:752][281]LogPlayLevel: PIE: World Init took: (0.001764s)
+[2020.05.08-13.08.58:752][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.195410s)
+[2020.05.08-13.08.58:796][281]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.05.08-13.08.58:797][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.08.58:797][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.08.58:797][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.08.58:797][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.08.58:797][281]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.08.58:797][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.08.58:797][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.08.58:797][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.08.58:798][281]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.08.58:798][281]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.08.58:803][281]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.08.58:810][281]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.08.58:812][281]LogInit: FAudioDevice initialized.
+[2020.05.08-13.08.58:823][281]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.08.58:827][281]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.08.58
+[2020.05.08-13.08.58:827][281]LogWorld: Bringing up level for play took: 0.003637
+[2020.05.08-13.08.58:827][281]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.05.08-13.08.58:833][281]LogBlueprintUserMessages: [TestMap_C_2] BP_FlowerGameCharacter
+[2020.05.08-13.08.58:834][281]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap 0,2
+[2020.05.08-13.08.58:834][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.09.04:437][502]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.09.04:437][502]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.09.04:437][502]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.09.04:438][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.09.04:438][502]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.09.04:438][502]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.09.04:439][502]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.09.04:440][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.09.04:485][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-13.09.04:486][502]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.09.04:492][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.09.04:546][502]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.09.04:549][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.09.04:559][502]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2020.05.08-13.09.04:595][503]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.05.08-13.09.30:071][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.05.08-13.09.30:955][642]LogSavePackage: Moving '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/TestMap_Auto14C4384FA407BA6A32C1E35A9F15955EB.tmp' to '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/Autosaves/Game/MobileStarterContent/Maps/TestMap_Auto1.umap'
+[2020.05.08-13.09.30:969][642]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/TestMap' took 0.944
+[2020.05.08-13.09.30:969][642]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.944
+[2020.05.08-13.09.30:969][642]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter] ([1] browsable assets)...
+[2020.05.08-13.09.31:006][642]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter]
+[2020.05.08-13.09.31:006][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter]
+[2020.05.08-13.09.31:070][642]LogSavePackage: Moving '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/BP_FlowerGameCharacter_Auto129AFFCB64BF5C380BDF175896B25B926.tmp' to '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/Autosaves/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter_Auto1.uasset'
+[2020.05.08-13.09.31:075][642]LogFileHelpers: Auto-saving content packages took 0.106
+[2020.05.08-13.15.50:717][814]Candidate modules for hot reload:
+[2020.05.08-13.15.50:717][814]  FlowerGame
+[2020.05.08-13.15.50:717][814]Launching UnrealBuildTool... [C:/Users/a021694/Desktop/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,2712 Win64 Development -TargetType=Editor -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.08-13.15.50:740][814]Warning: Starting HotReload took  0.0s.
+[2020.05.08-13.15.58:414][ 91]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.16.03:231][ 96]LogSavePackage: Moving '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/BP_FlowerGameCharacterE8E56809490CC188F4AC02BAA08647D1.tmp' to '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset'
+[2020.05.08-13.16.03:271][ 96]AssetCheck: New page: Asset Save: BP_FlowerGameCharacter
+[2020.05.08-13.16.03:271][ 96]LogContentValidation: Display: Validating Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.16.04:463][126]LogSavePackage: Moving '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/BP_FlowerGameCharacter25A1666147CF42B43C32ACAA6BB2BD76.tmp' to '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset'
+[2020.05.08-13.16.04:506][126]AssetCheck: New page: Asset Save: BP_FlowerGameCharacter
+[2020.05.08-13.16.04:506][126]LogContentValidation: Display: Validating Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.16.05:522][155]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.16.05:558][155]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.16.05:577][155]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.16.05:577][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.18.48:052][314]CompilerResultsLog: New page: Compilation - 8 mai 2020 à 17:18:48
+[2020.05.08-13.18.48:052][314]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.08-13.18.48:052][314]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.05.08-13.18.48:052][314]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\FlowerGame.uproject" "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.08-13.18.48:052][314]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Public\Player\FlowerGameCharacter.h!
+[2020.05.08-13.18.48:052][314]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 81,3524401 seconds
+[2020.05.08-13.18.48:053][314]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.08-13.18.48:053][314]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.08-13.18.48:053][314]CompilerResultsLog: Building 15 actions with 4 processes...
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [1/15] FlowerGame.init.gen.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [2/15] CaseSpawn.gen.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [3/15] CaseDefault.gen.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [4/15] CaseMagasin.gen.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [5/15] FlowerGameGameModeBase.gen.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [6/15] CaseSpawn.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [7/15] FlowerGameCharacter.gen.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [8/15] CaseMagasin.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [9/15] FlowerGamePlayerController.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [10/15] FlowerGameCharacter.cpp
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\Private\Player\FlowerGameCharacter.cpp(33): warning C4996: 'USceneComponent::RelativeRotation': This member will be made private. Please use GetRelativeRotation or SetRelativeRotation. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(159): note: voir la d?claration de 'USceneComponent::RelativeRotation'
+[2020.05.08-13.18.48:053][314]CompilerResultsLog:   [11/15] CaseDefault.cpp
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:   [12/15] FlowerGameGameModeBase.cpp
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Source\FlowerGame\FlowerGameGameModeBase.cpp(159): warning C4996: 'AActor::Instigator': This member will be made private. Please use GetInstigator or SetInstigator. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:   C:\Users\a021694\Desktop\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(635): note: voir la d?claration de 'AActor::Instigator'
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:   [13/15] UE4Editor-FlowerGame-2712.lib
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2712.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2712.exp
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:   [14/15] UE4Editor-FlowerGame-2712.dll
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2712.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2712.suppressed.exp
+[2020.05.08-13.18.48:054][314]CompilerResultsLog:   [15/15] FlowerGameEditor.target
+[2020.05.08-13.18.48:054][314]CompilerResultsLog: Total time in Parallel executor: 75,66 seconds
+[2020.05.08-13.18.48:054][314]CompilerResultsLog: Total execution time: 176,66 seconds
+[2020.05.08-13.18.48:054][314]LogMainFrame: MainFrame: Module compiling took 177.363 seconds
+[2020.05.08-13.18.48:143][314]LogUObjectHash: Compacting FUObjectHashTables data took   8.73ms
+[2020.05.08-13.18.48:185][314]LogClass: Could not find existing class CaseDefault in package /Script/FlowerGame for HotReload, assuming new class
+[2020.05.08-13.18.48:185][314]LogClass: Could not find existing class CaseMagasin in package /Script/FlowerGame for HotReload, assuming new class
+[2020.05.08-13.18.48:185][314]LogClass: Could not find existing class CaseSpawn in package /Script/FlowerGame for HotReload, assuming new class
+[2020.05.08-13.18.48:204][314]LogClass: ECases HotReload.
+[2020.05.08-13.18.48:204][314]LogClass: EDirection HotReload.
+[2020.05.08-13.18.48:204][314]LogClass: EGamePlayState HotReload.
+[2020.05.08-13.18.48:204][314]LogClass: Lines HotReload.
+[2020.05.08-13.18.48:227][314]LogHotReload: Re-instancing CaseDefault after hot-reload.
+[2020.05.08-13.18.48:587][314]LogHotReload: Re-instancing CaseMagasin after hot-reload.
+[2020.05.08-13.18.48:866][314]LogHotReload: Re-instancing CaseSpawn after hot-reload.
+[2020.05.08-13.18.49:114][314]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0004 seconds. Added 8 classes and 7 folders.
+[2020.05.08-13.18.49:119][314]Display: HotReload successful (12 functions remapped  1 scriptstructs remapped)
+[2020.05.08-13.18.49:303][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.05.08-13.18.49:323][314]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3025 classes and 727 folders.
+[2020.05.08-13.18.49:323][314]Display: HotReload took 178.6s.
+[2020.05.08-13.18.54:526][427]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.18.54:571][427]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.18.54:571][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-13.18.54:571][427]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:18:54)
+[2020.05.08-13.18.54:572][427]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.18.54:983][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.411437s)
+[2020.05.08-13.18.54:985][427]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.18.54:985][427]LogPlayLevel: PIE: World Init took: (0.001742s)
+[2020.05.08-13.18.54:985][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.413410s)
+[2020.05.08-13.18.55:094][427]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.18.55:096][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.18.55:096][427]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.18.55:096][427]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.18.55:101][427]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.18.55:101][427]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.18.55:101][427]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.18.55:101][427]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.18.55:101][427]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.18.55:101][427]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.18.55:102][427]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.18.55:102][427]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.18.55:102][427]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.18.55:109][427]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.18.55:111][427]LogInit: FAudioDevice initialized.
+[2020.05.08-13.18.55:123][427]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.18.55:127][427]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.18.55
+[2020.05.08-13.18.55:127][427]LogWorld: Bringing up level for play took: 0.003354
+[2020.05.08-13.18.55:127][427]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.05.08-13.18.55:132][427]LogBlueprintUserMessages: [TestMap_C_0] BP_FlowerGameCharacter
+[2020.05.08-13.18.55:134][427]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap 0,5
+[2020.05.08-13.18.55:134][427]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.21.58:281][784]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.21.58:281][784]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.21.58:282][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.21.58:282][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.21.58:282][784]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.21.58:282][784]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.21.58:283][784]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.21.58:284][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.21.58:333][784]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-13.21.58:333][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.21.58:340][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.21.58:389][784]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.21.58:393][784]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.21.58:405][784]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2020.05.08-13.21.58:445][785]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.05.08-13.22.01:323][876]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.22.01:361][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.22.01:361][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.08-13.22.01:361][876]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:22:01)
+[2020.05.08-13.22.01:361][876]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.22.01:564][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.203246s)
+[2020.05.08-13.22.01:566][876]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.22.01:566][876]LogPlayLevel: PIE: World Init took: (0.001555s)
+[2020.05.08-13.22.01:566][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.204985s)
+[2020.05.08-13.22.01:605][876]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.05.08-13.22.01:606][876]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.22.01:606][876]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.22.01:606][876]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.22.01:606][876]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.22.01:606][876]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.22.01:606][876]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.22.01:606][876]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.22.01:606][876]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.22.01:607][876]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.22.01:607][876]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.22.01:612][876]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.22.01:619][876]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.22.01:620][876]LogInit: FAudioDevice initialized.
+[2020.05.08-13.22.01:634][876]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.22.01:637][876]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.22.01
+[2020.05.08-13.22.01:637][876]LogWorld: Bringing up level for play took: 0.003216
+[2020.05.08-13.22.01:638][876]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.05.08-13.22.01:642][876]LogBlueprintUserMessages: [TestMap_C_0] BP_FlowerGameCharacter
+[2020.05.08-13.22.01:644][876]PIE: Play in editor start time for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap 1,01
+[2020.05.08-13.22.01:644][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.22.11:589][324]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.22.11:589][324]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.22.11:589][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.22.11:590][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.22.11:590][324]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.22.11:590][324]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.22.11:590][324]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.22.11:591][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.22.11:641][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.08-13.22.11:641][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.22.11:647][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.22.11:696][324]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.08-13.22.11:699][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.08-13.22.11:709][324]LogUObjectHash: Compacting FUObjectHashTables data took   4.19ms
+[2020.05.08-13.22.11:746][325]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.05.08-13.22.27:984][476]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.22.38:381][692]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.22.38:438][692]LogSlate: Window 'BP_FlowerGameCharacter' being destroyed
+[2020.05.08-13.22.38:457][692]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.22.38:457][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.22.52:740][ 93]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.08-13.22.52:740][ 93]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.08-13.23.11:295][669]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.BP_FlowerGameCharacter2
+[2020.05.08-13.23.11:841][669]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.05.08-13.23.40:778][218]LogSkeletalMesh: Building Skeletal Mesh SK_Character_Business_Man_01...
+[2020.05.08-13.23.40:830][218]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/PolygonWestern/Meshes/Characters/SK_Character_Business_Man_01.SK_Character_Business_Man_01
+[2020.05.08-13.23.55:052][432]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.08-13.24.06:443][612]BlueprintLog: New page: Compile BP_FlowerGameCharacter2
+[2020.05.08-13.24.06:938][612]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2020.05.08-13.24.08:445][645]LogSlate: Window 'BP_FlowerGameCharacter2' being destroyed
+[2020.05.08-13.24.08:504][645]LogSlate: Window 'BP_FlowerGameCharacter2' being destroyed
+[2020.05.08-13.24.08:542][645]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.08-13.24.08:542][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.08-13.24.13:340][732]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2020.05.08-13.24.15:212][732]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.08-13.24.29:478][732]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.24.30:069][732]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.05.08-13.24.30:286][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.05.08-13.24.30:312][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.05.08-13.24.30:337][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.05.08-13.24.30:485][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.05.08-13.24.30:485][733]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/TestMap' took 0.028
+[2020.05.08-13.24.30:486][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2] ([1] browsable assets)...
+[2020.05.08-13.24.30:511][733]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.BP_FlowerGameCharacter2]
+[2020.05.08-13.24.30:511][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2]
+[2020.05.08-13.24.30:537][733]LogSavePackage: Moving '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/BP_FlowerGameCharacter2_Auto22263BA4A4D42AFC3E5B449AA00818E77.tmp' to '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/Autosaves/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2_Auto2.uasset'
+[2020.05.08-13.24.30:541][733]LogFileHelpers: Auto-saving content packages took 0.056
+[2020.05.08-13.24.37:875][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.05.08-13.24.37:877][961]LogMetaData: Removing '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.PackageMetaData'
+[2020.05.08-13.24.37:877][961]LogMetaData: Removing '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.SKEL_BP_FlowerGameCharacter_C' ref from Metadata '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.PackageMetaData'
+[2020.05.08-13.24.37:877][961]LogMetaData: Removing '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter_C' ref from Metadata '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.PackageMetaData'
+[2020.05.08-13.24.37:877][961]LogMetaData: Removing '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.PackageMetaData'
+[2020.05.08-13.24.37:877][961]LogMetaData: Removing '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.PackageMetaData'
+[2020.05.08-13.24.37:877][961]LogMetaData: Removing '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter2.PackageMetaData'
+[2020.05.08-13.24.37:975][961]LogSavePackage: Moving '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Saved/BP_FlowerGameCharacterB067BD70493A5759AF29B1A3DEC97A4A.tmp' to '../../../../../Documents/GitHub/FlowerGame/FlowerGame/Content/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.uasset'
+[2020.05.08-13.24.38:145][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.05.08-13.24.38:185][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.05.08-13.24.38:211][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.05.08-13.24.38:248][961]AssetCheck: New page: Asset Save: BP_FlowerGameCharacter
+[2020.05.08-13.24.38:248][961]LogContentValidation: Display: Validating Blueprint /Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter.BP_FlowerGameCharacter
+[2020.05.08-13.24.44:216][141]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.08-13.24.44:262][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/MobileStarterContent/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/MobileStarterContent/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.05.08-13.24.44:262][141]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.05.08-13.24.44:263][141]LogPlayLevel: [PlayLevel] Compiling TestMap before play...
+[2020.05.08-13.24.44:579][141]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.05.08-13.24.44:580][141]LogPlayLevel: PlayLevel: Blueprint regeneration took 317 ms (1 blueprints)
+[2020.05.08-13.24.44:580][141]PIE: New page: PIE session: TestMap (8 mai 2020 à 17:24:44)
+[2020.05.08-13.24.44:581][141]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.08-13.24.44:729][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148186s)
+[2020.05.08-13.24.44:730][141]LogAIModule: Creating AISystem for world TestMap
+[2020.05.08-13.24.44:730][141]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2020.05.08-13.24.44:730][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.149821s)
+[2020.05.08-13.24.44:763][141]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.08-13.24.44:764][141]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.08-13.24.44:764][141]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.08-13.24.44:764][141]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: Name: Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: Is Default: Yes
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: Channel Order:
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.08-13.24.44:769][141]LogAudioMixer: Display: 1: FrontRight
+[2020.05.08-13.24.44:775][141]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.08-13.24.44:777][141]LogInit: FAudioDevice initialized.
+[2020.05.08-13.24.44:790][141]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.08-13.24.44:793][141]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.08-15.24.44
+[2020.05.08-13.24.44:793][141]LogWorld: Bringing up level for play took: 0.002902
+[2020.05.08-13.24.44:794][141]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.05.08-13.24.44:796][141]LogSpawn: Warning: SpawnActor failed because no class was specified

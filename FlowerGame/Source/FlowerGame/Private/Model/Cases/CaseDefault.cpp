@@ -30,6 +30,7 @@ ACaseDefault::ACaseDefault()
 	{
 		CaseMesh->SetStaticMesh(CaseAsset.Object);
 	}
+
 	caseUp = nullptr;
 	caseDown = nullptr;
 	caseRight = nullptr;
@@ -39,7 +40,6 @@ ACaseDefault::ACaseDefault()
 
 	ID_Case = -1;
 	Coordonnees.Init(0, 2);
-	bEnableSpawnPlayer = false;
 }
 
 // Called when the game starts or when spawned
