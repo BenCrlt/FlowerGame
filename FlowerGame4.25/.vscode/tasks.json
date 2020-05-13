@@ -9,13 +9,13 @@
 				"FlowerGame",
 				"Win32",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"FlowerGame",
 				"Win32",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -35,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -46,13 +46,13 @@
 				"FlowerGame",
 				"Win32",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -63,13 +63,13 @@
 				"FlowerGame",
 				"Win32",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -80,7 +80,7 @@
 				"FlowerGame",
 				"Win32",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -89,7 +89,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -100,13 +100,13 @@
 				"FlowerGame",
 				"Win32",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -117,13 +117,13 @@
 				"FlowerGame",
 				"Win32",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 				"FlowerGame",
 				"Win32",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -143,7 +143,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -154,13 +154,13 @@
 				"FlowerGame",
 				"Win32",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -171,13 +171,13 @@
 				"FlowerGame",
 				"Win32",
 				"Shipping",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -188,7 +188,7 @@
 				"FlowerGame",
 				"Win32",
 				"Shipping",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -197,7 +197,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -208,13 +208,13 @@
 				"FlowerGame",
 				"Win32",
 				"Shipping",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -225,13 +225,13 @@
 				"FlowerGame",
 				"Win32",
 				"Test",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -242,7 +242,7 @@
 				"FlowerGame",
 				"Win32",
 				"Test",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -251,7 +251,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -262,13 +262,13 @@
 				"FlowerGame",
 				"Win32",
 				"Test",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -279,13 +279,13 @@
 				"FlowerGame",
 				"Win64",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -296,7 +296,7 @@
 				"FlowerGame",
 				"Win64",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -305,7 +305,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -316,13 +316,13 @@
 				"FlowerGame",
 				"Win64",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -333,13 +333,13 @@
 				"FlowerGame",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -350,7 +350,7 @@
 				"FlowerGame",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -359,7 +359,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -370,13 +370,13 @@
 				"FlowerGame",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -387,13 +387,13 @@
 				"FlowerGame",
 				"Win64",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -404,7 +404,7 @@
 				"FlowerGame",
 				"Win64",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -413,7 +413,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -424,13 +424,13 @@
 				"FlowerGame",
 				"Win64",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -441,13 +441,13 @@
 				"FlowerGame",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -458,7 +458,7 @@
 				"FlowerGame",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -467,7 +467,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -478,13 +478,13 @@
 				"FlowerGame",
 				"Win64",
 				"Shipping",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -495,13 +495,13 @@
 				"FlowerGame",
 				"Win64",
 				"Test",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -512,7 +512,7 @@
 				"FlowerGame",
 				"Win64",
 				"Test",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -521,7 +521,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -532,13 +532,283 @@
 				"FlowerGame",
 				"Win64",
 				"Test",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Debug",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Debug",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlowerGame Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Debug",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlowerGame Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"DebugGame",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Development",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Development",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlowerGame Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Development",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Shipping",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Shipping",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlowerGame Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Shipping",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Test",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Test",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlowerGame Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
+			}
+		},
+		{
+			"label": "FlowerGame Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"FlowerGame",
+				"Android",
+				"Test",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -549,13 +819,13 @@
 				"FlowerGameEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -566,7 +836,7 @@
 				"FlowerGameEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -575,7 +845,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -586,13 +856,13 @@
 				"FlowerGameEditor",
 				"Win64",
 				"Debug",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -603,13 +873,13 @@
 				"FlowerGameEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -620,7 +890,7 @@
 				"FlowerGameEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -629,7 +899,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -640,13 +910,13 @@
 				"FlowerGameEditor",
 				"Win64",
 				"DebugGame",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -657,13 +927,13 @@
 				"FlowerGameEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -674,7 +944,7 @@
 				"FlowerGameEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -683,7 +953,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		},
 		{
@@ -694,13 +964,13 @@
 				"FlowerGameEditor",
 				"Win64",
 				"Development",
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject",
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+				"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 			}
 		}
 	]

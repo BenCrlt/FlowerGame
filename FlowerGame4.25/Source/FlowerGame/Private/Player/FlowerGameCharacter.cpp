@@ -187,7 +187,7 @@ void AFlowerGameCharacter::MoveWithDice()
 		ManageCaseChoice(Position, CheckWaysAvailable(Position), true);
 	}
 
-	for (MovementPoint; MovementPoint > 0; MovementPoint--)
+	for (int32 i = MovementPoint; i > 0; i--)
 	{
 		waysAvailable = CheckWaysAvailable(Position);
 		if (waysAvailable.Num() == 1)
@@ -207,6 +207,7 @@ void AFlowerGameCharacter::MoveWithDice()
 				break;
 			}
 		}
+		MovementPoint = i;
 	}
 
 	FVector Origin;

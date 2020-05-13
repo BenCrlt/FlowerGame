@@ -1,0 +1,1 @@
+../../../FlowerGame/FlowerGame.uproject  /Game/MobileStarterContent/Maps/TestMap -Messaging -SessionId=FA16C6DA40F85E33D7636CAFF6E9887B -SessionOwner="a021694" -SessionName="Launch On Device" -iterative
