@@ -18,6 +18,8 @@ AFlowerGameGameModeBase::AFlowerGameGameModeBase()
 	HUDClass = AUI_PlayingGame::StaticClass();
 
 	PlayerSelected = nullptr;
+	bShowDiceUI = false;
+	bShowLaunchDiceUI = false;
 
 	BOARD_SIZE = 7;
 }
@@ -26,7 +28,7 @@ void AFlowerGameGameModeBase::BeginPlay()
 {
 	Super::BeginPlay();
 
-	SetCurrentState(EGamePlayState::EBegin);
+	SetCurrentState(EGamePlayState::ELoadingLevel);
 }
 
 EGamePlayState AFlowerGameGameModeBase::GetCurrentState() const
@@ -44,15 +46,31 @@ void AFlowerGameGameModeBase::HandleNewState(EGamePlayState NewState)
 {
 	switch (NewState)
 	{
-	case EGamePlayState::EBegin:
+	case EGamePlayState::ELoadingLevel:
+	{
+	}
+	break;
+	case EGamePlayState::EInitGame:
 	{
 		InitBoard();
 		InitPlayer();
-		SetCurrentState(EGamePlayState::EPlaying);
+		SetCurrentState(EGamePlayState::ETurnBegin);
 	}
 	break;
 	case EGamePlayState::EPlaying:
 	{
+	}
+	break;
+	case EGamePlayState::ETurnBegin:
+	{
+		bShowLaunchDiceUI = true;
+	}
+	break;
+	case EGamePlayState::ETurnFinish:
+	{
+		bShowDiceUI = false;
+		ChangePlayer();
+		SetCurrentState(EGamePlayState::ETurnBegin);
 	}
 	break;
 	// Unknown/default state
@@ -78,6 +96,11 @@ void AFlowerGameGameModeBase::InitBoard()
 	emptyLine.Rows.Init(nullptr, BOARD_SIZE);
 	Board.Init(emptyLine, BOARD_SIZE);
 	FillBoard();
+}
+
+void AFlowerGameGameModeBase::LevelLoaded() {
+	//Call by the UI in blueprint
+	SetCurrentState(EGamePlayState::EInitGame);
 }
 
 void AFlowerGameGameModeBase::FillBoard()
@@ -164,13 +187,15 @@ void AFlowerGameGameModeBase::InitPlayer()
 		{
 			randInt = FMath::RandRange(0, ListSpawns.Num() - 1);
 			Players.Add(world->SpawnActor<AFlowerGameCharacter>(classPlayer, ListSpawns[randInt]->GetLocation(), FRotator(0, 0, 0), SpawnParams));
-			Players[i]->InitPlayer(ListSpawns[randInt]);
+			Players[i]->InitPlayer(ListSpawns[randInt], i);
 			world->GetFirstPlayerController()->Possess(Players[i]);
 			ListSpawns.RemoveAt(randInt);
 		}
 
 		PlayerSelected = Players[0];
 		world->GetFirstPlayerController()->Possess(PlayerSelected);
+		OnUpdateInfosPlayers.Broadcast();
+		SetCurrentState(EGamePlayState::EPlaying);
 	}
 	else
 	{
@@ -178,8 +203,13 @@ void AFlowerGameGameModeBase::InitPlayer()
 	}
 }
 
-void AFlowerGameGameModeBase::LaunchDice(int32 numDice)
+void AFlowerGameGameModeBase::LaunchDice()
 {
+	int32 MinDice = 1, MaxDice = 6;
+	int32 numDice = FMath::RandRange(MinDice, MaxDice);
+	bShowLaunchDiceUI = false;
+	bShowDiceUI = true;
+	OnUpdateDice.Broadcast(numDice);
 	PlayerSelected->MovementPoint = numDice;
 	PlayerSelected->MoveWithDice();
 }
@@ -200,11 +230,12 @@ void AFlowerGameGameModeBase::ChangePlayer()
 	PlayerSelected = Players[indexPlayer];
 	PlayerSelected->bTurnFinished = false;
 	world->GetFirstPlayerController()->Possess(PlayerSelected);
+	OnUpdateInfosPlayers.Broadcast();
 }
 
 void AFlowerGameGameModeBase::TurnFinished()
 {
-	ChangePlayer();
+	SetCurrentState(EGamePlayState::ETurnFinish);
 }
 
 bool AFlowerGameGameModeBase::GetVisibilityNextPlayer()

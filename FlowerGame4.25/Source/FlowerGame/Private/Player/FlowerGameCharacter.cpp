@@ -29,7 +29,7 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 	SpringArmPlayer = CreateDefaultSubobject<USpringArmComponent>("SpringArmPlayer");
 	SpringArmPlayer->SetupAttachment(RootComponent);
 	SpringArmPlayer->SetUsingAbsoluteRotation(true); // Don't want arm to rotate when character does
-	SpringArmPlayer->TargetArmLength = 5000;
+	SpringArmPlayer->TargetArmLength = 4800;
 	SpringArmPlayer->SetRelativeRotation(FRotator(-50, 0, 0));
 	SpringArmPlayer->bDoCollisionTest = false;
 
@@ -46,12 +46,15 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 	TriggerCapsule->OnComponentBeginOverlap.AddDynamic(this, &AFlowerGameCharacter::OnOverlapBegin);
 	TriggerCapsule->OnComponentEndOverlap.AddDynamic(this, &AFlowerGameCharacter::OnOverlapEnd);
 
+	//Init Attributs
+	NomPlayer = TEXT("Benoit");
+	MaxHealth = 30;
+	Health = MaxHealth;
+	Ammo = 10;
 	Position = nullptr;
 	Direction = EDirection::DIRECTION_UNKNOWN;
 
 	bWaitChoiceUser = false;
-	Tour = 0;
-
 	isTouch = false;
 	bTurnFinished = false;
 }
@@ -76,9 +79,10 @@ void AFlowerGameCharacter::SetupPlayerInputComponent(class UInputComponent *inpu
 	inputComponent->BindTouch(EInputEvent::IE_Released, this, &AFlowerGameCharacter::OnReleased);
 }
 
-void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit)
+void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit, int32 ID)
 {
 	Position = caseInit;
+	ID_Player = ID;
 	TArray<TEnumAsByte<EDirection>> ways = CheckWaysAvailable(Position);
 	if (ways.Num() > 0)
 	{
@@ -183,23 +187,22 @@ void AFlowerGameCharacter::MoveWithDice()
 	TArray<TEnumAsByte<EDirection>> waysAvailable;
 	if (CheckWaysAvailable(Position).Num() > 1)
 	{
-		bWaitChoiceUser = false;
+		bWaitChoiceUser = true;
 		ManageCaseChoice(Position, CheckWaysAvailable(Position), true);
 	}
 
-	for (int32 i = MovementPoint; i > 0; i--)
-	{
+	while (MovementPoint != 0 && bWaitChoiceUser == false) {
 		waysAvailable = CheckWaysAvailable(Position);
 		if (waysAvailable.Num() == 1)
 		{
 			Position = GoToNextCase(Position, waysAvailable[0], true);
+			MovementPoint--;
 		}
 		else
 		{
 			if (waysAvailable.Num() > 1)
 			{
 				bWaitChoiceUser = true;
-				break;
 			}
 			else
 			{
@@ -207,7 +210,6 @@ void AFlowerGameCharacter::MoveWithDice()
 				break;
 			}
 		}
-		MovementPoint = i;
 	}
 
 	FVector Origin;
@@ -310,4 +312,8 @@ TEnumAsByte<EDirection> AFlowerGameCharacter::getDirection(ACaseDefault *caseDes
 	}
 
 	return DirectionDestination;
+}
+
+void AFlowerGameCharacter::DamagePlayer(AFlowerGameCharacter *PlayerSelected, int32 HealthDamage) {
+	PlayerSelected->Health -= HealthDamage;
 }

@@ -1,0 +1,1713 @@
+﻿Log file open, 05/14/20 16:30:45
+LogInit: Display: Running engine for game: FlowerGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.115694
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1709) (), CPU: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.05.14-14.30.45:910][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.05.14-14.30.45:911][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.05.14-14.30.45:912][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.14-14.30.45:912][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.05.14-14.30.45:912][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.14-14.30.45:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.05.14-14.30.45:913][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.05.14-14.30.45:915][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.14-14.30.45:915][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.14-14.30.45:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.14-14.30.45:917][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.14-14.30.45:917][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.14-14.30.45:917][  0]LogHAL: Display: Platform has ~ 32 GB [34234515456 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.14-14.30.45:917][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.14-14.30.45:917][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.14-14.30.45:917][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.14-14.30.45:918][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.05.14-14.30.45:919][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.05.14-14.30.45:920][  0]LogInit: Computer: FRLH133527
+[2020.05.14-14.30.45:920][  0]LogInit: User: a021694
+[2020.05.14-14.30.45:920][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.05.14-14.30.45:920][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2020.05.14-14.30.45:920][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.05.14-14.30.45:920][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.14-14.30.45:920][  0]LogMemory: Process Physical Memory: 115.28 MB used, 115.28 MB peak
+[2020.05.14-14.30.45:920][  0]LogMemory: Process Virtual Memory: 103.68 MB used, 103.68 MB peak
+[2020.05.14-14.30.45:920][  0]LogMemory: Physical Memory: 10027.87 MB used,  22620.71 MB free, 32648.58 MB total
+[2020.05.14-14.30.45:920][  0]LogMemory: Virtual Memory: 1058.94 MB used,  134216672.00 MB free, 134217728.00 MB total
+[2020.05.14-14.30.45:928][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.14-14.30.45:967][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.05.14-14.30.45:968][  0]LogInit: Using OS detected language (fr-FR).
+[2020.05.14-14.30.45:968][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.05.14-14.30.45:975][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.05.14-14.30.45:975][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.05.14-14.30.45:975][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.05.14-14.30.45:976][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.05.14-14.30.45:976][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.05.14-14.30.45:976][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.05.14-14.30.45:976][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.05.14-14.30.45:976][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.05.14-14.30.45:977][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.14-14.30.46:010][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.14-14.30.46:010][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.14-14.30.46:183][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.14-14.30.46:183][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.14-14.30.46:183][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.14-14.30.46:183][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.14-14.30.46:241][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2020.05.14-14.30.46:241][  0]LogD3D11RHI:       128/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.05.14-14.30.46:243][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.14-14.30.46:243][  0]LogD3D11RHI:       0/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.14-14.30.46:243][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.14-14.30.46:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.14-14.30.46:251][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.14-14.30.46:251][  0]LogWindows: EnumDisplayDevices:
+[2020.05.14-14.30.46:251][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2020.05.14-14.30.46:251][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.05.14-14.30.46:252][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.05.14-14.30.46:252][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.05.14-14.30.46:252][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2020.05.14-14.30.46:252][  0]LogD3D11RHI:   Driver Version: 26.20.100.6888 (internal:26.20.100.6888, unified:26.20.100.6888)
+[2020.05.14-14.30.46:252][  0]LogD3D11RHI:      Driver Date: 5-16-2019
+[2020.05.14-14.30.46:252][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.05.14-14.30.46:314][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.14-14.30.46:314][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.05.14-14.30.46:314][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.14-14.30.46:314][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.05.14-14.30.46:323][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.05.14-14.30.46:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.14-14.30.46:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.14-14.30.46:716][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.14-14.30.46:716][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.14-14.30.46:727][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.05.14-14.30.46:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.14-14.30.46:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.14-14.30.46:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.14-14.30.46:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.14-14.30.46:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.14-14.30.46:785][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.14-14.30.46:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.14-14.30.46:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.14-14.30.46:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.14-14.30.46:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.14-14.30.46:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.14-14.30.46:850][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.14-14.30.46:860][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.14-14.30.46:870][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.14-14.30.46:870][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.14-14.30.46:878][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.14-14.30.46:939][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Shaders/WorkingDirectory/1804/).
+[2020.05.14-14.30.46:939][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a021694/AppData/Local/Temp/UnrealShaderWorkingDir/7968D18B422D39DC09EE7288B3DF88B1/'.
+[2020.05.14-14.30.46:939][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.14-14.30.46:939][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.14-14.30.46:939][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.14-14.30.48:052][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.14-14.30.48:120][  0]LogDerivedDataCache: Loaded boot cache 0.07s 106MB C:/Users/a021694/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.14-14.30.48:120][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/a021694/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.05.14-14.30.48:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.14-14.30.48:120][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.14-14.30.48:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.14-14.30.48:120][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.14-14.30.48:131][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.14-14.30.48:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.14-14.30.48:131][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.14-14.30.48:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a021694/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.14-14.30.48:133][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.14-14.30.48:133][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.14-14.30.48:206][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.14-14.30.48:207][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.14-14.30.48:239][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.05.14-14.30.48:537][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.14-14.30.48:688][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.14-14.30.48:688][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.14-14.30.48:688][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.14-14.30.48:688][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.14-14.30.48:688][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.14-14.30.48:705][  0]LogNetVersion: FlowerGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3835917877)
+[2020.05.14-14.30.49:231][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000023DB9DFD840), frame # 0
+[2020.05.14-14.30.49:231][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023DB9D51440), frame # 0
+[2020.05.14-14.30.49:233][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023DB9DEC400), frame # 0
+[2020.05.14-14.30.49:318][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.077292 seconds
+[2020.05.14-14.30.49:323][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.05.14-14.30.49:323][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.05.14-14.30.49:323][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.14-14.30.49:692][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.14-14.30.49:697][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.14-14.30.49:956][  0]SourceControl: Source control is disabled
+[2020.05.14-14.30.49:956][  0]SourceControl: Source control is disabled
+[2020.05.14-14.30.49:960][  0]SourceControl: Source control is disabled
+[2020.05.14-14.30.49:964][  0]SourceControl: Source control is disabled
+[2020.05.14-14.30.49:973][  0]SourceControl: Source control is disabled
+[2020.05.14-14.30.50:288][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.14-14.30.50:311][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.14-14.30.50:311][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.14-14.30.50:368][  0]LogOcInput: OculusInput pre-init called
+[2020.05.14-14.30.50:378][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.14-14.30.50:378][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.14-14.30.50:445][  0]LogEngine: Initializing Engine...
+[2020.05.14-14.30.50:447][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.14-14.30.50:447][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.05.14-14.30.50:448][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.14-14.30.50:592][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.14-14.30.50:604][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.14-14.30.50:604][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023DC051A000), frame # 0
+[2020.05.14-14.30.50:604][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023DC0549A80), frame # 0
+[2020.05.14-14.30.50:610][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-14.30.50:610][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-14.30.50:610][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-14.30.50:610][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-14.30.50:610][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-14.30.50:610][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-14.30.50:610][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-14.30.50:610][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-14.30.50:611][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-14.30.50:611][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-14.30.50:625][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-14.30.50:625][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-14.30.50:772][  0]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.14-14.30.50:774][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.14-14.30.50:776][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.14-14.30.50:776][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.14-14.30.50:777][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.14-14.30.50:778][  0]LogInit: FAudioDevice initialized.
+[2020.05.14-14.30.50:778][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.14-14.30.50:879][  0]LogDerivedDataCache: Saved boot cache 0.10s 106MB C:/Users/a021694/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.14-14.30.50:885][  0]LogInit: Texture streaming: Enabled
+[2020.05.14-14.30.50:900][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.14-14.30.50:900][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.14-14.30.50:902][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.14-14.30.50:973][  0]LogInit: Transaction tracking system initialized
+[2020.05.14-14.30.50:996][  0]BlueprintLog: New page: Editor Load
+[2020.05.14-14.30.51:083][  0]LocalizationService: Localization service is disabled
+[2020.05.14-14.30.51:284][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.14-14.30.51:285][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.14-14.30.51:441][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/' took 0.02s
+[2020.05.14-14.30.51:743][  0]SourceControl: Source control is disabled
+[2020.05.14-14.30.51:743][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.532
+[2020.05.14-14.30.51:743][  0]Cmd: MAP LOAD FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.14-14.30.51:743][  0]LightingResults: New page: Lighting Build
+[2020.05.14-14.30.51:744][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.30.51:744][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.30.51:744][  0]MapCheck: New page: Map Check
+[2020.05.14-14.30.51:744][  0]LightingResults: New page: Lighting Build
+[2020.05.14-14.30.51:755][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023DC051A000), frame # 0
+[2020.05.14-14.30.51:755][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023DC0549A80), frame # 0
+[2020.05.14-14.30.51:756][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.05.14-14.30.51:851][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.05.14-14.30.51:851][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023DC0A68400), frame # 0
+[2020.05.14-14.30.51:851][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023DBE730A40), frame # 0
+[2020.05.14-14.30.51:879][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.14-14.30.51:968][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.05.14-14.30.51:968][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.14-14.30.51:968][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,141ms to complete.
+[2020.05.14-14.30.51:968][  0]LogFileHelpers: Loading map 'TestMap' took 0.225
+[2020.05.14-14.30.51:972][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.761
+[2020.05.14-14.30.52:075][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-14.30.52:075][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-14.30.52:167][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-14.30.52:180][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-14.30.52:193][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-14.30.52:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-14.30.52:216][  0]LogCollectionManager: Loaded 0 collections in 0.002646 seconds
+[2020.05.14-14.30.52:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Collections/' took 0.00s
+[2020.05.14-14.30.52:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/Developers/a021694/Collections/' took 0.00s
+[2020.05.14-14.30.52:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/Collections/' took 0.00s
+[2020.05.14-14.30.52:238][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 3433 classes and 826 folders.
+[2020.05.14-14.30.52:242][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.05.14-14.30.52:309][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.05.14-14.30.52:314][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.05.14-14.30.52:357][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.14-14.30.52:359][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.14-14.30.52:366][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.14-14.30.52:504][  0]LogRenderer: Reallocating scene render targets to support 908x460 Format 10 NumSamples 1 (Frame:1).
+[2020.05.14-14.30.52:672][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.14-14.30.52:672][  0]LogLoad: (Engine Initialization) Total time: 8.46 seconds
+[2020.05.14-14.30.52:672][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.14-14.30.52:740][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.14-14.30.52:773][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.14-14.30.52:785][  1]LogAssetRegistry: Asset discovery search completed in 4.5470 seconds
+[2020.05.14-14.30.52:792][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.05.14-14.31.29:813][282]LogSlate: Took 0.003384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.05.14-14.31.38:664][647]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.14-14.31.38:695][647]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/InfoPlayer.InfoPlayer
+[2020.05.14-14.31.39:085][647]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2020.05.14-14.31.40:542][647]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.14-14.31.43:179][737]LogSlate: Window 'InfoPlayer' being destroyed
+[2020.05.14-14.31.43:187][737]LogSlate: Window 'InfoPlayer' being destroyed
+[2020.05.14-14.31.43:189][737]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.31.43:189][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.31.43:195][737]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.31.43:195][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.31.48:101][926]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-14.31.53:481][ 68]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-14.31.53:492][ 68]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-14.31.53:495][ 68]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.31.53:496][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.31.53:503][ 68]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.31.53:503][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.32.02:891][381]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-14.32.05:882][448]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.14-14.33.27:482][531]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.33.27:968][531]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.05.14-14.33.31:317][643]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/LaunchDice2ACE4EA442FF4696B52B3F826AD3FB96.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/LaunchDice.uasset'
+[2020.05.14-14.33.31:343][643]AssetCheck: New page: Asset Save: LaunchDice
+[2020.05.14-14.33.31:343][643]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.34.12:608][904]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/ChangePlayer.ChangePlayer
+[2020.05.14-14.34.18:889][ 61]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.34.18:889][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.34.18:930][ 61]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.34.18:931][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.34.24:465][216]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.35.15:424][827]BlueprintLog: New page: Compile LaunchDice
+[2020.05.14-14.35.15:697][827]LogUObjectHash: Compacting FUObjectHashTables data took   8.75ms
+[2020.05.14-14.35.16:439][847]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/LaunchDiceFBAC7D9E473FCB5D12FBB6A6921F7D23.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/LaunchDice.uasset'
+[2020.05.14-14.35.16:463][847]AssetCheck: New page: Asset Save: LaunchDice
+[2020.05.14-14.35.16:463][847]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.36.23:178][562]BlueprintLog: New page: Compile LaunchDice
+[2020.05.14-14.36.23:294][562]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2020.05.14-14.36.24:102][579]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/LaunchDice1CDF286C448E9558E6D3A5BA54B45F8F.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/LaunchDice.uasset'
+[2020.05.14-14.36.24:155][579]AssetCheck: New page: Asset Save: LaunchDice
+[2020.05.14-14.36.24:155][579]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.36.28:628][704]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/LaunchDice6241C70E482B3DB072B60FB671A965D6.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/LaunchDice.uasset'
+[2020.05.14-14.36.28:668][704]AssetCheck: New page: Asset Save: LaunchDice
+[2020.05.14-14.36.28:668][704]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.36.41:863][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-14.36.41:916][ 89]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/DiceDFCF1798406555913AC19480947B68E7.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-14.36.41:939][ 89]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-14.36.41:939][ 89]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-14.36.43:895][149]BlueprintLog: New page: Compile Dice
+[2020.05.14-14.36.43:958][149]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.05.14-14.36.44:927][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-14.36.44:962][181]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/DiceFEA72BA849B7A1CCBC8A7F83531F9A08.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-14.36.44:981][181]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-14.36.44:981][181]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-14.47.48:804][410]LogSlate: Window 'LaunchDice' being destroyed
+[2020.05.14-14.47.48:816][410]LogSlate: Window 'LaunchDice' being destroyed
+[2020.05.14-14.47.48:819][410]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.47.48:819][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.47.48:851][410]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.47.48:851][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.47.48:942][410]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.47.48:942][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.47.48:946][410]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.47.48:946][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.47.49:264][410]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.47.49:264][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.47.49:268][410]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.47.49:268][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.47.50:203][458]Candidate modules for hot reload:
+[2020.05.14-14.47.50:203][458]  FlowerGame
+[2020.05.14-14.47.50:203][458]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,3868 FlowerGameEditor Win64 Development -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.14-14.47.50:220][458]Warning: Starting HotReload took  0.0s.
+[2020.05.14-14.48.06:797][ 58]CompilerResultsLog: New page: Compilation - 14 mai 2020 à 18:48:06
+[2020.05.14-14.48.06:797][ 58]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.14-14.48.06:797][ 58]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.05.14-14.48.06:797][ 58]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\FlowerGame.uproject" "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a021694\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.05.14-14.48.06:798][ 58]CompilerResultsLog: Error: C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Source/FlowerGame/FlowerGameGameModeBase.h(23)  : Error: Missing ';' before 'UENUM'
+[2020.05.14-14.48.06:798][ 58]LogMainFrame: MainFrame: Module compiling took 16.598 seconds
+[2020.05.14-14.48.06:798][ 58]Warning: HotReload failed, recompile failed
+[2020.05.14-14.48.14:535][318]LogSlate: Window 'Message Log' being destroyed
+[2020.05.14-14.48.14:546][318]LogSlate: Window 'Message Log' being destroyed
+[2020.05.14-14.48.26:510][420]Candidate modules for hot reload:
+[2020.05.14-14.48.26:510][420]  FlowerGame
+[2020.05.14-14.48.26:510][420]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,8209 FlowerGameEditor Win64 Development -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.14-14.48.26:531][420]Warning: Starting HotReload took  0.0s.
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: New page: Compilation - 14 mai 2020 à 18:50:04
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\FlowerGame.uproject" "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a021694\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player\FlowerGameCharacter.h!
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 23,8427814 seconds
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Building 9 actions with 4 processes...
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [1/9] FlowerGame.init.gen.cpp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [2/9] FlowerGameCharacter.gen.cpp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [3/9] FlowerGamePlayerController.cpp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [4/9] FlowerGameGameModeBase.gen.cpp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [5/9] FlowerGameCharacter.cpp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [6/9] FlowerGameGameModeBase.cpp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [7/9] UE4Editor-FlowerGame-8209.lib
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8209.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8209.exp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [8/9] UE4Editor-FlowerGame-8209.dll
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8209.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-8209.suppressed.exp
+[2020.05.14-14.50.04:071][282]CompilerResultsLog:   [9/9] FlowerGameEditor.target
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Total time in Parallel executor: 70,29 seconds
+[2020.05.14-14.50.04:071][282]CompilerResultsLog: Total execution time: 97,34 seconds
+[2020.05.14-14.50.04:071][282]LogMainFrame: MainFrame: Module compiling took 97.564 seconds
+[2020.05.14-14.50.04:114][282]LogClass: Could not find existing class FlowerGameGameModeBase in package /Script/FlowerGame for HotReload, assuming new class
+[2020.05.14-14.50.04:114][282]LogClass: Function ChangePlayer is new.
+[2020.05.14-14.50.04:114][282]LogClass: Function GetCurrentState is new.
+[2020.05.14-14.50.04:114][282]LogClass: Function GetVisibilityNextPlayer is new.
+[2020.05.14-14.50.04:114][282]LogClass: Function InitPlayer is new.
+[2020.05.14-14.50.04:114][282]LogClass: Function LaunchDice is new.
+[2020.05.14-14.50.04:114][282]LogClass: Function LevelLoaded is new.
+[2020.05.14-14.50.04:114][282]LogClass: Function TurnFinished is new.
+[2020.05.14-14.50.04:118][282]LogClass: ECases HotReload.
+[2020.05.14-14.50.04:118][282]LogClass: EDirection HotReload.
+[2020.05.14-14.50.04:118][282]LogClass: Lines HotReload.
+[2020.05.14-14.50.04:132][282]LogHotReload: Re-instancing FlowerGameGameModeBase after hot-reload.
+[2020.05.14-14.50.04:155][282]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0005 seconds. Added 7 classes and 6 folders.
+[2020.05.14-14.50.04:159][282]Display: HotReload successful (9 functions remapped  1 scriptstructs remapped)
+[2020.05.14-14.50.04:322][282]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 3433 classes and 826 folders.
+[2020.05.14-14.50.04:322][282]Display: HotReload took 97.8s.
+[2020.05.14-14.50.22:138][967]LogSlate: Window 'Message Log' being destroyed
+[2020.05.14-14.50.22:147][967]LogSlate: Window 'Message Log' being destroyed
+[2020.05.14-14.50.25:858][ 83]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.50.44:597][724]BlueprintLog: New page: Compile LaunchDice
+[2020.05.14-14.50.44:775][724]LogUObjectHash: Compacting FUObjectHashTables data took   6.07ms
+[2020.05.14-14.50.45:499][731]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/LaunchDiceEAF6DD3D4F7FB9FE76C02D9D4B24C349.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/LaunchDice.uasset'
+[2020.05.14-14.50.45:520][731]AssetCheck: New page: Asset Save: LaunchDice
+[2020.05.14-14.50.45:520][731]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.50.46:604][766]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/LaunchDice31A162E9473F3B14285B4097EC53C3B2.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/LaunchDice.uasset'
+[2020.05.14-14.50.46:625][766]AssetCheck: New page: Asset Save: LaunchDice
+[2020.05.14-14.50.46:625][766]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/LaunchDice.LaunchDice
+[2020.05.14-14.50.47:507][796]LogSlate: Window 'LaunchDice' being destroyed
+[2020.05.14-14.50.47:515][796]LogSlate: Window 'LaunchDice' being destroyed
+[2020.05.14-14.50.47:521][796]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.50.47:521][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.50.47:527][796]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.50.47:527][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.50.49:638][864]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-14.53.10:278][460]BlueprintLog: New page: Compile UI_MainGame
+[2020.05.14-14.53.10:406][460]LogUObjectHash: Compacting FUObjectHashTables data took   5.97ms
+[2020.05.14-14.53.11:401][477]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/UI_MainGameC2B0138D419A8F75F7FC62B364766D4E.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/UI_MainGame.uasset'
+[2020.05.14-14.53.11:429][477]AssetCheck: New page: Asset Save: UI_MainGame
+[2020.05.14-14.53.11:429][477]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-14.53.14:574][573]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-14.53.14:606][573]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-14.53.14:612][573]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.53.14:612][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.53.14:967][573]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-14.53.14:967][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-14.53.22:339][831]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-14.54.58:069][928]LogSlate: Window 'Delete Variable' being destroyed
+[2020.05.14-14.56.38:657][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2020.05.14-14.56.38:660][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MobileStarterContent/Maps/TestMap' took 0.052
+[2020.05.14-14.56.38:660][ 80]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MobileStarterContent/UI/Dice] ([1] browsable assets)...
+[2020.05.14-14.56.38:661][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/MobileStarterContent/UI/Dice]
+[2020.05.14-14.56.38:804][ 80]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice_Auto19B48BF734EFB3847FD45D1A183D0ECD6.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Autosaves/Game/MobileStarterContent/UI/Dice_Auto1.uasset'
+[2020.05.14-14.56.38:806][ 80]LogFileHelpers: Auto-saving content packages took 0.146
+[2020.05.14-14.57.52:574][409]BlueprintLog: New page: Compile Dice
+[2020.05.14-14.57.52:661][409]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2020.05.14-14.57.59:348][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-14.57.59:384][592]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice49D743484C8D0DCC162E04B7117B3480.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-14.57.59:409][592]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-14.57.59:409][592]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-14.58.11:573][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-14.58.11:612][945]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/DiceB7ED6CA849FE2079AB1A8CB80DB9DCDD.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-14.58.11:634][945]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-14.58.11:634][945]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-14.58.57:035][510]BlueprintLog: New page: Compile Dice
+[2020.05.14-14.58.57:126][510]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2020.05.14-14.58.58:048][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-14.58.58:239][535]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice62C00294446BB113F40DA3B2FE519201.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-14.58.58:267][535]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-14.58.58:267][535]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.01.07:125][289]BlueprintLog: New page: Compile Dice
+[2020.05.14-15.01.07:182][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.05.14-15.01.08:981][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-15.01.09:000][353]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice0CEAA4C6443506BA6571E1B256D52F57.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-15.01.09:017][353]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-15.01.09:018][353]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.01.10:350][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-15.01.10:375][389]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice2B09A6C94559C25B87C64E92DF4C421B.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-15.01.10:391][389]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-15.01.10:391][389]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.01.11:351][432]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.01.11:367][432]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.01.11:370][432]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.01.11:370][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.01.11:375][432]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.01.11:375][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.01.12:895][474]Candidate modules for hot reload:
+[2020.05.14-15.01.12:895][474]  FlowerGame
+[2020.05.14-15.01.12:895][474]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,5188 FlowerGameEditor Win64 Development -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.14-15.01.12:912][474]Warning: Starting HotReload took  0.0s.
+[2020.05.14-15.03.46:263][997]CompilerResultsLog: New page: Compilation - 14 mai 2020 à 19:03:46
+[2020.05.14-15.03.46:264][997]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.14-15.03.46:264][997]CompilerResultsLog: Parsing headers for FlowerGameEditor
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\FlowerGame.uproject" "C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\FlowerGameEditor\Development\FlowerGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\a021694\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.05.14-15.03.46:264][997]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player\FlowerGameCharacter.h!
+[2020.05.14-15.03.46:264][997]CompilerResultsLog: Reflection code generated for FlowerGameEditor in 18,3348571 seconds
+[2020.05.14-15.03.46:264][997]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.14-15.03.46:264][997]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.14-15.03.46:264][997]CompilerResultsLog: Building 9 actions with 4 processes...
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [1/9] FlowerGame.init.gen.cpp
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [2/9] FlowerGamePlayerController.cpp
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [3/9] FlowerGameCharacter.gen.cpp
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [4/9] FlowerGameGameModeBase.gen.cpp
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [5/9] FlowerGameCharacter.cpp
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [6/9] FlowerGameGameModeBase.cpp
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [7/9] UE4Editor-FlowerGame-5188.lib
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5188.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5188.exp
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:   [8/9] UE4Editor-FlowerGame-5188.dll
+[2020.05.14-15.03.46:264][997]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5188.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-5188.suppressed.exp
+[2020.05.14-15.03.46:265][997]CompilerResultsLog:   [9/9] FlowerGameEditor.target
+[2020.05.14-15.03.46:265][997]CompilerResultsLog: Total time in Parallel executor: 131,62 seconds
+[2020.05.14-15.03.46:265][997]CompilerResultsLog: Total execution time: 153,21 seconds
+[2020.05.14-15.03.46:265][997]LogMainFrame: MainFrame: Module compiling took 153.381 seconds
+[2020.05.14-15.03.46:357][997]LogClass: Could not find existing class FlowerGameGameModeBase in package /Script/FlowerGame for HotReload, assuming new class
+[2020.05.14-15.03.46:357][997]LogClass: Function ChangePlayer is new.
+[2020.05.14-15.03.46:358][997]LogClass: Function GetCurrentState is new.
+[2020.05.14-15.03.46:358][997]LogClass: Function GetVisibilityNextPlayer is new.
+[2020.05.14-15.03.46:358][997]LogClass: Function InitPlayer is new.
+[2020.05.14-15.03.46:358][997]LogClass: Function LaunchDice is new.
+[2020.05.14-15.03.46:358][997]LogClass: Function LevelLoaded is new.
+[2020.05.14-15.03.46:358][997]LogClass: Function TurnFinished is new.
+[2020.05.14-15.03.46:365][997]LogClass: ECases HotReload.
+[2020.05.14-15.03.46:365][997]LogClass: EDirection HotReload.
+[2020.05.14-15.03.46:365][997]LogClass: EGamePlayState HotReload.
+[2020.05.14-15.03.46:365][997]LogClass: Lines HotReload.
+[2020.05.14-15.03.46:400][997]LogHotReload: Re-instancing FlowerGameGameModeBase after hot-reload.
+[2020.05.14-15.03.46:452][997]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0007 seconds. Added 7 classes and 6 folders.
+[2020.05.14-15.03.46:457][997]Display: HotReload successful (9 functions remapped  1 scriptstructs remapped)
+[2020.05.14-15.03.46:678][997]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 3433 classes and 826 folders.
+[2020.05.14-15.03.46:678][997]Display: HotReload took 153.8s.
+[2020.05.14-15.04.21:795][601]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.04.54:129][726]BlueprintLog: New page: Compile Dice
+[2020.05.14-15.04.54:311][726]LogUObjectHash: Compacting FUObjectHashTables data took   8.06ms
+[2020.05.14-15.04.55:252][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-15.04.55:326][751]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice9B779FFF460E49C06AAC81A15A89C9F9.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-15.04.55:351][751]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-15.04.55:351][751]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.04.56:563][794]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.04.56:572][794]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.04.56:578][794]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.04.56:578][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.04.56:618][794]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.04.56:618][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.04.57:914][839]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.05.14:331][337]BlueprintLog: New page: Compile UI_MainGame
+[2020.05.14-15.05.14:447][337]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2020.05.14-15.05.16:673][409]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/UI_MainGameB72F7BB9442E0FB30316838A30FC851F.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/UI_MainGame.uasset'
+[2020.05.14-15.05.16:698][409]AssetCheck: New page: Asset Save: UI_MainGame
+[2020.05.14-15.05.16:698][409]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.05.17:848][450]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.05.17:858][450]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.05.17:864][450]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.05.17:864][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.05.17:904][450]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.05.17:904][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.05.19:598][503]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.05.55:218][597]BlueprintLog: New page: Compile Dice
+[2020.05.14-15.05.55:303][597]LogUObjectHash: Compacting FUObjectHashTables data took   4.84ms
+[2020.05.14-15.05.56:781][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-15.05.56:813][637]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/DiceD9D20BB34A906FC5212DA09DFBFA2DFA.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-15.05.56:837][637]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-15.05.56:837][637]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.05.58:164][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-15.05.58:195][685]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice765437E5460E310900D9D8A8F1C5A19B.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-15.05.58:216][685]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-15.05.58:216][685]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.06.00:280][745]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.06.00:295][745]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.06.00:300][745]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.06.00:300][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.06.00:373][745]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.06.00:374][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.06.03:508][847]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.06.23:587][657]BlueprintLog: New page: Compile UI_MainGame
+[2020.05.14-15.06.23:658][657]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.05.14-15.06.33:415][953]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/UI_MainGameB9DD4C374BEEFEF0BCFD4B9940D5AF45.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/UI_MainGame.uasset'
+[2020.05.14-15.06.33:443][953]AssetCheck: New page: Asset Save: UI_MainGame
+[2020.05.14-15.06.33:443][953]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.06.34:545][979]BlueprintLog: New page: Compile UI_MainGame
+[2020.05.14-15.06.34:601][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.05.14-15.06.39:716][118]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.06.39:731][118]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.06.39:738][118]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.06.39:738][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.06.39:772][118]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.06.39:772][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.06.41:190][158]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.06.46:307][295]BlueprintLog: New page: Compile Dice
+[2020.05.14-15.06.46:398][295]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2020.05.14-15.06.47:470][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/UI/Dice" FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset" SILENT=true
+[2020.05.14-15.06.47:570][323]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Dice962400CD43DBEB7503502296DC035863.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/Dice.uasset'
+[2020.05.14-15.06.47:590][323]AssetCheck: New page: Asset Save: Dice
+[2020.05.14-15.06.47:590][323]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/Dice.Dice
+[2020.05.14-15.06.48:870][367]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.06.48:881][367]LogSlate: Window 'Dice' being destroyed
+[2020.05.14-15.06.48:885][367]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.06.48:885][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.06.48:923][367]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.06.48:923][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.06.50:817][427]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.07.03:612][762]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/UI_MainGameF75976534E0B4742A162D695481E97C3.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/UI_MainGame.uasset'
+[2020.05.14-15.07.03:640][762]AssetCheck: New page: Asset Save: UI_MainGame
+[2020.05.14-15.07.03:640][762]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.07.27:659][531]BlueprintLog: New page: Compile UI_MainGame
+[2020.05.14-15.07.27:736][531]LogUObjectHash: Compacting FUObjectHashTables data took   7.61ms
+[2020.05.14-15.09.49:996][599]BlueprintLog: New page: Compile UI_MainGame
+[2020.05.14-15.09.50:074][599]LogUObjectHash: Compacting FUObjectHashTables data took   7.14ms
+[2020.05.14-15.09.50:803][604]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/UI_MainGameBB3B6A11490A2F02020DC7965ED068B3.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/UI_MainGame.uasset'
+[2020.05.14-15.09.50:822][604]AssetCheck: New page: Asset Save: UI_MainGame
+[2020.05.14-15.09.50:822][604]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.09.51:497][627]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/UI_MainGame1EDDDD154E704EE77ABDC5964F96927F.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/UI_MainGame.uasset'
+[2020.05.14-15.09.51:517][627]AssetCheck: New page: Asset Save: UI_MainGame
+[2020.05.14-15.09.51:517][627]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.09.52:594][668]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.09.52:610][668]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.09.52:614][668]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.09.52:615][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.09.52:652][668]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.09.52:652][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.09.59:062][970]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.14-15.09.59:103][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.14-15.09.59:103][970]PIE: New page: PIE session: TestMap (14 mai 2020 à 19:09:59)
+[2020.05.14-15.09.59:104][970]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.14-15.09.59:106][970]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.14-15.09.59:107][970]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.14-15.09.59:143][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036250s)
+[2020.05.14-15.09.59:145][970]LogAIModule: Creating AISystem for world TestMap
+[2020.05.14-15.09.59:145][970]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E1566A200), frame # 53970
+[2020.05.14-15.09.59:145][970]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E18FB3240), frame # 53970
+[2020.05.14-15.09.59:145][970]LogPlayLevel: PIE: World Init took: (0.002320s)
+[2020.05.14-15.09.59:145][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.038866s)
+[2020.05.14-15.09.59:192][970]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2020.05.14-15.09.59:194][970]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-15.09.59:194][970]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-15.09.59:194][970]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-15.09.59:194][970]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-15.09.59:194][970]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-15.09.59:194][970]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-15.09.59:194][970]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-15.09.59:194][970]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-15.09.59:195][970]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-15.09.59:195][970]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-15.09.59:219][970]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-15.09.59:219][970]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-15.09.59:570][970]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.14-15.09.59:570][970]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.14-15.09.59:570][970]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.14-15.09.59:570][970]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.14-15.09.59:571][970]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.14-15.09.59:585][970]LogInit: FAudioDevice initialized.
+[2020.05.14-15.09.59:594][970]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.14-15.09.59:598][970]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.14-17.09.59
+[2020.05.14-15.09.59:598][970]LogWorld: Bringing up level for play took: 0.003736
+[2020.05.14-15.09.59:599][970]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.05.14-15.09.59:647][970]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.05.14-15.09.59:648][970]LogBlueprintUserMessages: [TestMap_C_0] DefaultPawn
+[2020.05.14-15.09.59:655][970]PIE: Server logged in
+[2020.05.14-15.09.59:658][970]PIE: Play in editor total start time 0,563 seconds.
+[2020.05.14-15.10.02:273][ 46]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.10.02:286][ 46]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.14-15.10.02:316][ 46]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.14-15.10.02:318][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-15.10.02:318][ 46]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.14-15.10.02:318][ 46]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.10.02:318][ 46]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.10.02:320][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.02:326][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.14-15.10.02:331][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.02:373][ 46]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.10.02:392][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-15.10.02:398][ 46]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E18FB3240), frame # 54046
+[2020.05.14-15.10.02:398][ 46]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E1566A200), frame # 54046
+[2020.05.14-15.10.02:452][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2020.05.14-15.10.02:493][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.05.14-15.10.05:563][150]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/InfoPlayer.InfoPlayer
+[2020.05.14-15.10.08:424][217]BlueprintLog: New page: Compile InfoPlayer
+[2020.05.14-15.10.08:584][217]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.05.14-15.10.09:612][254]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/InfoPlayer356F9656494DC2492AB60B85C1DC8805.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/InfoPlayer.uasset'
+[2020.05.14-15.10.09:632][254]AssetCheck: New page: Asset Save: InfoPlayer
+[2020.05.14-15.10.09:632][254]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/InfoPlayer.InfoPlayer
+[2020.05.14-15.10.10:817][299]LogSlate: Window 'InfoPlayer' being destroyed
+[2020.05.14-15.10.10:832][299]LogSlate: Window 'InfoPlayer' being destroyed
+[2020.05.14-15.10.10:838][299]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.10.10:838][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.10:844][299]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.10.10:844][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.12:126][333]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.10.15:354][409]BlueprintLog: New page: Compile UI_MainGame
+[2020.05.14-15.10.15:414][409]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.05.14-15.10.16:514][447]LogSavePackage: Moving '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/UI_MainGameD714B2EB444B5C5C1771C78EA1248739.tmp' to '../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/UI/UI_MainGame.uasset'
+[2020.05.14-15.10.16:537][447]AssetCheck: New page: Asset Save: UI_MainGame
+[2020.05.14-15.10.16:537][447]LogContentValidation: Display: Validating WidgetBlueprint /Game/MobileStarterContent/UI/UI_MainGame.UI_MainGame
+[2020.05.14-15.10.17:672][488]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.10.17:682][488]LogSlate: Window 'UI_MainGame' being destroyed
+[2020.05.14-15.10.17:687][488]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.10.17:688][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.17:695][488]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.10.17:695][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.21:292][691]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.14-15.10.21:322][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.14-15.10.21:322][691]PIE: New page: PIE session: TestMap (14 mai 2020 à 19:10:21)
+[2020.05.14-15.10.21:322][691]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.14-15.10.21:356][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033164s)
+[2020.05.14-15.10.21:358][691]LogAIModule: Creating AISystem for world TestMap
+[2020.05.14-15.10.21:358][691]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E29CB1000), frame # 54691
+[2020.05.14-15.10.21:358][691]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023DEB1C8680), frame # 54691
+[2020.05.14-15.10.21:358][691]LogPlayLevel: PIE: World Init took: (0.002296s)
+[2020.05.14-15.10.21:358][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.035686s)
+[2020.05.14-15.10.21:406][691]LogUObjectHash: Compacting FUObjectHashTables data took   5.90ms
+[2020.05.14-15.10.21:407][691]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-15.10.21:407][691]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-15.10.21:407][691]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-15.10.21:407][691]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-15.10.21:407][691]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-15.10.21:408][691]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-15.10.21:408][691]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-15.10.21:408][691]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-15.10.21:408][691]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-15.10.21:408][691]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-15.10.21:413][691]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-15.10.21:413][691]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-15.10.21:430][691]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.14-15.10.21:430][691]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.14-15.10.21:430][691]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.14-15.10.21:430][691]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.14-15.10.21:431][691]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.14-15.10.21:455][691]LogInit: FAudioDevice initialized.
+[2020.05.14-15.10.21:467][691]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.14-15.10.21:471][691]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.14-17.10.21
+[2020.05.14-15.10.21:472][691]LogWorld: Bringing up level for play took: 0.004065
+[2020.05.14-15.10.21:472][691]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.05.14-15.10.21:476][691]LogBlueprintUserMessages: [TestMap_C_0] DefaultPawn
+[2020.05.14-15.10.21:484][691]PIE: Server logged in
+[2020.05.14-15.10.21:485][691]PIE: Play in editor total start time 0,164 seconds.
+[2020.05.14-15.10.27:047][873]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.10.27:066][873]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.14-15.10.27:086][873]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.14-15.10.27:089][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-15.10.27:089][873]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.14-15.10.27:089][873]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.10.27:089][873]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.10.27:090][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.27:103][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.14-15.10.27:109][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.10.27:142][873]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.10.27:176][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-15.10.27:180][873]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023DEB1C8680), frame # 54873
+[2020.05.14-15.10.27:180][873]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E29CB1000), frame # 54873
+[2020.05.14-15.10.27:184][873]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.05.14-15.10.27:518][874]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.05.14-15.11.04:923][ 61]Candidate modules for hot reload:
+[2020.05.14-15.11.04:923][ 61]  FlowerGame
+[2020.05.14-15.11.04:924][ 61]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,6037 FlowerGameEditor Win64 Development -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject"  -IgnoreJunk]
+[2020.05.14-15.11.04:943][ 61]Warning: Starting HotReload took  0.0s.
+[2020.05.14-15.11.47:444][421]CompilerResultsLog: New page: Compilation - 14 mai 2020 à 19:11:47
+[2020.05.14-15.11.47:444][421]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.05.14-15.11.47:444][421]CompilerResultsLog: Building FlowerGameEditor...
+[2020.05.14-15.11.47:444][421]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.14-15.11.47:444][421]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.05.14-15.11.47:444][421]CompilerResultsLog:   [1/4] FlowerGameGameModeBase.cpp
+[2020.05.14-15.11.47:444][421]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-6037.lib
+[2020.05.14-15.11.47:444][421]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-6037.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-6037.exp
+[2020.05.14-15.11.47:444][421]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-6037.dll
+[2020.05.14-15.11.47:444][421]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-6037.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-6037.suppressed.exp
+[2020.05.14-15.11.47:444][421]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.05.14-15.11.47:444][421]CompilerResultsLog: Total time in Parallel executor: 40,19 seconds
+[2020.05.14-15.11.47:444][421]CompilerResultsLog: Total execution time: 42,31 seconds
+[2020.05.14-15.11.47:444][421]LogMainFrame: MainFrame: Module compiling took 42.534 seconds
+[2020.05.14-15.11.47:532][421]LogClass: ECases HotReload.
+[2020.05.14-15.11.47:532][421]LogClass: EDirection HotReload.
+[2020.05.14-15.11.47:532][421]LogClass: EGamePlayState HotReload.
+[2020.05.14-15.11.47:532][421]LogClass: Lines HotReload.
+[2020.05.14-15.11.47:551][421]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0006 seconds. Added 7 classes and 6 folders.
+[2020.05.14-15.11.47:556][421]Display: HotReload successful (16 functions remapped  1 scriptstructs remapped)
+[2020.05.14-15.11.47:757][421]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 3433 classes and 826 folders.
+[2020.05.14-15.11.47:757][421]Display: HotReload took 42.9s.
+[2020.05.14-15.11.56:256][694]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.14-15.11.56:299][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.14-15.11.56:299][694]PIE: New page: PIE session: TestMap (14 mai 2020 à 19:11:56)
+[2020.05.14-15.11.56:299][694]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.14-15.11.56:338][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039308s)
+[2020.05.14-15.11.56:340][694]LogAIModule: Creating AISystem for world TestMap
+[2020.05.14-15.11.56:340][694]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023E1EE59200), frame # 56694
+[2020.05.14-15.11.56:341][694]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023E186F7D80), frame # 56694
+[2020.05.14-15.11.56:341][694]LogPlayLevel: PIE: World Init took: (0.002370s)
+[2020.05.14-15.11.56:341][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.041944s)
+[2020.05.14-15.11.56:508][694]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2020.05.14-15.11.56:511][694]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.14-15.11.56:511][694]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.14-15.11.56:511][694]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.14-15.11.56:511][694]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.14-15.11.56:511][694]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.14-15.11.56:511][694]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.14-15.11.56:511][694]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.14-15.11.56:511][694]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.14-15.11.56:512][694]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.14-15.11.56:512][694]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.14-15.11.56:518][694]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.14-15.11.56:518][694]LogAudioMixer: Display: 1: FrontRight
+[2020.05.14-15.11.56:794][694]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.05.14-15.11.56:794][694]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.14-15.11.56:794][694]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.14-15.11.56:794][694]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.14-15.11.56:794][694]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.14-15.11.56:813][694]LogInit: FAudioDevice initialized.
+[2020.05.14-15.11.56:824][694]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.05.14-15.11.56:827][694]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2020.05.14-17.11.56
+[2020.05.14-15.11.56:828][694]LogWorld: Bringing up level for play took: 0.003461
+[2020.05.14-15.11.56:828][694]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2020.05.14-15.11.56:831][694]LogBlueprintUserMessages: [TestMap_C_0] DefaultPawn
+[2020.05.14-15.11.56:837][694]PIE: Server logged in
+[2020.05.14-15.11.56:838][694]PIE: Play in editor total start time 0,547 seconds.
+[2020.05.14-15.12.02:601][907]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.12.02:616][907]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.14-15.12.02:636][907]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.14-15.12.02:638][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-15.12.02:638][907]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.05.14-15.12.02:639][907]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.12.02:639][907]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.12.02:640][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.12.02:653][907]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.14-15.12.02:658][907]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.14-15.12.02:689][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.14-15.12.02:690][907]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.12.02:741][907]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023E186F7D80), frame # 56907
+[2020.05.14-15.12.02:741][907]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023E1EE59200), frame # 56907
+[2020.05.14-15.12.02:823][907]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2020.05.14-15.12.03:071][908]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2020.05.14-15.12.04:172][959]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.05.14-15.12.04:339][959]LogSlate: Window 'FlowerGame - Unreal Editor' being destroyed
+[2020.05.14-15.12.04:340][959]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-15.12.04:340][959]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.14-15.12.04:513][960]Cmd: QUIT_EDITOR
+[2020.05.14-15.12.04:513][960]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.05.14-15.12.04:524][960]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.05.14-15.12.04:524][960]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.14-15.12.05:787][960]LogExit: Preparing to exit.
+[2020.05.14-15.12.06:836][960]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.05.14-15.12.06:848][960]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.05.14-15.12.06:851][960]LogExit: Editor shut down
+[2020.05.14-15.12.06:852][960]LogExit: Transaction tracking system shut down
+[2020.05.14-15.12.07:117][960]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000023DB9DFD840), frame # 56960
+[2020.05.14-15.12.07:117][960]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023DB9D51440), frame # 56960
+[2020.05.14-15.12.07:118][960]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023DB9DEC400), frame # 56960
+[2020.05.14-15.12.07:126][960]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023DC0A68400), frame # 56960
+[2020.05.14-15.12.07:126][960]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023DBE730A40), frame # 56960
+[2020.05.14-15.12.07:189][960]LogExit: Object subsystem successfully closed.
+[2020.05.14-15.12.07:204][960]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module FlowerGame (803)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (802)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module Voice (800)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module SequencerWidgets (796)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2020.05.14-15.12.07:239][960]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2020.05.14-15.12.07:240][960]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2020.05.14-15.12.07:241][960]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2020.05.14-15.12.07:956][960]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2020.05.14-15.12.07:957][960]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2020.05.14-15.12.07:990][960]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2020.05.14-15.12.07:997][960]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2020.05.14-15.12.07:997][960]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2020.05.14-15.12.07:997][960]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2020.05.14-15.12.07:998][960]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2020.05.14-15.12.07:998][960]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2020.05.14-15.12.07:998][960]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2020.05.14-15.12.07:998][960]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2020.05.14-15.12.08:002][960]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2020.05.14-15.12.08:208][960]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2020.05.14-15.12.08:210][960]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.05.14-15.12.08:211][960]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.05.14-15.12.08:212][960]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.05.14-15.12.08:212][960]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.05.14-15.12.08:312][960]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.05.14-15.12.08:412][960]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.05.14-15.12.08:412][960]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.05.14-15.12.08:412][960]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.05.14-15.12.08:413][960]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.05.14-15.12.08:414][960]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.05.14-15.12.08:414][960]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.05.14-15.12.08:414][960]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.05.14-15.12.08:414][960]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.05.14-15.12.08:416][960]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.05.14-15.12.08:416][960]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.05.14-15.12.08:416][960]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.05.14-15.12.08:416][960]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.05.14-15.12.08:416][960]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.05.14-15.12.08:416][960]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.05.14-15.12.08:418][960]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.05.14-15.12.08:418][960]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.05.14-15.12.08:418][960]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.05.14-15.12.08:418][960]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.05.14-15.12.08:418][960]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.05.14-15.12.08:418][960]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.05.14-15.12.08:419][960]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.05.14-15.12.08:420][960]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.05.14-15.12.08:421][960]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.05.14-15.12.08:421][960]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.05.14-15.12.08:421][960]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.05.14-15.12.08:421][960]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.05.14-15.12.08:421][960]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.05.14-15.12.08:421][960]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.05.14-15.12.08:422][960]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.05.14-15.12.08:423][960]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.05.14-15.12.08:424][960]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.05.14-15.12.08:425][960]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.05.14-15.12.08:426][960]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.05.14-15.12.08:431][960]LogHMD: Freeing OpenVRDLLHandle.
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.05.14-15.12.08:431][960]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.05.14-15.12.08:432][960]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.05.14-15.12.08:433][960]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.05.14-15.12.08:450][960]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.05.14-15.12.08:450][960]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.05.14-15.12.08:450][960]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE815C153-469E-E3C2-2A17-0191220F7FE5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=570159454e12de8d889f108c285c1680%7C2e1d950de67a42a9ac87a75ef67e2d84%7Ca966237b-5aa3-447f-9d78-13a2793bf2c6&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.05.14-15.12.08:483][960]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.05.14-15.12.08:485][960]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.05.14-15.12.08:487][960]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.05.14-15.12.08:488][960]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.05.14-15.12.08:488][960]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.05.14-15.12.08:488][960]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.05.14-15.12.08:488][960]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.05.14-15.12.08:488][960]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.05.14-15.12.08:489][960]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.05.14-15.12.08:491][960]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.05.14-15.12.08:492][960]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.05.14-15.12.08:494][960]LogD3D11RHI: Shutdown
+[2020.05.14-15.12.08:494][960]LogD3D11RHI: CleanupD3DDevice
+[2020.05.14-15.12.08:551][960]LogD3D11RHI: [IntelMetricsDiscovery] Stopped
+[2020.05.14-15.12.08:556][960]LogExit: Exiting.
+[2020.05.14-15.12.08:568][960]Log file closed, 05/14/20 17:12:08

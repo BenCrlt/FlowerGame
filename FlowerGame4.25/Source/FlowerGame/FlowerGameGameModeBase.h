@@ -17,11 +17,17 @@
 #include "GenericPlatform/GenericPlatform.h"
 #include "FlowerGameGameModeBase.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateInfosPlayersDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateDiceDelegate, int32, numDice);
+
 UENUM()
 enum EGamePlayState
 {
-	EBegin,
+	ELoadingLevel,
+	EInitGame,
 	EPlaying,
+	ETurnBegin,
+	ETurnFinish,
 	EGameFinish,
 	EBeginMenu,
 	EUnknown
@@ -61,16 +67,15 @@ private:
 	void FillBoard();
 	void InitBoard();
 	void InitCase(ACaseDefault *caseSelected, int32 line, int32 row, int32 ID);
-	void InitPlayer();
 
 public:
 	UPROPERTY()
 	int32 BOARD_SIZE;
 	UPROPERTY()
 	TArray<FLines> Board;
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	class AFlowerGameCharacter *PlayerSelected;
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	TArray<AFlowerGameCharacter *> Players;
 	UPROPERTY()
 	int32 nbPlayers;
@@ -79,12 +84,26 @@ public:
 	UPROPERTY()
 	TArray<ACaseSpawn *> ListSpawns;
 
+	//UI Property
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool bShowLaunchDiceUI;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool bShowDiceUI;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateInfosPlayersDelegate OnUpdateInfosPlayers;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateDiceDelegate OnUpdateDice;
+
 	UFUNCTION(BlueprintCallable)
-	void LaunchDice(int32 numDice);
-	UFUNCTION(BlueprintCallable)
-	bool GetVisibilityNextPlayer();
+		void LevelLoaded();
 	UFUNCTION()
-	void ChangePlayer();
+		void InitPlayer();
 	UFUNCTION(BlueprintCallable)
-	void TurnFinished();
+		void LaunchDice();
+	UFUNCTION(BlueprintCallable)
+		bool GetVisibilityNextPlayer();
+	UFUNCTION()
+		void ChangePlayer();
+	UFUNCTION(BlueprintCallable)
+		void TurnFinished();
 };

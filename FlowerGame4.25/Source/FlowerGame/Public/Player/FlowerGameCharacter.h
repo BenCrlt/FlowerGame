@@ -58,23 +58,35 @@ public:
 	USpringArmComponent *SpringArmPlayer;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UCapsuleComponent *TriggerCapsule;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	ACaseDefault *Position;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	TEnumAsByte<EDirection> Direction;
-	UPROPERTY()
-	int32 MovementPoint;
+	
+	//Attributs personnage
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		int32 ID_Player;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		FString NomPlayer;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Attributs")
+		int32 Health;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		int32 MaxHealth;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		int32 Ammo;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		ACaseDefault *Position;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		TEnumAsByte<EDirection> Direction;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		int32 MovementPoint;
+
+	//Boolean 
 	UPROPERTY()
 	bool bWaitChoiceUser;
-	UPROPERTY()
-	int32 Tour;
 	UPROPERTY()
 	bool isTouch;
 	UPROPERTY()
 	bool bTurnFinished;
 
 	UFUNCTION()
-	void InitPlayer(ACaseDefault *caseInit);
+	void InitPlayer(ACaseDefault *caseInit, int32 ID);
 	UFUNCTION()
 	void MoveWithDice();
 	UFUNCTION()
@@ -97,4 +109,8 @@ public:
 	// declare overlap end function
 	UFUNCTION()
 	void OnOverlapEnd(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex);
+
+	//Gameplay function
+	UFUNCTION()
+		void DamagePlayer(AFlowerGameCharacter *PlayerSelected, int32 HealthDamage);
 };

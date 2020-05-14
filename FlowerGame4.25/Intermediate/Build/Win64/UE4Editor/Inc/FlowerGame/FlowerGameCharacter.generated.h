@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AFlowerGameCharacter;
 class UPrimitiveComponent;
 class AActor;
 struct FHitResult;
@@ -20,6 +21,7 @@ class ACaseDefault;
 #define FlowerGame4_25_Source_FlowerGame_Public_Player_FlowerGameCharacter_h_34_SPARSE_DATA
 #define FlowerGame4_25_Source_FlowerGame_Public_Player_FlowerGameCharacter_h_34_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDamagePlayer); \
 	DECLARE_FUNCTION(execOnOverlapEnd); \
 	DECLARE_FUNCTION(execOnOverlapBegin); \
 	DECLARE_FUNCTION(execgetDirection); \
@@ -32,6 +34,7 @@ class ACaseDefault;
 
 #define FlowerGame4_25_Source_FlowerGame_Public_Player_FlowerGameCharacter_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execDamagePlayer); \
 	DECLARE_FUNCTION(execOnOverlapEnd); \
 	DECLARE_FUNCTION(execOnOverlapBegin); \
 	DECLARE_FUNCTION(execgetDirection); \
