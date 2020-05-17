@@ -7,287 +7,287 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="19"
-9-->Y:\app\src\main\AndroidManifest.xml
+9-->Z:\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="28" />
-10-->Y:\app\src\main\AndroidManifest.xml
+10-->Z:\app\src\main\AndroidManifest.xml
 11    <!-- Requirements -->
 12    <uses-feature
-12-->Y:\app\src\main\AndroidManifest.xml:47:3-76
+12-->Z:\app\src\main\AndroidManifest.xml:47:3-76
 13        android:glEsVersion="0x00030001"
-13-->Y:\app\src\main\AndroidManifest.xml:47:17-49
+13-->Z:\app\src\main\AndroidManifest.xml:47:17-49
 14        android:required="true" />
-14-->Y:\app\src\main\AndroidManifest.xml:47:50-73
+14-->Z:\app\src\main\AndroidManifest.xml:47:50-73
 15
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->Y:\app\src\main\AndroidManifest.xml:48:3-65
-16-->Y:\app\src\main\AndroidManifest.xml:48:20-62
+16-->Z:\app\src\main\AndroidManifest.xml:48:3-65
+16-->Z:\app\src\main\AndroidManifest.xml:48:20-62
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-17-->Y:\app\src\main\AndroidManifest.xml:49:3-79
-17-->Y:\app\src\main\AndroidManifest.xml:49:20-76
+17-->Z:\app\src\main\AndroidManifest.xml:49:3-79
+17-->Z:\app\src\main\AndroidManifest.xml:49:20-76
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->Y:\app\src\main\AndroidManifest.xml:50:3-77
-18-->Y:\app\src\main\AndroidManifest.xml:50:20-74
+18-->Z:\app\src\main\AndroidManifest.xml:50:3-77
+18-->Z:\app\src\main\AndroidManifest.xml:50:20-74
 19    <uses-permission android:name="android.permission.WAKE_LOCK" />
-19-->Y:\app\src\main\AndroidManifest.xml:51:3-66
-19-->Y:\app\src\main\AndroidManifest.xml:51:20-63
+19-->Z:\app\src\main\AndroidManifest.xml:51:3-66
+19-->Z:\app\src\main\AndroidManifest.xml:51:20-63
 20    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-20-->Y:\app\src\main\AndroidManifest.xml:52:3-71
-20-->Y:\app\src\main\AndroidManifest.xml:52:20-68
+20-->Z:\app\src\main\AndroidManifest.xml:52:3-71
+20-->Z:\app\src\main\AndroidManifest.xml:52:20-68
 21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-21-->Y:\app\src\main\AndroidManifest.xml:53:3-74
-21-->Y:\app\src\main\AndroidManifest.xml:53:20-71
+21-->Z:\app\src\main\AndroidManifest.xml:53:3-74
+21-->Z:\app\src\main\AndroidManifest.xml:53:20-71
 22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-22-->Y:\app\src\main\AndroidManifest.xml:54:3-78
-22-->Y:\app\src\main\AndroidManifest.xml:54:20-75
+22-->Z:\app\src\main\AndroidManifest.xml:54:3-78
+22-->Z:\app\src\main\AndroidManifest.xml:54:20-75
 23    <uses-permission android:name="android.permission.VIBRATE" />
-23-->Y:\app\src\main\AndroidManifest.xml:55:3-64
-23-->Y:\app\src\main\AndroidManifest.xml:55:20-61
+23-->Z:\app\src\main\AndroidManifest.xml:55:3-64
+23-->Z:\app\src\main\AndroidManifest.xml:55:20-61
 24    <uses-permission android:name="com.android.vending.BILLING" />
-24-->Y:\app\src\main\AndroidManifest.xml:56:3-65
-24-->Y:\app\src\main\AndroidManifest.xml:56:20-62
+24-->Z:\app\src\main\AndroidManifest.xml:56:3-65
+24-->Z:\app\src\main\AndroidManifest.xml:56:20-62
 25    <!-- Supported texture compression formats (cooked) -->
 26    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
-26-->Y:\app\src\main\AndroidManifest.xml:58:3-77
-26-->Y:\app\src\main\AndroidManifest.xml:58:24-74
+26-->Z:\app\src\main\AndroidManifest.xml:58:3-77
+26-->Z:\app\src\main\AndroidManifest.xml:58:24-74
 27    <!-- Application Definition -->
 28    <application
-28-->Y:\app\src\main\AndroidManifest.xml:3:3-45:17
+28-->Z:\app\src\main\AndroidManifest.xml:3:3-45:17
 29        android:name="com.epicgames.ue4.GameApplication"
-29-->Y:\app\src\main\AndroidManifest.xml:3:114-162
+29-->Z:\app\src\main\AndroidManifest.xml:3:114-162
 30        android:debuggable="true"
 31        android:hardwareAccelerated="true"
-31-->Y:\app\src\main\AndroidManifest.xml:3:79-113
+31-->Z:\app\src\main\AndroidManifest.xml:3:79-113
 32        android:hasCode="true"
-32-->Y:\app\src\main\AndroidManifest.xml:3:163-185
+32-->Z:\app\src\main\AndroidManifest.xml:3:163-185
 33        android:icon="@drawable/icon"
-33-->Y:\app\src\main\AndroidManifest.xml:3:49-78
+33-->Z:\app\src\main\AndroidManifest.xml:3:49-78
 34        android:label="@string/app_name" >
-34-->Y:\app\src\main\AndroidManifest.xml:3:16-48
+34-->Z:\app\src\main\AndroidManifest.xml:3:16-48
 35        <activity
-35-->Y:\app\src\main\AndroidManifest.xml:4:5-9:16
+35-->Z:\app\src\main\AndroidManifest.xml:4:5-9:16
 36            android:name="com.epicgames.ue4.SplashActivity"
-36-->Y:\app\src\main\AndroidManifest.xml:4:15-62
+36-->Z:\app\src\main\AndroidManifest.xml:4:15-62
 37            android:debuggable="true"
-37-->Y:\app\src\main\AndroidManifest.xml:4:210-235
+37-->Z:\app\src\main\AndroidManifest.xml:4:210-235
 38            android:label="@string/app_name"
-38-->Y:\app\src\main\AndroidManifest.xml:4:63-95
+38-->Z:\app\src\main\AndroidManifest.xml:4:63-95
 39            android:launchMode="singleTask"
-39-->Y:\app\src\main\AndroidManifest.xml:4:134-165
+39-->Z:\app\src\main\AndroidManifest.xml:4:134-165
 40            android:screenOrientation="sensorLandscape"
-40-->Y:\app\src\main\AndroidManifest.xml:4:166-209
+40-->Z:\app\src\main\AndroidManifest.xml:4:166-209
 41            android:theme="@style/UE4SplashTheme" >
-41-->Y:\app\src\main\AndroidManifest.xml:4:96-133
+41-->Z:\app\src\main\AndroidManifest.xml:4:96-133
 42            <intent-filter>
-42-->Y:\app\src\main\AndroidManifest.xml:5:7-8:23
+42-->Z:\app\src\main\AndroidManifest.xml:5:7-8:23
 43                <action android:name="android.intent.action.MAIN" />
-43-->Y:\app\src\main\AndroidManifest.xml:6:9-61
-43-->Y:\app\src\main\AndroidManifest.xml:6:17-58
+43-->Z:\app\src\main\AndroidManifest.xml:6:9-61
+43-->Z:\app\src\main\AndroidManifest.xml:6:17-58
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->Y:\app\src\main\AndroidManifest.xml:7:9-69
-45-->Y:\app\src\main\AndroidManifest.xml:7:19-66
+45-->Z:\app\src\main\AndroidManifest.xml:7:9-69
+45-->Z:\app\src\main\AndroidManifest.xml:7:19-66
 46            </intent-filter>
 47        </activity>
 48        <activity
-48-->Y:\app\src\main\AndroidManifest.xml:10:5-12:16
+48-->Z:\app\src\main\AndroidManifest.xml:10:5-12:16
 49            android:name="com.epicgames.ue4.GameActivity"
-49-->Y:\app\src\main\AndroidManifest.xml:10:15-60
+49-->Z:\app\src\main\AndroidManifest.xml:10:15-60
 50            android:configChanges="mcc|mnc|uiMode|density|screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|keyboard"
-50-->Y:\app\src\main\AndroidManifest.xml:10:132-257
+50-->Z:\app\src\main\AndroidManifest.xml:10:132-257
 51            android:debuggable="true"
-51-->Y:\app\src\main\AndroidManifest.xml:10:369-394
+51-->Z:\app\src\main\AndroidManifest.xml:10:369-394
 52            android:label="@string/app_name"
-52-->Y:\app\src\main\AndroidManifest.xml:10:61-93
+52-->Z:\app\src\main\AndroidManifest.xml:10:61-93
 53            android:launchMode="singleTask"
-53-->Y:\app\src\main\AndroidManifest.xml:10:293-324
+53-->Z:\app\src\main\AndroidManifest.xml:10:293-324
 54            android:resizeableActivity="false"
-54-->Y:\app\src\main\AndroidManifest.xml:10:258-292
+54-->Z:\app\src\main\AndroidManifest.xml:10:258-292
 55            android:screenOrientation="sensorLandscape"
-55-->Y:\app\src\main\AndroidManifest.xml:10:325-368
+55-->Z:\app\src\main\AndroidManifest.xml:10:325-368
 56            android:theme="@style/UE4SplashTheme" >
-56-->Y:\app\src\main\AndroidManifest.xml:10:94-131
+56-->Z:\app\src\main\AndroidManifest.xml:10:94-131
 57            <meta-data
-57-->Y:\app\src\main\AndroidManifest.xml:11:7-76
+57-->Z:\app\src\main\AndroidManifest.xml:11:7-76
 58                android:name="android.app.lib_name"
-58-->Y:\app\src\main\AndroidManifest.xml:11:18-53
+58-->Z:\app\src\main\AndroidManifest.xml:11:18-53
 59                android:value="UE4" />
-59-->Y:\app\src\main\AndroidManifest.xml:11:54-73
+59-->Z:\app\src\main\AndroidManifest.xml:11:54-73
 60        </activity>
 61        <activity
-61-->Y:\app\src\main\AndroidManifest.xml:13:5-228
+61-->Z:\app\src\main\AndroidManifest.xml:13:5-228
 62            android:name="com.FlowerGames.FlowerGame.DownloaderActivity"
-62-->Y:\app\src\main\AndroidManifest.xml:13:15-49
+62-->Z:\app\src\main\AndroidManifest.xml:13:15-49
 63            android:configChanges="mcc|mnc|uiMode|density|screenSize|orientation|keyboardHidden|keyboard"
-63-->Y:\app\src\main\AndroidManifest.xml:13:94-187
+63-->Z:\app\src\main\AndroidManifest.xml:13:94-187
 64            android:screenOrientation="sensorLandscape"
-64-->Y:\app\src\main\AndroidManifest.xml:13:50-93
+64-->Z:\app\src\main\AndroidManifest.xml:13:50-93
 65            android:theme="@style/UE4SplashTheme" />
-65-->Y:\app\src\main\AndroidManifest.xml:13:188-225
+65-->Z:\app\src\main\AndroidManifest.xml:13:188-225
 66
 67        <meta-data
-67-->Y:\app\src\main\AndroidManifest.xml:14:5-101
+67-->Z:\app\src\main\AndroidManifest.xml:14:5-101
 68            android:name="com.epicgames.ue4.GameActivity.EngineVersion"
-68-->Y:\app\src\main\AndroidManifest.xml:14:16-75
+68-->Z:\app\src\main\AndroidManifest.xml:14:16-75
 69            android:value="4.25.0" />
-69-->Y:\app\src\main\AndroidManifest.xml:14:76-98
+69-->Z:\app\src\main\AndroidManifest.xml:14:76-98
 70        <meta-data
-70-->Y:\app\src\main\AndroidManifest.xml:15:5-112
+70-->Z:\app\src\main\AndroidManifest.xml:15:5-112
 71            android:name="com.epicgames.ue4.GameActivity.EngineBranch"
-71-->Y:\app\src\main\AndroidManifest.xml:15:16-74
+71-->Z:\app\src\main\AndroidManifest.xml:15:16-74
 72            android:value="++UE4+Release-4.25" />
-72-->Y:\app\src\main\AndroidManifest.xml:15:75-109
+72-->Z:\app\src\main\AndroidManifest.xml:15:75-109
 73        <meta-data
-73-->Y:\app\src\main\AndroidManifest.xml:16:5-103
+73-->Z:\app\src\main\AndroidManifest.xml:16:5-103
 74            android:name="com.epicgames.ue4.GameActivity.ProjectVersion"
-74-->Y:\app\src\main\AndroidManifest.xml:16:16-76
+74-->Z:\app\src\main\AndroidManifest.xml:16:16-76
 75            android:value="1.0.0.0" />
-75-->Y:\app\src\main\AndroidManifest.xml:16:77-100
+75-->Z:\app\src\main\AndroidManifest.xml:16:77-100
 76        <meta-data
-76-->Y:\app\src\main\AndroidManifest.xml:17:5-104
+76-->Z:\app\src\main\AndroidManifest.xml:17:5-104
 77            android:name="com.epicgames.ue4.GameActivity.DepthBufferPreference"
-77-->Y:\app\src\main\AndroidManifest.xml:17:16-83
+77-->Z:\app\src\main\AndroidManifest.xml:17:16-83
 78            android:value="0" />
-78-->Y:\app\src\main\AndroidManifest.xml:17:84-101
+78-->Z:\app\src\main\AndroidManifest.xml:17:84-101
 79        <meta-data
-79-->Y:\app\src\main\AndroidManifest.xml:18:5-108
+79-->Z:\app\src\main\AndroidManifest.xml:18:5-108
 80            android:name="com.epicgames.ue4.GameActivity.bPackageDataInsideApk"
-80-->Y:\app\src\main\AndroidManifest.xml:18:16-83
+80-->Z:\app\src\main\AndroidManifest.xml:18:16-83
 81            android:value="false" />
-81-->Y:\app\src\main\AndroidManifest.xml:18:84-105
+81-->Z:\app\src\main\AndroidManifest.xml:18:84-105
 82        <meta-data
-82-->Y:\app\src\main\AndroidManifest.xml:19:5-106
+82-->Z:\app\src\main\AndroidManifest.xml:19:5-106
 83            android:name="com.epicgames.ue4.GameActivity.bVerifyOBBOnStartUp"
-83-->Y:\app\src\main\AndroidManifest.xml:19:16-81
+83-->Z:\app\src\main\AndroidManifest.xml:19:16-81
 84            android:value="false" />
-84-->Y:\app\src\main\AndroidManifest.xml:19:82-103
+84-->Z:\app\src\main\AndroidManifest.xml:19:82-103
 85        <meta-data
-85-->Y:\app\src\main\AndroidManifest.xml:20:5-99
+85-->Z:\app\src\main\AndroidManifest.xml:20:5-99
 86            android:name="com.epicgames.ue4.GameActivity.bShouldHideUI"
-86-->Y:\app\src\main\AndroidManifest.xml:20:16-75
+86-->Z:\app\src\main\AndroidManifest.xml:20:16-75
 87            android:value="true" />
-87-->Y:\app\src\main\AndroidManifest.xml:20:76-96
+87-->Z:\app\src\main\AndroidManifest.xml:20:76-96
 88        <meta-data
-88-->Y:\app\src\main\AndroidManifest.xml:21:5-103
+88-->Z:\app\src\main\AndroidManifest.xml:21:5-103
 89            android:name="com.epicgames.ue4.GameActivity.ProjectName"
-89-->Y:\app\src\main\AndroidManifest.xml:21:16-73
+89-->Z:\app\src\main\AndroidManifest.xml:21:16-73
 90            android:value="FlowerGame" />
-90-->Y:\app\src\main\AndroidManifest.xml:21:74-100
+90-->Z:\app\src\main\AndroidManifest.xml:21:74-100
 91        <meta-data
-91-->Y:\app\src\main\AndroidManifest.xml:22:5-89
+91-->Z:\app\src\main\AndroidManifest.xml:22:5-89
 92            android:name="com.epicgames.ue4.GameActivity.AppType"
-92-->Y:\app\src\main\AndroidManifest.xml:22:16-69
+92-->Z:\app\src\main\AndroidManifest.xml:22:16-69
 93            android:value="" />
-93-->Y:\app\src\main\AndroidManifest.xml:22:70-86
+93-->Z:\app\src\main\AndroidManifest.xml:22:70-86
 94        <meta-data
-94-->Y:\app\src\main\AndroidManifest.xml:23:5-99
+94-->Z:\app\src\main\AndroidManifest.xml:23:5-99
 95            android:name="com.epicgames.ue4.GameActivity.bHasOBBFiles"
-95-->Y:\app\src\main\AndroidManifest.xml:23:16-74
+95-->Z:\app\src\main\AndroidManifest.xml:23:16-74
 96            android:value="false" />
-96-->Y:\app\src\main\AndroidManifest.xml:23:75-96
+96-->Z:\app\src\main\AndroidManifest.xml:23:75-96
 97        <meta-data
-97-->Y:\app\src\main\AndroidManifest.xml:24:5-111
+97-->Z:\app\src\main\AndroidManifest.xml:24:5-111
 98            android:name="com.epicgames.ue4.GameActivity.BuildConfiguration"
-98-->Y:\app\src\main\AndroidManifest.xml:24:16-80
+98-->Z:\app\src\main\AndroidManifest.xml:24:16-80
 99            android:value="Development" />
-99-->Y:\app\src\main\AndroidManifest.xml:24:81-108
+99-->Z:\app\src\main\AndroidManifest.xml:24:81-108
 100        <meta-data
-100-->Y:\app\src\main\AndroidManifest.xml:25:5-99
+100-->Z:\app\src\main\AndroidManifest.xml:25:5-99
 101            android:name="com.epicgames.ue4.GameActivity.CookedFlavors"
-101-->Y:\app\src\main\AndroidManifest.xml:25:16-75
+101-->Z:\app\src\main\AndroidManifest.xml:25:16-75
 102            android:value="ASTC" />
-102-->Y:\app\src\main\AndroidManifest.xml:25:76-96
+102-->Z:\app\src\main\AndroidManifest.xml:25:76-96
 103        <meta-data
-103-->Y:\app\src\main\AndroidManifest.xml:26:5-109
+103-->Z:\app\src\main\AndroidManifest.xml:26:5-109
 104            android:name="com.epicgames.ue4.GameActivity.bValidateTextureFormats"
-104-->Y:\app\src\main\AndroidManifest.xml:26:16-85
+104-->Z:\app\src\main\AndroidManifest.xml:26:16-85
 105            android:value="true" />
-105-->Y:\app\src\main\AndroidManifest.xml:26:86-106
+105-->Z:\app\src\main\AndroidManifest.xml:26:86-106
 106        <meta-data
-106-->Y:\app\src\main\AndroidManifest.xml:27:5-107
+106-->Z:\app\src\main\AndroidManifest.xml:27:5-107
 107            android:name="com.epicgames.ue4.GameActivity.bUseExternalFilesDir"
-107-->Y:\app\src\main\AndroidManifest.xml:27:16-82
+107-->Z:\app\src\main\AndroidManifest.xml:27:16-82
 108            android:value="false" />
-108-->Y:\app\src\main\AndroidManifest.xml:27:83-104
+108-->Z:\app\src\main\AndroidManifest.xml:27:83-104
 109        <meta-data
-109-->Y:\app\src\main\AndroidManifest.xml:28:5-102
+109-->Z:\app\src\main\AndroidManifest.xml:28:5-102
 110            android:name="com.epicgames.ue4.GameActivity.bPublicLogFiles"
-110-->Y:\app\src\main\AndroidManifest.xml:28:16-77
+110-->Z:\app\src\main\AndroidManifest.xml:28:16-77
 111            android:value="false" />
-111-->Y:\app\src\main\AndroidManifest.xml:28:78-99
+111-->Z:\app\src\main\AndroidManifest.xml:28:78-99
 112        <meta-data
-112-->Y:\app\src\main\AndroidManifest.xml:29:5-104
+112-->Z:\app\src\main\AndroidManifest.xml:29:5-104
 113            android:name="com.epicgames.ue4.GameActivity.bUseDisplayCutout"
-113-->Y:\app\src\main\AndroidManifest.xml:29:16-79
+113-->Z:\app\src\main\AndroidManifest.xml:29:16-79
 114            android:value="false" />
-114-->Y:\app\src\main\AndroidManifest.xml:29:80-101
+114-->Z:\app\src\main\AndroidManifest.xml:29:80-101
 115        <meta-data
-115-->Y:\app\src\main\AndroidManifest.xml:30:5-95
+115-->Z:\app\src\main\AndroidManifest.xml:30:5-95
 116            android:name="com.epicgames.ue4.GameActivity.bAllowIMU"
-116-->Y:\app\src\main\AndroidManifest.xml:30:16-71
+116-->Z:\app\src\main\AndroidManifest.xml:30:16-71
 117            android:value="true" />
-117-->Y:\app\src\main\AndroidManifest.xml:30:72-92
+117-->Z:\app\src\main\AndroidManifest.xml:30:72-92
 118        <meta-data
-118-->Y:\app\src\main\AndroidManifest.xml:31:5-102
+118-->Z:\app\src\main\AndroidManifest.xml:31:5-102
 119            android:name="com.epicgames.ue4.GameActivity.bSupportsVulkan"
-119-->Y:\app\src\main\AndroidManifest.xml:31:16-77
+119-->Z:\app\src\main\AndroidManifest.xml:31:16-77
 120            android:value="false" />
-120-->Y:\app\src\main\AndroidManifest.xml:31:78-99
+120-->Z:\app\src\main\AndroidManifest.xml:31:78-99
 121        <meta-data
-121-->Y:\app\src\main\AndroidManifest.xml:32:5-141
+121-->Z:\app\src\main\AndroidManifest.xml:32:5-141
 122            android:name="com.epicgames.ue4.GameActivity.StartupPermissions"
-122-->Y:\app\src\main\AndroidManifest.xml:32:16-80
+122-->Z:\app\src\main\AndroidManifest.xml:32:16-80
 123            android:value="android.permission.WRITE_EXTERNAL_STORAGE" />
-123-->Y:\app\src\main\AndroidManifest.xml:32:81-138
+123-->Z:\app\src\main\AndroidManifest.xml:32:81-138
 124        <meta-data
-124-->Y:\app\src\main\AndroidManifest.xml:33:5-100
+124-->Z:\app\src\main\AndroidManifest.xml:33:5-100
 125            android:name="com.google.android.gms.games.APP_ID"
-125-->Y:\app\src\main\AndroidManifest.xml:33:16-66
+125-->Z:\app\src\main\AndroidManifest.xml:33:16-66
 126            android:value="@string/app_id" />
-126-->Y:\app\src\main\AndroidManifest.xml:33:67-97
+126-->Z:\app\src\main\AndroidManifest.xml:33:67-97
 127        <meta-data
-127-->Y:\app\src\main\AndroidManifest.xml:34:5-118
+127-->Z:\app\src\main\AndroidManifest.xml:34:5-118
 128            android:name="com.google.android.gms.version"
-128-->Y:\app\src\main\AndroidManifest.xml:34:16-61
+128-->Z:\app\src\main\AndroidManifest.xml:34:16-61
 129            android:value="@integer/google_play_services_version" />
-129-->Y:\app\src\main\AndroidManifest.xml:34:62-115
+129-->Z:\app\src\main\AndroidManifest.xml:34:62-115
 130
 131        <activity
-131-->Y:\app\src\main\AndroidManifest.xml:35:5-180
+131-->Z:\app\src\main\AndroidManifest.xml:35:5-180
 132            android:name="com.google.android.gms.ads.AdActivity"
-132-->Y:\app\src\main\AndroidManifest.xml:35:15-67
+132-->Z:\app\src\main\AndroidManifest.xml:35:15-67
 133            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-133-->Y:\app\src\main\AndroidManifest.xml:35:68-177
+133-->Z:\app\src\main\AndroidManifest.xml:35:68-177
 134
 135        <service android:name="com.FlowerGames.FlowerGame.OBBDownloaderService" />
-135-->Y:\app\src\main\AndroidManifest.xml:36:5-52
-135-->Y:\app\src\main\AndroidManifest.xml:36:14-49
+135-->Z:\app\src\main\AndroidManifest.xml:36:5-52
+135-->Z:\app\src\main\AndroidManifest.xml:36:14-49
 136
 137        <receiver android:name="com.FlowerGames.FlowerGame.AlarmReceiver" />
-137-->Y:\app\src\main\AndroidManifest.xml:37:5-46
-137-->Y:\app\src\main\AndroidManifest.xml:37:15-43
+137-->Z:\app\src\main\AndroidManifest.xml:37:5-46
+137-->Z:\app\src\main\AndroidManifest.xml:37:15-43
 138        <receiver android:name="com.epicgames.ue4.LocalNotificationReceiver" />
-138-->Y:\app\src\main\AndroidManifest.xml:38:5-76
-138-->Y:\app\src\main\AndroidManifest.xml:38:15-73
+138-->Z:\app\src\main\AndroidManifest.xml:38:5-76
+138-->Z:\app\src\main\AndroidManifest.xml:38:15-73
 139        <receiver
-139-->Y:\app\src\main\AndroidManifest.xml:39:5-43:16
+139-->Z:\app\src\main\AndroidManifest.xml:39:5-43:16
 140            android:name="com.epicgames.ue4.MulticastBroadcastReceiver"
-140-->Y:\app\src\main\AndroidManifest.xml:39:15-74
+140-->Z:\app\src\main\AndroidManifest.xml:39:15-74
 141            android:exported="true" >
-141-->Y:\app\src\main\AndroidManifest.xml:39:75-98
+141-->Z:\app\src\main\AndroidManifest.xml:39:75-98
 142            <intent-filter>
-142-->Y:\app\src\main\AndroidManifest.xml:40:7-42:23
+142-->Z:\app\src\main\AndroidManifest.xml:40:7-42:23
 143                <action android:name="com.android.vending.INSTALL_REFERRER" />
-143-->Y:\app\src\main\AndroidManifest.xml:41:9-71
-143-->Y:\app\src\main\AndroidManifest.xml:41:17-68
+143-->Z:\app\src\main\AndroidManifest.xml:41:9-71
+143-->Z:\app\src\main\AndroidManifest.xml:41:17-68
 144            </intent-filter>
 145        </receiver>
 146
 147        <meta-data
-147-->Y:\app\src\main\AndroidManifest.xml:44:5-73
+147-->Z:\app\src\main\AndroidManifest.xml:44:5-73
 148            android:name="android.max_aspect"
-148-->Y:\app\src\main\AndroidManifest.xml:44:16-49
+148-->Z:\app\src\main\AndroidManifest.xml:44:16-49
 149            android:value="2.10" />
-149-->Y:\app\src\main\AndroidManifest.xml:44:50-70
+149-->Z:\app\src\main\AndroidManifest.xml:44:50-70
 150
 151        <activity
 151-->[com.google.android.gms:play-services-auth:11.8.0] C:\Users\a021694\.gradle\caches\transforms-2\files-2.1\ad3f0e049b8e520b08046ce86bd4f4e3\play-services-auth-11.8.0\AndroidManifest.xml:23:9-27:75
