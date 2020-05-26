@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 	FLOWERGAME_API UClass* Z_Construct_UClass_AFlowerGameCharacter_NoRegister();
 	FLOWERGAME_API UClass* Z_Construct_UClass_AFlowerGameCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	FLOWERGAME_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 	FLOWERGAME_API UClass* Z_Construct_UClass_ACaseDefault_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -89,13 +90,20 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		}
 		return ReturnEnum;
 	}
-	DEFINE_FUNCTION(AFlowerGameCharacter::execDamagePlayer)
+	DEFINE_FUNCTION(AFlowerGameCharacter::execShootPlayer)
 	{
-		P_GET_OBJECT(AFlowerGameCharacter,Z_Param_PlayerSelected);
-		P_GET_PROPERTY(FIntProperty,Z_Param_HealthDamage);
+		P_GET_OBJECT(AFlowerGameCharacter,Z_Param_OtherPlayer);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->DamagePlayer(Z_Param_PlayerSelected,Z_Param_HealthDamage);
+		P_THIS->ShootPlayer(Z_Param_OtherPlayer);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AFlowerGameCharacter::execChangeWeapon)
+	{
+		P_GET_OBJECT(AWeapon,Z_Param_WeaponChoosed);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ChangeWeapon(Z_Param_WeaponChoosed);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AFlowerGameCharacter::execOnOverlapEnd)
@@ -178,8 +186,8 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 	{
 		UClass* Class = AFlowerGameCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "ChangeWeapon", &AFlowerGameCharacter::execChangeWeapon },
 			{ "CheckWaysAvailable", &AFlowerGameCharacter::execCheckWaysAvailable },
-			{ "DamagePlayer", &AFlowerGameCharacter::execDamagePlayer },
 			{ "getDirection", &AFlowerGameCharacter::execgetDirection },
 			{ "GoToNextCase", &AFlowerGameCharacter::execGoToNextCase },
 			{ "InitPlayer", &AFlowerGameCharacter::execInitPlayer },
@@ -187,8 +195,43 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 			{ "MoveWithDice", &AFlowerGameCharacter::execMoveWithDice },
 			{ "OnOverlapBegin", &AFlowerGameCharacter::execOnOverlapBegin },
 			{ "OnOverlapEnd", &AFlowerGameCharacter::execOnOverlapEnd },
+			{ "ShootPlayer", &AFlowerGameCharacter::execShootPlayer },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics
+	{
+		struct FlowerGameCharacter_eventChangeWeapon_Parms
+		{
+			AWeapon* WeaponChoosed;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WeaponChoosed;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::NewProp_WeaponChoosed = { "WeaponChoosed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventChangeWeapon_Parms, WeaponChoosed), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::NewProp_WeaponChoosed,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Gameplay function\n" },
+		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
+		{ "ToolTip", "Gameplay function" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameCharacter, nullptr, "ChangeWeapon", nullptr, nullptr, sizeof(FlowerGameCharacter_eventChangeWeapon_Parms), Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AFlowerGameCharacter_CheckWaysAvailable_Statics
 	{
@@ -226,44 +269,6 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameCharacter_CheckWaysAvailable_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics
-	{
-		struct FlowerGameCharacter_eventDamagePlayer_Parms
-		{
-			AFlowerGameCharacter* PlayerSelected;
-			int32 HealthDamage;
-		};
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_HealthDamage;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerSelected;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::NewProp_HealthDamage = { "HealthDamage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventDamagePlayer_Parms, HealthDamage), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::NewProp_PlayerSelected = { "PlayerSelected", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventDamagePlayer_Parms, PlayerSelected), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::NewProp_HealthDamage,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::NewProp_PlayerSelected,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::Function_MetaDataParams[] = {
-		{ "Comment", "//Gameplay function\n" },
-		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
-		{ "ToolTip", "Gameplay function" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameCharacter, nullptr, "DamagePlayer", nullptr, nullptr, sizeof(FlowerGameCharacter_eventDamagePlayer_Parms), Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -601,6 +606,38 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics
+	{
+		struct FlowerGameCharacter_eventShootPlayer_Parms
+		{
+			AFlowerGameCharacter* OtherPlayer;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherPlayer;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_OtherPlayer = { "OtherPlayer", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventShootPlayer_Parms, OtherPlayer), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_OtherPlayer,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameCharacter, nullptr, "ShootPlayer", nullptr, nullptr, sizeof(FlowerGameCharacter_eventShootPlayer_Parms), Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AFlowerGameCharacter_NoRegister()
 	{
 		return AFlowerGameCharacter::StaticClass();
@@ -627,6 +664,10 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 #endif
 		static void NewProp_bWaitChoiceUser_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bWaitChoiceUser;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WeaponSelected_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WeaponSelected;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MovementPoint_MetaData[];
 #endif
@@ -680,8 +721,8 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_FlowerGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFlowerGameCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon, "ChangeWeapon" }, // 1683233277
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_CheckWaysAvailable, "CheckWaysAvailable" }, // 4044025660
-		{ &Z_Construct_UFunction_AFlowerGameCharacter_DamagePlayer, "DamagePlayer" }, // 1035885523
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_getDirection, "getDirection" }, // 4139781112
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_GoToNextCase, "GoToNextCase" }, // 554192241
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_InitPlayer, "InitPlayer" }, // 979292553
@@ -689,6 +730,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_MoveWithDice, "MoveWithDice" }, // 989706650
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 2151840323
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 4011483960
+		{ &Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer, "ShootPlayer" }, // 2245967785
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::Class_MetaDataParams[] = {
@@ -719,7 +761,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch = { "isTouch", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AFlowerGameCharacter), &Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bWaitChoiceUser_MetaData[] = {
-		{ "Comment", "//Boolean \n" },
+		{ "Comment", "//Boolean\n" },
 		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
 		{ "ToolTip", "Boolean" },
 	};
@@ -729,6 +771,13 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		((AFlowerGameCharacter*)Obj)->bWaitChoiceUser = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bWaitChoiceUser = { "bWaitChoiceUser", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AFlowerGameCharacter), &Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bWaitChoiceUser_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bWaitChoiceUser_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bWaitChoiceUser_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_WeaponSelected_MetaData[] = {
+		{ "Category", "Attributs" },
+		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_WeaponSelected = { "WeaponSelected", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameCharacter, WeaponSelected), Z_Construct_UClass_AWeapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_WeaponSelected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_WeaponSelected_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_MovementPoint_MetaData[] = {
 		{ "Category", "Attributs" },
@@ -817,6 +866,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bTurnFinished,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_isTouch,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_bWaitChoiceUser,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_WeaponSelected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_MovementPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_Direction,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameCharacter_Statics::NewProp_Position,
@@ -856,7 +906,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameCharacter, 4020148132);
+	IMPLEMENT_CLASS(AFlowerGameCharacter, 3172098611);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameCharacter>()
 	{
 		return AFlowerGameCharacter::StaticClass();

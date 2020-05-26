@@ -99,6 +99,20 @@ void AFlowerGameCharacter::OnPressed(const ETouchIndex::Type FingerIndex, const 
 		{
 			MoveToTouchLocation(Location);
 		}
+		if (bTurnFinished)
+		{
+			FVector2D ScreenSpaceLocation(Location);
+
+			// Trace to see what is under the touch location
+			FHitResult HitResult;
+			GetWorld()->GetFirstPlayerController()->GetHitResultAtScreenPosition(ScreenSpaceLocation, ECC_Visibility, true, HitResult);
+			AFlowerGameCharacter *OtherPlayer = Cast<AFlowerGameCharacter>(HitResult.GetActor());
+			if (OtherPlayer != nullptr)
+			{
+				print("Shoot !");
+				ShootPlayer(OtherPlayer);
+			}
+		}
 	}
 }
 
@@ -191,7 +205,8 @@ void AFlowerGameCharacter::MoveWithDice()
 		ManageCaseChoice(Position, CheckWaysAvailable(Position), true);
 	}
 
-	while (MovementPoint != 0 && bWaitChoiceUser == false) {
+	while (MovementPoint != 0 && bWaitChoiceUser == false)
+	{
 		waysAvailable = CheckWaysAvailable(Position);
 		if (waysAvailable.Num() == 1)
 		{
@@ -314,6 +329,19 @@ TEnumAsByte<EDirection> AFlowerGameCharacter::getDirection(ACaseDefault *caseDes
 	return DirectionDestination;
 }
 
-void AFlowerGameCharacter::DamagePlayer(AFlowerGameCharacter *PlayerSelected, int32 HealthDamage) {
-	PlayerSelected->Health -= HealthDamage;
+void AFlowerGameCharacter::ChangeWeapon(class AWeapon *WeaponChoosed)
+{
+	WeaponSelected = WeaponChoosed;
+	Ammo = WeaponSelected->LoadWeapon(Ammo);
+	WeaponSelected->MeshGun->AttachTo(GetMesh(), "SocketWeapon");
+}
+
+void AFlowerGameCharacter::ShootPlayer(AFlowerGameCharacter *OtherPlayer)
+{
+	if (WeaponSelected)
+	{
+		OtherPlayer->Health -= WeaponSelected->GetDamageWeapon();
+		Ammo -= WeaponSelected->GetDamageWeapon();
+		Ammo = WeaponSelected->LoadWeapon(Ammo);
+	}
 }

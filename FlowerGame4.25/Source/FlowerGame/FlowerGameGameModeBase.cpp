@@ -98,7 +98,8 @@ void AFlowerGameGameModeBase::InitBoard()
 	FillBoard();
 }
 
-void AFlowerGameGameModeBase::LevelLoaded() {
+void AFlowerGameGameModeBase::LevelLoaded()
+{
 	//Call by the UI in blueprint
 	SetCurrentState(EGamePlayState::EInitGame);
 }
@@ -196,6 +197,9 @@ void AFlowerGameGameModeBase::InitPlayer()
 		world->GetFirstPlayerController()->Possess(PlayerSelected);
 		OnUpdateInfosPlayers.Broadcast();
 		SetCurrentState(EGamePlayState::EPlaying);
+
+		AWeapon *WeaponCreated = world->SpawnActor<AWeapon>(ASniper::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+		PlayerSelected->ChangeWeapon(WeaponCreated);
 	}
 	else
 	{
