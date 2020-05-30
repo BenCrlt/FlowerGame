@@ -794,6 +794,8 @@ C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Edi
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\UI_PlayingGame.generated.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model/Cases/CaseSpawn.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\CaseSpawn.generated.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model/Cases/CaseMagasin.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\CaseMagasin.generated.h
 C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc/DefaultValueHelper.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\FlowerGameGameModeBase.generated.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\FlowerGameCharacter.generated.h

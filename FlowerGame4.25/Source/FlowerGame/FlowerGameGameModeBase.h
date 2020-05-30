@@ -9,6 +9,7 @@
 #include "Player/UI_PlayingGame.h"
 #include "Model/Cases/CaseDefault.h"
 #include "Model/Cases/CaseSpawn.h"
+#include "Model/Cases/CaseMagasin.h"
 #include "Kismet/GameplayStatics.h"
 #include "Math/UnrealMathUtility.h"
 #include "Engine.h"
@@ -27,6 +28,8 @@ enum EGamePlayState
 	EInitGame,
 	EPlaying,
 	ETurnBegin,
+	ETurnAction,
+	ECaseEvent,
 	ETurnFinish,
 	EGameFinish,
 	EBeginMenu,
@@ -86,24 +89,28 @@ public:
 
 	//UI Property
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		bool bShowLaunchDiceUI;
+	bool bShowLaunchDiceUI;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		bool bShowDiceUI;
+	bool bShowDiceUI;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool bShowTurnFinishedUI;
 	UPROPERTY(BlueprintAssignable)
-		FUpdateInfosPlayersDelegate OnUpdateInfosPlayers;
+	FUpdateInfosPlayersDelegate OnUpdateInfosPlayers;
 	UPROPERTY(BlueprintAssignable)
-		FUpdateDiceDelegate OnUpdateDice;
+	FUpdateDiceDelegate OnUpdateDice;
 
 	UFUNCTION(BlueprintCallable)
-		void LevelLoaded();
+	void LevelLoaded();
 	UFUNCTION()
-		void InitPlayer();
+	void InitPlayer();
 	UFUNCTION(BlueprintCallable)
-		void LaunchDice();
-	UFUNCTION(BlueprintCallable)
-		bool GetVisibilityNextPlayer();
+	void LaunchDice();
 	UFUNCTION()
-		void ChangePlayer();
+	void ChangePlayer();
+	UFUNCTION()
+	void LaunchCaseEvent();
 	UFUNCTION(BlueprintCallable)
-		void TurnFinished();
+	void TurnFinished();
+	UFUNCTION()
+	ACaseDefault *FindPlayerInRange(ACaseDefault *CaseSelected, ACaseDefault *PositionPlayer, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase);
 };

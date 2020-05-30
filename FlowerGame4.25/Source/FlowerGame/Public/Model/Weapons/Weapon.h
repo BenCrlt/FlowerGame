@@ -31,7 +31,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 Mag;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-	int32 Range;
+	TArray<int32> Range;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 AmmoPerShot;
 

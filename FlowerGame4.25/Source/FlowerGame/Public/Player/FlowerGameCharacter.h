@@ -20,16 +20,6 @@
 #include "FlowerGame/FlowerGameGameModeBase.h"
 #include "FlowerGameCharacter.generated.h"
 
-UENUM()
-enum EDirection
-{
-	DIRECTION_UNKNOWN UMETA(DisplayName = "Unknown direction"),
-	DIRECTION_UP UMETA(DisplayName = "Up"),
-	DIRECTION_DOWN UMETA(DisplayName = "Down"),
-	DIRECTION_RIGHT UMETA(DisplayName = "Right"),
-	DIRECTION_LEFT UMETA(DisplayName = "Left")
-};
-
 UCLASS()
 class FLOWERGAME_API AFlowerGameCharacter : public ACharacter
 {
@@ -96,8 +86,6 @@ public:
 	UFUNCTION()
 	ACaseDefault *GoToNextCase(ACaseDefault *caseSelected, TEnumAsByte<EDirection> DirectionSelected, bool bChangeDirection);
 	UFUNCTION()
-	TArray<TEnumAsByte<EDirection>> CheckWaysAvailable(ACaseDefault *caseSelected);
-	UFUNCTION()
 	void ManageCaseChoice(ACaseDefault *caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable);
 	UFUNCTION()
 	TEnumAsByte<EDirection> getDirection(ACaseDefault *caseDestination);
@@ -106,7 +94,7 @@ public:
 	void MoveToTouchLocation(const FVector Location);
 
 	/** Navigate player to the given world location. */
-	void SetNewMoveDestination(const FVector DestLocation);
+	void SetNewMoveDestination(ACaseDefault *caseSelected);
 
 	UFUNCTION()
 	void OnOverlapBegin(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &SweepResult);

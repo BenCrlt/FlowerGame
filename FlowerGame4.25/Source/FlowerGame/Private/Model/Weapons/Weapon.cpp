@@ -8,7 +8,6 @@ AWeapon::AWeapon()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	MagSize = 5;
-	Range = 4;
 	AmmoPerShot = 5;
 	Mag = 0;
 	Mag = 0;
@@ -45,6 +44,7 @@ int32 AWeapon::LoadWeapon(int32 Ammo)
 	return AmmoLeft;
 }
 
-int32 AWeapon::GetDamageWeapon() {
+int32 AWeapon::GetDamageWeapon()
+{
 	return AmmoPerShot;
 }

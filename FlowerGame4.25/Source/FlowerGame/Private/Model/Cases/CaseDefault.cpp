@@ -65,3 +65,25 @@ bool ACaseDefault::equalsPosition(ACaseDefault *otherCase)
 		return false;
 	}
 }
+
+TArray<TEnumAsByte<EDirection>> ACaseDefault::CheckWaysAvailable(TEnumAsByte<EDirection> DirectionPlayer)
+{
+	TArray<TEnumAsByte<EDirection>> Ways;
+	if (caseUp != nullptr && DirectionPlayer != EDirection::DIRECTION_DOWN)
+	{
+		Ways.Add(EDirection::DIRECTION_UP);
+	}
+	if (caseDown != nullptr && DirectionPlayer != EDirection::DIRECTION_UP)
+	{
+		Ways.Add(EDirection::DIRECTION_DOWN);
+	}
+	if (caseRight != nullptr && DirectionPlayer != EDirection::DIRECTION_LEFT)
+	{
+		Ways.Add(EDirection::DIRECTION_RIGHT);
+	}
+	if (caseLeft != nullptr && DirectionPlayer != EDirection::DIRECTION_RIGHT)
+	{
+		Ways.Add(EDirection::DIRECTION_LEFT);
+	}
+	return Ways;
+}

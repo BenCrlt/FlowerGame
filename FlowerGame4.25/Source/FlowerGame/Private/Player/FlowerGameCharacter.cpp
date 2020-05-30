@@ -56,7 +56,6 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 
 	bWaitChoiceUser = false;
 	isTouch = false;
-	bTurnFinished = false;
 }
 
 // Called when the game starts or when spawned
@@ -83,7 +82,7 @@ void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit, int32 ID)
 {
 	Position = caseInit;
 	ID_Player = ID;
-	TArray<TEnumAsByte<EDirection>> ways = CheckWaysAvailable(Position);
+	TArray<TEnumAsByte<EDirection>> ways = Position->CheckWaysAvailable(Direction);
 	if (ways.Num() > 0)
 	{
 		Direction = getDirection(GoToNextCase(Position, ways[0], false));
@@ -98,20 +97,6 @@ void AFlowerGameCharacter::OnPressed(const ETouchIndex::Type FingerIndex, const 
 		if (bWaitChoiceUser)
 		{
 			MoveToTouchLocation(Location);
-		}
-		if (bTurnFinished)
-		{
-			FVector2D ScreenSpaceLocation(Location);
-
-			// Trace to see what is under the touch location
-			FHitResult HitResult;
-			GetWorld()->GetFirstPlayerController()->GetHitResultAtScreenPosition(ScreenSpaceLocation, ECC_Visibility, true, HitResult);
-			AFlowerGameCharacter *OtherPlayer = Cast<AFlowerGameCharacter>(HitResult.GetActor());
-			if (OtherPlayer != nullptr)
-			{
-				print("Shoot !");
-				ShootPlayer(OtherPlayer);
-			}
 		}
 	}
 }
@@ -140,7 +125,7 @@ void AFlowerGameCharacter::MoveToTouchLocation(const FVector Location)
 			if (caseSelected->bListenTouchEvent)
 			{
 				bWaitChoiceUser = false;
-				ManageCaseChoice(Position, CheckWaysAvailable(Position), false);
+				ManageCaseChoice(Position, Position->CheckWaysAvailable(Direction), false);
 				Position = GoToNextCase(Position, getDirection(caseSelected), true);
 				MovementPoint--;
 				MoveWithDice();
@@ -149,13 +134,17 @@ void AFlowerGameCharacter::MoveToTouchLocation(const FVector Location)
 	}
 }
 
-void AFlowerGameCharacter::SetNewMoveDestination(const FVector DestLocation)
+void AFlowerGameCharacter::SetNewMoveDestination(ACaseDefault *caseSelected)
 {
-	float const Distance = FVector::Dist(DestLocation, GetActorLocation());
+	FVector Origin;
+	FVector BoundsExtend;
+	Position->GetActorBounds(false, Origin, BoundsExtend);
+
+	float const Distance = FVector::Dist(Origin, GetActorLocation());
 	// We need to issue move command only if far enough in order for walk animation to play correctly
 	if (Distance > 120.0f)
 	{
-		UAIBlueprintHelperLibrary::SimpleMoveToLocation(Controller, DestLocation);
+		UAIBlueprintHelperLibrary::SimpleMoveToLocation(Controller, Origin);
 	}
 }
 
@@ -170,22 +159,14 @@ void AFlowerGameCharacter::OnOverlapBegin(class UPrimitiveComponent *OverlappedC
 			{
 				if (MovementPoint == 0)
 				{
-					switch (caseOverlaped->name_Case)
+					if (AFlowerGameGameModeBase *FlowerGameMode = Cast<AFlowerGameGameModeBase>(GetWorld()->GetAuthGameMode()))
 					{
-					case ECases::CASE_DEFAULT:
-						print("It's a default case !");
-						break;
-					case ECases::CASE_STORE:
-						print("It's a store case !");
-						break;
-					default:
-						break;
+						FlowerGameMode->SetCurrentState(EGamePlayState::ETurnAction);
 					}
-					bTurnFinished = true;
 				}
 				else
 				{
-					ManageCaseChoice(Position, CheckWaysAvailable(Position), true);
+					ManageCaseChoice(Position, Position->CheckWaysAvailable(Direction), true);
 				}
 			}
 		}
@@ -199,15 +180,15 @@ void AFlowerGameCharacter::OnOverlapEnd(class UPrimitiveComponent *OverlappedCom
 void AFlowerGameCharacter::MoveWithDice()
 {
 	TArray<TEnumAsByte<EDirection>> waysAvailable;
-	if (CheckWaysAvailable(Position).Num() > 1)
+	if (Position->CheckWaysAvailable(Direction).Num() > 1)
 	{
 		bWaitChoiceUser = true;
-		ManageCaseChoice(Position, CheckWaysAvailable(Position), true);
+		ManageCaseChoice(Position, Position->CheckWaysAvailable(Direction), true);
 	}
 
 	while (MovementPoint != 0 && bWaitChoiceUser == false)
 	{
-		waysAvailable = CheckWaysAvailable(Position);
+		waysAvailable = Position->CheckWaysAvailable(Direction);
 		if (waysAvailable.Num() == 1)
 		{
 			Position = GoToNextCase(Position, waysAvailable[0], true);
@@ -218,6 +199,7 @@ void AFlowerGameCharacter::MoveWithDice()
 			if (waysAvailable.Num() > 1)
 			{
 				bWaitChoiceUser = true;
+				SetNewMoveDestination(Position);
 			}
 			else
 			{
@@ -227,32 +209,10 @@ void AFlowerGameCharacter::MoveWithDice()
 		}
 	}
 
-	FVector Origin;
-	FVector BoundsExtend;
-	Position->GetActorBounds(false, Origin, BoundsExtend);
-	SetNewMoveDestination(Origin);
-}
-
-TArray<TEnumAsByte<EDirection>> AFlowerGameCharacter::CheckWaysAvailable(ACaseDefault *caseSelected)
-{
-	TArray<TEnumAsByte<EDirection>> Ways;
-	if (caseSelected->caseUp != nullptr && Direction != EDirection::DIRECTION_DOWN)
+	if (MovementPoint == 0)
 	{
-		Ways.Add(EDirection::DIRECTION_UP);
+		SetNewMoveDestination(Position);
 	}
-	if (caseSelected->caseDown != nullptr && Direction != EDirection::DIRECTION_UP)
-	{
-		Ways.Add(EDirection::DIRECTION_DOWN);
-	}
-	if (caseSelected->caseRight != nullptr && Direction != EDirection::DIRECTION_LEFT)
-	{
-		Ways.Add(EDirection::DIRECTION_RIGHT);
-	}
-	if (caseSelected->caseLeft != nullptr && Direction != EDirection::DIRECTION_RIGHT)
-	{
-		Ways.Add(EDirection::DIRECTION_LEFT);
-	}
-	return Ways;
 }
 
 ACaseDefault *AFlowerGameCharacter::GoToNextCase(ACaseDefault *caseSelected, TEnumAsByte<EDirection> DirectionSelected, bool bChangeDirection)
@@ -284,6 +244,7 @@ ACaseDefault *AFlowerGameCharacter::GoToNextCase(ACaseDefault *caseSelected, TEn
 	if (bChangeDirection)
 	{
 		Direction = DirectionSelected;
+		SetNewMoveDestination(nextCase);
 	}
 
 	if (nextCase == nullptr)
@@ -317,7 +278,7 @@ TEnumAsByte<EDirection> AFlowerGameCharacter::getDirection(ACaseDefault *caseDes
 {
 	TEnumAsByte<EDirection> DirectionDestination = EDirection::DIRECTION_UNKNOWN;
 	TArray<TEnumAsByte<EDirection>> waysAvailable;
-	waysAvailable = CheckWaysAvailable(Position);
+	waysAvailable = Position->CheckWaysAvailable(Direction);
 	for (int32 i = 0; i < waysAvailable.Num(); i++)
 	{
 		if (GoToNextCase(Position, waysAvailable[i], false)->ID_Case == caseDestination->ID_Case)

@@ -20,6 +20,7 @@ AFlowerGameGameModeBase::AFlowerGameGameModeBase()
 	PlayerSelected = nullptr;
 	bShowDiceUI = false;
 	bShowLaunchDiceUI = false;
+	bShowTurnFinishedUI = false;
 
 	BOARD_SIZE = 7;
 }
@@ -66,9 +67,28 @@ void AFlowerGameGameModeBase::HandleNewState(EGamePlayState NewState)
 		bShowLaunchDiceUI = true;
 	}
 	break;
+	case EGamePlayState::ETurnAction:
+	{
+		LaunchCaseEvent();
+		/*for (int32 i = 0; i < Players.Num(); i++)
+		{
+			if (PlayerSelected->ID_Player != Players[i]->ID_Player)
+			{
+				ACaseDefault *PlayerFind = FindPlayerInRange(PlayerSelected->Position, Players[i]->Position, Players[i]->Direction, Players[i]->WeaponSelected->Range, 0);
+				if (PlayerFind)
+				{
+					print(FString::FromInt(PlayerFind->ID_Case));
+					PlayerFind->CaseMesh->SetRenderCustomDepth(true);
+				}
+			}
+		}*/
+		bShowTurnFinishedUI = true;
+	}
+	break;
 	case EGamePlayState::ETurnFinish:
 	{
 		bShowDiceUI = false;
+		bShowTurnFinishedUI = false;
 		ChangePlayer();
 		SetCurrentState(EGamePlayState::ETurnBegin);
 	}
@@ -189,6 +209,8 @@ void AFlowerGameGameModeBase::InitPlayer()
 			randInt = FMath::RandRange(0, ListSpawns.Num() - 1);
 			Players.Add(world->SpawnActor<AFlowerGameCharacter>(classPlayer, ListSpawns[randInt]->GetLocation(), FRotator(0, 0, 0), SpawnParams));
 			Players[i]->InitPlayer(ListSpawns[randInt], i);
+			AWeapon *WeaponCreated = world->SpawnActor<AWeapon>(ASniper::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
+			Players[i]->ChangeWeapon(WeaponCreated);
 			world->GetFirstPlayerController()->Possess(Players[i]);
 			ListSpawns.RemoveAt(randInt);
 		}
@@ -197,9 +219,6 @@ void AFlowerGameGameModeBase::InitPlayer()
 		world->GetFirstPlayerController()->Possess(PlayerSelected);
 		OnUpdateInfosPlayers.Broadcast();
 		SetCurrentState(EGamePlayState::EPlaying);
-
-		AWeapon *WeaponCreated = world->SpawnActor<AWeapon>(ASniper::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
-		PlayerSelected->ChangeWeapon(WeaponCreated);
 	}
 	else
 	{
@@ -242,12 +261,51 @@ void AFlowerGameGameModeBase::TurnFinished()
 	SetCurrentState(EGamePlayState::ETurnFinish);
 }
 
-bool AFlowerGameGameModeBase::GetVisibilityNextPlayer()
+void AFlowerGameGameModeBase::LaunchCaseEvent()
 {
-	bool bVisibility = false;
-	if (PlayerSelected != nullptr)
+	switch (PlayerSelected->Position->name_Case)
 	{
-		bVisibility = PlayerSelected->bTurnFinished;
+	case ECases::CASE_STORE:
+	{
+		//print("Store Case Event");
 	}
-	return bVisibility;
+	break;
+	default:
+		//print("NO EVENT");
+		break;
+	}
+}
+
+ACaseDefault *AFlowerGameGameModeBase::FindPlayerInRange(ACaseDefault *CaseSelected, ACaseDefault *PositionPlayer, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase)
+{
+	if (CaseSelected->ID_Case == PositionPlayer->ID_Case)
+	{
+		return CaseSelected;
+	}
+	else
+	{
+		if (CaseSelected)
+		{
+			TArray<TEnumAsByte<EDirection>> Ways = CaseSelected->CheckWaysAvailable(DirectionMovement);
+			if (nbCase < Range.Num())
+			{
+				print(FString::FromInt(nbCase));
+				print("Aie");
+				/*for (int32 i = 0; i < Ways.Num(); i++)
+				{
+					ACaseDefault *ResultCase = FindPlayerInRange(
+						PlayerSelected->GoToNextCase(CaseSelected, Ways[i], false),
+						PositionPlayer,
+						PlayerSelected->getDirection(PlayerSelected->GoToNextCase(CaseSelected, Ways[i], false)),
+						Range,
+						nbCase++);
+					if (ResultCase && Range[nbCase] != 0)
+					{
+						return ResultCase;
+					}
+				}*/
+			}
+		}
+	}
+	return nullptr;
 }

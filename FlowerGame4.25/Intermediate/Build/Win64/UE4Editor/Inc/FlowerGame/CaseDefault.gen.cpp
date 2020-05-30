@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 // Cross Module References
 	FLOWERGAME_API UEnum* Z_Construct_UEnum_FlowerGame_ECases();
 	UPackage* Z_Construct_UPackage__Script_FlowerGame();
+	FLOWERGAME_API UEnum* Z_Construct_UEnum_FlowerGame_EDirection();
 	FLOWERGAME_API UClass* Z_Construct_UClass_ACaseDefault_NoRegister();
 	FLOWERGAME_API UClass* Z_Construct_UClass_ACaseDefault();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
@@ -78,8 +79,123 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 		}
 		return ReturnEnum;
 	}
+	static UEnum* EDirection_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_FlowerGame_EDirection, Z_Construct_UPackage__Script_FlowerGame(), TEXT("EDirection"));
+		}
+		return Singleton;
+	}
+	template<> FLOWERGAME_API UEnum* StaticEnum<EDirection>()
+	{
+		return EDirection_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EDirection(EDirection_StaticEnum, TEXT("/Script/FlowerGame"), TEXT("EDirection"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_FlowerGame_EDirection_Hash() { return 680920978U; }
+	UEnum* Z_Construct_UEnum_FlowerGame_EDirection()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_FlowerGame();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EDirection"), 0, Get_Z_Construct_UEnum_FlowerGame_EDirection_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "DIRECTION_UNKNOWN", (int64)DIRECTION_UNKNOWN },
+				{ "DIRECTION_UP", (int64)DIRECTION_UP },
+				{ "DIRECTION_DOWN", (int64)DIRECTION_DOWN },
+				{ "DIRECTION_RIGHT", (int64)DIRECTION_RIGHT },
+				{ "DIRECTION_LEFT", (int64)DIRECTION_LEFT },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "DIRECTION_DOWN.DisplayName", "Down" },
+				{ "DIRECTION_DOWN.Name", "DIRECTION_DOWN" },
+				{ "DIRECTION_LEFT.DisplayName", "Left" },
+				{ "DIRECTION_LEFT.Name", "DIRECTION_LEFT" },
+				{ "DIRECTION_RIGHT.DisplayName", "Right" },
+				{ "DIRECTION_RIGHT.Name", "DIRECTION_RIGHT" },
+				{ "DIRECTION_UNKNOWN.DisplayName", "Unknown direction" },
+				{ "DIRECTION_UNKNOWN.Name", "DIRECTION_UNKNOWN" },
+				{ "DIRECTION_UP.DisplayName", "Up" },
+				{ "DIRECTION_UP.Name", "DIRECTION_UP" },
+				{ "ModuleRelativePath", "Public/Model/Cases/CaseDefault.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_FlowerGame,
+				nullptr,
+				"EDirection",
+				"EDirection",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::Regular,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
+	DEFINE_FUNCTION(ACaseDefault::execCheckWaysAvailable)
+	{
+		P_GET_PROPERTY(FByteProperty,Z_Param_DirectionPlayer);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(TArray<TEnumAsByte<EDirection> >*)Z_Param__Result=P_THIS->CheckWaysAvailable(EDirection(Z_Param_DirectionPlayer));
+		P_NATIVE_END;
+	}
 	void ACaseDefault::StaticRegisterNativesACaseDefault()
 	{
+		UClass* Class = ACaseDefault::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "CheckWaysAvailable", &ACaseDefault::execCheckWaysAvailable },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics
+	{
+		struct CaseDefault_eventCheckWaysAvailable_Parms
+		{
+			TEnumAsByte<EDirection> DirectionPlayer;
+			TArray<TEnumAsByte<EDirection> > ReturnValue;
+		};
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Inner;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_DirectionPlayer;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CaseDefault_eventCheckWaysAvailable_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UEnum_FlowerGame_EDirection, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::NewProp_DirectionPlayer = { "DirectionPlayer", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CaseDefault_eventCheckWaysAvailable_Parms, DirectionPlayer), Z_Construct_UEnum_FlowerGame_EDirection, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::NewProp_ReturnValue_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::NewProp_DirectionPlayer,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Model/Cases/CaseDefault.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACaseDefault, nullptr, "CheckWaysAvailable", nullptr, nullptr, sizeof(CaseDefault_eventCheckWaysAvailable_Parms), Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ACaseDefault_NoRegister()
 	{
@@ -88,6 +204,7 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 	struct Z_Construct_UClass_ACaseDefault_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -140,6 +257,9 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 	UObject* (*const Z_Construct_UClass_ACaseDefault_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_FlowerGame,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ACaseDefault_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable, "CheckWaysAvailable" }, // 1737024203
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACaseDefault_Statics::Class_MetaDataParams[] = {
@@ -245,11 +365,11 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ACaseDefault_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ACaseDefault_Statics::PropPointers),
 		0,
 		0x009000A4u,
@@ -264,7 +384,7 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACaseDefault, 656526940);
+	IMPLEMENT_CLASS(ACaseDefault, 1402791831);
 	template<> FLOWERGAME_API UClass* StaticClass<ACaseDefault>()
 	{
 		return ACaseDefault::StaticClass();

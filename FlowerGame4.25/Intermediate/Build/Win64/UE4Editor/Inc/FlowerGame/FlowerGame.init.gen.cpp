@@ -27,8 +27,8 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGame_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x9238D8AB,
-				0xD4153F13,
+				0xF1DE4893,
+				0x89B4BCFA,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
