@@ -13,6 +13,7 @@ AFlowerGameGameModeBase::AFlowerGameGameModeBase()
 {
 	static ConstructorHelpers::FClassFinder<AFlowerGameCharacter> PlayerPawnBPClass(TEXT("/Game/MobileStarterContent/Blueprints/BP_FlowerGameCharacter"));
 
+	PlayerControllerClass = AFlowerGamePlayerController::StaticClass();
 	classPlayer = PlayerPawnBPClass.Class;
 	nbPlayers = 3;
 	HUDClass = AUI_PlayingGame::StaticClass();
@@ -23,6 +24,8 @@ AFlowerGameGameModeBase::AFlowerGameGameModeBase()
 	bShowTurnFinishedUI = false;
 
 	BOARD_SIZE = 7;
+	Ranges.Init(nullptr, 0);
+	bEnableRange = false;
 }
 
 void AFlowerGameGameModeBase::BeginPlay()
@@ -65,23 +68,14 @@ void AFlowerGameGameModeBase::HandleNewState(EGamePlayState NewState)
 	case EGamePlayState::ETurnBegin:
 	{
 		bShowLaunchDiceUI = true;
+		PlayerSelected->LoadWeapon();
+		OnUpdateMag.Broadcast();
+		DisableRange();
 	}
 	break;
 	case EGamePlayState::ETurnAction:
 	{
 		LaunchCaseEvent();
-		/*for (int32 i = 0; i < Players.Num(); i++)
-		{
-			if (PlayerSelected->ID_Player != Players[i]->ID_Player)
-			{
-				ACaseDefault *PlayerFind = FindPlayerInRange(PlayerSelected->Position, Players[i]->Position, Players[i]->Direction, Players[i]->WeaponSelected->Range, 0);
-				if (PlayerFind)
-				{
-					print(FString::FromInt(PlayerFind->ID_Case));
-					PlayerFind->CaseMesh->SetRenderCustomDepth(true);
-				}
-			}
-		}*/
 		bShowTurnFinishedUI = true;
 	}
 	break;
@@ -251,7 +245,6 @@ void AFlowerGameGameModeBase::ChangePlayer()
 		indexPlayer++;
 	}
 	PlayerSelected = Players[indexPlayer];
-	PlayerSelected->bTurnFinished = false;
 	world->GetFirstPlayerController()->Possess(PlayerSelected);
 	OnUpdateInfosPlayers.Broadcast();
 }
@@ -276,36 +269,84 @@ void AFlowerGameGameModeBase::LaunchCaseEvent()
 	}
 }
 
-ACaseDefault *AFlowerGameGameModeBase::FindPlayerInRange(ACaseDefault *CaseSelected, ACaseDefault *PositionPlayer, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase)
+void AFlowerGameGameModeBase::FindPlayersInRange(ACaseDefault *CaseSelected, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase)
 {
-	if (CaseSelected->ID_Case == PositionPlayer->ID_Case)
-	{
-		return CaseSelected;
-	}
-	else
-	{
-		if (CaseSelected)
+	bool bPlayerFind = false;
+	for (int32 i = 0; i < Players.Num(); i++) {
+		if (CaseSelected->ID_Case == Players[i]->Position->ID_Case && Range[nbCase] == 1)
 		{
-			TArray<TEnumAsByte<EDirection>> Ways = CaseSelected->CheckWaysAvailable(DirectionMovement);
-			if (nbCase < Range.Num())
+			bPlayerFind = true;
+			ShowRange(CaseSelected, ETypeRange::IN_RANGE_PLAYER);
+		}
+	}
+
+	if (!bPlayerFind) {
+		if (Range[nbCase] == 0) {
+			ShowRange(CaseSelected, ETypeRange::OUT_RANGE);
+		}
+		else
+		{
+			ShowRange(CaseSelected, ETypeRange::IN_RANGE_NO_PLAYER);
+		}
+	}
+	TArray<TEnumAsByte<EDirection>> Ways = CaseSelected->CheckWaysAvailable(DirectionMovement);
+	if (nbCase + 1 < Range.Num())
+	{
+		for (int32 i = 0; i < Ways.Num(); i++)
+		{
+			FindPlayersInRange(
+				CaseSelected->GoToNextCase(Ways[i]),
+				CaseSelected->getDirection(CaseSelected->GoToNextCase(Ways[i])),
+				Range,
+				nbCase + 1);
+		}
+	}
+}
+
+void AFlowerGameGameModeBase::CheckPlayersInRange()
+{
+	if (bEnableRange) {
+		TArray<int32> rangePlayer = PlayerSelected->WeaponSelected->Range;
+		FindPlayersInRange(PlayerSelected->Position, PlayerSelected->Direction, rangePlayer, 0);
+	}
+	else {
+		DisableRange();
+	}
+}
+void AFlowerGameGameModeBase::ShootPlayer(ACaseDefault *CaseSelected)
+{
+	for (int32 i = 0; i < Players.Num(); i++)
+	{
+		if (PlayerSelected->ID_Player != Players[i]->ID_Player && CaseSelected->ID_Case == Players[i]->Position->ID_Case)
+		{
+			if (PlayerSelected->ShootPlayer(Players[i]))
 			{
-				print(FString::FromInt(nbCase));
-				print("Aie");
-				/*for (int32 i = 0; i < Ways.Num(); i++)
-				{
-					ACaseDefault *ResultCase = FindPlayerInRange(
-						PlayerSelected->GoToNextCase(CaseSelected, Ways[i], false),
-						PositionPlayer,
-						PlayerSelected->getDirection(PlayerSelected->GoToNextCase(CaseSelected, Ways[i], false)),
-						Range,
-						nbCase++);
-					if (ResultCase && Range[nbCase] != 0)
-					{
-						return ResultCase;
-					}
-				}*/
+				OnUpdateMag.Broadcast();
+				if (!PlayerSelected->CheckIfCanShoot()) {
+					bEnableRange = false;
+					CheckPlayersInRange();
+				}
 			}
 		}
 	}
-	return nullptr;
+}
+
+void AFlowerGameGameModeBase::ShowRange(ACaseDefault* caseSelected, TEnumAsByte<ETypeRange> TypeRange) {
+	FVector Origin, BoundExtend;
+	UWorld* world = GetWorld();
+	caseSelected->GetActorBounds(false, Origin, BoundExtend);
+	Origin.Z = 200;
+	ARangeWeapon* RangeWeapon = world->SpawnActor<ARangeWeapon>(ARangeWeapon::StaticClass(), Origin, FRotator(0, 0, 0));
+	RangeWeapon->InitRangeWeapon(TypeRange);
+	Ranges.Add(RangeWeapon);
+}
+
+void AFlowerGameGameModeBase::DisableRange() {
+	for (int32 i = 0; i < Ranges.Num(); i++)
+	{
+		if (Ranges[i] != nullptr) {
+			Ranges[i]->Destroy();
+		}
+	}
+	Ranges.Empty();
 }

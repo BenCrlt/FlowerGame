@@ -142,6 +142,22 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 		}
 		return ReturnEnum;
 	}
+	DEFINE_FUNCTION(ACaseDefault::execGoToNextCase)
+	{
+		P_GET_PROPERTY(FByteProperty,Z_Param_DirectionSelected);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(ACaseDefault**)Z_Param__Result=P_THIS->GoToNextCase(EDirection(Z_Param_DirectionSelected));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ACaseDefault::execgetDirection)
+	{
+		P_GET_OBJECT(ACaseDefault,Z_Param_caseDestination);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(TEnumAsByte<EDirection>*)Z_Param__Result=P_THIS->getDirection(Z_Param_caseDestination);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ACaseDefault::execCheckWaysAvailable)
 	{
 		P_GET_PROPERTY(FByteProperty,Z_Param_DirectionPlayer);
@@ -155,6 +171,8 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 		UClass* Class = ACaseDefault::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CheckWaysAvailable", &ACaseDefault::execCheckWaysAvailable },
+			{ "getDirection", &ACaseDefault::execgetDirection },
+			{ "GoToNextCase", &ACaseDefault::execGoToNextCase },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -194,6 +212,78 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACaseDefault_getDirection_Statics
+	{
+		struct CaseDefault_eventgetDirection_Parms
+		{
+			ACaseDefault* caseDestination;
+			TEnumAsByte<EDirection> ReturnValue;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_caseDestination;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ACaseDefault_getDirection_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CaseDefault_eventgetDirection_Parms, ReturnValue), Z_Construct_UEnum_FlowerGame_EDirection, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACaseDefault_getDirection_Statics::NewProp_caseDestination = { "caseDestination", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CaseDefault_eventgetDirection_Parms, caseDestination), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACaseDefault_getDirection_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACaseDefault_getDirection_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACaseDefault_getDirection_Statics::NewProp_caseDestination,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACaseDefault_getDirection_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Model/Cases/CaseDefault.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACaseDefault_getDirection_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACaseDefault, nullptr, "getDirection", nullptr, nullptr, sizeof(CaseDefault_eventgetDirection_Parms), Z_Construct_UFunction_ACaseDefault_getDirection_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACaseDefault_getDirection_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACaseDefault_getDirection_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACaseDefault_getDirection_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACaseDefault_getDirection()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACaseDefault_getDirection_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics
+	{
+		struct CaseDefault_eventGoToNextCase_Parms
+		{
+			TEnumAsByte<EDirection> DirectionSelected;
+			ACaseDefault* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_DirectionSelected;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CaseDefault_eventGoToNextCase_Parms, ReturnValue), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::NewProp_DirectionSelected = { "DirectionSelected", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CaseDefault_eventGoToNextCase_Parms, DirectionSelected), Z_Construct_UEnum_FlowerGame_EDirection, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::NewProp_DirectionSelected,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Model/Cases/CaseDefault.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACaseDefault, nullptr, "GoToNextCase", nullptr, nullptr, sizeof(CaseDefault_eventGoToNextCase_Parms), Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACaseDefault_GoToNextCase()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACaseDefault_GoToNextCase_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -260,6 +350,8 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACaseDefault_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ACaseDefault_CheckWaysAvailable, "CheckWaysAvailable" }, // 1737024203
+		{ &Z_Construct_UFunction_ACaseDefault_getDirection, "getDirection" }, // 2981768610
+		{ &Z_Construct_UFunction_ACaseDefault_GoToNextCase, "GoToNextCase" }, // 2237076889
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACaseDefault_Statics::Class_MetaDataParams[] = {
@@ -384,7 +476,7 @@ void EmptyLinkFunctionForGeneratedCodeCaseDefault() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACaseDefault, 1402791831);
+	IMPLEMENT_CLASS(ACaseDefault, 833648219);
 	template<> FLOWERGAME_API UClass* StaticClass<ACaseDefault>()
 	{
 		return ACaseDefault::StaticClass();

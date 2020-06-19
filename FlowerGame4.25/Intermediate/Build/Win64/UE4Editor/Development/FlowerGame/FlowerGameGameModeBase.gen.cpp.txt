@@ -146,6 +146,8 @@ C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Pu
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\CaseSpawn.generated.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model/Cases/CaseMagasin.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\CaseMagasin.generated.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model/RangeWeapon.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\RangeWeapon.generated.h
 C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
@@ -797,4 +799,6 @@ C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\W
 C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Blueprint/AIBlueprintHelperLibrary.h
 C:\Program Files (x86)\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIBlueprintHelperLibrary.generated.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\FlowerGameCharacter.generated.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player/FlowerGamePlayerController.h
+C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\FlowerGamePlayerController.generated.h
 C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Inc\FlowerGame\FlowerGameGameModeBase.generated.h

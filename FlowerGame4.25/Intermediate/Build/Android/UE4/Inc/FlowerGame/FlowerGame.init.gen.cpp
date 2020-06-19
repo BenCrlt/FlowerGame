@@ -13,6 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFlowerGame_init() {}
 	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateInfosPlayersDelegate__DelegateSignature();
 	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateDiceDelegate__DelegateSignature();
+	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_FlowerGame()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -21,14 +22,15 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGame_init() {}
 			static UObject* (*const SingletonFuncArray[])() = {
 				(UObject* (*)())Z_Construct_UDelegateFunction_FlowerGame_UpdateInfosPlayersDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_FlowerGame_UpdateDiceDelegate__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature,
 			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FlowerGame",
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x0D83C612,
-				0x1DE1F2B8,
+				0x242F663D,
+				0xCAE68529,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

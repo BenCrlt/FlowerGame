@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine.h"
 #include "GameFramework/Actor.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Weapon.generated.h"
@@ -28,7 +29,7 @@ public:
 	USkeletalMeshComponent *MeshGun;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 MagSize;
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	int32 Mag;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TArray<int32> Range;
@@ -38,5 +39,7 @@ public:
 	UFUNCTION()
 	int32 LoadWeapon(int32 Ammo);
 	UFUNCTION()
-	int32 GetDamageWeapon();
+	int32 GetAmmoPerShot();
+	UFUNCTION()
+	void Fire();
 };

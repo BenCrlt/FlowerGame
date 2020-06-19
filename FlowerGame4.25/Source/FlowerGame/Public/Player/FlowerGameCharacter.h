@@ -38,12 +38,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent *inputComponent) override;
 
-	void OnPressed(const ETouchIndex::Type FingerIndex, const FVector Location);
-	void OnReleased(const ETouchIndex::Type FingerIndex, const FVector Location);
-
-	// Called to bind functionality to input
-	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UCameraComponent *CameraPlayer;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -73,25 +67,21 @@ public:
 
 	//Boolean
 	UPROPERTY()
-	bool bWaitChoiceUser;
+		bool bWaitChoiceUser;
 	UPROPERTY()
-	bool isTouch;
+		bool isTouch;
 	UPROPERTY()
-	bool bTurnFinished;
+		bool bMoveDiceFinish;
 
 	UFUNCTION()
 	void InitPlayer(ACaseDefault *caseInit, int32 ID);
 	UFUNCTION()
 	void MoveWithDice();
 	UFUNCTION()
-	ACaseDefault *GoToNextCase(ACaseDefault *caseSelected, TEnumAsByte<EDirection> DirectionSelected, bool bChangeDirection);
-	UFUNCTION()
 	void ManageCaseChoice(ACaseDefault *caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable);
-	UFUNCTION()
-	TEnumAsByte<EDirection> getDirection(ACaseDefault *caseDestination);
 
 	/** Navigate player to the current touch location. */
-	void MoveToTouchLocation(const FVector Location);
+	void MoveToTouchLocation(ACaseDefault* DestinationCase);
 
 	/** Navigate player to the given world location. */
 	void SetNewMoveDestination(ACaseDefault *caseSelected);
@@ -106,5 +96,9 @@ public:
 	UFUNCTION()
 	void ChangeWeapon(AWeapon *WeaponChoosed);
 	UFUNCTION()
-	void ShootPlayer(AFlowerGameCharacter *OtherPlayer);
+	void LoadWeapon();
+	UFUNCTION()
+	bool ShootPlayer(AFlowerGameCharacter *OtherPlayer);
+	UFUNCTION()
+		bool CheckIfCanShoot();
 };

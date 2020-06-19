@@ -1384,6 +1384,8 @@ C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Build/A
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\CaseDefault.generated.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\Cases\CaseSpawn.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\CaseSpawn.generated.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\Cases\CaseMagasin.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\CaseMagasin.generated.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStatics.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\BlueprintFunctionLibrary.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\BlueprintFunctionLibrary.generated.h \
@@ -3022,9 +3024,15 @@ C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Build/A
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework\Docking\TabManager.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc\DefaultValueHelper.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player\FlowerGameCharacter.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\Weapons\Weapon.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\Weapon.generated.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\Weapons\Sniper.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\Sniper.generated.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\AIModule\Classes\Blueprint\AIBlueprintHelperLibrary.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\AIModule\AIBlueprintHelperLibrary.generated.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\FlowerGameGameModeBase.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\FlowerGameCharacter.generated.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player\FlowerGamePlayerController.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\FlowerGamePlayerController.generated.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Core\Public\GenericPlatform\GenericPlatform.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\FlowerGameGameModeBase.generated.h

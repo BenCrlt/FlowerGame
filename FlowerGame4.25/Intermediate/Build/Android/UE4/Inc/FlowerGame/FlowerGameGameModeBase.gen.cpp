@@ -13,18 +13,43 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 // Cross Module References
-	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateDiceDelegate__DelegateSignature();
+	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_FlowerGame();
+	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateDiceDelegate__DelegateSignature();
 	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateInfosPlayersDelegate__DelegateSignature();
 	FLOWERGAME_API UEnum* Z_Construct_UEnum_FlowerGame_EGamePlayState();
 	FLOWERGAME_API UScriptStruct* Z_Construct_UScriptStruct_FLines();
 	FLOWERGAME_API UClass* Z_Construct_UClass_AFlowerGameGameModeBase_NoRegister();
 	FLOWERGAME_API UClass* Z_Construct_UClass_AFlowerGameGameModeBase();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
+	FLOWERGAME_API UClass* Z_Construct_UClass_ACaseDefault_NoRegister();
+	FLOWERGAME_API UEnum* Z_Construct_UEnum_FlowerGame_EDirection();
 	FLOWERGAME_API UClass* Z_Construct_UClass_ACaseSpawn_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FLOWERGAME_API UClass* Z_Construct_UClass_AFlowerGameCharacter_NoRegister();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_FlowerGame, nullptr, "UpdateMagDelegate__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UDelegateFunction_FlowerGame_UpdateDiceDelegate__DelegateSignature_Statics
 	{
 		struct _Script_FlowerGame_eventUpdateDiceDelegate_Parms
@@ -93,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 		return EGamePlayState_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EGamePlayState(EGamePlayState_StaticEnum, TEXT("/Script/FlowerGame"), TEXT("EGamePlayState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_FlowerGame_EGamePlayState_Hash() { return 938407497U; }
+	uint32 Get_Z_Construct_UEnum_FlowerGame_EGamePlayState_Hash() { return 311490664U; }
 	UEnum* Z_Construct_UEnum_FlowerGame_EGamePlayState()
 	{
 #if WITH_HOT_RELOAD
@@ -109,6 +134,8 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 				{ "EInitGame", (int64)EInitGame },
 				{ "EPlaying", (int64)EPlaying },
 				{ "ETurnBegin", (int64)ETurnBegin },
+				{ "ETurnAction", (int64)ETurnAction },
+				{ "ECaseEvent", (int64)ECaseEvent },
 				{ "ETurnFinish", (int64)ETurnFinish },
 				{ "EGameFinish", (int64)EGameFinish },
 				{ "EBeginMenu", (int64)EBeginMenu },
@@ -117,10 +144,12 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "EBeginMenu.Name", "EBeginMenu" },
+				{ "ECaseEvent.Name", "ECaseEvent" },
 				{ "EGameFinish.Name", "EGameFinish" },
 				{ "EInitGame.Name", "EInitGame" },
 				{ "ELoadingLevel.Name", "ELoadingLevel" },
 				{ "EPlaying.Name", "EPlaying" },
+				{ "ETurnAction.Name", "ETurnAction" },
 				{ "ETurnBegin.Name", "ETurnBegin" },
 				{ "ETurnFinish.Name", "ETurnFinish" },
 				{ "EUnknown.Name", "EUnknown" },
@@ -211,6 +240,33 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FLines_Hash() { return 2336164234U; }
+	DEFINE_FUNCTION(AFlowerGameGameModeBase::execShootPlayer)
+	{
+		P_GET_OBJECT(ACaseDefault,Z_Param_CaseSelected);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ShootPlayer(Z_Param_CaseSelected);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AFlowerGameGameModeBase::execCheckPlayersInRange)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->CheckPlayersInRange();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(AFlowerGameGameModeBase::execFindPlayerInRange)
+	{
+		P_GET_OBJECT(ACaseDefault,Z_Param_CaseSelected);
+		P_GET_OBJECT(ACaseDefault,Z_Param_PositionPlayer);
+		P_GET_PROPERTY(FByteProperty,Z_Param_DirectionMovement);
+		P_GET_TARRAY(int32,Z_Param_Range);
+		P_GET_PROPERTY(FIntProperty,Z_Param_nbCase);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(ACaseDefault**)Z_Param__Result=P_THIS->FindPlayerInRange(Z_Param_CaseSelected,Z_Param_PositionPlayer,EDirection(Z_Param_DirectionMovement),Z_Param_Range,Z_Param_nbCase);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AFlowerGameGameModeBase::execTurnFinished)
 	{
 		P_FINISH;
@@ -218,18 +274,18 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		P_THIS->TurnFinished();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AFlowerGameGameModeBase::execLaunchCaseEvent)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->LaunchCaseEvent();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AFlowerGameGameModeBase::execChangePlayer)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
 		P_THIS->ChangePlayer();
-		P_NATIVE_END;
-	}
-	DEFINE_FUNCTION(AFlowerGameGameModeBase::execGetVisibilityNextPlayer)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->GetVisibilityNextPlayer();
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AFlowerGameGameModeBase::execLaunchDice)
@@ -265,11 +321,14 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		UClass* Class = AFlowerGameGameModeBase::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ChangePlayer", &AFlowerGameGameModeBase::execChangePlayer },
+			{ "CheckPlayersInRange", &AFlowerGameGameModeBase::execCheckPlayersInRange },
+			{ "FindPlayerInRange", &AFlowerGameGameModeBase::execFindPlayerInRange },
 			{ "GetCurrentState", &AFlowerGameGameModeBase::execGetCurrentState },
-			{ "GetVisibilityNextPlayer", &AFlowerGameGameModeBase::execGetVisibilityNextPlayer },
 			{ "InitPlayer", &AFlowerGameGameModeBase::execInitPlayer },
+			{ "LaunchCaseEvent", &AFlowerGameGameModeBase::execLaunchCaseEvent },
 			{ "LaunchDice", &AFlowerGameGameModeBase::execLaunchDice },
 			{ "LevelLoaded", &AFlowerGameGameModeBase::execLevelLoaded },
+			{ "ShootPlayer", &AFlowerGameGameModeBase::execShootPlayer },
 			{ "TurnFinished", &AFlowerGameGameModeBase::execTurnFinished },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -293,6 +352,83 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_ChangePlayer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameGameModeBase, nullptr, "CheckPlayersInRange", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics
+	{
+		struct FlowerGameGameModeBase_eventFindPlayerInRange_Parms
+		{
+			ACaseDefault* CaseSelected;
+			ACaseDefault* PositionPlayer;
+			TEnumAsByte<EDirection> DirectionMovement;
+			TArray<int32> Range;
+			int32 nbCase;
+			ACaseDefault* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_nbCase;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Range;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Range_Inner;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_DirectionMovement;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PositionPlayer;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CaseSelected;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventFindPlayerInRange_Parms, ReturnValue), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_nbCase = { "nbCase", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventFindPlayerInRange_Parms, nbCase), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_Range = { "Range", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventFindPlayerInRange_Parms, Range), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_Range_Inner = { "Range", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_DirectionMovement = { "DirectionMovement", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventFindPlayerInRange_Parms, DirectionMovement), Z_Construct_UEnum_FlowerGame_EDirection, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_PositionPlayer = { "PositionPlayer", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventFindPlayerInRange_Parms, PositionPlayer), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_CaseSelected = { "CaseSelected", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventFindPlayerInRange_Parms, CaseSelected), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_nbCase,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_Range,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_Range_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_DirectionMovement,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_PositionPlayer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::NewProp_CaseSelected,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameGameModeBase, nullptr, "FindPlayerInRange", nullptr, nullptr, sizeof(FlowerGameGameModeBase_eventFindPlayerInRange_Parms), Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -331,43 +467,6 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics
-	{
-		struct FlowerGameGameModeBase_eventGetVisibilityNextPlayer_Parms
-		{
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((FlowerGameGameModeBase_eventGetVisibilityNextPlayer_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FlowerGameGameModeBase_eventGetVisibilityNextPlayer_Parms), &Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameGameModeBase, nullptr, "GetVisibilityNextPlayer", nullptr, nullptr, sizeof(FlowerGameGameModeBase_eventGetVisibilityNextPlayer_Parms), Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_AFlowerGameGameModeBase_InitPlayer_Statics
 	{
 #if WITH_METADATA
@@ -387,6 +486,28 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_InitPlayer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameGameModeBase, nullptr, "LaunchCaseEvent", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -434,6 +555,38 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics
+	{
+		struct FlowerGameGameModeBase_eventShootPlayer_Parms
+		{
+			ACaseDefault* CaseSelected;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CaseSelected;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::NewProp_CaseSelected = { "CaseSelected", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventShootPlayer_Parms, CaseSelected), Z_Construct_UClass_ACaseDefault_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::NewProp_CaseSelected,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameGameModeBase, nullptr, "ShootPlayer", nullptr, nullptr, sizeof(FlowerGameGameModeBase_eventShootPlayer_Parms), Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AFlowerGameGameModeBase_TurnFinished_Statics
 	{
 #if WITH_METADATA
@@ -468,6 +621,10 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUpdateMag_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnUpdateMag;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUpdateDice_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnUpdateDice;
@@ -475,6 +632,11 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUpdateInfosPlayers_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnUpdateInfosPlayers;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bShowTurnFinishedUI_MetaData[];
+#endif
+		static void NewProp_bShowTurnFinishedUI_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bShowTurnFinishedUI;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bShowDiceUI_MetaData[];
 #endif
@@ -526,11 +688,14 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFlowerGameGameModeBase_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_ChangePlayer, "ChangePlayer" }, // 2652472897
+		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_CheckPlayersInRange, "CheckPlayersInRange" }, // 1640037036
+		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_FindPlayerInRange, "FindPlayerInRange" }, // 674558875
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_GetCurrentState, "GetCurrentState" }, // 665067870
-		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_GetVisibilityNextPlayer, "GetVisibilityNextPlayer" }, // 4096024131
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_InitPlayer, "InitPlayer" }, // 281791815
+		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent, "LaunchCaseEvent" }, // 1264637112
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchDice, "LaunchDice" }, // 3131991616
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_LevelLoaded, "LevelLoaded" }, // 3453058695
+		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer, "ShootPlayer" }, // 1008081476
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_TurnFinished, "TurnFinished" }, // 2843920214
 	};
 #if WITH_METADATA
@@ -541,6 +706,12 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateMag_MetaData[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateMag = { "OnUpdateMag", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, OnUpdateMag), Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateMag_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateMag_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateDice_MetaData[] = {
 		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
@@ -553,6 +724,17 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 	};
 #endif
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateInfosPlayers = { "OnUpdateInfosPlayers", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, OnUpdateInfosPlayers), Z_Construct_UDelegateFunction_FlowerGame_UpdateInfosPlayersDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateInfosPlayers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateInfosPlayers_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowTurnFinishedUI_MetaData[] = {
+		{ "Category", "FlowerGameGameModeBase" },
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	void Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowTurnFinishedUI_SetBit(void* Obj)
+	{
+		((AFlowerGameGameModeBase*)Obj)->bShowTurnFinishedUI = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowTurnFinishedUI = { "bShowTurnFinishedUI", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AFlowerGameGameModeBase), &Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowTurnFinishedUI_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowTurnFinishedUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowTurnFinishedUI_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowDiceUI_MetaData[] = {
 		{ "Category", "FlowerGameGameModeBase" },
@@ -625,8 +807,10 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE = { "BOARD_SIZE", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, BOARD_SIZE), METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFlowerGameGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateMag,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateDice,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateInfosPlayers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowTurnFinishedUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowDiceUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_bShowLaunchDiceUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_ListSpawns,
@@ -667,7 +851,7 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameGameModeBase, 868838217);
+	IMPLEMENT_CLASS(AFlowerGameGameModeBase, 462472153);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameGameModeBase>()
 	{
 		return AFlowerGameGameModeBase::StaticClass();

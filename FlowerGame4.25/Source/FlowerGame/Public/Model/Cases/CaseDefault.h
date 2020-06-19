@@ -68,4 +68,8 @@ public:
 
 	UFUNCTION()
 	TArray<TEnumAsByte<EDirection>> CheckWaysAvailable(TEnumAsByte<EDirection> DirectionPlayer);
+	UFUNCTION()
+	TEnumAsByte<EDirection> getDirection(ACaseDefault *caseDestination);
+	UFUNCTION()
+	ACaseDefault *GoToNextCase(TEnumAsByte<EDirection> DirectionSelected);
 };

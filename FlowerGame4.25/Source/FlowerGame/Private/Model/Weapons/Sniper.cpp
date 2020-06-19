@@ -14,8 +14,8 @@ ASniper::ASniper()
 
 	MeshGun->SetRelativeScale3D(FVector(1.3, 1.3, 1.3));
 	MagSize = 5;
-	Range.Init(1, 2);
-	AmmoPerShot = 5;
+	Range = {0, 0, 0, 0, 1, 1};
+	AmmoPerShot = 2;
 	Mag = 0;
 }
 

@@ -56,6 +56,7 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 
 	bWaitChoiceUser = false;
 	isTouch = false;
+	bMoveDiceFinish = false;
 }
 
 // Called when the game starts or when spawned
@@ -73,9 +74,6 @@ void AFlowerGameCharacter::Tick(float DeltaTime)
 void AFlowerGameCharacter::SetupPlayerInputComponent(class UInputComponent *inputComponent)
 {
 	Super::SetupPlayerInputComponent(inputComponent);
-
-	inputComponent->BindTouch(EInputEvent::IE_Pressed, this, &AFlowerGameCharacter::OnPressed);
-	inputComponent->BindTouch(EInputEvent::IE_Released, this, &AFlowerGameCharacter::OnReleased);
 }
 
 void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit, int32 ID)
@@ -85,52 +83,21 @@ void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit, int32 ID)
 	TArray<TEnumAsByte<EDirection>> ways = Position->CheckWaysAvailable(Direction);
 	if (ways.Num() > 0)
 	{
-		Direction = getDirection(GoToNextCase(Position, ways[0], false));
+		Direction = Position->getDirection(Position->GoToNextCase(ways[0]));
 	}
 }
 
-void AFlowerGameCharacter::OnPressed(const ETouchIndex::Type FingerIndex, const FVector Location)
+void AFlowerGameCharacter::MoveToTouchLocation(ACaseDefault* DestinationCase)
 {
-	if (!isTouch)
+	if (DestinationCase->bListenTouchEvent)
 	{
-		isTouch = true;
-		if (bWaitChoiceUser)
-		{
-			MoveToTouchLocation(Location);
-		}
-	}
-}
-
-void AFlowerGameCharacter::OnReleased(const ETouchIndex::Type FingerIndex, const FVector Location)
-{
-	if (isTouch)
-	{
-		isTouch = false;
-	}
-}
-
-void AFlowerGameCharacter::MoveToTouchLocation(const FVector Location)
-{
-	FVector2D ScreenSpaceLocation(Location);
-
-	// Trace to see what is under the touch location
-	FHitResult HitResult;
-	GetWorld()->GetFirstPlayerController()->GetHitResultAtScreenPosition(ScreenSpaceLocation, ECC_Visibility, true, HitResult);
-	if (HitResult.bBlockingHit)
-	{
-		// We hit something, move here
-		ACaseDefault *caseSelected = Cast<ACaseDefault>(HitResult.GetActor());
-		if (caseSelected != nullptr)
-		{
-			if (caseSelected->bListenTouchEvent)
-			{
-				bWaitChoiceUser = false;
-				ManageCaseChoice(Position, Position->CheckWaysAvailable(Direction), false);
-				Position = GoToNextCase(Position, getDirection(caseSelected), true);
-				MovementPoint--;
-				MoveWithDice();
-			}
-		}
+		bWaitChoiceUser = false;
+		ManageCaseChoice(Position, Position->CheckWaysAvailable(Direction), false);
+		Direction = Position->getDirection(DestinationCase);
+		Position = Position->GoToNextCase(Direction);
+		SetNewMoveDestination(Position);
+		MovementPoint--;
+		MoveWithDice();
 	}
 }
 
@@ -163,6 +130,7 @@ void AFlowerGameCharacter::OnOverlapBegin(class UPrimitiveComponent *OverlappedC
 					{
 						FlowerGameMode->SetCurrentState(EGamePlayState::ETurnAction);
 					}
+					bMoveDiceFinish = true;
 				}
 				else
 				{
@@ -179,6 +147,7 @@ void AFlowerGameCharacter::OnOverlapEnd(class UPrimitiveComponent *OverlappedCom
 
 void AFlowerGameCharacter::MoveWithDice()
 {
+	bMoveDiceFinish = false;
 	TArray<TEnumAsByte<EDirection>> waysAvailable;
 	if (Position->CheckWaysAvailable(Direction).Num() > 1)
 	{
@@ -191,7 +160,8 @@ void AFlowerGameCharacter::MoveWithDice()
 		waysAvailable = Position->CheckWaysAvailable(Direction);
 		if (waysAvailable.Num() == 1)
 		{
-			Position = GoToNextCase(Position, waysAvailable[0], true);
+			Position = Position->GoToNextCase(waysAvailable[0]);
+			Direction = waysAvailable[0];
 			MovementPoint--;
 		}
 		else
@@ -215,52 +185,12 @@ void AFlowerGameCharacter::MoveWithDice()
 	}
 }
 
-ACaseDefault *AFlowerGameCharacter::GoToNextCase(ACaseDefault *caseSelected, TEnumAsByte<EDirection> DirectionSelected, bool bChangeDirection)
-{
-	ACaseDefault *nextCase = nullptr;
-	switch (DirectionSelected)
-	{
-	case EDirection::DIRECTION_UP:
-		nextCase = caseSelected->caseUp;
-		break;
-	case EDirection::DIRECTION_DOWN:
-		nextCase = caseSelected->caseDown;
-		break;
-	case EDirection::DIRECTION_LEFT:
-		nextCase = caseSelected->caseLeft;
-		break;
-	case EDirection::DIRECTION_RIGHT:
-		nextCase = caseSelected->caseRight;
-		break;
-	case EDirection::DIRECTION_UNKNOWN:
-		nextCase = Position;
-		print("Unknown");
-		break;
-	default:
-		print("Default");
-		break;
-	}
-
-	if (bChangeDirection)
-	{
-		Direction = DirectionSelected;
-		SetNewMoveDestination(nextCase);
-	}
-
-	if (nextCase == nullptr)
-	{
-		print("C'est un nullptr OMG");
-		nextCase = Position;
-	}
-	return nextCase;
-}
-
 void AFlowerGameCharacter::ManageCaseChoice(ACaseDefault *caseSelected, TArray<TEnumAsByte<EDirection>> waysAvailable, bool isEnable)
 {
 	ACaseDefault *caseToChoice;
 	for (int i = 0; i < waysAvailable.Num(); i++)
 	{
-		caseToChoice = GoToNextCase(caseSelected, waysAvailable[i], false);
+		caseToChoice = caseSelected->GoToNextCase(waysAvailable[i]);
 		if (isEnable)
 		{
 			caseToChoice->bListenTouchEvent = true;
@@ -274,22 +204,6 @@ void AFlowerGameCharacter::ManageCaseChoice(ACaseDefault *caseSelected, TArray<T
 	}
 }
 
-TEnumAsByte<EDirection> AFlowerGameCharacter::getDirection(ACaseDefault *caseDestination)
-{
-	TEnumAsByte<EDirection> DirectionDestination = EDirection::DIRECTION_UNKNOWN;
-	TArray<TEnumAsByte<EDirection>> waysAvailable;
-	waysAvailable = Position->CheckWaysAvailable(Direction);
-	for (int32 i = 0; i < waysAvailable.Num(); i++)
-	{
-		if (GoToNextCase(Position, waysAvailable[i], false)->ID_Case == caseDestination->ID_Case)
-		{
-			DirectionDestination = waysAvailable[i];
-		}
-	}
-
-	return DirectionDestination;
-}
-
 void AFlowerGameCharacter::ChangeWeapon(class AWeapon *WeaponChoosed)
 {
 	WeaponSelected = WeaponChoosed;
@@ -297,12 +211,33 @@ void AFlowerGameCharacter::ChangeWeapon(class AWeapon *WeaponChoosed)
 	WeaponSelected->MeshGun->AttachTo(GetMesh(), "SocketWeapon");
 }
 
-void AFlowerGameCharacter::ShootPlayer(AFlowerGameCharacter *OtherPlayer)
+void AFlowerGameCharacter::LoadWeapon()
 {
+	Ammo = WeaponSelected->LoadWeapon(Ammo);
+}
+
+bool AFlowerGameCharacter::ShootPlayer(AFlowerGameCharacter *OtherPlayer)
+{
+	bool isDamaged = false;
 	if (WeaponSelected)
 	{
-		OtherPlayer->Health -= WeaponSelected->GetDamageWeapon();
-		Ammo -= WeaponSelected->GetDamageWeapon();
-		Ammo = WeaponSelected->LoadWeapon(Ammo);
+		if (WeaponSelected->Mag >= WeaponSelected->GetAmmoPerShot())
+		{
+			OtherPlayer->Health -= WeaponSelected->GetAmmoPerShot();
+			WeaponSelected->Fire();
+			isDamaged = true;
+		}
 	}
+	return isDamaged;
+}
+
+bool AFlowerGameCharacter::CheckIfCanShoot() {
+	bool bCanShoot = false;
+	if (WeaponSelected) {
+		if (WeaponSelected->Mag >= WeaponSelected->GetAmmoPerShot())
+		{
+			bCanShoot = true;
+		}
+	}
+	return bCanShoot;
 }

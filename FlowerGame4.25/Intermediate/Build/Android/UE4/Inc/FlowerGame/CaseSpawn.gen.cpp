@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCaseSpawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACaseSpawn, 1037185681);
+	IMPLEMENT_CLASS(ACaseSpawn, 499414285);
 	template<> FLOWERGAME_API UClass* StaticClass<ACaseSpawn>()
 	{
 		return ACaseSpawn::StaticClass();

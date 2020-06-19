@@ -1,0 +1,1093 @@
+﻿Log file open, 06/17/20 19:27:18
+LogInit: Display: Running engine for game: FlowerGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.127488
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1709) (), CPU: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 520
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.06.17-17.27.18:748][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.06.17-17.27.18:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.17-17.27.18:749][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.17-17.27.18:750][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.17-17.27.18:750][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.17-17.27.18:750][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.17-17.27.18:750][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.17-17.27.18:750][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.17-17.27.18:750][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.17-17.27.18:750][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.06.17-17.27.18:750][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.06.17-17.27.18:752][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.17-17.27.18:752][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.17-17.27.18:753][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.17-17.27.18:754][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.17-17.27.18:754][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.17-17.27.18:754][  0]LogHAL: Display: Platform has ~ 32 GB [34234515456 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.17-17.27.18:754][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.17-17.27.18:754][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.17-17.27.18:754][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.17-17.27.18:755][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:755][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Scalability.ini]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.17-17.27.18:756][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Config/Windows/Engine.ini]
+[2020.06.17-17.27.18:756][  0]LogInit: Computer: FRLH133527
+[2020.06.17-17.27.18:756][  0]LogInit: User: a021694
+[2020.06.17-17.27.18:756][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.06.17-17.27.18:756][  0]LogInit: High frequency timer resolution =2.742187 MHz
+[2020.06.17-17.27.18:756][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.06.17-17.27.18:756][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.17-17.27.18:756][  0]LogMemory: Process Physical Memory: 115.30 MB used, 115.30 MB peak
+[2020.06.17-17.27.18:756][  0]LogMemory: Process Virtual Memory: 97.38 MB used, 97.38 MB peak
+[2020.06.17-17.27.18:757][  0]LogMemory: Physical Memory: 13428.92 MB used,  19219.66 MB free, 32648.58 MB total
+[2020.06.17-17.27.18:757][  0]LogMemory: Virtual Memory: 1052.75 MB used,  134216672.00 MB free, 134217728.00 MB total
+[2020.06.17-17.27.18:763][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.17-17.27.18:794][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.17-17.27.18:795][  0]LogInit: Using OS detected language (fr-FR).
+[2020.06.17-17.27.18:795][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.06.17-17.27.18:800][  0]LogTextLocalizationManager: No specific localization for 'fr-FR' exists, so the 'fr' localization will be used.
+[2020.06.17-17.27.18:800][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/fr/Editor.locres' could not be opened for reading!
+[2020.06.17-17.27.18:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/fr/EditorTutorials.locres' could not be opened for reading!
+[2020.06.17-17.27.18:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/fr/Keywords.locres' could not be opened for reading!
+[2020.06.17-17.27.18:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/fr/Category.locres' could not be opened for reading!
+[2020.06.17-17.27.18:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/fr/ToolTips.locres' could not be opened for reading!
+[2020.06.17-17.27.18:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/fr/PropertyNames.locres' could not be opened for reading!
+[2020.06.17-17.27.18:801][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/fr/Engine.locres' could not be opened for reading!
+[2020.06.17-17.27.18:802][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.17-17.27.18:836][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.17-17.27.18:836][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.17-17.27.19:003][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.17-17.27.19:003][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.17-17.27.19:003][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.17-17.27.19:003][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.17-17.27.19:062][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2020.06.17-17.27.19:062][  0]LogD3D11RHI:       128/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.06.17-17.27.19:063][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.17-17.27.19:063][  0]LogD3D11RHI:       0/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.17-17.27.19:066][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.17-17.27.19:066][  0]LogD3D11RHI:       0/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.17-17.27.19:066][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.17-17.27.19:073][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.17-17.27.19:074][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.17-17.27.19:074][  0]LogWindows: EnumDisplayDevices:
+[2020.06.17-17.27.19:074][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2020.06.17-17.27.19:074][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.06.17-17.27.19:074][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.06.17-17.27.19:074][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:1)
+[2020.06.17-17.27.19:075][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2020.06.17-17.27.19:075][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2020.06.17-17.27.19:075][  0]LogD3D11RHI:   Driver Version: 26.20.100.6888 (internal:26.20.100.6888, unified:26.20.100.6888)
+[2020.06.17-17.27.19:075][  0]LogD3D11RHI:      Driver Date: 5-16-2019
+[2020.06.17-17.27.19:075][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2020.06.17-17.27.19:077][  0]LogD3D11RHI: [IntelMetricsDiscovery] Failed to initialize context. Result=00000002
+[2020.06.17-17.27.19:122][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.06.17-17.27.19:122][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.17-17.27.19:122][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.17-17.27.19:131][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.06.17-17.27.19:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.17-17.27.19:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.17-17.27.19:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.17-17.27.19:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.17-17.27.19:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.17-17.27.19:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.17-17.27.19:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.17-17.27.19:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.17-17.27.19:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.17-17.27.19:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.17-17.27.19:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.17-17.27.19:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.17-17.27.19:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.17-17.27.19:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.17-17.27.19:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.17-17.27.19:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.17-17.27.19:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.17-17.27.19:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.17-17.27.19:753][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.17-17.27.19:753][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.17-17.27.19:763][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.17-17.27.19:841][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Shaders/WorkingDirectory/8964/).
+[2020.06.17-17.27.19:842][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a021694/AppData/Local/Temp/UnrealShaderWorkingDir/1680D8784A678A3B266FC6882DF34426/'.
+[2020.06.17-17.27.19:842][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.17-17.27.19:842][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.17-17.27.19:842][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.17-17.27.20:735][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.17-17.27.20:805][  0]LogDerivedDataCache: Loaded boot cache 0.07s 107MB C:/Users/a021694/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.17-17.27.20:805][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/a021694/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.17-17.27.20:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.17-17.27.20:805][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.17-17.27.20:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.17-17.27.20:806][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.17-17.27.20:820][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.17-17.27.20:820][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.17-17.27.20:820][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.17-17.27.20:821][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a021694/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.17-17.27.20:821][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.17-17.27.20:821][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.17-17.27.20:921][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.17-17.27.20:922][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.17-17.27.20:958][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2020.06.17-17.27.21:512][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.17-17.27.21:664][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.17-17.27.21:664][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.17-17.27.21:664][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.17-17.27.21:664][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.17-17.27.21:664][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.17-17.27.21:681][  0]LogNetVersion: FlowerGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3835917877)
+[2020.06.17-17.27.22:253][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018B344A9840), frame # 0
+[2020.06.17-17.27.22:253][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B343DD440), frame # 0
+[2020.06.17-17.27.22:254][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B34490400), frame # 0
+[2020.06.17-17.27.22:359][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.099249 seconds
+[2020.06.17-17.27.22:364][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.17-17.27.22:364][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.17-17.27.22:364][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.17-17.27.22:720][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.17-17.27.22:725][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.17-17.27.22:966][  0]SourceControl: Source control is disabled
+[2020.06.17-17.27.22:966][  0]SourceControl: Source control is disabled
+[2020.06.17-17.27.22:969][  0]SourceControl: Source control is disabled
+[2020.06.17-17.27.22:973][  0]SourceControl: Source control is disabled
+[2020.06.17-17.27.22:979][  0]SourceControl: Source control is disabled
+[2020.06.17-17.27.23:225][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.17-17.27.23:248][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.17-17.27.23:248][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.17-17.27.23:313][  0]LogOcInput: OculusInput pre-init called
+[2020.06.17-17.27.23:327][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.17-17.27.23:327][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.17-17.27.23:421][  0]LogEngine: Initializing Engine...
+[2020.06.17-17.27.23:423][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.17-17.27.23:423][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.17-17.27.23:424][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.17-17.27.23:605][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.17-17.27.23:617][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.17-17.27.23:618][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B3AF7D600), frame # 0
+[2020.06.17-17.27.23:618][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B3AF9AAC0), frame # 0
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-17.27.23:624][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-17.27.23:624][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-17.27.23:624][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-17.27.23:702][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-17.27.23:702][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-17.27.23:867][  0]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.06.17-17.27.23:869][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-17.27.23:871][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-17.27.23:871][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-17.27.23:872][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-17.27.23:873][  0]LogInit: FAudioDevice initialized.
+[2020.06.17-17.27.23:873][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.17-17.27.24:004][  0]LogDerivedDataCache: Saved boot cache 0.13s 107MB C:/Users/a021694/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.17-17.27.24:011][  0]LogInit: Texture streaming: Enabled
+[2020.06.17-17.27.24:029][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.17-17.27.24:029][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.17-17.27.24:031][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.17-17.27.24:127][  0]LogInit: Transaction tracking system initialized
+[2020.06.17-17.27.24:155][  0]BlueprintLog: New page: Editor Load
+[2020.06.17-17.27.24:243][  0]LocalizationService: Localization service is disabled
+[2020.06.17-17.27.24:439][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.17-17.27.24:439][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.17-17.27.24:601][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/' took 0.01s
+[2020.06.17-17.27.24:927][  0]SourceControl: Source control is disabled
+[2020.06.17-17.27.24:927][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.995
+[2020.06.17-17.27.24:927][  0]Cmd: MAP LOAD FILE="../../../../../../Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/MobileStarterContent/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.17-17.27.24:927][  0]LightingResults: New page: Lighting Build
+[2020.06.17-17.27.24:928][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-17.27.24:928][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-17.27.24:928][  0]MapCheck: New page: Map Check
+[2020.06.17-17.27.24:928][  0]LightingResults: New page: Lighting Build
+[2020.06.17-17.27.24:938][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018B3AF7D600), frame # 0
+[2020.06.17-17.27.24:938][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018B3AF9AAC0), frame # 0
+[2020.06.17-17.27.24:939][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.06.17-17.27.25:029][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.06.17-17.27.25:029][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B27BAE600), frame # 0
+[2020.06.17-17.27.25:029][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B38C64A40), frame # 0
+[2020.06.17-17.27.25:078][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.17-17.27.25:157][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2020.06.17-17.27.25:158][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.17-17.27.25:158][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,178ms to complete.
+[2020.06.17-17.27.25:158][  0]LogFileHelpers: Loading map 'TestMap' took 0.231
+[2020.06.17-17.27.25:161][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.229
+[2020.06.17-17.27.25:229][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.17-17.27.25:230][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.17-17.27.25:298][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.27.25:307][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.27.25:317][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.27.25:326][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.27.25:334][  0]LogCollectionManager: Loaded 0 collections in 0.001751 seconds
+[2020.06.17-17.27.25:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Saved/Collections/' took 0.00s
+[2020.06.17-17.27.25:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/Developers/a021694/Collections/' took 0.00s
+[2020.06.17-17.27.25:350][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Content/Collections/' took 0.00s
+[2020.06.17-17.27.25:350][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3437 classes and 827 folders.
+[2020.06.17-17.27.25:352][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.17-17.27.25:401][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.17-17.27.25:406][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.06.17-17.27.25:445][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.17-17.27.25:447][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.17-17.27.25:452][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.17-17.27.25:568][  0]LogRenderer: Reallocating scene render targets to support 920x444 Format 10 NumSamples 1 (Frame:1).
+[2020.06.17-17.27.25:736][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.17-17.27.25:736][  0]LogLoad: (Engine Initialization) Total time: 8.80 seconds
+[2020.06.17-17.27.25:737][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.17-17.27.25:802][  0]LogAssetRegistry: Asset discovery search completed in 4.8443 seconds
+[2020.06.17-17.27.25:807][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.17-17.27.25:808][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.17-17.27.25:843][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.17-17.27.34:406][322]LogSlate: Took 0.003300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.06.17-17.27.55:465][ 49]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.17-17.27.55:496][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-17.27.55:497][ 49]PIE: New page: PIE session: TestMap (17 juin 2020 à 21:27:55)
+[2020.06.17-17.27.55:499][ 49]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.17-17.27.55:500][ 49]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.17-17.27.55:500][ 49]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.06.17-17.27.55:533][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032837s)
+[2020.06.17-17.27.55:535][ 49]LogAIModule: Creating AISystem for world TestMap
+[2020.06.17-17.27.55:535][ 49]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B4C637E00), frame # 1049
+[2020.06.17-17.27.55:535][ 49]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B38CF2980), frame # 1049
+[2020.06.17-17.27.55:535][ 49]LogPlayLevel: PIE: World Init took: (0.002185s)
+[2020.06.17-17.27.55:535][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.035249s)
+[2020.06.17-17.27.55:547][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.06.17-17.27.55:549][ 49]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-17.27.55:549][ 49]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-17.27.55:549][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-17.27.55:549][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-17.27.55:549][ 49]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-17.27.55:549][ 49]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-17.27.55:549][ 49]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-17.27.55:549][ 49]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-17.27.55:550][ 49]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-17.27.55:550][ 49]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-17.27.55:554][ 49]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-17.27.55:554][ 49]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-17.27.55:571][ 49]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.06.17-17.27.55:572][ 49]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-17.27.55:572][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-17.27.55:572][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-17.27.55:572][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-17.27.55:593][ 49]LogInit: FAudioDevice initialized.
+[2020.06.17-17.27.55:606][ 49]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.06.17-17.27.55:610][ 49]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.17-19.27.55
+[2020.06.17-17.27.55:611][ 49]LogWorld: Bringing up level for play took: 0.004082
+[2020.06.17-17.27.55:611][ 49]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.06.17-17.27.55:616][ 49]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2020.06.17-17.27.55:618][ 49]LogBlueprintUserMessages: [TestMap_C_0] DefaultPawn
+[2020.06.17-17.27.55:625][ 49]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.55:627][ 49]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.55:629][ 49]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.55:633][ 49]PIE: Server logged in
+[2020.06.17-17.27.55:636][ 49]PIE: Play in editor total start time 0,141 seconds.
+[2020.06.17-17.27.57:502][107]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.27.57:502][107]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :499.000000-318.000000
+[2020.06.17-17.27.57:530][108]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.27.57:559][109]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :499.000000-318.000000, SwipeState.DownTime is:0.058391
+[2020.06.17-17.27.58:934][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:935][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:935][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:936][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:936][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:936][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:937][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:937][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:938][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:938][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:938][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:938][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:939][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:939][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:939][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:939][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:940][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:940][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:940][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.27.58:941][157]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.01:652][232]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.28.01:652][232]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :588.000000-358.000000
+[2020.06.17-17.28.01:680][233]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.28.01:710][234]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.28.01:740][235]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :588.000000-358.000000, SwipeState.DownTime is:0.090913
+[2020.06.17-17.28.03:716][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:716][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:717][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:717][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:718][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:718][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:719][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:719][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:720][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:720][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:721][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:721][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:722][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:722][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:722][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:723][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.03:723][298]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.06:927][375]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.28.06:927][375]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :780.000000-192.000000
+[2020.06.17-17.28.06:964][376]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.28.07:003][377]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :780.000000-192.000000, SwipeState.DownTime is:0.077536
+[2020.06.17-17.28.07:545][393]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.28.07:546][393]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :778.000000-192.000000
+[2020.06.17-17.28.07:581][394]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.28.07:613][395]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :778.000000-192.000000, SwipeState.DownTime is:0.069702
+[2020.06.17-17.28.11:386][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-17.28.11:402][496]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.17-17.28.11:422][496]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.17-17.28.11:424][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.28.11:424][496]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.06.17-17.28.11:424][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-17.28.11:424][496]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-17.28.11:425][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-17.28.11:449][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.17-17.28.11:451][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-17.28.11:462][496]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-17.28.11:481][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.28.11:486][496]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018B4C637E00), frame # 1496
+[2020.06.17-17.28.11:486][496]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018B38CF2980), frame # 1496
+[2020.06.17-17.28.11:487][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.06.17-17.28.11:536][497]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.06.17-17.28.13:962][566]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.17-17.28.14:004][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-17.28.14:005][566]PIE: New page: PIE session: TestMap (17 juin 2020 à 21:28:14)
+[2020.06.17-17.28.14:005][566]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.06.17-17.28.14:042][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036812s)
+[2020.06.17-17.28.14:043][566]LogAIModule: Creating AISystem for world TestMap
+[2020.06.17-17.28.14:043][566]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B4C80FE00), frame # 1566
+[2020.06.17-17.28.14:043][566]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B38C74CC0), frame # 1566
+[2020.06.17-17.28.14:044][566]LogPlayLevel: PIE: World Init took: (0.002042s)
+[2020.06.17-17.28.14:044][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.039084s)
+[2020.06.17-17.28.14:057][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.06.17-17.28.14:058][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-17.28.14:058][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-17.28.14:059][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-17.28.14:059][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-17.28.14:059][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-17.28.14:059][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-17.28.14:059][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-17.28.14:059][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-17.28.14:060][566]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-17.28.14:060][566]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-17.28.14:065][566]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-17.28.14:065][566]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-17.28.14:080][566]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.06.17-17.28.14:080][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-17.28.14:081][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-17.28.14:081][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-17.28.14:081][566]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-17.28.14:106][566]LogInit: FAudioDevice initialized.
+[2020.06.17-17.28.14:116][566]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.06.17-17.28.14:121][566]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.17-19.28.14
+[2020.06.17-17.28.14:121][566]LogWorld: Bringing up level for play took: 0.004465
+[2020.06.17-17.28.14:122][566]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.06.17-17.28.14:126][566]LogBlueprintUserMessages: [TestMap_C_0] DefaultPawn
+[2020.06.17-17.28.14:131][566]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.14:133][566]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.14:136][566]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.14:140][566]PIE: Server logged in
+[2020.06.17-17.28.14:141][566]PIE: Play in editor total start time 0,138 seconds.
+[2020.06.17-17.28.15:981][627]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.28.15:981][627]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :489.000000-315.000000
+[2020.06.17-17.28.16:013][628]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.28.16:045][629]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.28.16:078][630]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :489.000000-315.000000, SwipeState.DownTime is:0.099090
+[2020.06.17-17.28.18:926][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:927][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:927][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:928][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:928][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:929][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:929][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:929][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:929][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:930][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:930][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:930][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:930][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.18:931][720]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.28.27:809][993]LogEditorViewport: Clicking on Actor (LMB): RangeWeapon (RangeWeapon11)
+[2020.06.17-17.28.33:439][145]LogEditorViewport: Clicking on Actor (LMB): RangeWeapon (RangeWeapon13)
+[2020.06.17-17.28.45:020][413]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-17.28.45:022][413]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.17-17.28.45:042][413]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.17-17.28.45:045][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.28.45:045][413]LogWorld: BeginTearingDown for /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.06.17-17.28.45:045][413]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-17.28.45:045][413]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.17-17.28.45:047][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-17.28.45:105][413]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.17-17.28.45:107][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.17-17.28.45:125][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.17-17.28.45:125][413]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.17-17.28.45:152][413]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018B38C74CC0), frame # 2413
+[2020.06.17-17.28.45:152][413]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018B4C80FE00), frame # 2413
+[2020.06.17-17.28.45:154][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.06.17-17.28.45:220][414]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.06.17-17.38.04:034][ 88]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.17-17.39.47:747][492]Candidate modules for hot reload:
+[2020.06.17-17.39.47:747][492]  FlowerGame
+[2020.06.17-17.39.47:747][492]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,5316 FlowerGameEditor Win64 Development -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject"  -IgnoreJunk]
+[2020.06.17-17.39.47:767][492]Warning: Starting HotReload took  0.0s.
+[2020.06.17-17.40.30:131][871]CompilerResultsLog: New page: Compilation - 17 juin 2020 à 21:40:30
+[2020.06.17-17.40.30:131][871]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.06.17-17.40.30:131][871]CompilerResultsLog: Building FlowerGameEditor...
+[2020.06.17-17.40.30:132][871]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.17-17.40.30:132][871]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.17-17.40.30:132][871]CompilerResultsLog:   [1/4] FlowerGameGameModeBase.cpp
+[2020.06.17-17.40.30:132][871]CompilerResultsLog:    C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\FlowerGameGameModeBase.cpp(277)  : error C4700: variable locale 'i' non initialis?e utilis?e
+[2020.06.17-17.40.30:132][871]LogMainFrame: MainFrame: Module compiling took 42.391 seconds
+[2020.06.17-17.40.30:132][871]Warning: HotReload failed, recompile failed
+[2020.06.17-17.40.40:495][196]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.17-17.40.43:352][274]LogSlate: Window 'Message Log' being destroyed
+[2020.06.17-17.40.43:393][274]LogSlate: Window 'Message Log' being destroyed
+[2020.06.17-17.41.10:913][400]Candidate modules for hot reload:
+[2020.06.17-17.41.10:913][400]  FlowerGame
+[2020.06.17-17.41.10:913][400]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FlowerGame,2535 FlowerGameEditor Win64 Development -Project="C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject" "C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/FlowerGame.uproject"  -IgnoreJunk]
+[2020.06.17-17.41.10:932][400]Warning: Starting HotReload took  0.2s.
+[2020.06.17-17.41.26:108][459]CompilerResultsLog: New page: Compilation - 17 juin 2020 à 21:41:26
+[2020.06.17-17.41.26:108][459]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\a021694\Documents\GitHub\FlowerGame).
+[2020.06.17-17.41.26:108][459]CompilerResultsLog: Building FlowerGameEditor...
+[2020.06.17-17.41.26:108][459]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.17-17.41.26:108][459]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.17-17.41.26:108][459]CompilerResultsLog:   [1/4] FlowerGameGameModeBase.cpp
+[2020.06.17-17.41.26:108][459]CompilerResultsLog:   [2/4] UE4Editor-FlowerGame-2535.lib
+[2020.06.17-17.41.26:108][459]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2535.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2535.exp
+[2020.06.17-17.41.26:108][459]CompilerResultsLog:   [3/4] UE4Editor-FlowerGame-2535.dll
+[2020.06.17-17.41.26:108][459]CompilerResultsLog:      Cr?ation de la biblioth?que C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2535.suppressed.lib et de l'objet C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Win64\UE4Editor\Development\FlowerGame\UE4Editor-FlowerGame-2535.suppressed.exp
+[2020.06.17-17.41.26:108][459]CompilerResultsLog:   [4/4] FlowerGameEditor.target
+[2020.06.17-17.41.26:108][459]CompilerResultsLog: Total time in Parallel executor: 13,02 seconds
+[2020.06.17-17.41.26:108][459]CompilerResultsLog: Total execution time: 14,73 seconds
+[2020.06.17-17.41.26:108][459]LogMainFrame: MainFrame: Module compiling took 15.199 seconds
+[2020.06.17-17.41.26:145][459]LogClass: ECases HotReload.
+[2020.06.17-17.41.26:145][459]LogClass: EDirection HotReload.
+[2020.06.17-17.41.26:145][459]LogClass: EGamePlayState HotReload.
+[2020.06.17-17.41.26:145][459]LogClass: ETypeRange HotReload.
+[2020.06.17-17.41.26:145][459]LogClass: Lines HotReload.
+[2020.06.17-17.41.26:155][459]LogContentBrowser: Native class hierarchy updated for 'FlowerGame' in 0.0004 seconds. Added 11 classes and 7 folders.
+[2020.06.17-17.41.26:156][459]Display: HotReload successful (28 functions remapped  1 scriptstructs remapped)
+[2020.06.17-17.41.26:432][459]LogContentBrowser: Native class hierarchy populated in 0.1898 seconds. Added 3437 classes and 827 folders.
+[2020.06.17-17.41.26:437][459]Display: HotReload took 15.7s.
+[2020.06.17-17.44.00:259][978]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.17-17.44.00:296][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.17-17.44.00:296][978]PIE: New page: PIE session: TestMap (17 juin 2020 à 21:44:00)
+[2020.06.17-17.44.00:296][978]LogPlayLevel: Creating play world package: /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap
+[2020.06.17-17.44.00:345][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048245s)
+[2020.06.17-17.44.00:346][978]LogAIModule: Creating AISystem for world TestMap
+[2020.06.17-17.44.00:346][978]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018B4E09A200), frame # 6978
+[2020.06.17-17.44.00:346][978]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018B3ACB6480), frame # 6978
+[2020.06.17-17.44.00:347][978]LogPlayLevel: PIE: World Init took: (0.001821s)
+[2020.06.17-17.44.00:347][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MobileStarterContent/Maps/TestMap.TestMap to /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap (0.050250s)
+[2020.06.17-17.44.00:358][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.06.17-17.44.00:360][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.17-17.44.00:360][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.17-17.44.00:360][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.17-17.44.00:360][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.17-17.44.00:360][978]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.17-17.44.00:360][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.17-17.44.00:360][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.17-17.44.00:360][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.17-17.44.00:361][978]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.17-17.44.00:361][978]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.17-17.44.00:364][978]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.17-17.44.00:364][978]LogAudioMixer: Display: 1: FrontRight
+[2020.06.17-17.44.00:383][978]LogAudioMixer: Display: Using Audio Device Haut-parleur (Conexant ISST Audio)
+[2020.06.17-17.44.00:383][978]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.17-17.44.00:383][978]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.17-17.44.00:383][978]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.17-17.44.00:384][978]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.17-17.44.00:401][978]LogInit: FAudioDevice initialized.
+[2020.06.17-17.44.00:411][978]LogLoad: Game class is 'FlowerGameGameModeBase'
+[2020.06.17-17.44.00:414][978]LogWorld: Bringing World /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.06.17-19.44.00
+[2020.06.17-17.44.00:415][978]LogWorld: Bringing up level for play took: 0.003573
+[2020.06.17-17.44.00:415][978]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.06.17-17.44.00:418][978]LogBlueprintUserMessages: [TestMap_C_0] DefaultPawn
+[2020.06.17-17.44.00:422][978]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.00:424][978]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.00:426][978]LogActor: Warning: Sniper /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.Sniper_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.00:429][978]PIE: Server logged in
+[2020.06.17-17.44.00:430][978]PIE: Play in editor total start time 0,138 seconds.
+[2020.06.17-17.44.02:506][ 50]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.44.02:506][ 50]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :513.000000-315.000000
+[2020.06.17-17.44.02:525][ 51]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.02:550][ 52]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.02:550][ 52]LogTemp: Warning: 4.DetectOnePointActions()::SwipeState.Position is :513.000000-315.000000, SwipeState.DownTime is:0.042100
+[2020.06.17-17.44.02:572][ 53]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :513.000000-315.000000, SwipeState.DownTime is:0.066538
+[2020.06.17-17.44.02:572][ 53]LogTemp: Warning: 8.DetectOnePointActions()::SwipeState.Position is :512.000000-312.000000, SwipeState.DownTime is:0.066538
+[2020.06.17-17.44.03:938][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:938][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:939][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:940][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:940][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:940][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:941][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:941][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:941][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.03:942][100]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.05:387][152]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.44.05:387][152]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :1047.000000-354.000000
+[2020.06.17-17.44.05:410][153]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.05:437][154]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.05:464][155]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :1047.000000-354.000000, SwipeState.DownTime is:0.077969
+[2020.06.17-17.44.07:401][226]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.44.07:401][226]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :654.000000-295.000000
+[2020.06.17-17.44.07:418][227]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.07:439][228]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.07:463][229]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :654.000000-295.000000, SwipeState.DownTime is:0.065414
+[2020.06.17-17.44.08:842][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:842][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:842][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:842][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:843][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:843][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:844][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:844][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:844][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:845][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:845][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:845][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:846][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:846][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:846][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:846][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:846][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:846][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:847][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.08:847][292]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.12:352][420]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.44.12:352][420]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :537.000000-381.000000
+[2020.06.17-17.44.12:371][421]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.12:393][422]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.12:413][423]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :537.000000-381.000000, SwipeState.DownTime is:0.065691
+[2020.06.17-17.44.15:536][548]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:0
+[2020.06.17-17.44.15:536][548]LogTemp: Warning: 2.DetectOnePointActions()::AnchorPosition is :621.000000-333.000000
+[2020.06.17-17.44.15:558][549]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.15:580][550]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.15:604][551]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.15:626][552]LogTemp: Warning: 1.UpdateGameKeys()::CurrentTouchState:1,PrevTouchState:1
+[2020.06.17-17.44.15:649][553]LogTemp: Warning: 6.DetectOnePointActions()::SwipeState.Position is :621.000000-333.000000, SwipeState.DownTime is:0.112969
+[2020.06.17-17.44.17:654][630]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.17:654][630]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.17:655][630]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.17:655][630]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.17:655][630]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.06.17-17.44.17:656][630]LogActor: Warning: RangeWeapon /Game/MobileStarterContent/Maps/UEDPIE_0_TestMap.TestMap:PersistentLevel.RangeWeapon_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily

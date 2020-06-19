@@ -10,16 +10,19 @@
 #include "Model/Cases/CaseDefault.h"
 #include "Model/Cases/CaseSpawn.h"
 #include "Model/Cases/CaseMagasin.h"
+#include "Model/RangeWeapon.h"
 #include "Kismet/GameplayStatics.h"
 #include "Math/UnrealMathUtility.h"
 #include "Engine.h"
 #include "Misc/DefaultValueHelper.h"
 #include "Player/FlowerGameCharacter.h"
+#include "Player/FlowerGamePlayerController.h"
 #include "GenericPlatform/GenericPlatform.h"
 #include "FlowerGameGameModeBase.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateInfosPlayersDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateDiceDelegate, int32, numDice);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateMagDelegate);
 
 UENUM()
 enum EGamePlayState
@@ -70,6 +73,8 @@ private:
 	void FillBoard();
 	void InitBoard();
 	void InitCase(ACaseDefault *caseSelected, int32 line, int32 row, int32 ID);
+	void ShowRange(ACaseDefault* caseSelected, TEnumAsByte<ETypeRange> TypeRange);
+	void DisableRange();
 
 public:
 	UPROPERTY()
@@ -86,6 +91,10 @@ public:
 	TSubclassOf<class AFlowerGameCharacter> classPlayer;
 	UPROPERTY()
 	TArray<ACaseSpawn *> ListSpawns;
+	UPROPERTY()
+	TArray<ARangeWeapon*> Ranges;
+	UPROPERTY()
+	bool bEnableRange;
 
 	//UI Property
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
@@ -98,6 +107,8 @@ public:
 	FUpdateInfosPlayersDelegate OnUpdateInfosPlayers;
 	UPROPERTY(BlueprintAssignable)
 	FUpdateDiceDelegate OnUpdateDice;
+	UPROPERTY(BlueprintAssignable)
+	FUpdateMagDelegate OnUpdateMag;
 
 	UFUNCTION(BlueprintCallable)
 	void LevelLoaded();
@@ -112,5 +123,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void TurnFinished();
 	UFUNCTION()
-	ACaseDefault *FindPlayerInRange(ACaseDefault *CaseSelected, ACaseDefault *PositionPlayer, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase);
+	void FindPlayersInRange(ACaseDefault* CaseSelected, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase);
+	UFUNCTION()
+	void CheckPlayersInRange();
+	UFUNCTION()
+	void ShootPlayer(ACaseDefault *CaseSelected);
 };

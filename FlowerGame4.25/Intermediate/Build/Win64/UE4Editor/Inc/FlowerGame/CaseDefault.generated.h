@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ACaseDefault;
 #ifdef FLOWERGAME_CaseDefault_generated_h
 #error "CaseDefault.generated.h already included, missing '#pragma once' in CaseDefault.h"
 #endif
@@ -16,11 +17,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FlowerGame4_25_Source_FlowerGame_Public_Model_Cases_CaseDefault_h_32_SPARSE_DATA
 #define FlowerGame4_25_Source_FlowerGame_Public_Model_Cases_CaseDefault_h_32_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGoToNextCase); \
+	DECLARE_FUNCTION(execgetDirection); \
 	DECLARE_FUNCTION(execCheckWaysAvailable);
 
 
 #define FlowerGame4_25_Source_FlowerGame_Public_Model_Cases_CaseDefault_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGoToNextCase); \
+	DECLARE_FUNCTION(execgetDirection); \
 	DECLARE_FUNCTION(execCheckWaysAvailable);
 
 

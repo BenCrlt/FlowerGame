@@ -2,6 +2,9 @@
 
 #include "Model/Weapons/Weapon.h"
 
+#define print(text) \
+	if (GEngine)    \
+	GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, text)
 // Sets default values
 AWeapon::AWeapon()
 {
@@ -9,7 +12,6 @@ AWeapon::AWeapon()
 	PrimaryActorTick.bCanEverTick = true;
 	MagSize = 5;
 	AmmoPerShot = 5;
-	Mag = 0;
 	Mag = 0;
 }
 
@@ -28,23 +30,32 @@ void AWeapon::Tick(float DeltaTime)
 int32 AWeapon::LoadWeapon(int32 Ammo)
 {
 	int32 AmmoLeft = Ammo;
-	if (MagSize != Mag)
+	if (Ammo != 0)
 	{
-		if (Ammo > MagSize - Mag)
+		if (MagSize != Mag)
 		{
-			AmmoLeft -= MagSize - Mag;
-			Mag = MagSize;
-		}
-		else
-		{
-			Mag += Ammo;
-			AmmoLeft = 0;
+			if (Ammo > MagSize - Mag)
+			{
+				AmmoLeft -= MagSize - Mag;
+				Mag = MagSize;
+			}
+			else
+			{
+				Mag += Ammo;
+				AmmoLeft = 0;
+			}
 		}
 	}
 	return AmmoLeft;
 }
 
-int32 AWeapon::GetDamageWeapon()
+int32 AWeapon::GetAmmoPerShot()
 {
 	return AmmoPerShot;
+}
+
+void AWeapon::Fire()
+{
+	Mag -= AmmoPerShot;
+	print(FString::FromInt(Mag));
 }

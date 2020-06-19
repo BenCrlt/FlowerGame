@@ -87,3 +87,53 @@ TArray<TEnumAsByte<EDirection>> ACaseDefault::CheckWaysAvailable(TEnumAsByte<EDi
 	}
 	return Ways;
 }
+
+TEnumAsByte<EDirection> ACaseDefault::getDirection(ACaseDefault *caseDestination)
+{
+	TEnumAsByte<EDirection> DirectionDestination = EDirection::DIRECTION_UNKNOWN;
+	TArray<TEnumAsByte<EDirection>> waysAvailable;
+	waysAvailable = CheckWaysAvailable(EDirection::DIRECTION_UNKNOWN);
+	for (int32 i = 0; i < waysAvailable.Num(); i++)
+	{
+		if (GoToNextCase(waysAvailable[i])->ID_Case == caseDestination->ID_Case)
+		{
+			DirectionDestination = waysAvailable[i];
+		}
+	}
+
+	return DirectionDestination;
+}
+
+ACaseDefault *ACaseDefault::GoToNextCase(TEnumAsByte<EDirection> DirectionSelected)
+{
+	ACaseDefault *nextCase = nullptr;
+	switch (DirectionSelected)
+	{
+	case EDirection::DIRECTION_UP:
+		nextCase = caseUp;
+		break;
+	case EDirection::DIRECTION_DOWN:
+		nextCase = caseDown;
+		break;
+	case EDirection::DIRECTION_LEFT:
+		nextCase = caseLeft;
+		break;
+	case EDirection::DIRECTION_RIGHT:
+		nextCase = caseRight;
+		break;
+	case EDirection::DIRECTION_UNKNOWN:
+		nextCase = this;
+		print("Unknown");
+		break;
+	default:
+		print("Default");
+		break;
+	}
+
+	if (nextCase == nullptr)
+	{
+		print("C'est un nullptr OMG");
+		nextCase = this;
+	}
+	return nextCase;
+}

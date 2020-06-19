@@ -27,6 +27,6 @@ FVector ACaseSpawn::GetLocation()
     FVector Origin;
     FVector BoundsExtend;
     GetActorBounds(false, Origin, BoundsExtend);
-
+    Origin.Z = 200;
     return Origin;
 }
