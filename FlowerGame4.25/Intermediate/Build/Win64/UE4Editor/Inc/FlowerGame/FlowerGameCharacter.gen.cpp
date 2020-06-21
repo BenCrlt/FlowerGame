@@ -37,9 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 	DEFINE_FUNCTION(AFlowerGameCharacter::execShootPlayer)
 	{
 		P_GET_OBJECT(AFlowerGameCharacter,Z_Param_OtherPlayer);
+		P_GET_PROPERTY(FIntProperty,Z_Param_Damage);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->ShootPlayer(Z_Param_OtherPlayer);
+		*(bool*)Z_Param__Result=P_THIS->ShootPlayer(Z_Param_OtherPlayer,Z_Param_Damage);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AFlowerGameCharacter::execLoadWeapon)
@@ -470,10 +471,12 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		struct FlowerGameCharacter_eventShootPlayer_Parms
 		{
 			AFlowerGameCharacter* OtherPlayer;
+			int32 Damage;
 			bool ReturnValue;
 		};
 		static void NewProp_ReturnValue_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Damage;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherPlayer;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -486,9 +489,11 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		((FlowerGameCharacter_eventShootPlayer_Parms*)Obj)->ReturnValue = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FlowerGameCharacter_eventShootPlayer_Parms), &Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventShootPlayer_Parms, Damage), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_OtherPlayer = { "OtherPlayer", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventShootPlayer_Parms, OtherPlayer), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_Damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_OtherPlayer,
 	};
 #if WITH_METADATA
@@ -597,7 +602,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_MoveWithDice, "MoveWithDice" }, // 989706650
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 2151840323
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 4011483960
-		{ &Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer, "ShootPlayer" }, // 4228068521
+		{ &Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer, "ShootPlayer" }, // 2766994381
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::Class_MetaDataParams[] = {
@@ -771,7 +776,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameCharacter, 2467627034);
+	IMPLEMENT_CLASS(AFlowerGameCharacter, 3196659303);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameCharacter>()
 	{
 		return AFlowerGameCharacter::StaticClass();

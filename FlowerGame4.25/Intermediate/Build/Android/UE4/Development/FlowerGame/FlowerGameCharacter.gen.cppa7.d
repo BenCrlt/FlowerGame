@@ -3033,6 +3033,8 @@ C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Build/A
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\CaseSpawn.generated.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\Cases\CaseMagasin.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\CaseMagasin.generated.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\RangeWeapon.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\RangeWeapon.generated.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc\DefaultValueHelper.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player\FlowerGameCharacter.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player\FlowerGamePlayerController.h \

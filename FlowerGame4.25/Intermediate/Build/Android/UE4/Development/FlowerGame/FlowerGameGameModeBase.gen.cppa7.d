@@ -1390,21 +1390,7 @@ C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Build/A
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\CaseSpawn.generated.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\Cases\CaseMagasin.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\CaseMagasin.generated.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStatics.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\BlueprintFunctionLibrary.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\BlueprintFunctionLibrary.generated.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetSystemLibrary.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject\PropertyAccessUtil.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine\CollisionProfile.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine\DeveloperSettings.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\DeveloperSettings.generated.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\CollisionProfile.generated.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\KismetSystemLibrary.generated.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound\DialogueTypes.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\DialogueTypes.generated.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\GameplayStaticsTypes.generated.h \
-  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\GameplayStatics.generated.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\RangeWeapon.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Public\Engine.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc\MonolithicHeaderBoilerplate.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Core\Public\Core.h \
@@ -2266,6 +2252,21 @@ C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Build/A
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\MeshDescription\Public\MeshTypes.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\MeshDescription\MeshTypes.generated.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\StaticMesh.generated.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine\CollisionProfile.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine\DeveloperSettings.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\DeveloperSettings.generated.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\CollisionProfile.generated.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStatics.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\BlueprintFunctionLibrary.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\BlueprintFunctionLibrary.generated.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetSystemLibrary.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject\PropertyAccessUtil.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\KismetSystemLibrary.generated.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound\DialogueTypes.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\DialogueTypes.generated.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\GameplayStaticsTypes.generated.h \
+  C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\GameplayStatics.generated.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Materials\Material.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Engine\Public\MaterialCachedData.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Intermediate\Build\Android\UE4\Inc\Engine\MaterialCachedData.generated.h \
@@ -3026,6 +3027,7 @@ C:/Users/a021694/Documents/GitHub/FlowerGame/FlowerGame4.25/Intermediate/Build/A
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework\Docking\TabManager.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework\Docking\LayoutService.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Framework\Docking\TabManager.h \
+  C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Intermediate\Build\Android\UE4\Inc\FlowerGame\RangeWeapon.generated.h \
   C:\Program\ Files\ (x86)\Epic\ Games\UE_4.25\Engine\Source\Runtime\Core\Public\Misc\DefaultValueHelper.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Player\FlowerGameCharacter.h \
   C:\Users\a021694\Documents\GitHub\FlowerGame\FlowerGame4.25\Source\FlowerGame\Public\Model\Weapons\Weapon.h \

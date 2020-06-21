@@ -27,12 +27,20 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AFlowerGameCharacter::execCheckIfCanShoot)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->CheckIfCanShoot();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AFlowerGameCharacter::execShootPlayer)
 	{
 		P_GET_OBJECT(AFlowerGameCharacter,Z_Param_OtherPlayer);
+		P_GET_PROPERTY(FIntProperty,Z_Param_Damage);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->ShootPlayer(Z_Param_OtherPlayer);
+		*(bool*)Z_Param__Result=P_THIS->ShootPlayer(Z_Param_OtherPlayer,Z_Param_Damage);
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AFlowerGameCharacter::execLoadWeapon)
@@ -105,6 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		UClass* Class = AFlowerGameCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "ChangeWeapon", &AFlowerGameCharacter::execChangeWeapon },
+			{ "CheckIfCanShoot", &AFlowerGameCharacter::execCheckIfCanShoot },
 			{ "InitPlayer", &AFlowerGameCharacter::execInitPlayer },
 			{ "LoadWeapon", &AFlowerGameCharacter::execLoadWeapon },
 			{ "ManageCaseChoice", &AFlowerGameCharacter::execManageCaseChoice },
@@ -146,6 +155,43 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics
+	{
+		struct FlowerGameCharacter_eventCheckIfCanShoot_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((FlowerGameCharacter_eventCheckIfCanShoot_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FlowerGameCharacter_eventCheckIfCanShoot_Parms), &Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Player/FlowerGameCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameCharacter, nullptr, "CheckIfCanShoot", nullptr, nullptr, sizeof(FlowerGameCharacter_eventCheckIfCanShoot_Parms), Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -425,10 +471,12 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		struct FlowerGameCharacter_eventShootPlayer_Parms
 		{
 			AFlowerGameCharacter* OtherPlayer;
+			int32 Damage;
 			bool ReturnValue;
 		};
 		static void NewProp_ReturnValue_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Damage;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherPlayer;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -441,9 +489,11 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		((FlowerGameCharacter_eventShootPlayer_Parms*)Obj)->ReturnValue = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FlowerGameCharacter_eventShootPlayer_Parms), &Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventShootPlayer_Parms, Damage), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_OtherPlayer = { "OtherPlayer", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameCharacter_eventShootPlayer_Parms, OtherPlayer), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_Damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer_Statics::NewProp_OtherPlayer,
 	};
 #if WITH_METADATA
@@ -545,13 +595,14 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AFlowerGameCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_ChangeWeapon, "ChangeWeapon" }, // 1683233277
+		{ &Z_Construct_UFunction_AFlowerGameCharacter_CheckIfCanShoot, "CheckIfCanShoot" }, // 3504123859
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_InitPlayer, "InitPlayer" }, // 979292553
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_LoadWeapon, "LoadWeapon" }, // 3912698445
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_ManageCaseChoice, "ManageCaseChoice" }, // 910877629
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_MoveWithDice, "MoveWithDice" }, // 989706650
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 2151840323
 		{ &Z_Construct_UFunction_AFlowerGameCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 4011483960
-		{ &Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer, "ShootPlayer" }, // 4228068521
+		{ &Z_Construct_UFunction_AFlowerGameCharacter_ShootPlayer, "ShootPlayer" }, // 2766994381
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameCharacter_Statics::Class_MetaDataParams[] = {
@@ -725,7 +776,7 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameCharacter, 1510564744);
+	IMPLEMENT_CLASS(AFlowerGameCharacter, 3196659303);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameCharacter>()
 	{
 		return AFlowerGameCharacter::StaticClass();

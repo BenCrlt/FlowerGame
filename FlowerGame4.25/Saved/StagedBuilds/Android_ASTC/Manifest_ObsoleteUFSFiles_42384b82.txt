@@ -1,1 +1,2 @@
-FlowerGame/Saved/Logs/FlowerGame-backup-0001.01.01-00.00.00.log
+FlowerGame/Content/PolygonWestern/Meshes/Environment/SM_Env_Sand_Ground_06.uasset
+FlowerGame/Content/PolygonWestern/Meshes/Environment/SM_Env_Sand_Ground_06.uexp

@@ -98,7 +98,7 @@ public:
 	UFUNCTION()
 	void LoadWeapon();
 	UFUNCTION()
-	bool ShootPlayer(AFlowerGameCharacter *OtherPlayer);
+	bool ShootPlayer(AFlowerGameCharacter *OtherPlayer, int32 Damage);
 	UFUNCTION()
 		bool CheckIfCanShoot();
 };

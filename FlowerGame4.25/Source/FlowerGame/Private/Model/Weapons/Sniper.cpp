@@ -16,6 +16,7 @@ ASniper::ASniper()
 	MagSize = 5;
 	Range = {0, 0, 0, 0, 1, 1};
 	AmmoPerShot = 2;
+	Damage = 8;
 	Mag = 0;
 }
 

@@ -69,7 +69,10 @@ void AFlowerGamePlayerController::OnTapPressed(const FVector2D& ScreenPosition, 
 						}
 						else {
 							if (FlowerGameMode->bEnableRange) {
-								FlowerGameMode->ShootPlayer(caseSelected);
+								//FlowerGameMode->ShootPlayer(caseSelected);
+								if (FlowerGameMode->GetPlayerFromCase(caseSelected)) {
+									FlowerGameMode->OnUpdateChoiceShoot.Broadcast(FlowerGameMode->GetPlayerFromCase(caseSelected));
+								}
 							}
 						}
 					}

@@ -216,14 +216,14 @@ void AFlowerGameCharacter::LoadWeapon()
 	Ammo = WeaponSelected->LoadWeapon(Ammo);
 }
 
-bool AFlowerGameCharacter::ShootPlayer(AFlowerGameCharacter *OtherPlayer)
+bool AFlowerGameCharacter::ShootPlayer(AFlowerGameCharacter *OtherPlayer, int32 Damage)
 {
 	bool isDamaged = false;
 	if (WeaponSelected)
 	{
 		if (WeaponSelected->Mag >= WeaponSelected->GetAmmoPerShot())
 		{
-			OtherPlayer->Health -= WeaponSelected->GetAmmoPerShot();
+			OtherPlayer->Health -= Damage;
 			WeaponSelected->Fire();
 			isDamaged = true;
 		}

@@ -313,20 +313,14 @@ void AFlowerGameGameModeBase::CheckPlayersInRange()
 		DisableRange();
 	}
 }
-void AFlowerGameGameModeBase::ShootPlayer(ACaseDefault *CaseSelected)
+void AFlowerGameGameModeBase::ShootPlayer(AFlowerGameCharacter *PlayerDamaged, int32 Damage)
 {
-	for (int32 i = 0; i < Players.Num(); i++)
+	if (PlayerSelected->ShootPlayer(PlayerDamaged, Damage))
 	{
-		if (PlayerSelected->ID_Player != Players[i]->ID_Player && CaseSelected->ID_Case == Players[i]->Position->ID_Case)
-		{
-			if (PlayerSelected->ShootPlayer(Players[i]))
-			{
-				OnUpdateMag.Broadcast();
-				if (!PlayerSelected->CheckIfCanShoot()) {
-					bEnableRange = false;
-					CheckPlayersInRange();
-				}
-			}
+		OnUpdateMag.Broadcast();
+		if (!PlayerSelected->CheckIfCanShoot()) {
+			bEnableRange = false;
+			CheckPlayersInRange();
 		}
 	}
 }
@@ -349,4 +343,15 @@ void AFlowerGameGameModeBase::DisableRange() {
 		}
 	}
 	Ranges.Empty();
+}
+
+AFlowerGameCharacter* AFlowerGameGameModeBase::GetPlayerFromCase(ACaseDefault* CaseSelected) {
+	AFlowerGameCharacter* PlayerFind = nullptr;
+	for (int32 i = 0; i < Players.Num(); i++)
+	{
+		if (Players[i]->Position->ID_Case == CaseSelected->ID_Case) {
+			PlayerFind = Players[i];
+		}
+	}
+	return PlayerFind;
 }

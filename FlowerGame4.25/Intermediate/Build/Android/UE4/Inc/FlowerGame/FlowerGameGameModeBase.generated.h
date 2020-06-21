@@ -8,27 +8,41 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AFlowerGameCharacter;
 class ACaseDefault;
 #ifdef FLOWERGAME_FlowerGameGameModeBase_generated_h
 #error "FlowerGameGameModeBase.generated.h already included, missing '#pragma once' in FlowerGameGameModeBase.h"
 #endif
 #define FLOWERGAME_FlowerGameGameModeBase_generated_h
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_44_GENERATED_BODY \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_46_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FLines_Statics; \
 	FLOWERGAME_API static class UScriptStruct* StaticStruct();
 
 
 template<> FLOWERGAME_API UScriptStruct* StaticStruct<struct FLines>();
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_24_DELEGATE \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_26_DELEGATE \
+struct _Script_FlowerGame_eventUpdateChoiceShootDelegate_Parms \
+{ \
+	AFlowerGameCharacter* PlayerDamaged; \
+}; \
+static inline void FUpdateChoiceShootDelegate_DelegateWrapper(const FMulticastScriptDelegate& UpdateChoiceShootDelegate, AFlowerGameCharacter* PlayerDamaged) \
+{ \
+	_Script_FlowerGame_eventUpdateChoiceShootDelegate_Parms Parms; \
+	Parms.PlayerDamaged=PlayerDamaged; \
+	UpdateChoiceShootDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_25_DELEGATE \
 static inline void FUpdateMagDelegate_DelegateWrapper(const FMulticastScriptDelegate& UpdateMagDelegate) \
 { \
 	UpdateMagDelegate.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_23_DELEGATE \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_24_DELEGATE \
 struct _Script_FlowerGame_eventUpdateDiceDelegate_Parms \
 { \
 	int32 numDice; \
@@ -41,19 +55,20 @@ static inline void FUpdateDiceDelegate_DelegateWrapper(const FMulticastScriptDel
 }
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_22_DELEGATE \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_23_DELEGATE \
 static inline void FUpdateInfosPlayersDelegate_DelegateWrapper(const FMulticastScriptDelegate& UpdateInfosPlayersDelegate) \
 { \
 	UpdateInfosPlayersDelegate.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_SPARSE_DATA
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_RPC_WRAPPERS \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_SPARSE_DATA
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetPlayerFromCase); \
 	DECLARE_FUNCTION(execShootPlayer); \
 	DECLARE_FUNCTION(execCheckPlayersInRange); \
-	DECLARE_FUNCTION(execFindPlayerInRange); \
+	DECLARE_FUNCTION(execFindPlayersInRange); \
 	DECLARE_FUNCTION(execTurnFinished); \
 	DECLARE_FUNCTION(execLaunchCaseEvent); \
 	DECLARE_FUNCTION(execChangePlayer); \
@@ -63,11 +78,12 @@ static inline void FUpdateInfosPlayersDelegate_DelegateWrapper(const FMulticastS
 	DECLARE_FUNCTION(execGetCurrentState);
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetPlayerFromCase); \
 	DECLARE_FUNCTION(execShootPlayer); \
 	DECLARE_FUNCTION(execCheckPlayersInRange); \
-	DECLARE_FUNCTION(execFindPlayerInRange); \
+	DECLARE_FUNCTION(execFindPlayersInRange); \
 	DECLARE_FUNCTION(execTurnFinished); \
 	DECLARE_FUNCTION(execLaunchCaseEvent); \
 	DECLARE_FUNCTION(execChangePlayer); \
@@ -77,7 +93,7 @@ static inline void FUpdateInfosPlayersDelegate_DelegateWrapper(const FMulticastS
 	DECLARE_FUNCTION(execGetCurrentState);
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_INCLASS_NO_PURE_DECLS \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFlowerGameGameModeBase(); \
 	friend struct Z_Construct_UClass_AFlowerGameGameModeBase_Statics; \
@@ -86,7 +102,7 @@ public: \
 	DECLARE_SERIALIZER(AFlowerGameGameModeBase)
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_INCLASS \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_INCLASS \
 private: \
 	static void StaticRegisterNativesAFlowerGameGameModeBase(); \
 	friend struct Z_Construct_UClass_AFlowerGameGameModeBase_Statics; \
@@ -95,7 +111,7 @@ public: \
 	DECLARE_SERIALIZER(AFlowerGameGameModeBase)
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_STANDARD_CONSTRUCTORS \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFlowerGameGameModeBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFlowerGameGameModeBase) \
@@ -108,7 +124,7 @@ private: \
 public:
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_ENHANCED_CONSTRUCTORS \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFlowerGameGameModeBase(AFlowerGameGameModeBase&&); \
@@ -119,28 +135,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFlowerGameGameModeBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFlowerGameGameModeBase)
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_PRIVATE_PROPERTY_OFFSET
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_49_PROLOG
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_GENERATED_BODY_LEGACY \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_PRIVATE_PROPERTY_OFFSET
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_51_PROLOG
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_SPARSE_DATA \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_RPC_WRAPPERS \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_INCLASS \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_STANDARD_CONSTRUCTORS \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_SPARSE_DATA \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_RPC_WRAPPERS \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_INCLASS \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_GENERATED_BODY \
+#define FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_SPARSE_DATA \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_INCLASS_NO_PURE_DECLS \
-	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_52_ENHANCED_CONSTRUCTORS \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_SPARSE_DATA \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_INCLASS_NO_PURE_DECLS \
+	FlowerGame4_25_Source_FlowerGame_FlowerGameGameModeBase_h_54_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

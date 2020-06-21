@@ -22,6 +22,7 @@ class ACaseDefault;
 #define FlowerGame4_25_Source_FlowerGame_Public_Player_FlowerGameCharacter_h_26_SPARSE_DATA
 #define FlowerGame4_25_Source_FlowerGame_Public_Player_FlowerGameCharacter_h_26_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execCheckIfCanShoot); \
 	DECLARE_FUNCTION(execShootPlayer); \
 	DECLARE_FUNCTION(execLoadWeapon); \
 	DECLARE_FUNCTION(execChangeWeapon); \
@@ -34,6 +35,7 @@ class ACaseDefault;
 
 #define FlowerGame4_25_Source_FlowerGame_Public_Player_FlowerGameCharacter_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execCheckIfCanShoot); \
 	DECLARE_FUNCTION(execShootPlayer); \
 	DECLARE_FUNCTION(execLoadWeapon); \
 	DECLARE_FUNCTION(execChangeWeapon); \

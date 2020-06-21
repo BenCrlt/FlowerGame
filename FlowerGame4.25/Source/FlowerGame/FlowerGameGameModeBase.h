@@ -23,6 +23,7 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateInfosPlayersDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateDiceDelegate, int32, numDice);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateMagDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateChoiceShootDelegate, AFlowerGameCharacter*, PlayerDamaged);
 
 UENUM()
 enum EGamePlayState
@@ -104,11 +105,13 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	bool bShowTurnFinishedUI;
 	UPROPERTY(BlueprintAssignable)
-	FUpdateInfosPlayersDelegate OnUpdateInfosPlayers;
+		FUpdateInfosPlayersDelegate OnUpdateInfosPlayers;
 	UPROPERTY(BlueprintAssignable)
-	FUpdateDiceDelegate OnUpdateDice;
+		FUpdateDiceDelegate OnUpdateDice;
 	UPROPERTY(BlueprintAssignable)
-	FUpdateMagDelegate OnUpdateMag;
+		FUpdateMagDelegate OnUpdateMag;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateChoiceShootDelegate OnUpdateChoiceShoot;
 
 	UFUNCTION(BlueprintCallable)
 	void LevelLoaded();
@@ -126,6 +129,8 @@ public:
 	void FindPlayersInRange(ACaseDefault* CaseSelected, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase);
 	UFUNCTION()
 	void CheckPlayersInRange();
+	UFUNCTION(BlueprintCallable)
+	void ShootPlayer(AFlowerGameCharacter *PlayerDamaged, int32 Damage);
 	UFUNCTION()
-	void ShootPlayer(ACaseDefault *CaseSelected);
+	AFlowerGameCharacter* GetPlayerFromCase(ACaseDefault* CaseSelected);
 };

@@ -35,6 +35,8 @@ public:
 	TArray<int32> Range;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	int32 AmmoPerShot;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int32 Damage;
 
 	UFUNCTION()
 	int32 LoadWeapon(int32 Ammo);

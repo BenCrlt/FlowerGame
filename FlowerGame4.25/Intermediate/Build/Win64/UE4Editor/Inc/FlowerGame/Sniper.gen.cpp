@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeSniper() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASniper, 1514483456);
+	IMPLEMENT_CLASS(ASniper, 954683987);
 	template<> FLOWERGAME_API UClass* StaticClass<ASniper>()
 	{
 		return ASniper::StaticClass();
