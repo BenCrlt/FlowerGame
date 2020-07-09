@@ -13,9 +13,10 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 // Cross Module References
-	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature();
+	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_FlowerGame();
 	FLOWERGAME_API UClass* Z_Construct_UClass_AFlowerGameCharacter_NoRegister();
+	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature();
 	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateMagDelegate__DelegateSignature();
 	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateDiceDelegate__DelegateSignature();
 	FLOWERGAME_API UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateInfosPlayersDelegate__DelegateSignature();
@@ -30,12 +31,14 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 	FLOWERGAME_API UClass* Z_Construct_UClass_ACaseSpawn_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
-	struct Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature_Statics
+	struct Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics
 	{
-		struct _Script_FlowerGame_eventUpdateChoiceShootDelegate_Parms
+		struct _Script_FlowerGame_eventUpdateChoiceDefActionDelegate_Parms
 		{
 			AFlowerGameCharacter* PlayerDamaged;
+			int32 Damage;
 		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Damage;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerDamaged;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -43,8 +46,46 @@ void EmptyLinkFunctionForGeneratedCodeFlowerGameGameModeBase() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_FlowerGame_eventUpdateChoiceDefActionDelegate_Parms, Damage), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::NewProp_PlayerDamaged = { "PlayerDamaged", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_FlowerGame_eventUpdateChoiceDefActionDelegate_Parms, PlayerDamaged), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::NewProp_Damage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::NewProp_PlayerDamaged,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_FlowerGame, nullptr, "UpdateChoiceDefActionDelegate__DelegateSignature", nullptr, nullptr, sizeof(_Script_FlowerGame_eventUpdateChoiceDefActionDelegate_Parms), Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature_Statics
+	{
+		struct _Script_FlowerGame_eventUpdateChoiceShootDelegate_Parms
+		{
+			AFlowerGameCharacter* PlayerDamaged;
+			int32 Damage;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Damage;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerDamaged;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_FlowerGame_eventUpdateChoiceShootDelegate_Parms, Damage), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature_Statics::NewProp_PlayerDamaged = { "PlayerDamaged", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(_Script_FlowerGame_eventUpdateChoiceShootDelegate_Parms, PlayerDamaged), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature_Statics::NewProp_Damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceShootDelegate__DelegateSignature_Statics::NewProp_PlayerDamaged,
 	};
 #if WITH_METADATA
@@ -274,6 +315,14 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		return ReturnStruct;
 	}
 	uint32 Get_Z_Construct_UScriptStruct_FLines_Hash() { return 2336164234U; }
+	DEFINE_FUNCTION(AFlowerGameGameModeBase::execManageDefAction)
+	{
+		P_GET_OBJECT(AFlowerGameCharacter,Z_Param_PlayerDamaged);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ManageDefAction(Z_Param_PlayerDamaged);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AFlowerGameGameModeBase::execGetPlayerFromCase)
 	{
 		P_GET_OBJECT(ACaseDefault,Z_Param_CaseSelected);
@@ -371,6 +420,7 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 			{ "LaunchCaseEvent", &AFlowerGameGameModeBase::execLaunchCaseEvent },
 			{ "LaunchDice", &AFlowerGameGameModeBase::execLaunchDice },
 			{ "LevelLoaded", &AFlowerGameGameModeBase::execLevelLoaded },
+			{ "ManageDefAction", &AFlowerGameGameModeBase::execManageDefAction },
 			{ "ShootPlayer", &AFlowerGameGameModeBase::execShootPlayer },
 			{ "TurnFinished", &AFlowerGameGameModeBase::execTurnFinished },
 		};
@@ -626,6 +676,38 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics
+	{
+		struct FlowerGameGameModeBase_eventManageDefAction_Parms
+		{
+			AFlowerGameCharacter* PlayerDamaged;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerDamaged;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::NewProp_PlayerDamaged = { "PlayerDamaged", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FlowerGameGameModeBase_eventManageDefAction_Parms, PlayerDamaged), Z_Construct_UClass_AFlowerGameCharacter_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::NewProp_PlayerDamaged,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFlowerGameGameModeBase, nullptr, "ManageDefAction", nullptr, nullptr, sizeof(FlowerGameGameModeBase_eventManageDefAction_Parms), Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer_Statics
 	{
 		struct FlowerGameGameModeBase_eventShootPlayer_Parms
@@ -695,6 +777,10 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUpdateChoiceDefAction_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnUpdateChoiceDefAction;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnUpdateChoiceShoot_MetaData[];
 #endif
@@ -785,6 +871,7 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchCaseEvent, "LaunchCaseEvent" }, // 1264637112
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_LaunchDice, "LaunchDice" }, // 3131991616
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_LevelLoaded, "LevelLoaded" }, // 3453058695
+		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_ManageDefAction, "ManageDefAction" }, // 3276764451
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_ShootPlayer, "ShootPlayer" }, // 163654438
 		{ &Z_Construct_UFunction_AFlowerGameGameModeBase_TurnFinished, "TurnFinished" }, // 2843920214
 	};
@@ -796,6 +883,12 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateChoiceDefAction_MetaData[] = {
+		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateChoiceDefAction = { "OnUpdateChoiceDefAction", nullptr, (EPropertyFlags)0x0010000010080000, UE4CodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, OnUpdateChoiceDefAction), Z_Construct_UDelegateFunction_FlowerGame_UpdateChoiceDefActionDelegate__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateChoiceDefAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateChoiceDefAction_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateChoiceShoot_MetaData[] = {
 		{ "ModuleRelativePath", "FlowerGameGameModeBase.h" },
@@ -920,6 +1013,7 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE = { "BOARD_SIZE", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFlowerGameGameModeBase, BOARD_SIZE), METADATA_PARAMS(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_BOARD_SIZE_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFlowerGameGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateChoiceDefAction,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateChoiceShoot,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateMag,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFlowerGameGameModeBase_Statics::NewProp_OnUpdateDice,
@@ -968,7 +1062,7 @@ static struct FScriptStruct_FlowerGame_StaticRegisterNativesFLines
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFlowerGameGameModeBase, 2580224609);
+	IMPLEMENT_CLASS(AFlowerGameGameModeBase, 1437982139);
 	template<> FLOWERGAME_API UClass* StaticClass<AFlowerGameGameModeBase>()
 	{
 		return AFlowerGameGameModeBase::StaticClass();

@@ -23,7 +23,8 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateInfosPlayersDelegate);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateDiceDelegate, int32, numDice);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateMagDelegate);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateChoiceShootDelegate, AFlowerGameCharacter*, PlayerDamaged);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FUpdateChoiceShootDelegate, AFlowerGameCharacter*, PlayerDamaged, int32, Damage);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FUpdateChoiceDefActionDelegate, AFlowerGameCharacter*, PlayerDamaged, int32, Damage);
 
 UENUM()
 enum EGamePlayState
@@ -112,6 +113,8 @@ public:
 		FUpdateMagDelegate OnUpdateMag;
 	UPROPERTY(BlueprintAssignable)
 		FUpdateChoiceShootDelegate OnUpdateChoiceShoot;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateChoiceDefActionDelegate OnUpdateChoiceDefAction;
 
 	UFUNCTION(BlueprintCallable)
 	void LevelLoaded();
@@ -133,4 +136,6 @@ public:
 	void ShootPlayer(AFlowerGameCharacter *PlayerDamaged, int32 Damage);
 	UFUNCTION()
 	AFlowerGameCharacter* GetPlayerFromCase(ACaseDefault* CaseSelected);
+	UFUNCTION()
+		void ManageDefAction(AFlowerGameCharacter* PlayerDamaged);
 };

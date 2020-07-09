@@ -6,6 +6,8 @@
 #include "Model/Cases/CaseDefault.h"
 #include "Model/Weapons/Weapon.h"
 #include "Model/Weapons/Sniper.h"
+#include "Model/DefensiveActions/DefensiveAction.h"
+#include "Model/DefensiveActions/TrivetAction.h"
 #include "GameFramework/Character.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -47,23 +49,25 @@ public:
 
 	//Attributs personnage
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	int32 ID_Player;
+		int32 ID_Player;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	FString NomPlayer;
+		FString NomPlayer;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	int32 Health;
+		int32 Health;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	int32 MaxHealth;
+		int32 MaxHealth;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	int32 Ammo;
+		int32 Ammo;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	ACaseDefault *Position;
+		ACaseDefault *Position;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	TEnumAsByte<EDirection> Direction;
+		TEnumAsByte<EDirection> Direction;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	int32 MovementPoint;
+		int32 MovementPoint;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
-	class AWeapon *WeaponSelected;
+		class AWeapon *WeaponSelected;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Attributs")
+		class UDefensiveAction* DefActionEquipped;
 
 	//Boolean
 	UPROPERTY()
@@ -74,7 +78,7 @@ public:
 		bool bMoveDiceFinish;
 
 	UFUNCTION()
-	void InitPlayer(ACaseDefault *caseInit, int32 ID);
+	void InitPlayer(ACaseDefault *caseInit, int32 ID, FString Name);
 	UFUNCTION()
 	void MoveWithDice();
 	UFUNCTION()

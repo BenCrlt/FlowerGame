@@ -63,15 +63,21 @@ void AFlowerGamePlayerController::OnTapPressed(const FVector2D& ScreenPosition, 
 				if (AFlowerGameGameModeBase* FlowerGameMode = Cast<AFlowerGameGameModeBase>(GetWorld()->GetAuthGameMode()))
 				{
 					if (PlayerControlled->CheckIfCanShoot()) {
+						// Display Range of the player
 						if (caseSelected->ID_Case == PlayerControlled->Position->ID_Case) {
 							FlowerGameMode->bEnableRange = !FlowerGameMode->bEnableRange;
 							FlowerGameMode->CheckPlayersInRange();
 						}
+						// Mannage Shoot Player
 						else {
 							if (FlowerGameMode->bEnableRange) {
-								//FlowerGameMode->ShootPlayer(caseSelected);
 								if (FlowerGameMode->GetPlayerFromCase(caseSelected)) {
-									FlowerGameMode->OnUpdateChoiceShoot.Broadcast(FlowerGameMode->GetPlayerFromCase(caseSelected));
+									if (PlayerControlled->DefActionEquipped != nullptr) {
+										FlowerGameMode->OnUpdateChoiceDefAction.Broadcast(FlowerGameMode->GetPlayerFromCase(caseSelected), FlowerGameMode->PlayerSelected->WeaponSelected->Damage);
+									}
+									else {
+										FlowerGameMode->OnUpdateChoiceShoot.Broadcast(FlowerGameMode->GetPlayerFromCase(caseSelected), FlowerGameMode->PlayerSelected->WeaponSelected->Damage);
+									}
 								}
 							}
 						}

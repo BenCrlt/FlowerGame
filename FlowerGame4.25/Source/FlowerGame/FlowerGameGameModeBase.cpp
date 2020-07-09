@@ -188,6 +188,7 @@ void AFlowerGameGameModeBase::InitCase(ACaseDefault *caseSelected, int32 line, i
 
 void AFlowerGameGameModeBase::InitPlayer()
 {
+	TArray<FString> Names = { "Ben", "Bastos", "Deee", "Axoloto" };
 	if (nbPlayers >= 0 && ListSpawns.Num() > 0 && ListSpawns.Num() >= nbPlayers)
 	{
 		UWorld *world = GetWorld();
@@ -202,7 +203,7 @@ void AFlowerGameGameModeBase::InitPlayer()
 		{
 			randInt = FMath::RandRange(0, ListSpawns.Num() - 1);
 			Players.Add(world->SpawnActor<AFlowerGameCharacter>(classPlayer, ListSpawns[randInt]->GetLocation(), FRotator(0, 0, 0), SpawnParams));
-			Players[i]->InitPlayer(ListSpawns[randInt], i);
+			Players[i]->InitPlayer(ListSpawns[randInt], i, Names[i]);
 			AWeapon *WeaponCreated = world->SpawnActor<AWeapon>(ASniper::StaticClass(), FVector(0, 0, 0), FRotator(0, 0, 0));
 			Players[i]->ChangeWeapon(WeaponCreated);
 			world->GetFirstPlayerController()->Possess(Players[i]);
@@ -323,6 +324,11 @@ void AFlowerGameGameModeBase::ShootPlayer(AFlowerGameCharacter *PlayerDamaged, i
 			CheckPlayersInRange();
 		}
 	}
+}
+
+void AFlowerGameGameModeBase::ManageDefAction(AFlowerGameCharacter* PlayerDamaged) 
+{
+
 }
 
 void AFlowerGameGameModeBase::ShowRange(ACaseDefault* caseSelected, TEnumAsByte<ETypeRange> TypeRange) {

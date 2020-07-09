@@ -47,7 +47,6 @@ AFlowerGameCharacter::AFlowerGameCharacter()
 	TriggerCapsule->OnComponentEndOverlap.AddDynamic(this, &AFlowerGameCharacter::OnOverlapEnd);
 
 	//Init Attributs
-	NomPlayer = TEXT("Benoit");
 	MaxHealth = 30;
 	Health = MaxHealth;
 	Ammo = 10;
@@ -76,10 +75,12 @@ void AFlowerGameCharacter::SetupPlayerInputComponent(class UInputComponent *inpu
 	Super::SetupPlayerInputComponent(inputComponent);
 }
 
-void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit, int32 ID)
+void AFlowerGameCharacter::InitPlayer(ACaseDefault *caseInit, int32 ID, FString Name)
 {
+	NomPlayer = Name;
 	Position = caseInit;
 	ID_Player = ID;
+	DefActionEquipped = NewObject<UTrivetAction>();
 	TArray<TEnumAsByte<EDirection>> ways = Position->CheckWaysAvailable(Direction);
 	if (ways.Num() > 0)
 	{

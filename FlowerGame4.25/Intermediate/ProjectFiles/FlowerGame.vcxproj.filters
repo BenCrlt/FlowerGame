@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FlowerGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8E966E23-BD7D-4FFD-808A-92F3CE25DC6D}</UniqueIdentifier>
+      <UniqueIdentifier>{D3ADCF46-05B4-406F-8B91-541B6B79D842}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FlowerGame.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\FlowerGame.code-workspace" />
     <None Include="..\..\UnrealVersionSelector.exe" />
     <Filter Include="Config">
-      <UniqueIdentifier>{EF88AF56-AB27-473B-A801-23DEE8338760}</UniqueIdentifier>
+      <UniqueIdentifier>{CD404B23-A421-4A89-A533-7A7684AEC7E0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FlowerGame">
-      <UniqueIdentifier>{B50F5348-757B-484D-8066-7FE521631B8C}</UniqueIdentifier>
+      <UniqueIdentifier>{56F04EB9-68E7-4A07-9F31-E40856DA08E2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FlowerGame\FlowerGame.Build.cs">
       <Filter>Source\FlowerGame</Filter>
@@ -47,16 +47,16 @@
       <Filter>Source\FlowerGame</Filter>
     </ClInclude>
     <Filter Include="Source\FlowerGame\Private">
-      <UniqueIdentifier>{9ADD1675-E3E5-432C-A780-6F1BBF3772F6}</UniqueIdentifier>
+      <UniqueIdentifier>{DC3FE58E-159D-4BEA-93FE-52306EE37AF8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FlowerGame\Private\Model">
-      <UniqueIdentifier>{843D073E-76FA-4E63-899B-EF6F752B7D6C}</UniqueIdentifier>
+      <UniqueIdentifier>{8A9977A2-9319-4DAA-9745-526FD00FAE0C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Model\RangeWeapon.cpp">
       <Filter>Source\FlowerGame\Private\Model</Filter>
     </ClCompile>
     <Filter Include="Source\FlowerGame\Private\Model\Cases">
-      <UniqueIdentifier>{E074EA7B-3412-4E9C-B95F-F1F812213A26}</UniqueIdentifier>
+      <UniqueIdentifier>{B41ADA15-2B3D-4EC8-A7E9-6429A91F3E99}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Cases\CaseDefault.cpp">
       <Filter>Source\FlowerGame\Private\Model\Cases</Filter>
@@ -67,8 +67,17 @@
     <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Cases\CaseSpawn.cpp">
       <Filter>Source\FlowerGame\Private\Model\Cases</Filter>
     </ClCompile>
+    <Filter Include="Source\FlowerGame\Private\Model\DefensiveActions">
+      <UniqueIdentifier>{70E7F94C-E65A-4FEC-9D2F-5E390C281B69}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FlowerGame\Private\Model\DefensiveActions\DefensiveAction.cpp">
+      <Filter>Source\FlowerGame\Private\Model\DefensiveActions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FlowerGame\Private\Model\DefensiveActions\TrivetAction.cpp">
+      <Filter>Source\FlowerGame\Private\Model\DefensiveActions</Filter>
+    </ClCompile>
     <Filter Include="Source\FlowerGame\Private\Model\Weapons">
-      <UniqueIdentifier>{26FD7A09-AD16-476A-B31A-9E495228B851}</UniqueIdentifier>
+      <UniqueIdentifier>{89454229-67F6-4B26-9D0C-BB27B15C4C3A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Model\Weapons\Sniper.cpp">
       <Filter>Source\FlowerGame\Private\Model\Weapons</Filter>
@@ -77,7 +86,7 @@
       <Filter>Source\FlowerGame\Private\Model\Weapons</Filter>
     </ClCompile>
     <Filter Include="Source\FlowerGame\Private\Player">
-      <UniqueIdentifier>{2363C78D-AB8F-47CB-8B14-8B71D90E13C0}</UniqueIdentifier>
+      <UniqueIdentifier>{42D9240A-3C59-40E0-8405-C138947FD4BA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FlowerGame\Private\Player\FlowerGameCharacter.cpp">
       <Filter>Source\FlowerGame\Private\Player</Filter>
@@ -92,16 +101,16 @@
       <Filter>Source\FlowerGame\Private\Player</Filter>
     </ClCompile>
     <Filter Include="Source\FlowerGame\Public">
-      <UniqueIdentifier>{7AC2D017-4470-4012-8AEE-E9A1FB53EB4E}</UniqueIdentifier>
+      <UniqueIdentifier>{896F51F5-A11A-4B65-85A8-AF5F70DF4AEC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FlowerGame\Public\Model">
-      <UniqueIdentifier>{3F138C03-9EDD-402D-9BC5-A75E8A23F02B}</UniqueIdentifier>
+      <UniqueIdentifier>{B26EB818-F4AB-458E-9077-D03790B85CC5}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FlowerGame\Public\Model\RangeWeapon.h">
       <Filter>Source\FlowerGame\Public\Model</Filter>
     </ClInclude>
     <Filter Include="Source\FlowerGame\Public\Model\Cases">
-      <UniqueIdentifier>{1CB2095B-0D8F-410D-B066-89105365876C}</UniqueIdentifier>
+      <UniqueIdentifier>{324DECD4-DA56-459D-848E-2EA706F29B09}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Cases\CaseDefault.h">
       <Filter>Source\FlowerGame\Public\Model\Cases</Filter>
@@ -112,8 +121,17 @@
     <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Cases\CaseSpawn.h">
       <Filter>Source\FlowerGame\Public\Model\Cases</Filter>
     </ClInclude>
+    <Filter Include="Source\FlowerGame\Public\Model\DefensiveActions">
+      <UniqueIdentifier>{6A21773A-E295-45E1-9A26-CEDC8F86855E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FlowerGame\Public\Model\DefensiveActions\DefensiveAction.h">
+      <Filter>Source\FlowerGame\Public\Model\DefensiveActions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FlowerGame\Public\Model\DefensiveActions\TrivetAction.h">
+      <Filter>Source\FlowerGame\Public\Model\DefensiveActions</Filter>
+    </ClInclude>
     <Filter Include="Source\FlowerGame\Public\Model\Weapons">
-      <UniqueIdentifier>{B5DF11E4-0B0F-4801-BD4D-D3DE4C5D81D9}</UniqueIdentifier>
+      <UniqueIdentifier>{4B3017CE-48C9-49B6-9C72-21E532D9F6EE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FlowerGame\Public\Model\Weapons\Sniper.h">
       <Filter>Source\FlowerGame\Public\Model\Weapons</Filter>
@@ -122,7 +140,7 @@
       <Filter>Source\FlowerGame\Public\Model\Weapons</Filter>
     </ClInclude>
     <Filter Include="Source\FlowerGame\Public\Player">
-      <UniqueIdentifier>{CC91BF09-02FE-4DEB-B13F-6650B4F93FB6}</UniqueIdentifier>
+      <UniqueIdentifier>{FA9F975F-DD77-4CC3-9373-37EACC22BA18}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FlowerGame\Public\Player\FlowerGameCharacter.h">
       <Filter>Source\FlowerGame\Public\Player</Filter>
