@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FlowerGame",
+			"Path": "C:\\Users\\Benoit\\Documents\\Github\\FlowerGame\\FlowerGame\\Source\\FlowerGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FlowerGameEditor",
+			"Path": "C:\\Users\\Benoit\\Documents\\Github\\FlowerGame\\FlowerGame\\Source\\FlowerGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

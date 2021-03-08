@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FLOWERGAME_CaseMagasin_generated_h
 
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_SPARSE_DATA
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS_NO_PURE_DECLS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_SPARSE_DATA
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACaseMagasin(); \
 	friend struct Z_Construct_UClass_ACaseMagasin_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ACaseMagasin)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesACaseMagasin(); \
 	friend struct Z_Construct_UClass_ACaseMagasin_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ACaseMagasin)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_STANDARD_CONSTRUCTORS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACaseMagasin(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACaseMagasin) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_ENHANCED_CONSTRUCTORS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACaseMagasin(ACaseMagasin&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACaseMagasin); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACaseMagasin)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_PRIVATE_PROPERTY_OFFSET
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_10_PROLOG
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_GENERATED_BODY_LEGACY \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_PRIVATE_PROPERTY_OFFSET
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_10_PROLOG
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_STANDARD_CONSTRUCTORS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_SPARSE_DATA \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_GENERATED_BODY \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_ENHANCED_CONSTRUCTORS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_SPARSE_DATA \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_INCLASS_NO_PURE_DECLS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +87,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> FLOWERGAME_API UClass* StaticClass<class ACaseMagasin>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FlowerGame_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h
+#define CURRENT_FILE_ID FlowerGame_4_26_Source_FlowerGame_Public_Model_Cases_CaseMagasin_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

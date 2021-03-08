@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCaseSpawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACaseSpawn, 3174930499);
+	IMPLEMENT_CLASS(ACaseSpawn, 1010276293);
 	template<> FLOWERGAME_API UClass* StaticClass<ACaseSpawn>()
 	{
 		return ACaseSpawn::StaticClass();

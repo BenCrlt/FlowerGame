@@ -65,3 +65,75 @@ bool ACaseDefault::equalsPosition(ACaseDefault *otherCase)
 		return false;
 	}
 }
+
+TArray<TEnumAsByte<EDirection>> ACaseDefault::CheckWaysAvailable(TEnumAsByte<EDirection> DirectionPlayer)
+{
+	TArray<TEnumAsByte<EDirection>> Ways;
+	if (caseUp != nullptr && DirectionPlayer != EDirection::DIRECTION_DOWN)
+	{
+		Ways.Add(EDirection::DIRECTION_UP);
+	}
+	if (caseDown != nullptr && DirectionPlayer != EDirection::DIRECTION_UP)
+	{
+		Ways.Add(EDirection::DIRECTION_DOWN);
+	}
+	if (caseRight != nullptr && DirectionPlayer != EDirection::DIRECTION_LEFT)
+	{
+		Ways.Add(EDirection::DIRECTION_RIGHT);
+	}
+	if (caseLeft != nullptr && DirectionPlayer != EDirection::DIRECTION_RIGHT)
+	{
+		Ways.Add(EDirection::DIRECTION_LEFT);
+	}
+	return Ways;
+}
+
+TEnumAsByte<EDirection> ACaseDefault::getDirection(ACaseDefault *caseDestination)
+{
+	TEnumAsByte<EDirection> DirectionDestination = EDirection::DIRECTION_UNKNOWN;
+	TArray<TEnumAsByte<EDirection>> waysAvailable;
+	waysAvailable = CheckWaysAvailable(EDirection::DIRECTION_UNKNOWN);
+	for (int32 i = 0; i < waysAvailable.Num(); i++)
+	{
+		if (GoToNextCase(waysAvailable[i])->ID_Case == caseDestination->ID_Case)
+		{
+			DirectionDestination = waysAvailable[i];
+		}
+	}
+
+	return DirectionDestination;
+}
+
+ACaseDefault *ACaseDefault::GoToNextCase(TEnumAsByte<EDirection> DirectionSelected)
+{
+	ACaseDefault *nextCase = nullptr;
+	switch (DirectionSelected)
+	{
+	case EDirection::DIRECTION_UP:
+		nextCase = caseUp;
+		break;
+	case EDirection::DIRECTION_DOWN:
+		nextCase = caseDown;
+		break;
+	case EDirection::DIRECTION_LEFT:
+		nextCase = caseLeft;
+		break;
+	case EDirection::DIRECTION_RIGHT:
+		nextCase = caseRight;
+		break;
+	case EDirection::DIRECTION_UNKNOWN:
+		nextCase = this;
+		print("Unknown");
+		break;
+	default:
+		print("Default");
+		break;
+	}
+
+	if (nextCase == nullptr)
+	{
+		print("C'est un nullptr OMG");
+		nextCase = this;
+	}
+	return nextCase;
+}

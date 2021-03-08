@@ -9,6 +9,16 @@
 #include "CaseDefault.generated.h"
 
 UENUM()
+enum EDirection
+{
+	DIRECTION_UNKNOWN UMETA(DisplayName = "Unknown direction"),
+	DIRECTION_UP UMETA(DisplayName = "Up"),
+	DIRECTION_DOWN UMETA(DisplayName = "Down"),
+	DIRECTION_RIGHT UMETA(DisplayName = "Right"),
+	DIRECTION_LEFT UMETA(DisplayName = "Left")
+};
+
+UENUM()
 enum ECases
 {
 	CASE_DEFAULT UMETA(DisplayName = "Default"),
@@ -55,4 +65,11 @@ public:
 	int32 ID_Case;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Info Case")
 	TArray<int32> Coordonnees;
+
+	UFUNCTION()
+	TArray<TEnumAsByte<EDirection>> CheckWaysAvailable(TEnumAsByte<EDirection> DirectionPlayer);
+	UFUNCTION()
+	TEnumAsByte<EDirection> getDirection(ACaseDefault *caseDestination);
+	UFUNCTION()
+	ACaseDefault *GoToNextCase(TEnumAsByte<EDirection> DirectionSelected);
 };

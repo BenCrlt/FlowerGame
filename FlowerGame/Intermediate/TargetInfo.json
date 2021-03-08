@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "FlowerGame",
-			"Path": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Source\\FlowerGame.Target.cs",
+			"Path": "C:\\Users\\Benoit\\Documents\\Github\\FlowerGame\\FlowerGame 4.26\\Source\\FlowerGame.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "FlowerGameEditor",
-			"Path": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Source\\FlowerGameEditor.Target.cs",
+			"Path": "C:\\Users\\Benoit\\Documents\\Github\\FlowerGame\\FlowerGame 4.26\\Source\\FlowerGameEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -8,15 +8,29 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector2D;
+class ACaseDefault;
 #ifdef FLOWERGAME_FlowerGamePlayerController_generated_h
 #error "FlowerGamePlayerController.generated.h already included, missing '#pragma once' in FlowerGamePlayerController.h"
 #endif
 #define FLOWERGAME_FlowerGamePlayerController_generated_h
 
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_SPARSE_DATA
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_RPC_WRAPPERS
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_INCLASS_NO_PURE_DECLS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_SPARSE_DATA
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execZoomOut); \
+	DECLARE_FUNCTION(execZoomIn); \
+	DECLARE_FUNCTION(execGetCaseTouch);
+
+
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execZoomOut); \
+	DECLARE_FUNCTION(execZoomIn); \
+	DECLARE_FUNCTION(execGetCaseTouch);
+
+
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFlowerGamePlayerController(); \
 	friend struct Z_Construct_UClass_AFlowerGamePlayerController_Statics; \
@@ -25,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(AFlowerGamePlayerController)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_INCLASS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAFlowerGamePlayerController(); \
 	friend struct Z_Construct_UClass_AFlowerGamePlayerController_Statics; \
@@ -34,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(AFlowerGamePlayerController)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_STANDARD_CONSTRUCTORS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFlowerGamePlayerController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFlowerGamePlayerController) \
@@ -47,7 +61,7 @@ private: \
 public:
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_ENHANCED_CONSTRUCTORS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFlowerGamePlayerController(AFlowerGamePlayerController&&); \
@@ -58,28 +72,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFlowerGamePlayerController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFlowerGamePlayerController)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_PRIVATE_PROPERTY_OFFSET
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_12_PROLOG
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_GENERATED_BODY_LEGACY \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_PRIVATE_PROPERTY_OFFSET
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_13_PROLOG
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_RPC_WRAPPERS \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_INCLASS \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_STANDARD_CONSTRUCTORS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_SPARSE_DATA \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_RPC_WRAPPERS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_INCLASS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_GENERATED_BODY \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_INCLASS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_15_ENHANCED_CONSTRUCTORS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_SPARSE_DATA \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_INCLASS_NO_PURE_DECLS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -87,7 +101,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> FLOWERGAME_API UClass* StaticClass<class AFlowerGamePlayerController>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FlowerGame_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h
+#define CURRENT_FILE_ID FlowerGame_4_26_Source_FlowerGame_Public_Player_FlowerGamePlayerController_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

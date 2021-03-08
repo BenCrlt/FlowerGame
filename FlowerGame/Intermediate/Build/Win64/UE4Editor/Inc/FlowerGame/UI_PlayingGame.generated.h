@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FLOWERGAME_UI_PlayingGame_generated_h
 
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_SPARSE_DATA
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS_NO_PURE_DECLS
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS_NO_PURE_DECLS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_SPARSE_DATA
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS_NO_PURE_DECLS
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAUI_PlayingGame(); \
 	friend struct Z_Construct_UClass_AUI_PlayingGame_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AUI_PlayingGame)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS \
 private: \
 	static void StaticRegisterNativesAUI_PlayingGame(); \
 	friend struct Z_Construct_UClass_AUI_PlayingGame_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AUI_PlayingGame)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_STANDARD_CONSTRUCTORS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AUI_PlayingGame(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AUI_PlayingGame) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_ENHANCED_CONSTRUCTORS \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AUI_PlayingGame(AUI_PlayingGame&&); \
@@ -58,32 +58,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AUI_PlayingGame); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AUI_PlayingGame)
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_PRIVATE_PROPERTY_OFFSET \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(AUI_PlayingGame, HUDWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(AUI_PlayingGame, CurrentWidget); }
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_18_PROLOG
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_GENERATED_BODY_LEGACY \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_18_PROLOG
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_STANDARD_CONSTRUCTORS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_SPARSE_DATA \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_GENERATED_BODY \
+#define FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_PRIVATE_PROPERTY_OFFSET \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_SPARSE_DATA \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS_NO_PURE_DECLS \
-	FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_ENHANCED_CONSTRUCTORS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_PRIVATE_PROPERTY_OFFSET \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_SPARSE_DATA \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_INCLASS_NO_PURE_DECLS \
+	FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -91,7 +91,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> FLOWERGAME_API UClass* StaticClass<class AUI_PlayingGame>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FlowerGame_Source_FlowerGame_Public_Player_UI_PlayingGame_h
+#define CURRENT_FILE_ID FlowerGame_4_26_Source_FlowerGame_Public_Player_UI_PlayingGame_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -9,19 +9,33 @@
 #include "Player/UI_PlayingGame.h"
 #include "Model/Cases/CaseDefault.h"
 #include "Model/Cases/CaseSpawn.h"
+#include "Model/Cases/CaseMagasin.h"
+#include "Model/RangeWeapon.h"
 #include "Kismet/GameplayStatics.h"
 #include "Math/UnrealMathUtility.h"
 #include "Engine.h"
 #include "Misc/DefaultValueHelper.h"
 #include "Player/FlowerGameCharacter.h"
+#include "Player/FlowerGamePlayerController.h"
 #include "GenericPlatform/GenericPlatform.h"
 #include "FlowerGameGameModeBase.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateInfosPlayersDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FUpdateDiceDelegate, int32, numDice);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUpdateMagDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FUpdateChoiceShootDelegate, AFlowerGameCharacter*, PlayerDamaged, int32, Damage);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FUpdateChoiceDefActionDelegate, AFlowerGameCharacter*, PlayerDamaged, int32, Damage);
 
 UENUM()
 enum EGamePlayState
 {
-	EBegin,
+	ELoadingLevel,
+	EInitGame,
 	EPlaying,
+	ETurnBegin,
+	ETurnAction,
+	ECaseEvent,
+	ETurnFinish,
 	EGameFinish,
 	EBeginMenu,
 	EUnknown
@@ -61,16 +75,17 @@ private:
 	void FillBoard();
 	void InitBoard();
 	void InitCase(ACaseDefault *caseSelected, int32 line, int32 row, int32 ID);
-	void InitPlayer();
+	void ShowRange(ACaseDefault* caseSelected, TEnumAsByte<ETypeRange> TypeRange);
+	void DisableRange();
 
 public:
 	UPROPERTY()
 	int32 BOARD_SIZE;
 	UPROPERTY()
 	TArray<FLines> Board;
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	class AFlowerGameCharacter *PlayerSelected;
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	TArray<AFlowerGameCharacter *> Players;
 	UPROPERTY()
 	int32 nbPlayers;
@@ -78,13 +93,49 @@ public:
 	TSubclassOf<class AFlowerGameCharacter> classPlayer;
 	UPROPERTY()
 	TArray<ACaseSpawn *> ListSpawns;
+	UPROPERTY()
+	TArray<ARangeWeapon*> Ranges;
+	UPROPERTY()
+	bool bEnableRange;
+
+	//UI Property
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool bShowLaunchDiceUI;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool bShowDiceUI;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool bShowTurnFinishedUI;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateInfosPlayersDelegate OnUpdateInfosPlayers;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateDiceDelegate OnUpdateDice;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateMagDelegate OnUpdateMag;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateChoiceShootDelegate OnUpdateChoiceShoot;
+	UPROPERTY(BlueprintAssignable)
+		FUpdateChoiceDefActionDelegate OnUpdateChoiceDefAction;
 
 	UFUNCTION(BlueprintCallable)
-	void LaunchDice(int32 numDice);
+	void LevelLoaded();
+	UFUNCTION()
+	void InitPlayer();
 	UFUNCTION(BlueprintCallable)
-	bool GetVisibilityNextPlayer();
+	void LaunchDice();
 	UFUNCTION()
 	void ChangePlayer();
+	UFUNCTION()
+	void LaunchCaseEvent();
 	UFUNCTION(BlueprintCallable)
 	void TurnFinished();
+	UFUNCTION()
+	void FindPlayersInRange(ACaseDefault* CaseSelected, TEnumAsByte<EDirection> DirectionMovement, TArray<int32> Range, int32 nbCase);
+	UFUNCTION()
+	void CheckPlayersInRange();
+	UFUNCTION(BlueprintCallable)
+	void ShootPlayer(AFlowerGameCharacter *PlayerDamaged, int32 Damage);
+	UFUNCTION()
+	AFlowerGameCharacter* GetPlayerFromCase(ACaseDefault* CaseSelected);
+	UFUNCTION()
+		void ManageDefAction(AFlowerGameCharacter* PlayerDamaged);
 };

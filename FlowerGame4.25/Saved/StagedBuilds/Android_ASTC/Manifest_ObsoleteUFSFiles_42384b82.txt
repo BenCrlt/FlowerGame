@@ -1,2 +1,0 @@
-FlowerGame/Content/PolygonWestern/Meshes/Environment/SM_Env_Sand_Ground_06.uasset
-FlowerGame/Content/PolygonWestern/Meshes/Environment/SM_Env_Sand_Ground_06.uexp

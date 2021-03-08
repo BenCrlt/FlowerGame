@@ -5,124 +5,124 @@
 			"name": "FlowerGame (Debug)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGame Win64 Debug Build",
-			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\Binaries\\Win64\\UE4-Win64-Debug.exe",
 			"args": [
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "FlowerGame (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGame Win64 DebugGame Build",
-			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
 			"args": [
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "FlowerGame (Development)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGame Win64 Development Build",
-			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4.exe",
+			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\Binaries\\Win64\\UE4.exe",
 			"args": [
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "FlowerGame (Shipping)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGame Win64 Shipping Build",
-			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
 			"args": [
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "FlowerGame (Test)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGame Win64 Test Build",
-			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"program": "C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\Binaries\\Win64\\UE4-Win64-Test.exe",
 			"args": [
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "FlowerGameEditor (Debug)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGameEditor Win64 Debug Build",
-			"program": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"program": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
 			"args": [
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject"
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject"
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "FlowerGameEditor (DebugGame)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGameEditor Win64 DebugGame Build",
-			"program": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"program": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
 			"args": [
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject"
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject"
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "FlowerGameEditor (Development)",
 			"request": "launch",
 			"preLaunchTask": "FlowerGameEditor Win64 Development Build",
-			"program": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"program": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Binaries\\Win64\\UE4Editor.exe",
 			"args": [
-				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject"
+				"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject"
 			],
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24",
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25",
 			"stopAtEntry": false,
 			"externalConsole": true,
 			"type": "cppvsdbg",
-			"visualizerFile": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+			"visualizerFile": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
 		},
 		{
 			"name": "Generate Project Files",
 			"type": "clr",
 			"request": "launch",
-			"program": "C:\\Users\\a021694\\Desktop\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"program": "C:\\Program Files (x86)\\Epic Games\\UE_4.25\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
 			"console": "externalTerminal",
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=\"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame\\FlowerGame.uproject\"",
+				"-project=\"C:\\Users\\a021694\\Documents\\GitHub\\FlowerGame\\FlowerGame4.25\\FlowerGame.uproject\"",
 				"-game",
 				"-engine"
 			],
 			"internalConsoleOptions": "openOnSessionStart",
-			"cwd": "C:\\Users\\a021694\\Desktop\\UE_4.24"
+			"cwd": "C:\\Program Files (x86)\\Epic Games\\UE_4.25"
 		}
 	]
 }

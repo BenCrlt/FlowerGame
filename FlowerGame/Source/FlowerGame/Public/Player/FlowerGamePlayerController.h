@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "Model/Cases/CaseDefault.h"
 #include "FlowerGamePlayerController.generated.h"
 
 /**
@@ -19,15 +20,36 @@ public:
 
 protected:
 
-	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
 	virtual void SetupInputComponent() override;
-	// End PlayerController interface
+	virtual void ProcessPlayerInput(const float DeltaTime, const bool bGamePaused) override;
+	void OnTapPressed(const FVector2D& ScreenPosition, float DownTime);
+	void OnPinchStarted(const FVector2D& AnchorPosition1, const FVector2D& AnchorPosition2, float DownTime);
+	void OnPinchUpdate(const FVector2D& ScreenPosition1, const FVector2D& ScreenPosition2, float DownTime);
+	//void OnHoldPressed(const FVector2D& ScreenPosition, float DownTime);
+	//void OnHoldReleased(const FVector2D& ScreenPosition, float DownTime);
+	//void OnSwipeStarted(const FVector2D& AnchorPosition, float DownTime);
+	//void OnSwipeUpdate(const FVector2D& ScreenPosition, float DownTime);
+	//void OnSwipeReleased(const FVector2D& ScreenPosition, float DownTime);
+	//void OnSwipeTwoPointsStarted(const FVector2D& ScreenPosition1, const FVector2D& ScreenPosition2, float DownTime);
+	//void OnSwipeTwoPointsUpdate(const FVector2D& ScreenPosition1, const FVector2D& ScreenPosition2, float DownTime);
 
 public:
-	/** Navigate player to the current touch location. */
-	void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
+	UFUNCTION()
+		ACaseDefault* GetCaseTouch(FVector2D ScreenPosition);
+	UFUNCTION()
+		void ZoomIn();
+	UFUNCTION()
+		void ZoomOut();
 
-	/** Navigate player to the given world location. */
-	void SetNewMoveDestination(const FVector DestLocation);
+	UPROPERTY()
+		class UTouchInput* InputHandler;
+	UPROPERTY()
+		float PinchLenght;
+	UPROPERTY()
+		int32 ZoomMax;
+	UPROPERTY()
+		int32 ZoomMin;
+	UPROPERTY()
+		int32 ZoomIntensity;
 };
