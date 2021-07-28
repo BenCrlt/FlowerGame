@@ -1,5 +1,5 @@
 # FlowerGame
-Jeu mobile déjanté entre amis afin de boire un maximum d'alcool !
+Jeu mobile déjanté entre amis !
 
 
-By Floawer Gang Developpers
+By Flower Gang Developpers
